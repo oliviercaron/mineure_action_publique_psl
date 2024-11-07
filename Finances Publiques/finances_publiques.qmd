@@ -1,0 +1,124 @@
+---
+title: "Cours de Finances Publiques"
+format: html
+editor: visual
+---
+
+## Section 1 : Les recettes publiques et les dépenses publiques
+
+La façon dont on décrit la recette a été bâtie par l'administration.
+
+1.  Les recette non-fiscale : constrution historique
+
+-   Revenus des personnes publiques :
+
+    -   Revenus du domaine (administation du domaine , exemple actuel ONF et vente de coupes de bois).
+
+    -   Revenus des activités industrielles : gobelins, sèvres. L'Etat sait être financier, capitaliste, possède des entreprises, FDJ, France Télécom avant.
+
+-   Redevances et recettes assimilées
+
+    -   Prix d'une prestation (contrepartie) / adaptation à la quantité : comme c'est une redevance juridiquement, les autorités territoriales doivent adapter le prix au service. exemple des ordures, un container en plus c'est 200€ par mois
+
+-   Les cotisations
+
+    -   Lien à la prestation V/s universalisation (théorie) =\> vous cotisez socialement, vous avez le droit au chômage si rupture contrat de travail. LE fait de recevoir une prestation sans avoir cotisé (exemple cotisation enfants sans avoir déjà travaillé) c'est de l'universalisation
+
+2.  Les recettes fiscales : construction administrative
+
+    -   Impôt : versement, obligatoire, sans contrepartie, APU
+
+    -   Fonctions : financière, incitative (TVA pour empêcher consommation), interventionniste : DOM TOM, franchises fiscales
+
+    -   Impôts directs ou indirects
+
+    -   Fiscalité nationale, fiscalité locale, fiscalité sociale
+
+        -   L'impôt est national et son produit peut être attribué localement. L'impots c'est le Parlement et seulement le Parlement qui le décide car il vote la loi : **principale de l'égalité de l'impôt**.
+
+### B: Observation quantitative des recettes des administrations
+
+1.  Les données comptables
+
+    -   Compter les encaissements compter les créances : ça permet de garder une visibilité sur ce qu'il nous reste à percevoir.
+
+    -   Comptabilité budgétaire / comptabilité générale
+
+        -   Multiplicité des entités / des référentiels
+
+Comptaibilité budgétaire, construire par la direction du budget aux ministères des finances.
+
+Comptabilité générale : construire par la Direction je sais plus quoi c'est elle qui concrètement encaisse et décaisse.\
+\
+Ces deux comptabilités sont inscrites dans le droit.
+
+Tableau des produits régaliens nets, élément de comptabilité générale =\> en créances et en dette
+
+En revanche, les recette fiscales, le montant de l'impôt sur le revenu peut être différent dans les deux comptabilités
+
+2.  La statistique économique
+    -   Comptabilité nationale (comptes des APU)
+    -   Etat / **ODACs** : Organismes Divers d'Administration Centrale, comprenant les agences et autres entités dépendant de l'administration centrale mais ayant une gestion distincte. **APUL** : Administrations Publiques Locales, regroupant les collectivités locales, comme les régions, départements, et communes./ **ASSO** : Administration de sécurité sociale.
+    -   Méthode commune et harmonisée
+
+Les chiffres commencent à être tout de suite très élevés et ne sont plus vraiment interprétables. donc :
+
+2.  Un indicateur économique
+    -   PO/PIB (PO = prélèvéments obligatoires)
+    -   Indicateur discutable
+    -   Ca représente le niveau du financement de l'intervention de l'Etat dans l'économie.
+3.  La ventilation de l'indicateur
+    -   Selon le type d'acteur de l'intevention
+    -   Selon le type de PO
+    -   Les PO ne sont pas destructeurs de richesse
+    -   Des choix de mode de gestion des services publics
+
+Tableau montre les montants des PO en % du PIB :
+
+Augmentation de \~25% de PO en % du PIB des administration de Sécurité sociale
+
+## 2: Les dépenses des personnes publiques
+
+-   Combien ? Surtout pour quoi faire ?
+
+-   Deux approches de la dépense
+
+**A: Approche macro-économique de la dépense publique**
+
+-   Une analyse de la nature de la dépense
+
+    -   Dépenses d'investissement : toujours d'accord pour payer quelque chose si un bâtiment est construit. Tout le monde comprend la vertu de l'investissement, à court/moyen/long terme. Néanmoins, budgétairement c'est une variable d'ajustement très pratique.
+
+    -   Dépenses de fonctionnement : achats de biens et services et rémunérations. Rémunérations : 12.3 en France ontre 7.9 en Allemagne, 10 en UE et 9,8 Zone Euro. En termes d'achats de bien et de services, on est en dessous. Pilotage de la masse salariale : difficile à réaliser à part en ne revenouvelant pas les fonctionnaires qui partent à la retraite.
+
+    -   Dépenses de transfert : L'Etat finance un déficit de caisse, financement d'associations qui peuvent être comptabilisée comme des dépenses de transfert.
+
+En France, "contrairement à ce qu'on dit, on investit".
+
+Texte très important en France : Rapport économique et financier =\> comment l'Etat se présente financièrement.
+
+<https://www.tresor.economie.gouv.fr/Articles/149b902e-98a5-4d0d-b927-f9a7cb54121e/files/182ec7de-36c8-44ce-b923-8509fda98410>
+
+<https://www.tresor.economie.gouv.fr/Articles/2024/10/14/publication-du-rapport-economique-social-et-financier-plf-pour-2025>
+
+<https://www.tresor.economie.gouv.fr/Articles/2023/10/04/publication-du-rapport-economique-social-et-financier-plf-pour-2024>
+
+### B: Une lecture politique ou fonctionnelle :
+
+1.  Le niveau de l'intervention publique
+
+    -   La régulation de l'ordre social
+
+        -   Sécurité / Justice / Pouvoirs publics / Administration financière
+
+        -   Voir la DDHC
+
+    -   L'interventionnisme et l'Etat providence, il y en a toujours eu
+
+        -   Rome antique
+
+        -   Colbertisme
+
+        -   Les IIIème et IVè République
+
+            -   République sociale, émancipatrice ; enseignement, rayonnante : culture
