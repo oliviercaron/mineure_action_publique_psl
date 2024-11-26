@@ -1,0 +1,278 @@
+---
+title: Evaluation des politiques publiques
+#bibliography: references.bib
+#subtitle: A systematic analysis
+format: 
+  clean-revealjs:
+    self-contained: true
+author:
+  - name: Olivier Caron
+    orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 11/25/2024
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+## Evaluation des politiques publiques
+
+### Table ronde 1 :
+
+Intervenant 1 :
+
+Intervenant 2 :
+
+Intervenant 3 : [Hélène
+Périvier](https://www.sciencespo.fr/gender-studies/fr/recherche/reseau-de-recherche/helene-perivier/),
+travaille à l'OFCE Sciences Po
+
+Intervenant 4 : [Antoine
+Bozio](https://www.parisschoolofeconomics.com/bozio-antoine/fr/),
+économiste
+
+### Table ronde 2 :
+
+<https://l-attestation.github.io/>
+
+Nicolas Mariot : directeur de recherche au CNRS
+
+Pierre-Yves Baudot : Professeur de sociologie
+
+Patrick Castel :
+
+## Cours
+
+Maintenant pour évaluer on fait des modèles de micro-simulation par
+exemple avant pour essayer d'estimer la relation causale entre une
+réforme et l'effet sur les gens.
+
+Ce sont des modèles (modèle INES) qui simulent le système socio fiscal.
+Statut marital compte, salaires, revenus etc.
+
+L'ASF : allocation versée lorsque les parents sont séparés et que un des
+parents ne paye pas la pension. (souvent mères isolées)\
+Cette prestation est prise en compte dans le système d'une certaine
+façon. Ca peut arriver que quand on arrive à recouvrer les pensions, ça
+dégrade la situation d'une personne isolée (par exemple une mère) parce
+que la pension n'est pas imposée de la même façon et n'entre pas dans
+les mêmes calculs que la pension. Ce qui fait qu'on peut perdre du
+montant pour d'autres aides et donc arriver à une baisse de niveau de
+vie, ce qui semble contre intuitif.
+
+Certaines admiistrations ont du mal à donner les données, par exemple la
+DEPP.
+
+On est en droit de demander
+
+On a jamais évalué depuis 1980 le taux de présence à la cantine en
+fonction de l'origine sociale, l'OFCE sort un rapport dans une semaine
+là-dessus. Pas une évaluation mais plutôt un état des lieux.
+
+Recommandations de constitution de données
+
+Evaluation actuelle sur le pacte Dutreil par la Cour des Comptes =\>
+transmission des entreprises\
+
+Les politiques publiques sont faites pour un objectif. L'évaluation ne
+consiste pas à discuter cet objectif, juste à estimer l'effet. La
+recherche peut en discuter
+
+Contrefactuel : essayer d'imaginer la France sans le CICE par exemple.
+Il faut réussir à reconstituer un contrefactuel : comment serait la
+France sans le CICE ? On peut essayer de retrouver les contrefactuels.\
+Comment le faire de la façon la plus rigoureuse pour retrouver l'impact
+et le mesurer ? Quelle va être la réaction des entreprises et des
+ménages ?
+
+La DREES (Direction de la recherche, des études, de l’évaluation et des
+statistiques) vient d'ouvrir son modèle de micro-simulation
+socio-fiscal.
+
+### Deuxième partie de cours
+
+Comment l'état prend des décisions de façon rapide et dans un
+environnement particulier et aussi comment se construit l'obéissance
+dans un tel contexte :
+
+\[L'attestation : une expérience d'obéissance de masse, printemps
+2020.\]{.underline} (LIVRE)\
+Théo Boulakia & Nicolas Mariot
+
+### Les données :
+
+-   Le livre repose sur une grosse enquête **pendant** les deux premiers
+    mois du confinement 2020. [Enquête
+    VICO](https://enqueteconfinement.wixsite.com/site/resultats-de-l-enquete)
+    (16000 répondants), 3500 commentaires.
+    <https://vico.hypotheses.org/donnees>
+
+-   Les "histoires de confinements" dans la presse (internet // Gallica)
+
+-   Entretiens
+
+-   Données des contrôles et verbalisations
+
+-   Données google mobility et autres
+
+-   Mortalité
+
+Qu'est-ce qui fait qu'un Etat peut gouverner ?
+
+Spécificité des politiques publiques pendant le COVID :
+
+décidées dans la plus grande urgence et dans une situaton de grande
+incertitude, en quelques heures. Samedi soir (annonce du fermeture) et
+Lundi =\> attestation
+
+Globalement, les obligations de mobilité, d'attestation etc. ont été
+bien respectées. Tout ceci a été fait rapidement en plus. Verticalité du
+pouvoir, ordre qui descend de l'Etat.
+
+### Les chaînons de l'ordre social : le rôle des passeurs
+
+#### Sphère pro :
+
+La diffusion de l'ordre du confinement dans la sphère pro se fait par
+les chaînons de responsabilité. Manager vers têtes de réseaux n-1 etc.
+
+#### Sphère familiale :
+
+La diffusion de l'ordre du confinement se fait en prenant appui sur des
+rapports intergénérationnels
+
+Témoignage d'une personne qui se fait gronder par sa mère qui voit sur
+les réseaux qu'elle est dehors, idem pour son amie qui se fait
+réprimander par message par son copain.
+
+### L'alignement dans les configuratiosn de confinement
+
+Processus d'alignement des pratiques des individus sur celle de leur
+groupe de référence
+
+#### A) Le choix du groupe en amont sur la base d'anticipations
+
+Exemple
+
+#### B) Changer de configuraton de confinement
+
+#### C) Définir collectivement les règles sans changer de configuration de confinement
+
+Adèle va en dehors de son logement à Paris (en Bretagne) et va avec des
+amis en mode confinement tous ensemble. Elle voit plutôt ce que son
+groupe autorise que plutôt l'Etat.
+
+Conclusion
+
+L'ordre du confinement a été transmis, traduis, incarné au sein de
+chaînes sociales, qui exitaient avant le confinement
+
+Au sein des configurations, les individus s'alignent les uns sur les
+autres, sans que la croyance en la légitimité des gouvernants
+n'intervienne
+
+## Essai : COVID-19 : Une crise organisationnelle
+
+Revue de la littérature sur la gesiton de crise et la décision.
+Quarantaine d'entretiens avec des personnes dans les
+organisations/administrations.
+
+Deux explications critiques typiques :
+
+-   Biais cognitifs (ils ont répondu à une vidéo très populaire de
+    Olivier Siboni qui s'appuie beaucoup sur les biais cognitifs, ce que
+    les sociologues et économistes ici ne croient pas)
+
+-   Par la faute morale
+
+Ils ont écrit un autre libre "**Le biais comportementaliste**"
+
+### A) De l'impréparation à la panique des élites
+
+Hypothèse : trois mécanismes interagissent
+
+-   Dérive orga (Vaughan, Challenger)
+
+-   Risques scélérat (Dedieu tempête, 1999)
+
+-   Panique des élites (Clarke et Chess, 2008) =\> Quand il y a une
+    crise, les élites ont tendance à penser que les gens vont agir de
+    façon irrationnelle.
+
+### B) Le confinement
+
+Pour reprendre les termes du président du conseil scientifique, le
+confinemnet était non pas "la meilleure solution mais la seule possible
+à l'époque" (Allison, Essence of decision, 1971)
+
+Ce récit relève du modèle de l'acteur rationnel.
+
+Plusieurs élements laissés dans l'ombre :
+
+-   Quid de la gestion des signaux d'alerte à partir du mois de janvier
+    ?
+
+-   Comment expliquer la confiance des autorités françaises au cours des
+    mois de janvier et de mars dans leur capacité à faire face à un
+    nouveau virus ?
+
+-   Comment rendre compte de la chronologie de la prise de décison,
+    étalonnée sur quelques jours entre le 10 mars et le 16 mars
+
+A quelle conditions est on amené à prendre une décision aussi radicale
+et inédité, qui n'est prévue dans aucun plan, n'a jamais été ni testée
+ni véritablement étudiée ?\
+
+-   Organisationnelles (non activation des plans, appropriation de la
+    crise par le ministère de las anté, méfiance de l'executif vis à vis
+    des agences et administrations)
+
+-   Cognitives (cadrage médical hospitaler rôle du CS; modèle de
+    l'Imperial et de Pasteur; effet de position
+
+-   Politiques (mimétisme international, gestion de la crise =
+    conception régalienne - maintien de l'ordre)
+
+Qu'est-ce que le covid nous apprendre de l'état ?
+
+=\>
+
+### C- L'Etat et la gestion des ries
+
+1.  COVID19 : puissant révélateur du fonctionnement de la démocratie
+    française : hyper centealisation et gestion élitaire
+2.  Gestion très politique de la crise, marquée par une méfiance par
+    rapport à l'administration
+3.  "Petites structures agiles"
+4.  Monopole de la gestion de crise par l'Etat : tout est vu dans
+    l'espace public au prisme de ce que fait et ne fait pas l'ETat, ce
+    qui conduit à invisibiliser l'action souvent performante mais non
+    prescrite
+
+### D - Savoirs de Gouvernement pendant la crise
+
+1.  La modélisation comme principal outil d'aide à la décision et de
+    justifcation des décisions
+2.  Les sciences scognitives au service du gouvernementdes conduites ?
+    Quel rôle dans la "messes des morts", l'atestation, le pass
+    sanitaire ?
+3.  En tout état de cause, une communicatio inspirée d'une lecture
+    principalement cognitive et visant à faire peur ou à donner un coup
+    de coude (nudge) pour faire adopter les bons comportements.
+    Stigmatisation de certaines populations (ex : "les jeunes")
+4.  La promotion de la santé et les inégalités sociales de santé ont été
+    les grands oubliés
+
+Ils ont fait un éditorial :
+
+Quant la réponse mondiale à la pandémie de COVID19 se fait sans la
+promotion de la santé\
+Linda Cambon, Henri Bergeron, Patrick Castel, Valéry Ridde, François
+Alla
