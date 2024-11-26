@@ -132,45 +132,56 @@ Citations de Bourdieu
 Thatcher : policy d'accès à la propriété car on sait que les gens
 propriétaires ont tendance à être de droite
 
-+-------------+-------------+-------------+
-| Politics    | Policy      | Polity      |
-+=============+=============+=============+
-| -           | -   Norms   | -           |
-|    Interest |     and     |   Political |
-|             |     goals   |             |
-| formation;  |             | i           |
-|             | -           | nstitutions |
-| a           |   Standards |             |
-| ggregation; |             | -   I n t e |
-|             | -           |     r       |
-| r e p       | Instruments |     g       |
-| r           |     and     | ovnermental |
-| esentation: |     policy  |             |
-| i n         |     style   | relations   |
-| t           |             |             |
-| ermediation | -   P r o b | -           |
-|             |     l       |   Jufdicial |
-| -   Public  | em-solveing |             |
-|             |             | structures  |
-| discourse   | approaches  |             |
-|             |             | -   Public  |
-| -   Party   | -           |             |
-|     and     |             | a d         |
-|             |             | m           |
-| electoral   |             | inistration |
-| politics    |             |             |
-|             |             | -   State   |
-| -   Public  |             |             |
-|     opinion |             | traditions  |
-|             |             |             |
-| -           |             | -           |
-|    Patterns |             |    Economic |
-|     of      |             |             |
-|             |             | institutons |
-| c           |             |             |
-| o           |             |             |
-| nsternation |             |             |
-+-------------+-------------+-------------+
++----------+----------+----------+
+| Politics | Policy   | Polity   |
++==========+==========+==========+
+| -        | -        | -   P    |
+| Interest |    Norms | olitical |
+|          |     and  |          |
+| f        |          | i n s    |
+| o        |    goals | t        |
+| rmation; |          | itutions |
+|          | -   S    |          |
+| a g g    | tandards | -   I n  |
+| r        |          |     t e  |
+| egation; | -   I n  |     r g  |
+|          |     s    |     o v  |
+| r e p r  | truments |     n    |
+| e s      |     and  | ermental |
+| e        |          |          |
+| ntation: | policy   | r        |
+| i n t e  | style    | elations |
+| r        |          |          |
+| m        | -   P r  | -   J    |
+| ediation |     o b  | ufdicial |
+|          |     l e  |          |
+| -        |     m    | s        |
+|   Public |     -    | t        |
+|          | solveing | ructures |
+| d        |          |          |
+| iscourse | a        | -        |
+|          | p        |   Public |
+| -        | proaches |          |
+|    Party |          | a d m i  |
+|     and  | -        | n        |
+|          |          | i        |
+| e        |          | stration |
+| lectoral |          |          |
+| politics |          | -        |
+|          |          |    State |
+| -        |          |          |
+|   Public |          | t        |
+|          |          | r        |
+| opinion  |          | aditions |
+|          |          |          |
+| -        |          | -        |
+| Patterns |          | Economic |
+|     of   |          |          |
+|          |          | i n      |
+| c o n s  |          | s        |
+| t        |          | titutons |
+| ernation |          |          |
++----------+----------+----------+
 
 : (sources : Borzel and Risse 2003; Lenschow 2004)
 
@@ -816,4 +827,73 @@ Attention à l'expression "société civile"
 
 -   Prendre la tangente : revenir à la "gouverne" ?
 
--   
+### Quand l'Etat semble organiser son dessaisissement : contractualisation, New Public Management et arbitrage "faute de mieux"
+
+-   Les 5 principes centraux du NPM (Bezes et Demazière, 2011, à partir
+    de Hood, 1991) :
+
+    -   Séparation entre fonctions de stratégie, de pilotage et de
+        contrôle et fonctions opérationnelles
+
+    -   Fragmentation des bureaucraties verticales par création d'unités
+        adinistratives autonomes
+
+    -   Recours systématique aux mécanismes de arché
+
+    -   Transformation de la structure hiérarchique de l'administration
+
+        -   Renforcement des responsabilité et de l'autonomie des
+            échelons en charge de la mise en oevre de l'action publique
+
+    -   Gérer par les résultats
+
+Elements du NPM :
+
+La LOLF (loi organique relative aux lois de finances) introduit des
+indicateurs 2001, 2006, ça peut être aussi le nombre d'affaires
+élucidées par la police. Le problème avec ce genre d'inclinaisons à la
+gestion par les indicateurs nous font arriver à un problème où l'on
+commence à délaisser l'intérêt principal public pour ne considérer que
+la réussite de l'indicateur, quand bien même l'objectif initial ne
+serait pas rempli.
+
+\
+C'est la loi de Goodhart : quand one mesure devient un objectif, elle
+cesse d'être une bonne mesure.
+
+> "Toute régularité statistique observée a tendance à perdre toute
+> crédibilité dès lors qu'elle est mise sous tension à des fins de
+> contrôle."
+
+### 
+
+### Politiques publiques au guichet, "*street level bureaucracy*" et accomodements
+
+-   Une approche novatrice de l'Etat : rendre compte de la "vie" au
+    guichet et des usages de l'accueil dans les administrations
+    publiques
+
+-   Une tradition de recherche sur les "*street level bureaucrats*"
+    inspirée de Michael Lipsky (1980)... largement prolongée en France
+    (J-M Weller)
+
+Ce sont des travaux qui ont réalisé une rupture avec la sociologie de
+l'Etat de l'époque, en prenant une approche ascendante, des "rues" vers
+l'Etat.
+
+-   Une redéfinition douce de (l'ation de) l'Etat
+
+-   Ajustements au guichet : part d'imprévu dans la mise en oeuvre de
+    l'action de l'Etat
+
+-   Subjectivité de l'échange au guichet =\> redéfinition constante, de
+    basse intensité, de l'action publique, des institutions, et in fine,
+    de l'ETat lui-même
+
+Comment se passent les interactions au guichet par rapport aux immigrés
+?
+
+Ce sont des catégories C qui s'occupent de ce genre de situations =\>
+Effet cumulatif =\> ce sont les gens qui ont le moins envie d'être au
+guichet qui s'y retrouvent et qui trouvent des démarches dérogatoires
+(papiers demandés en surplus)
