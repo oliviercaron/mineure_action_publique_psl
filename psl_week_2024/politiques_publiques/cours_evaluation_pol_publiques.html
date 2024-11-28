@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Olivier Caron">
+<meta name="dcterms.date" content="2024-11-25">
+
+<title>Evaluation des politiques publiques</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="cours_evaluation_pol_publiques_files/libs/clipboard/clipboard.min.js"></script>
+<script src="cours_evaluation_pol_publiques_files/libs/quarto-html/quarto.js"></script>
+<script src="cours_evaluation_pol_publiques_files/libs/quarto-html/popper.min.js"></script>
+<script src="cours_evaluation_pol_publiques_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="cours_evaluation_pol_publiques_files/libs/quarto-html/anchor.min.js"></script>
+<link href="cours_evaluation_pol_publiques_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="cours_evaluation_pol_publiques_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="cours_evaluation_pol_publiques_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="cours_evaluation_pol_publiques_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="cours_evaluation_pol_publiques_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evaluation des politiques publiques</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Olivier Caron <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Paris Dauphine - PSL
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 25, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="evaluation-des-politiques-publiques" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-des-politiques-publiques">Evaluation des politiques publiques</h2>
+<section id="table-ronde-1" class="level3">
+<h3 class="anchored" data-anchor-id="table-ronde-1">Table ronde 1 :</h3>
+<p>Intervenant 1 :</p>
+<p>Intervenant 2 :</p>
+<p>Intervenant 3 : <a href="https://www.sciencespo.fr/gender-studies/fr/recherche/reseau-de-recherche/helene-perivier/">Hélène Périvier</a>, travaille à l’OFCE Sciences Po</p>
+<p>Intervenant 4 : <a href="https://www.parisschoolofeconomics.com/bozio-antoine/fr/">Antoine Bozio</a>, économiste</p>
+</section>
+<section id="table-ronde-2" class="level3">
+<h3 class="anchored" data-anchor-id="table-ronde-2">Table ronde 2 :</h3>
+<p><a href="https://l-attestation.github.io/" class="uri">https://l-attestation.github.io/</a></p>
+<p>Nicolas Mariot : directeur de recherche au CNRS</p>
+<p>Pierre-Yves Baudot : Professeur de sociologie</p>
+<p>Patrick Castel :</p>
+</section>
+</section>
+<section id="cours" class="level2">
+<h2 class="anchored" data-anchor-id="cours">Cours</h2>
+<p>Maintenant pour évaluer on fait des modèles de micro-simulation par exemple avant pour essayer d’estimer la relation causale entre une réforme et l’effet sur les gens.</p>
+<p>Ce sont des modèles (modèle INES) qui simulent le système socio fiscal. Statut marital compte, salaires, revenus etc.</p>
+<p>L’ASF : allocation versée lorsque les parents sont séparés et que un des parents ne paye pas la pension. (souvent mères isolées)<br>
+Cette prestation est prise en compte dans le système d’une certaine façon. Ca peut arriver que quand on arrive à recouvrer les pensions, ça dégrade la situation d’une personne isolée (par exemple une mère) parce que la pension n’est pas imposée de la même façon et n’entre pas dans les mêmes calculs que la pension. Ce qui fait qu’on peut perdre du montant pour d’autres aides et donc arriver à une baisse de niveau de vie, ce qui semble contre intuitif.</p>
+<p>Certaines admiistrations ont du mal à donner les données, par exemple la DEPP.</p>
+<p>On est en droit de demander</p>
+<p>On a jamais évalué depuis 1980 le taux de présence à la cantine en fonction de l’origine sociale, l’OFCE sort un rapport dans une semaine là-dessus. Pas une évaluation mais plutôt un état des lieux.</p>
+<p>Recommandations de constitution de données</p>
+<p>Evaluation actuelle sur le pacte Dutreil par la Cour des Comptes =&gt; transmission des entreprises<br>
+</p>
+<p>Les politiques publiques sont faites pour un objectif. L’évaluation ne consiste pas à discuter cet objectif, juste à estimer l’effet. La recherche peut en discuter</p>
+<p>Contrefactuel : essayer d’imaginer la France sans le CICE par exemple. Il faut réussir à reconstituer un contrefactuel : comment serait la France sans le CICE ? On peut essayer de retrouver les contrefactuels.<br>
+Comment le faire de la façon la plus rigoureuse pour retrouver l’impact et le mesurer ? Quelle va être la réaction des entreprises et des ménages ?</p>
+<p>La DREES (Direction de la recherche, des études, de l’évaluation et des statistiques) vient d’ouvrir son modèle de micro-simulation socio-fiscal.</p>
+<section id="deuxième-partie-de-cours" class="level3">
+<h3 class="anchored" data-anchor-id="deuxième-partie-de-cours">Deuxième partie de cours</h3>
+<p>Comment l’état prend des décisions de façon rapide et dans un environnement particulier et aussi comment se construit l’obéissance dans un tel contexte :</p>
+<p>[L’attestation : une expérience d’obéissance de masse, printemps 2020.]{.underline} (LIVRE)<br>
+Théo Boulakia &amp; Nicolas Mariot</p>
+</section>
+<section id="les-données" class="level3">
+<h3 class="anchored" data-anchor-id="les-données">Les données :</h3>
+<ul>
+<li><p>Le livre repose sur une grosse enquête <strong>pendant</strong> les deux premiers mois du confinement 2020. <a href="https://enqueteconfinement.wixsite.com/site/resultats-de-l-enquete">Enquête VICO</a> (16000 répondants), 3500 commentaires. <a href="https://vico.hypotheses.org/donnees" class="uri">https://vico.hypotheses.org/donnees</a></p></li>
+<li><p>Les “histoires de confinements” dans la presse (internet // Gallica)</p></li>
+<li><p>Entretiens</p></li>
+<li><p>Données des contrôles et verbalisations</p></li>
+<li><p>Données google mobility et autres</p></li>
+<li><p>Mortalité</p></li>
+</ul>
+<p>Qu’est-ce qui fait qu’un Etat peut gouverner ?</p>
+<p>Spécificité des politiques publiques pendant le COVID :</p>
+<p>décidées dans la plus grande urgence et dans une situaton de grande incertitude, en quelques heures. Samedi soir (annonce du fermeture) et Lundi =&gt; attestation</p>
+<p>Globalement, les obligations de mobilité, d’attestation etc. ont été bien respectées. Tout ceci a été fait rapidement en plus. Verticalité du pouvoir, ordre qui descend de l’Etat.</p>
+</section>
+<section id="les-chaînons-de-lordre-social-le-rôle-des-passeurs" class="level3">
+<h3 class="anchored" data-anchor-id="les-chaînons-de-lordre-social-le-rôle-des-passeurs">Les chaînons de l’ordre social : le rôle des passeurs</h3>
+<section id="sphère-pro" class="level4">
+<h4 class="anchored" data-anchor-id="sphère-pro">Sphère pro :</h4>
+<p>La diffusion de l’ordre du confinement dans la sphère pro se fait par les chaînons de responsabilité. Manager vers têtes de réseaux n-1 etc.</p>
+</section>
+<section id="sphère-familiale" class="level4">
+<h4 class="anchored" data-anchor-id="sphère-familiale">Sphère familiale :</h4>
+<p>La diffusion de l’ordre du confinement se fait en prenant appui sur des rapports intergénérationnels</p>
+<p>Témoignage d’une personne qui se fait gronder par sa mère qui voit sur les réseaux qu’elle est dehors, idem pour son amie qui se fait réprimander par message par son copain.</p>
+</section>
+</section>
+<section id="lalignement-dans-les-configuratiosn-de-confinement" class="level3">
+<h3 class="anchored" data-anchor-id="lalignement-dans-les-configuratiosn-de-confinement">L’alignement dans les configuratiosn de confinement</h3>
+<p>Processus d’alignement des pratiques des individus sur celle de leur groupe de référence</p>
+<section id="a-le-choix-du-groupe-en-amont-sur-la-base-danticipations" class="level4">
+<h4 class="anchored" data-anchor-id="a-le-choix-du-groupe-en-amont-sur-la-base-danticipations">A) Le choix du groupe en amont sur la base d’anticipations</h4>
+<p>Exemple</p>
+</section>
+<section id="b-changer-de-configuraton-de-confinement" class="level4">
+<h4 class="anchored" data-anchor-id="b-changer-de-configuraton-de-confinement">B) Changer de configuraton de confinement</h4>
+</section>
+<section id="c-définir-collectivement-les-règles-sans-changer-de-configuration-de-confinement" class="level4">
+<h4 class="anchored" data-anchor-id="c-définir-collectivement-les-règles-sans-changer-de-configuration-de-confinement">C) Définir collectivement les règles sans changer de configuration de confinement</h4>
+<p>Adèle va en dehors de son logement à Paris (en Bretagne) et va avec des amis en mode confinement tous ensemble. Elle voit plutôt ce que son groupe autorise que plutôt l’Etat.</p>
+<p>Conclusion</p>
+<p>L’ordre du confinement a été transmis, traduis, incarné au sein de chaînes sociales, qui exitaient avant le confinement</p>
+<p>Au sein des configurations, les individus s’alignent les uns sur les autres, sans que la croyance en la légitimité des gouvernants n’intervienne</p>
+</section>
+</section>
+</section>
+<section id="essai-covid-19-une-crise-organisationnelle" class="level2">
+<h2 class="anchored" data-anchor-id="essai-covid-19-une-crise-organisationnelle">Essai : COVID-19 : Une crise organisationnelle</h2>
+<p>Revue de la littérature sur la gesiton de crise et la décision. Quarantaine d’entretiens avec des personnes dans les organisations/administrations.</p>
+<p>Deux explications critiques typiques :</p>
+<ul>
+<li><p>Biais cognitifs (ils ont répondu à une vidéo très populaire de Olivier Siboni qui s’appuie beaucoup sur les biais cognitifs, ce que les sociologues et économistes ici ne croient pas)</p></li>
+<li><p>Par la faute morale</p></li>
+</ul>
+<p>Ils ont écrit un autre libre “<strong>Le biais comportementaliste</strong>”</p>
+<section id="a-de-limpréparation-à-la-panique-des-élites" class="level3">
+<h3 class="anchored" data-anchor-id="a-de-limpréparation-à-la-panique-des-élites">A) De l’impréparation à la panique des élites</h3>
+<p>Hypothèse : trois mécanismes interagissent</p>
+<ul>
+<li><p>Dérive orga (Vaughan, Challenger)</p></li>
+<li><p>Risques scélérat (Dedieu tempête, 1999)</p></li>
+<li><p>Panique des élites (Clarke et Chess, 2008) =&gt; Quand il y a une crise, les élites ont tendance à penser que les gens vont agir de façon irrationnelle.</p></li>
+</ul>
+</section>
+<section id="b-le-confinement" class="level3">
+<h3 class="anchored" data-anchor-id="b-le-confinement">B) Le confinement</h3>
+<p>Pour reprendre les termes du président du conseil scientifique, le confinemnet était non pas “la meilleure solution mais la seule possible à l’époque” (Allison, Essence of decision, 1971)</p>
+<p>Ce récit relève du modèle de l’acteur rationnel.</p>
+<p>Plusieurs élements laissés dans l’ombre :</p>
+<ul>
+<li><p>Quid de la gestion des signaux d’alerte à partir du mois de janvier ?</p></li>
+<li><p>Comment expliquer la confiance des autorités françaises au cours des mois de janvier et de mars dans leur capacité à faire face à un nouveau virus ?</p></li>
+<li><p>Comment rendre compte de la chronologie de la prise de décison, étalonnée sur quelques jours entre le 10 mars et le 16 mars</p></li>
+</ul>
+<p>A quelle conditions est on amené à prendre une décision aussi radicale et inédité, qui n’est prévue dans aucun plan, n’a jamais été ni testée ni véritablement étudiée ?<br>
+</p>
+<ul>
+<li><p>Organisationnelles (non activation des plans, appropriation de la crise par le ministère de las anté, méfiance de l’executif vis à vis des agences et administrations)</p></li>
+<li><p>Cognitives (cadrage médical hospitaler rôle du CS; modèle de l’Imperial et de Pasteur; effet de position</p></li>
+<li><p>Politiques (mimétisme international, gestion de la crise = conception régalienne - maintien de l’ordre)</p></li>
+</ul>
+<p>Qu’est-ce que le covid nous apprendre de l’état ?</p>
+<p>=&gt;</p>
+</section>
+<section id="c--letat-et-la-gestion-des-ries" class="level3">
+<h3 class="anchored" data-anchor-id="c--letat-et-la-gestion-des-ries">C- L’Etat et la gestion des ries</h3>
+<ol type="1">
+<li>COVID19 : puissant révélateur du fonctionnement de la démocratie française : hyper centealisation et gestion élitaire</li>
+<li>Gestion très politique de la crise, marquée par une méfiance par rapport à l’administration</li>
+<li>“Petites structures agiles”</li>
+<li>Monopole de la gestion de crise par l’Etat : tout est vu dans l’espace public au prisme de ce que fait et ne fait pas l’ETat, ce qui conduit à invisibiliser l’action souvent performante mais non prescrite</li>
+</ol>
+</section>
+<section id="d---savoirs-de-gouvernement-pendant-la-crise" class="level3">
+<h3 class="anchored" data-anchor-id="d---savoirs-de-gouvernement-pendant-la-crise">D - Savoirs de Gouvernement pendant la crise</h3>
+<ol type="1">
+<li>La modélisation comme principal outil d’aide à la décision et de justifcation des décisions</li>
+<li>Les sciences scognitives au service du gouvernementdes conduites ? Quel rôle dans la “messes des morts”, l’atestation, le pass sanitaire ?</li>
+<li>En tout état de cause, une communicatio inspirée d’une lecture principalement cognitive et visant à faire peur ou à donner un coup de coude (nudge) pour faire adopter les bons comportements. Stigmatisation de certaines populations (ex : “les jeunes”)</li>
+<li>La promotion de la santé et les inégalités sociales de santé ont été les grands oubliés</li>
+</ol>
+<p>Ils ont fait un éditorial :</p>
+<p>Quant la réponse mondiale à la pandémie de COVID19 se fait sans la promotion de la santé<br>
+Linda Cambon, Henri Bergeron, Patrick Castel, Valéry Ridde, François Alla</p>
+</section>
+</section>
+<section id="evaluation-politiques-publiques---cours-thomas-breda" class="level1">
+<h1>Evaluation politiques publiques - cours Thomas Breda</h1>
+<section id="objectif-du-cours" class="level2">
+<h2 class="anchored" data-anchor-id="objectif-du-cours">Objectif du cours</h2>
+<ol type="1">
+<li><p>Comprendre le rôle des scinece économiques pour l’analyse de l’ction publique</p></li>
+<li><p>Pouvoir lire et globalement comprendre uen analyse de politiqus publiques</p></li>
+<li><p>Pouvoir (commencer à) identifier les forces et faiblesses d’une analyse de PP</p></li>
+</ol>
+<p>Mathieu Breda :</p>
+<p>Effet des syndicats sur les salaires =&gt; est-ce que ça permet de partager les rentes de monopole</p>
+<p>Inégalités de genre =&gt; sur l’éducation surtout, sur l’orientation différenciée des filles et des garçons. Pourquoi ils ne font pas les même études en moyenne ?</p>
+<p>Débat très stéréotypé</p>
+</section>
+<section id="partie-1" class="level2">
+<h2 class="anchored" data-anchor-id="partie-1">Partie 1 :</h2>
+<ol type="1">
+<li><p>Les sciences économiques, c’est quoi ?</p></li>
+<li><p>Le cadre néoclassique et l’absence de déficiences de marchés</p></li>
+<li><p>Justifier l’intervention publique</p></li>
+</ol>
+</section>
+<section id="quest-ce-que-léconomie" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-que-léconomie">Qu’est-ce que l’économie</h2>
+<p>Sciences éco: Analyse de l’allocation optimale des ressources</p>
+<ul>
+<li><p>Comment les ressources (comme le travail ou les matières premières) sont produites échngées et réparties</p></li>
+<li><p>Expliquer et améliorer la gestion des ressources pour répondre aux besoins humains</p></li>
+</ul>
+<p>Les sciences éco se divisent en deux granddes branches :</p>
+<ul>
+<li><p>Microéconomie : Etudie les comportements individuels (ménages, entreprise) et les mécanismes de marché</p></li>
+<li><p>Macroéconomie : Analyse les phénomènes économiques globaux (croissance, chômage, inflation), les agrégats.</p></li>
+</ul>
+<p>Elle fait appel à certains outils :</p>
+<ol type="1">
+<li><p>Théoriques<br>
+Soit pour rationaliser/poser un cadre pour comprendre les comportements, les équilibres<br>
+Soit pour proposer des hypothèses à tester. Fonction d’utilité =&gt; on suppose que les agents essaient de maximiser leur utilité, que les entreprises cherchent à maximiser leur profit/rente.</p></li>
+<li><p>Empiriques : avec de l’utilisation de données<br>
+Utilisation de méthode statistiques et de l’économétrie, inférence causale, quasi expérimental</p></li>
+</ol>
+<p>L’économie a deux approches :</p>
+<ol type="1">
+<li><p>Une approche dite “positive” (= descriptive) =&gt; observations, corrélations, causalité…</p></li>
+<li><p>Une approche dite “normative” =&gt; Suite à l’observation, la description et l’identification de causalité ou à l’aide de modèles théoriques, comment maximiser l’utilité, atteindre un objectif, guider les agents vers un comportement souhaitable<br>
+<br>
+Normatif : Quand par exemple Piketty propose de faire un versement automatique d’héritage à tout le monde dès 25 ans de 120k€. <a href="https://www.ladepeche.fr/2019/12/30/un-heritage-de-120-000-euros-pour-tous-a-25-ans-lidee-insolite-de-leconomiste-thomas-piketty,8633337.php">source</a></p></li>
+</ol>
+</section>
+<section id="statistiques-et-économétrie" class="level2">
+<h2 class="anchored" data-anchor-id="statistiques-et-économétrie">Statistiques et économétrie</h2>
+<p>L’économétrie est la rencontre de la statistique et de l’économie.<br>
+L’économétrie est l’application de la statistique à la science économique<br>
+L’économétrie cherche essentiellement à:</p>
+<ul>
+<li><p>Estimer les paramètres</p></li>
+<li><p>Identifier des relations causales</p></li>
+<li><p>Inférence : connaître un paramètre de la population globale</p></li>
+</ul>
+<p>Mais apprentissage machine permet maintenant de faire de l’inférence causale, et les anciennes méthodes d’interprétation des coefficients résumés :<br>
+</p>
+<section id="méthodes-dinférence-causale-en-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="méthodes-dinférence-causale-en-machine-learning">Méthodes d’Inférence Causale en Machine Learning</h3>
+<table class="table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 34%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nom de la Méthode</th>
+<th>Description</th>
+<th>Date de Publication</th>
+<th>Référence de l’Article de Recherche</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Double Machine Learning</strong></td>
+<td>Utilise des algorithmes de machine learning pour estimer les effets causaux en contrôlant les variables confondantes, permettant des estimations robustes même avec des covariables complexes.</td>
+<td>2018</td>
+<td>Chernozhukov, V., et al.&nbsp;(2018). “Double/Debiased Machine Learning for Treatment and Structural Parameters.”</td>
+</tr>
+<tr class="even">
+<td><strong>Causal Forests</strong></td>
+<td>Extension des forêts aléatoires pour estimer les effets de traitement hétérogènes, aidant à comprendre comment les effets causaux varient selon les caractéristiques des individus.</td>
+<td>2016</td>
+<td>Wager, S., &amp; Athey, S. (2016). “Estimation and Inference of Heterogeneous Treatment Effects using Random Forests.”</td>
+</tr>
+<tr class="odd">
+<td><strong>DoWhy</strong></td>
+<td>Bibliothèque Python intégrant des outils pour modéliser et estimer des effets causaux en combinant des approches statistiques et des graphes causaux.</td>
+<td>2019</td>
+<td>Sharmanska, V., et al.&nbsp;(2019). “DoWhy: An End-to-End Library for Causal Inference.”</td>
+</tr>
+<tr class="even">
+<td><strong>EconML</strong></td>
+<td>Bibliothèque développée par Microsoft combinant des méthodes économétriques et de machine learning pour l’inférence causale, facilitant l’estimation des effets de traitement.</td>
+<td>2019</td>
+<td>Microsoft Research (2019). “EconML: A Python Package for ML-Based Heterogeneous Treatment Effects Estimation.”</td>
+</tr>
+<tr class="odd">
+<td><strong>Invariant Causal Prediction (ICP)</strong></td>
+<td>Identifie des relations causales en exploitant l’invariance des relations sous différents environnements ou distributions, aidant à découvrir des causalités robustes.</td>
+<td>2016</td>
+<td>Peters, J., et al.&nbsp;(2016). “Causal Inference Using Invariant Prediction: Identification and Confidence Intervals.”</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="méthodes-dinterprétation-des-coefficients-des-modèles-de-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="méthodes-dinterprétation-des-coefficients-des-modèles-de-machine-learning">Méthodes d’Interprétation des Coefficients des Modèles de Machine Learning</h3>
+<table class="table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 34%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nom de la Méthode</th>
+<th>Description</th>
+<th>Date de Publication</th>
+<th>Référence de l’Article de Recherche</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>SHAP (SHapley Additive Explanations)</strong></td>
+<td>Basée sur la théorie des jeux, cette méthode attribue à chaque variable une contribution à la prédiction, offrant une interprétation cohérente et additive des modèles complexes.</td>
+<td>2017</td>
+<td>Lundberg, S. M., &amp; Lee, S.-I. (2017). “A Unified Approach to Interpreting Model Predictions.”</td>
+</tr>
+<tr class="even">
+<td><strong>LIME (Local Interpretable Model-Agnostic Explanations)</strong></td>
+<td>Génère des explications locales en ajustant un modèle simple autour de chaque prédiction, permettant de comprendre les décisions des modèles “boîtes noires”.</td>
+<td>2016</td>
+<td>Ribeiro, M. T., et al.&nbsp;(2016). “Why Should I Trust You?”: Explaining the Predictions of Any Classifier.”</td>
+</tr>
+<tr class="odd">
+<td><strong>ALE (Accumulated Local Effects)</strong></td>
+<td>Visualise l’effet moyen d’une variable sur la prédiction en tenant compte des interactions entre variables, offrant une alternative aux graphiques de dépendance partielle.</td>
+<td>2017</td>
+<td>Apley, D. W., &amp; Zhu, J. (2017). “Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models.”</td>
+</tr>
+<tr class="even">
+<td><strong>Anchor Explanations</strong></td>
+<td>Fournit des règles d’ancrage qui expliquent les prédictions en identifiant des conditions suffisantes pour qu’une prédiction soit faite, offrant des explications stables et interprétables.</td>
+<td>2018</td>
+<td>Ribeiro, M. T., et al.&nbsp;(2018). “Anchors: High-Precision Model-Agnostic Explanations.”</td>
+</tr>
+<tr class="odd">
+<td><strong>ICE (Individual Conditional Expectation) Plots</strong></td>
+<td>Montre comment la prédiction change lorsque la valeur d’une variable est modifiée, pour chaque observation, aidant à comprendre les effets individuels des variables.</td>
+<td>2013</td>
+<td>Goldstein, A., et al.&nbsp;(2015). “Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation.”</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="le-cadre-néoclassique" class="level2">
+<h2 class="anchored" data-anchor-id="le-cadre-néoclassique">Le cadre néoclassique</h2>
+<p>Economie concurrentielle hypothétique<br>
+Efficacité du marché</p>
+</section>
+<section id="premier-théorème-du-bien-être" class="level2">
+<h2 class="anchored" data-anchor-id="premier-théorème-du-bien-être">Premier théorème du bien-être</h2>
+<p>Si:</p>
+<ol type="1">
+<li><p>Ménages et entreprises prennent les prix comme donnés</p></li>
+<li><p>Tous les marchés existent</p></li>
+<li><p>L’information est parfaite</p></li>
+<li><p>La mobilité est parfaite (les <strong>coûts de transaction</strong> sont nuls) alors l’équilibre concurrentiel, s’il existe est Pareto-optimal</p></li>
+</ol>
+<p>Les <strong>coûts de transaction</strong>, concept introduit par <strong>Ronald Coase</strong> dans son article <em>The Nature of the Firm</em> (1937), représentent les coûts liés à l’échange sur un marché, tels que la recherche d’informations, la négociation et l’exécution des contrats. Lorsque ces coûts sont présents, ils peuvent empêcher la réalisation d’un équilibre concurrentiel Pareto-optimal en créant des frictions dans les échanges économiques.</p>
+<p>Quand on achète, on doit faire plusuiers actions. Exemple dans le marché immobilier :</p>
+<ol type="1">
+<li><p><strong>Rechercher des informations</strong> sur les propriétés disponibles (temps passé à visiter, consulter des annonces, etc.).</p></li>
+<li><p><strong>Négocier</strong> le prix avec le vendeur.</p></li>
+<li><p><strong>Supporter des coûts d’exécution</strong> comme les frais d’agence immobilière, les frais de notaire, et les coûts liés au financement (intérêts bancaires).</p></li>
+</ol>
+<p>Ces coûts supplémentaires rendent l’échange plus complexe et moins fluide, et peuvent dissuader certains acteurs de participer au marché. Ronald Coase utilise des exemples similaires pour montrer comment ces frictions influencent l’efficacité des marchés.</p>
+<p>Equilibre : chaque agent (ménage, entreprise, travailleurs…) est à son optimum (=maximise sa fonction objectif : utilité, profil, arbitrage travail/loisir..) étant donné le système de prix.</p>
+<p><br>
+Pareto optimal =&gt; situation de marché où la répartition,l’allocation est optimale = 80/20 =&gt; on peut pas trouver d’autres manières d’allocation les ressources et d’utilisations des matières premières qui fassent que tout le monde soit content. On peut pas améliorer la situation d’un agent sans détériorer celle d’un autre</p>
+<p>L’équilibre concurrentiel “Walrasien” est la formalisation mathématique de la “main invisible” d’Adam Smith.<br>
+On peut y avoir les fondements mathématiques du libéralisme. Influence très forte sur la doctrine libérale au sens large<br>
+<br>
+Autres hypothèses :</p>
+<ul>
+<li>Chaque agent est “atomique” : suffisamment petit pour n</li>
+</ul>
+</section>
+<section id="deuxième-théorème-du-bien-être" class="level2">
+<h2 class="anchored" data-anchor-id="deuxième-théorème-du-bien-être">Deuxième théorème du bien-être</h2>
+<p>Si :</p>
+<ol type="1">
+<li><p>Ménages et entreprises prennent les prix comme données</p></li>
+<li><p>Tous les marchés existent</p></li>
+<li><p>L’information est parfaite</p></li>
+<li><p>La mobilité est parfaite</p></li>
+<li><p>L’économie est convexe</p></li>
+<li><p>On peut réaliser des transferts forfaitaires<br>
+Alors n’importe quelle allocation Pareto-optimal peut être obtenue comme un équilibre concurrentiel</p></li>
+</ol>
+<p>=&gt; Une intervention publique ne permettrait pas de faire mieux, et n’importe quelle répartition peut être obtenue avec un changement de dotations initiales</p>
+</section>
+<section id="transferts-forfaitaires-une-idée-abstraite" class="level2">
+<h2 class="anchored" data-anchor-id="transferts-forfaitaires-une-idée-abstraite">Transferts forfaitaires : une idée abstraite</h2>
+<p>Doivent être indépendants des comportements d’optimisation</p>
+<p>Par exemple ne peuvent pas être déterminés par les revenus observés</p>
+<p>Dépend de “paramètres” théoriques (e.g potentiel productif inné) inobservés<br>
+Transferts non-forfaitaires = distortions potentielles</p>
+<p>LE second théorème évite le probèle d’arbitrage équité-efficacité</p>
+<p>Ca n’existe pas donc ily a besoin des politques publiuqes</p>
+</section>
+<section id="existence-des-marchés" class="level2">
+<h2 class="anchored" data-anchor-id="existence-des-marchés">Existence des marchés</h2>
+</section>
+<section id="informations-imparfaite" class="level2">
+<h2 class="anchored" data-anchor-id="informations-imparfaite">Informations imparfaite</h2>
+<section id="sélection-adverse" class="level3">
+<h3 class="anchored" data-anchor-id="sélection-adverse">Sélection adverse</h3>
+<p>Première dimension: on observe imparfaitement la qualité des biens ou les “types” des agents = <strong>Sélection adverse</strong></p>
+<ul>
+<li><p>Exemple classique : Le marché des voitures d’occasion (George Akerlof, The Market for Lemons (1970à)</p>
+<ul>
+<li><p>Les vendeurs connaissent la véritable qualité des voitures (bonnes voitures ou “lemons”, c’est-à-dire des voitures défectueuses)</p></li>
+<li><p>Les acheteurs ne peuvent pas observer directement cette qualité et doivent s’appuyer sur le prix pour évaluer la voiture</p></li>
+<li><p>Les acheteurs, craignant de payer trop cher pour une voiture défectueuse, sont prêts à payer un prix moyen</p></li>
+<li><p>Les vendeurs de bonnes voitures, estimant que le prix moyen est trop bas pour leur produit, se retirent du marché</p></li>
+<li><p>Le marché se retrouve dominé par des voitures de mauvaise qualité</p></li>
+</ul></li>
+<li><p>Risque de réduction, voire d’effondrement du marché</p></li>
+<li><p>Secteur les plus concernés : Assurance, banque</p></li>
+<li><p>Solutions : Certif qualité, normes de sécurité, assurances obligatoires</p></li>
+</ul>
+</section>
+<section id="aléa-moral" class="level3">
+<h3 class="anchored" data-anchor-id="aléa-moral">Aléa moral</h3>
+<p>Deuxième dimension: après la conclusion d’un contrat ou d’un accord, un des agents peut modifier son comportement de manière opportuniste car il ne supporte pas entièrement les conséquences de ses actions = <strong>Aléa moral</strong></p>
+<ul>
+<li><p>Exemple classique : Le marché de l’assurance (Kenneth Arrow, 1963)</p>
+<ul>
+<li><p>Les assurés, une fois couverts par une assurance, peuvent adopter un comportement moins prudent, sachant qu’ils ne supportent pas entièrement le coût d’un incident (exemple : conduire plus vite, négliger des mesures de sécurité).</p></li>
+<li><p>Les assureurs ne peuvent pas parfaitement observer le comportement des assurés après la signature du contrat.</p></li>
+<li><p>Ce comportement opportuniste augmente le coût global pour les assureurs (fréquence et gravité des sinistres).</p></li>
+<li><p>Les assureurs augmentent les primes pour compenser ce risque, ce qui peut décourager les assurés prudents, réduisant l’efficacité du marché.</p></li>
+</ul></li>
+<li><p>Risque de coûts élevés, inefficacités, voire exclusion des agents prudents du marché.</p></li>
+<li><p>Secteurs les plus concernés : Assurance, crédit, travail.</p></li>
+<li><p>Solutions :</p>
+<ul>
+<li><strong>Franchises</strong> : Les assurés paient une partie des sinistres, les incitant à être plus prudents.</li>
+<li><strong>Clauses incitatives</strong> : Par exemple, des primes réduites pour les bons conducteurs.</li>
+<li><strong>Surveillance et contrôles</strong> : Suivi des comportements pour réduire l’asymétrie d’information.</li>
+<li><strong>Alignement des intérêts</strong> : Partage des risques entre les parties.</li>
+</ul></li>
+</ul>
+</section>
+<section id="externalités" class="level3">
+<h3 class="anchored" data-anchor-id="externalités">Externalités</h3>
+<p>Les actions d’un agent modifient le bien-être d’un autre agent, sans donner lieu à une compensation. Ces effets peuvent être <strong>positifs</strong> ou <strong>négatifs</strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 39%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Exemple</th>
+<th>Description</th>
+<th>Référence ou Contexte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Externalité négative</strong></td>
+<td>Pollution industrielle</td>
+<td>Une usine rejette des déchets dans une rivière, affectant les pêcheurs en aval sans compenser leur perte de revenus.</td>
+<td>Cas classique discuté par Ronald Coase dans “The Problem of Social Cost” (1960).</td>
+</tr>
+<tr class="even">
+<td><strong>Externalité positive</strong></td>
+<td>Vaccination</td>
+<td>La vaccination d’une personne réduit la propagation d’une maladie, protégeant indirectement les autres membres de la société.</td>
+<td>Analyse dans la santé publique et les modèles épidémiologiques.</td>
+</tr>
+<tr class="odd">
+<td><strong>Externalité négative</strong></td>
+<td>Embouteillages</td>
+<td>Les conducteurs ajoutent de la congestion sur les routes, augmentant le temps de trajet des autres sans payer pour ce coût imposé.</td>
+<td>Études sur les coûts sociaux des embouteillages urbains.</td>
+</tr>
+<tr class="even">
+<td><strong>Externalité positive</strong></td>
+<td>Éducation</td>
+<td>Une personne éduquée contribue à la productivité de la société et peut stimuler l’innovation, au-delà des bénéfices qu’elle retire elle-même.</td>
+<td>Rapport de l’UNESCO sur l’éducation et les externalités sociales.</td>
+</tr>
+<tr class="odd">
+<td><strong>Externalité négative</strong></td>
+<td>Fumeurs passifs</td>
+<td>Les fumeurs dans un espace public nuisent à la santé des non-fumeurs proches, sans assumer les coûts liés à l’exposition.</td>
+<td>Études sur la santé publique et les réglementations anti-tabac.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Secteurs concernés</strong> : Transport, environnement, santé, éducation.</p></li>
+<li><p><strong>Solutions possibles</strong> :</p>
+<ul>
+<li><strong>Taxes pigouviennes</strong> : Taxer les activités générant des externalités négatives (ex. : taxes carbone).</li>
+<li><strong>Subventions</strong> : Encourager les activités produisant des externalités positives (ex. : aides pour la recherche ou la vaccination).</li>
+<li><strong>Réglementations</strong> : Imposer des normes pour limiter les effets négatifs (ex. : quotas de pollution).</li>
+<li><strong>Marchés de droits</strong> : Créer des marchés pour internaliser les externalités (ex. : marché du carbone).</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="biens-publics" class="level2">
+<h2 class="anchored" data-anchor-id="biens-publics">Biens publics</h2>
+<p><strong>Biens publics purs</strong>:</p>
+<ul>
+<li><p><strong>Non rival</strong> : la consommation par un individu n’empêche pas la consommation par un autre</p></li>
+<li><p><strong>Non-exclusif</strong> : quand le bien est produit, on ne peut pas empêcher une peronne de consommer ce bien.</p></li>
+</ul>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 46%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Exemple</th>
+<th>Description</th>
+<th>Type de Bien Public</th>
+<th>Référence ou Contexte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Éclairage public</strong></td>
+<td>Les lampadaires dans une rue éclairent tous les passants sans réduire la lumière disponible pour les autres et il est impossible d’exclure quelqu’un d’en bénéficier.</td>
+<td>Bien public pur</td>
+<td>Exemple classique en économie des biens publics.</td>
+</tr>
+<tr class="even">
+<td><strong>Défense nationale</strong></td>
+<td>La sécurité assurée par l’armée profite à toute la population sans possibilité d’exclusion et sans rivalité dans la protection.</td>
+<td>Bien public pur</td>
+<td>Débats dans les politiques publiques de sécurité.</td>
+</tr>
+<tr class="odd">
+<td><strong>Qualité de l’air</strong></td>
+<td>Un air propre est consommé par tous sans réduire la quantité disponible pour les autres, bien que la pollution puisse rendre le bien partiellement rival.</td>
+<td>Bien public avec externalités</td>
+<td>Études environnementales et climatiques.</td>
+</tr>
+<tr class="even">
+<td><strong>Feux d’artifice</strong></td>
+<td>Une fois tirés, tout le monde peut admirer les feux sans réduire l’expérience des autres spectateurs et sans exclusion.</td>
+<td>Bien public pur</td>
+<td>Exemple souvent utilisé en économie comportementale.</td>
+</tr>
+<tr class="odd">
+<td><strong>Recherche fondamentale</strong></td>
+<td>Les découvertes scientifiques qui ne sont pas brevetées profitent à toute la société sans réduire leur valeur pour les autres utilisateurs.</td>
+<td>Bien public partiel</td>
+<td>Réflexions sur l’open science et l’innovation.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Secteurs concernés</strong> : Urbanisme, défense, environnement, éducation, innovation.</p></li>
+<li><p><strong>Solutions possibles</strong> :</p>
+<ul>
+<li><strong>Financement public</strong> : L’État intervient pour produire ces biens car le marché ne le ferait pas de manière efficace.</li>
+<li><strong>Contributions collectives</strong> : Inciter les citoyens ou entreprises à financer ces biens (ex. : dons pour des initiatives publiques).</li>
+<li><strong>Privatisation partielle</strong> : Parfois, on peut privatiser l’accès sous conditions (ex. : péages pour limiter la surconsommation).</li>
+</ul></li>
+</ul>
+<section id="les-biens-communs" class="level3">
+<h3 class="anchored" data-anchor-id="les-biens-communs">Les biens communs</h3>
+<p>Contrairement aux biens publics purs, les biens communs (ou <strong>ressources communes</strong>) sont :</p>
+<ul>
+<li><strong>Rivaux</strong> : La consommation par un individu réduit la quantité disponible pour les autres.</li>
+<li><strong>Non-exclusifs</strong> : On ne peut pas empêcher quelqu’un de consommer ces biens.</li>
+</ul>
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 55%">
+<col style="width: 8%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Exemple</th>
+<th>Description</th>
+<th>Type de Bien</th>
+<th>Référence ou Contexte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ressources halieutiques</strong></td>
+<td>Les poissons dans les océans peuvent être pêchés par tout le monde, mais chaque prise réduit la quantité restante pour les autres pêcheurs.</td>
+<td>Bien commun rival</td>
+<td>Débats sur la surpêche et les quotas de pêche.</td>
+</tr>
+<tr class="even">
+<td><strong>Pâturages communs</strong></td>
+<td>Les terres de pâturage accessibles à tous risquent d’être surutilisées, menant à une dégradation environnementale si aucun contrôle n’est mis en place.</td>
+<td>Bien commun rival</td>
+<td>Exemple historique de la tragédie des communs (Hardin, 1968).</td>
+</tr>
+<tr class="odd">
+<td><strong>Nappes phréatiques</strong></td>
+<td>L’eau souterraine est accessible à tous, mais chaque usage individuel (agriculture, consommation) réduit la quantité disponible pour les autres.</td>
+<td>Bien commun rival</td>
+<td>Études sur l’épuisement des ressources en eau douce.</td>
+</tr>
+<tr class="even">
+<td><strong>Zones de pêche</strong></td>
+<td>Les zones côtières ou les récifs coralliens sont souvent exploités par de nombreuses communautés, menaçant leur biodiversité et leur durabilité.</td>
+<td>Bien commun rival</td>
+<td>Problèmes environnementaux et de régulation internationale.</td>
+</tr>
+<tr class="odd">
+<td><strong>Forêts communautaires</strong></td>
+<td>Les forêts partagées peuvent être exploitées pour le bois ou d’autres ressources, mais une exploitation excessive peut entraîner leur destruction.</td>
+<td>Bien commun rival</td>
+<td>Études sur la gestion durable des ressources forestières.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<section id="problème-la-tragédie-des-communs" class="level4">
+<h4 class="anchored" data-anchor-id="problème-la-tragédie-des-communs">Problème : La <strong>tragédie des communs</strong></h4>
+<ul>
+<li><strong>Concept</strong> : Introduit par Garrett Hardin (1968), ce phénomène se produit lorsque chaque utilisateur rationnel maximise son bénéfice individuel sans tenir compte de l’impact collectif sur la ressource.</li>
+<li><strong>Résultat</strong> : Surconsommation et épuisement des ressources communes.</li>
+</ul>
+<hr>
+</section>
+<section id="solutions-possibles" class="level4">
+<h4 class="anchored" data-anchor-id="solutions-possibles">Solutions possibles :</h4>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 59%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Solution</th>
+<th>Description</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Régulation gouvernementale</strong></td>
+<td>Imposer des quotas ou des restrictions d’accès pour limiter la consommation excessive des biens communs.</td>
+<td>Quotas de pêche pour éviter la surpêche.</td>
+</tr>
+<tr class="even">
+<td><strong>Privatisation</strong></td>
+<td>Attribuer des droits de propriété pour responsabiliser les utilisateurs et encourager la gestion durable.</td>
+<td>Redistribution des terres de pâturage.</td>
+</tr>
+<tr class="odd">
+<td><strong>Gestion collective</strong></td>
+<td>Les communautés locales s’organisent pour établir des règles d’utilisation et surveiller leur application.</td>
+<td>Exemple des systèmes d’irrigation locaux.</td>
+</tr>
+<tr class="even">
+<td><strong>Marchés de droits</strong></td>
+<td>Créer des systèmes d’échange de droits d’utilisation, par exemple pour l’eau ou les émissions de carbone.</td>
+<td>Marché des quotas de carbone.</td>
+</tr>
+</tbody>
+</table>
+<p>Ces solutions visent à réduire les risques de surconsommation et à encourager une gestion durable des biens communs.</p>
+</section>
+</section>
+<section id="classification-des-biens-économiques" class="level3">
+<h3 class="anchored" data-anchor-id="classification-des-biens-économiques">Classification des biens économiques</h3>
+<table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 52%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type de Bien</th>
+<th>Rivalité ?</th>
+<th>Exclusivité ?</th>
+<th>Description</th>
+<th>Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Biens publics purs</strong></td>
+<td>Non</td>
+<td>Non</td>
+<td>Biens consommés par tous sans réduire la quantité disponible et accessibles à tous.</td>
+<td>Éclairage public, défense nationale</td>
+</tr>
+<tr class="even">
+<td><strong>Biens communs</strong></td>
+<td>Oui</td>
+<td>Non</td>
+<td>Biens accessibles à tous mais dont la consommation par un individu réduit la quantité pour les autres.</td>
+<td>Ressources halieutiques, pâturages</td>
+</tr>
+<tr class="odd">
+<td><strong>Biens privés</strong></td>
+<td>Oui</td>
+<td>Oui</td>
+<td>Biens consommés uniquement par celui qui les achète et pour lesquels il est possible d’empêcher les autres de les consommer.</td>
+<td>Nourriture, vêtements</td>
+</tr>
+<tr class="even">
+<td><strong>Biens de club</strong></td>
+<td>Non</td>
+<td>Oui</td>
+<td>Biens accessibles uniquement à ceux qui paient ou remplissent certaines conditions, mais dont la consommation par un individu n’affecte pas les autres.</td>
+<td>Cinéma, abonnements Netflix</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="explication-des-catégories" class="level3">
+<h3 class="anchored" data-anchor-id="explication-des-catégories">Explication des catégories :</h3>
+<ol type="1">
+<li><strong>Biens publics purs</strong> :
+<ul>
+<li><strong>Non-rival</strong> : La consommation par un individu n’empêche pas celle des autres.</li>
+<li><strong>Non-exclusif</strong> : Impossible d’empêcher quelqu’un de consommer le bien.</li>
+<li>Exemple : Éclairage public, défense nationale.</li>
+</ul></li>
+<li><strong>Biens communs</strong> :
+<ul>
+<li><strong>Rival</strong> : Si une personne consomme le bien, il en reste moins pour les autres.</li>
+<li><strong>Non-exclusif</strong> : Impossible ou difficile d’empêcher quelqu’un de l’utiliser.</li>
+<li>Exemple : Ressources naturelles comme l’eau ou les forêts.</li>
+</ul></li>
+<li><strong>Biens privés</strong> :
+<ul>
+<li><strong>Rival</strong> : La consommation par une personne empêche celle des autres.</li>
+<li><strong>Exclusif</strong> : Possible d’empêcher quelqu’un de consommer le bien.</li>
+<li>Exemple : Nourriture, vêtements.</li>
+</ul></li>
+<li><strong>Biens de club</strong> :
+<ul>
+<li><strong>Non-rival</strong> : La consommation par une personne n’affecte pas celle des autres, jusqu’à un certain point (effet de congestion).</li>
+<li><strong>Exclusif</strong> : Accessible uniquement à ceux qui paient ou remplissent une condition.</li>
+<li>Exemple : Abonnements, services de streaming.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="visualisation-simplifiée" class="level3">
+<h3 class="anchored" data-anchor-id="visualisation-simplifiée">Visualisation simplifiée :</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Exclusif</strong></th>
+<th><strong>Non exclusif</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Rival</strong></td>
+<td>Biens privés</td>
+<td>Biens communs</td>
+</tr>
+<tr class="even">
+<td><strong>Non-rival</strong></td>
+<td>Biens de club</td>
+<td>Biens publics purs</td>
+</tr>
+</tbody>
+</table>
+<p>Ce tableau permet de mieux comprendre les différences entre les biens et leurs implications économiques, notamment en termes de gestion et de régulation.</p>
+</section>
+</section>
+<section id="concurrence-imparfaite" class="level2">
+<h2 class="anchored" data-anchor-id="concurrence-imparfaite">Concurrence imparfaite</h2>
+<p>Monopole permet d’imposer un prix supérieur à l’optimum concurrentiel</p>
+<ul>
+<li><p>Monopole naturel : coûts fixes importants, coûts unitaires décroissants, une seule firme domine</p>
+<ul>
+<li><p>Production publique</p></li>
+<li><p>Production privée réglementée</p></li>
+<li><p>Production réglementée de la part qui génère le coût fixe (infrastructure), concurrence pour le reste</p></li>
+</ul></li>
+<li><p>Monopoles générés par entente (collusion) ou abus de position dominante (barrière à l’entrée)</p>
+<ul>
+<li>Droit de la concurrence, autorités de contrôle</li>
+</ul></li>
+</ul>
+</section>
+<section id="rationalité-limitée" class="level2">
+<h2 class="anchored" data-anchor-id="rationalité-limitée">Rationalité limitée</h2>
+<p>Dans quelle mesure peut-on considérer qu’un agent économique prend des décisions contraires à son intérêt ?</p>
+<p>Révolution plus récente (mais initiée par Kahneman et Tversky dans les années 70) : revenir sur le modèle de rationnalité des agents (behavioral economics)</p>
+<ul>
+<li><p><strong>Information</strong> : décisions rationnelles supposent une très grande quantité d’informations, coûteuse à réunir</p></li>
+<li><p><strong>Biais cognitifs</strong> : la complexité des décisions (comparer tous les choix possibles) conduit à prendre des raccourcis</p></li>
+<li><p><strong>Incohérence temporelle</strong> : n’agit pas demain comme il le prévoit aujourd’hui (exemple de l’addiction, taxes cigarettes, etc.)</p></li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

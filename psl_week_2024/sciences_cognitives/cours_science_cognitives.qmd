@@ -1,0 +1,52 @@
+---
+title: Sciences cognitives
+#bibliography: references.bib
+#subtitle: A systematic analysis
+format: html
+author:
+  - name: Olivier Caron
+    orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 11/25/2024
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+## Intervenants
+
+Coralie Chevallier
+
+## Niveaux d'analyses :
+
+Sans l'environnement et l'apprentissage, il ne peut rien advenir. =\>
+Exemple d'enfants qui sont restés dans un placard et à qui on a pas
+parlé pendant plusieurs années. Parfois c'est trop tard
+
+## Neurobiologie des fonctions cognitives
+
+Le cerveau est composé de deux hémisphères reliés par un faisceau
+defibres (corps calleux). Les deux hémisphères sont spécialisés dans des
+fonctions différentes, l'hémisphère gauche est spécialisé dans le
+langage, la logique, la séquence, la temporalité, la causalité, la
+catégorisation, la linéarité, la décomposition, la déduction, la
+décontextualisation, la décomposition, la déduction et
+
+::: callout-note
+[Ressources ENS
+Lyon](https://acces.ens-lyon.fr/acces/thematiques/neurosciences/actualisation-des-connaissances/memoire-attention-et-apprentissage/langage/structures_langage)
+: des fiches à ce propos
+:::
+
+### Comment le cerveau se modifie-t-il quand on apprend à lire ?
+
+{{< video https://www.youtube.com/watch?v=ABDpL9FFAvI >}}
+
+<https://www.college-de-france.fr/fr/agenda/grand-evenement/apprentissage-de-la-lecture-et-ses-difficultes/comment-le-cerveau-se-modifie-il-quand-on-apprend-lire>
