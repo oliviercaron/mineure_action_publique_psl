@@ -1,0 +1,777 @@
+---
+title: Economie/Evaluation des politiques publiques
+#bibliography: references.bib
+#subtitle: A systematic analysis
+#format: 
+  #pdf:
+    #documentclass: article
+    #classoption: a4paper
+    #fontsize: 10pt
+format:
+  pdf:
+    classoption: aspectratio=169,10pt
+author:
+  - name: Olivier Caron
+    orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 11/28/2024
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+Intervenant : [Thomas
+Breda](https://www.parisschoolofeconomics.eu/equipes/thomas-breda/)
+
+## Objectif du cours
+
+1.  Comprendre le rôle des scinece économiques pour l'analyse de
+    l'action publique
+
+2.  Pouvoir lire et globalement comprendre uen analyse de politiqus
+    publiques
+
+3.  Pouvoir (commencer à) identifier les forces et faiblesses d'une
+    analyse de PP
+
+Mathieu Breda, travaux :
+
+Effet des syndicats sur les salaires =\> est-ce que ça permet de
+partager les rentes de monopole
+
+Inégalités de genre =\> sur l'éducation surtout, sur l'orientation
+différenciée des filles et des garçons. Pourquoi ils ne font pas les
+même études en moyenne ?
+
+Débat très stéréotypé
+
+## Partie 1 :
+
+1.  Les sciences économiques, c'est quoi ?
+
+2.  Le cadre néoclassique et l'absence de déficiences de marchés
+
+3.  Justifier l'intervention publique
+
+## Qu'est-ce que l'économie
+
+Sciences éco: Analyse de l'allocation optimale des ressources
+
+-   Comment les ressources (comme le travail ou les matières premières)
+    sont produites échngées et réparties
+
+-   Expliquer et améliorer la gestion des ressources pour répondre aux
+    besoins humains
+
+Les sciences éco se divisent en deux granddes branches :
+
+-   Microéconomie : Etudie les comportements individuels (ménages,
+    entreprise) et les mécanismes de marché
+
+-   Macroéconomie : Analyse les phénomènes économiques globaux
+    (croissance, chômage, inflation), les agrégats.
+
+Elle fait appel à certains outils :
+
+1.  Théoriques\
+    Soit pour rationaliser/poser un cadre pour comprendre les
+    comportements, les équilibres\
+    Soit pour proposer des hypothèses à tester. Fonction d'utilité =\>
+    on suppose que les agents essaient de maximiser leur utilité, que
+    les entreprises cherchent à maximiser leur profit/rente.
+
+2.  Empiriques : avec de l'utilisation de données\
+    Utilisation de méthode statistiques et de l'économétrie, inférence
+    causale, quasi expérimental
+
+L'économie a deux approches :
+
+1.  Une approche dite "positive" (= descriptive) =\> observations,
+    corrélations, causalité...
+
+2.  Une approche dite "normative" =\> Suite à l'observation, la
+    description et l'identification de causalité ou à l'aide de modèles
+    théoriques, comment maximiser l'utilité, atteindre un objectif,
+    guider les agents vers un comportement souhaitable\
+    \
+    Normatif : Quand par exemple Piketty propose de faire un versement
+    automatique d'héritage à tout le monde dès 25 ans de 120k€.
+    [source](https://www.ladepeche.fr/2019/12/30/un-heritage-de-120-000-euros-pour-tous-a-25-ans-lidee-insolite-de-leconomiste-thomas-piketty,8633337.php)
+
+## Statistiques et économétrie
+
+L'économétrie est la rencontre de la statistique et de l'économie.\
+L'économétrie est l'application de la statistique à la science
+économique\
+L'économétrie cherche essentiellement à:
+
+-   Estimer les paramètres
+
+-   Identifier des relations causales
+
+-   Inférence : connaître un paramètre de la population globale
+
+Mais apprentissage machine permet maintenant de faire de l'inférence
+causale, et il y a des méthodes d'interprétation des coefficients
+estimés (OPTIONNEL) :\
+
+### Méthodes d'Inférence Causale en Machine Learning
+
+| Nom de la Méthode | Description | Date de Publication | Référence de l'Article de Recherche |
+|------------------|------------------|------------------|------------------|
+| **Double Machine Learning** | Utilise des algorithmes de machine learning pour estimer les effets causaux en contrôlant les variables confondantes, permettant des estimations robustes même avec des covariables complexes. | 2018 | Chernozhukov, V., et al. (2018). "Double/Debiased Machine Learning for Treatment and Structural Parameters." |
+| **Causal Forests** | Extension des forêts aléatoires pour estimer les effets de traitement hétérogènes, aidant à comprendre comment les effets causaux varient selon les caractéristiques des individus. | 2016 | Wager, S., & Athey, S. (2016). "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests." |
+| **DoWhy** | Bibliothèque Python intégrant des outils pour modéliser et estimer des effets causaux en combinant des approches statistiques et des graphes causaux. | 2019 | Sharmanska, V., et al. (2019). "DoWhy: An End-to-End Library for Causal Inference." |
+| **EconML** | Bibliothèque développée par Microsoft combinant des méthodes économétriques et de machine learning pour l'inférence causale, facilitant l'estimation des effets de traitement. | 2019 | Microsoft Research (2019). "EconML: A Python Package for ML-Based Heterogeneous Treatment Effects Estimation." |
+| **Invariant Causal Prediction (ICP)** | Identifie des relations causales en exploitant l'invariance des relations sous différents environnements ou distributions, aidant à découvrir des causalités robustes. | 2016 | Peters, J., et al. (2016). "Causal Inference Using Invariant Prediction: Identification and Confidence Intervals." |
+
+### Méthodes d'Interprétation des Coefficients des Modèles de Machine Learning
+
+| Nom de la Méthode | Description | Date de Publication | Référence de l'Article de Recherche |
+|------------------|------------------|------------------|------------------|
+| **SHAP (SHapley Additive Explanations)** | Basée sur la théorie des jeux, cette méthode attribue à chaque variable une contribution à la prédiction, offrant une interprétation cohérente et additive des modèles complexes. | 2017 | Lundberg, S. M., & Lee, S.-I. (2017). "A Unified Approach to Interpreting Model Predictions." |
+| **LIME (Local Interpretable Model-Agnostic Explanations)** | Génère des explications locales en ajustant un modèle simple autour de chaque prédiction, permettant de comprendre les décisions des modèles "boîtes noires". | 2016 | Ribeiro, M. T., et al. (2016). "Why Should I Trust You?": Explaining the Predictions of Any Classifier." |
+| **ALE (Accumulated Local Effects)** | Visualise l'effet moyen d'une variable sur la prédiction en tenant compte des interactions entre variables, offrant une alternative aux graphiques de dépendance partielle. | 2017 | Apley, D. W., & Zhu, J. (2017). "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models." |
+| **Anchor Explanations** | Fournit des règles d'ancrage qui expliquent les prédictions en identifiant des conditions suffisantes pour qu'une prédiction soit faite, offrant des explications stables et interprétables. | 2018 | Ribeiro, M. T., et al. (2018). "Anchors: High-Precision Model-Agnostic Explanations." |
+| **ICE (Individual Conditional Expectation) Plots** | Montre comment la prédiction change lorsque la valeur d'une variable est modifiée, pour chaque observation, aidant à comprendre les effets individuels des variables. | 2013 | Goldstein, A., et al. (2015). "Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation." |
+
+## Le cadre néoclassique
+
+Economie concurrentielle hypothétique\
+Efficacité du marché
+
+## Premier théorème du bien-être
+
+Si:
+
+1.  Ménages et entreprises prennent les prix comme donnés
+
+2.  Tous les marchés existent
+
+3.  L'information est parfaite
+
+4.  La mobilité est parfaite (les **coûts de transaction** sont nuls)
+    alors l'équilibre concurrentiel, s'il existe est Pareto-optimal
+
+Les **coûts de transaction**, concept introduit par **Ronald Coase**
+dans son article *The Nature of the Firm* (1937), représentent les coûts
+liés à l'échange sur un marché, tels que la recherche d'informations, la
+négociation et l'exécution des contrats. Lorsque ces coûts sont
+présents, ils peuvent empêcher la réalisation d'un équilibre
+concurrentiel Pareto-optimal en créant des frictions dans les échanges
+économiques.
+
+Quand on achète, on doit faire plusuiers actions. Exemple dans le marché
+immobilier :
+
+1.  **Rechercher des informations** sur les propriétés disponibles
+    (temps passé à visiter, consulter des annonces, etc.).
+
+2.  **Négocier** le prix avec le vendeur.
+
+3.  **Supporter des coûts d'exécution** comme les frais d'agence
+    immobilière, les frais de notaire, et les coûts liés au financement
+    (intérêts bancaires).
+
+Ces coûts supplémentaires rendent l'échange plus complexe et moins
+fluide, et peuvent dissuader certains acteurs de participer au marché.
+Ronald Coase utilise des exemples similaires pour montrer comment ces
+frictions influencent l'efficacité des marchés.
+
+Equilibre : chaque agent (ménage, entreprise, travailleurs...) est à son
+optimum (=maximise sa fonction objectif : utilité, profil, arbitrage
+travail/loisir..) étant donné le système de prix.
+
+\
+Pareto optimal =\> situation de marché où la répartition,l'allocation
+est optimale = 80/20 =\> on peut pas trouver d'autres manières
+d'allocation les ressources et d'utilisations des matières premières qui
+fassent que tout le monde soit content. On peut pas améliorer la
+situation d'un agent sans détériorer celle d'un autre
+
+L'équilibre concurrentiel "Walrasien" est la formalisation mathématique
+de la "main invisible" d'Adam Smith.\
+On peut y avoir les fondements mathématiques du libéralisme. Influence
+très forte sur la doctrine libérale au sens large\
+\
+Autres hypothèses :
+
+-   Chaque agent est "atomique" : suffisamment petit pour n
+
+## Deuxième théorème du bien-être
+
+Si :
+
+1.  Ménages et entreprises prennent les prix comme données
+
+2.  Tous les marchés existent
+
+3.  L'information est parfaite
+
+4.  La mobilité est parfaite
+
+5.  L'économie est convexe
+
+6.  On peut réaliser des transferts forfaitaires\
+    Alors n'importe quelle allocation Pareto-optimal peut être obtenue
+    comme un équilibre concurrentiel
+
+=\> Une intervention publique ne permettrait pas de faire mieux, et
+n'importe quelle répartition peut être obtenue avec un changement de
+dotations initiales
+
+## Transferts forfaitaires : une idée abstraite
+
+Doivent être indépendants des comportements d'optimisation
+
+Par exemple ne peuvent pas être déterminés par les revenus observés
+
+Dépend de "paramètres" théoriques (e.g potentiel productif inné)
+inobservés\
+Transferts non-forfaitaires = distortions potentielles
+
+LE second théorème évite le probèle d'arbitrage équité-efficacité
+
+Ca n'existe pas donc ily a besoin des politques publiuqes
+
+## Existence des marchés
+
+## Information imparfaite
+
+### Sélection adverse
+
+Première dimension: on observe imparfaitement la qualité des biens ou
+les "types" des agents = **Sélection adverse**
+
+-   Exemple classique : Le marché des voitures d'occasion (George
+    Akerlof, The Market for Lemons (1970à)
+
+    -   Les vendeurs connaissent la véritable qualité des voitures
+        (bonnes voitures ou "lemons", c'est-à-dire des voitures
+        défectueuses)
+
+    -   Les acheteurs ne peuvent pas observer directement cette qualité
+        et doivent s'appuyer sur le prix pour évaluer la voiture
+
+    -   Les acheteurs, craignant de payer trop cher pour une voiture
+        défectueuse, sont prêts à payer un prix moyen
+
+    -   Les vendeurs de bonnes voitures, estimant que le prix moyen est
+        trop bas pour leur produit, se retirent du marché
+
+    -   Le marché se retrouve dominé par des voitures de mauvaise
+        qualité
+
+-   Risque de réduction, voire d'effondrement du marché
+
+-   Secteur les plus concernés : Assurance, banque
+
+-   Solutions : Certif qualité, normes de sécurité, assurances
+    obligatoires
+
+### Aléa moral
+
+Deuxième dimension: après la conclusion d’un contrat ou d’un accord, un
+des agents peut modifier son comportement de manière opportuniste car il
+ne supporte pas entièrement les conséquences de ses actions = **Aléa
+moral**
+
+-   Exemple classique : Le marché de l'assurance (Kenneth Arrow, 1963)
+
+    -   Les assurés, une fois couverts par une assurance, peuvent
+        adopter un comportement moins prudent, sachant qu'ils ne
+        supportent pas entièrement le coût d'un incident (exemple :
+        conduire plus vite, négliger des mesures de sécurité).
+
+    -   Les assureurs ne peuvent pas parfaitement observer le
+        comportement des assurés après la signature du contrat.
+
+    -   Ce comportement opportuniste augmente le coût global pour les
+        assureurs (fréquence et gravité des sinistres).
+
+    -   Les assureurs augmentent les primes pour compenser ce risque, ce
+        qui peut décourager les assurés prudents, réduisant l'efficacité
+        du marché.
+
+-   Risque de coûts élevés, inefficacités, voire exclusion des agents
+    prudents du marché.
+
+-   Secteurs les plus concernés : Assurance, crédit, travail.
+
+-   Solutions :
+
+    -   **Franchises** : Les assurés paient une partie des sinistres,
+        les incitant à être plus prudents.
+    -   **Clauses incitatives** : Par exemple, des primes réduites pour
+        les bons conducteurs.
+    -   **Surveillance et contrôles** : Suivi des comportements pour
+        réduire l'asymétrie d'information.
+    -   **Alignement des intérêts** : Partage des risques entre les
+        parties.
+
+### Externalités
+
+Les actions d'un agent modifient le bien-être d'un autre agent, sans
+donner lieu à une compensation. Ces effets peuvent être **positifs** ou
+**négatifs**.
+
+| Type | Exemple | Description | Référence ou Contexte |
+|------------------|------------------|------------------|------------------|
+| **Externalité négative** | Pollution industrielle | Une usine rejette des déchets dans une rivière, affectant les pêcheurs en aval sans compenser leur perte de revenus. | Cas classique discuté par Ronald Coase dans "The Problem of Social Cost" (1960). |
+| **Externalité positive** | Vaccination | La vaccination d'une personne réduit la propagation d'une maladie, protégeant indirectement les autres membres de la société. | Analyse dans la santé publique et les modèles épidémiologiques. |
+| **Externalité négative** | Embouteillages | Les conducteurs ajoutent de la congestion sur les routes, augmentant le temps de trajet des autres sans payer pour ce coût imposé. | Études sur les coûts sociaux des embouteillages urbains. |
+| **Externalité positive** | Éducation | Une personne éduquée contribue à la productivité de la société et peut stimuler l'innovation, au-delà des bénéfices qu'elle retire elle-même. | Rapport de l'UNESCO sur l'éducation et les externalités sociales. |
+| **Externalité négative** | Fumeurs passifs | Les fumeurs dans un espace public nuisent à la santé des non-fumeurs proches, sans assumer les coûts liés à l'exposition. | Études sur la santé publique et les réglementations anti-tabac. |
+
+-   **Secteurs concernés** : Transport, environnement, santé, éducation.
+
+-   **Solutions possibles** :
+
+    -   **Taxes pigouviennes** : Taxer les activités générant des
+        externalités négatives (ex. : taxes carbone).
+    -   **Subventions** : Encourager les activités produisant des
+        externalités positives (ex. : aides pour la recherche ou la
+        vaccination).
+    -   **Réglementations** : Imposer des normes pour limiter les effets
+        négatifs (ex. : quotas de pollution).
+    -   **Marchés de droits** : Créer des marchés pour internaliser les
+        externalités (ex. : marché du carbone).
+
+## Biens publics
+
+**Biens publics purs**:
+
+-   **Non rival** : la consommation par un individu n'empêche pas la
+    consommation par un autre
+
+-   **Non-exclusif** : quand le bien est produit, on ne peut pas
+    empêcher une peronne de consommer ce bien.
+
+| Exemple | Description | Type de Bien Public | Référence ou Contexte |
+|------------------|------------------|------------------|------------------|
+| **Éclairage public** | Les lampadaires dans une rue éclairent tous les passants sans réduire la lumière disponible pour les autres et il est impossible d'exclure quelqu'un d'en bénéficier. | Bien public pur | Exemple classique en économie des biens publics. |
+| **Défense nationale** | La sécurité assurée par l'armée profite à toute la population sans possibilité d'exclusion et sans rivalité dans la protection. | Bien public pur | Débats dans les politiques publiques de sécurité. |
+| **Qualité de l'air** | Un air propre est consommé par tous sans réduire la quantité disponible pour les autres, bien que la pollution puisse rendre le bien partiellement rival. | Bien public avec externalités | Études environnementales et climatiques. |
+| **Feux d'artifice** | Une fois tirés, tout le monde peut admirer les feux sans réduire l'expérience des autres spectateurs et sans exclusion. | Bien public pur | Exemple souvent utilisé en économie comportementale. |
+| **Recherche fondamentale** | Les découvertes scientifiques qui ne sont pas brevetées profitent à toute la société sans réduire leur valeur pour les autres utilisateurs. | Bien public partiel | Réflexions sur l'open science et l'innovation. |
+
+-   **Secteurs concernés** : Urbanisme, défense, environnement,
+    éducation, innovation.
+
+-   **Solutions possibles** :
+
+    -   **Financement public** : L'État intervient pour produire ces
+        biens car le marché ne le ferait pas de manière efficace.
+    -   **Contributions collectives** : Inciter les citoyens ou
+        entreprises à financer ces biens (ex. : dons pour des
+        initiatives publiques).
+    -   **Privatisation partielle** : Parfois, on peut privatiser
+        l'accès sous conditions (ex. : péages pour limiter la
+        surconsommation).
+
+### Les biens communs
+
+Contrairement aux biens publics purs, les biens communs (ou **ressources
+communes**) sont :
+
+-   **Rivaux** : La consommation par un individu réduit la quantité
+    disponible pour les autres.
+-   **Non-exclusifs** : On ne peut pas empêcher quelqu’un de consommer
+    ces biens.
+
+| Exemple | Description | Type de Bien | Référence ou Contexte |
+|------------------|------------------|------------------|------------------|
+| **Ressources halieutiques** | Les poissons dans les océans peuvent être pêchés par tout le monde, mais chaque prise réduit la quantité restante pour les autres pêcheurs. | Bien commun rival | Débats sur la surpêche et les quotas de pêche. |
+| **Pâturages communs** | Les terres de pâturage accessibles à tous risquent d’être surutilisées, menant à une dégradation environnementale si aucun contrôle n’est mis en place. | Bien commun rival | Exemple historique de la tragédie des communs (Hardin, 1968). |
+| **Nappes phréatiques** | L'eau souterraine est accessible à tous, mais chaque usage individuel (agriculture, consommation) réduit la quantité disponible pour les autres. | Bien commun rival | Études sur l'épuisement des ressources en eau douce. |
+| **Zones de pêche** | Les zones côtières ou les récifs coralliens sont souvent exploités par de nombreuses communautés, menaçant leur biodiversité et leur durabilité. | Bien commun rival | Problèmes environnementaux et de régulation internationale. |
+| **Forêts communautaires** | Les forêts partagées peuvent être exploitées pour le bois ou d'autres ressources, mais une exploitation excessive peut entraîner leur destruction. | Bien commun rival | Études sur la gestion durable des ressources forestières. |
+
+------------------------------------------------------------------------
+
+#### Problème : La **tragédie des communs**
+
+-   **Concept** : Introduit par Garrett Hardin (1968), ce phénomène se
+    produit lorsque chaque utilisateur rationnel maximise son bénéfice
+    individuel sans tenir compte de l’impact collectif sur la ressource.
+-   **Résultat** : Surconsommation et épuisement des ressources
+    communes.
+
+------------------------------------------------------------------------
+
+#### Solutions possibles :
+
+| Solution | Description | Exemple |
+|------------------------|------------------------|------------------------|
+| **Régulation gouvernementale** | Imposer des quotas ou des restrictions d’accès pour limiter la consommation excessive des biens communs. | Quotas de pêche pour éviter la surpêche. |
+| **Privatisation** | Attribuer des droits de propriété pour responsabiliser les utilisateurs et encourager la gestion durable. | Redistribution des terres de pâturage. |
+| **Gestion collective** | Les communautés locales s’organisent pour établir des règles d’utilisation et surveiller leur application. | Exemple des systèmes d'irrigation locaux. |
+| **Marchés de droits** | Créer des systèmes d’échange de droits d’utilisation, par exemple pour l’eau ou les émissions de carbone. | Marché des quotas de carbone. |
+
+Ces solutions visent à réduire les risques de surconsommation et à
+encourager une gestion durable des biens communs.
+
+### Classification des biens économiques
+
+| Type de Bien | Rivalité ? | Exclusivité ? | Description | Exemples |
+|---------------|---------------|---------------|---------------|---------------|
+| **Biens publics purs** | Non | Non | Biens consommés par tous sans réduire la quantité disponible et accessibles à tous. | Éclairage public, défense nationale |
+| **Biens communs** | Oui | Non | Biens accessibles à tous mais dont la consommation par un individu réduit la quantité pour les autres. | Ressources halieutiques, pâturages |
+| **Biens privés** | Oui | Oui | Biens consommés uniquement par celui qui les achète et pour lesquels il est possible d’empêcher les autres de les consommer. | Nourriture, vêtements |
+| **Biens de club** | Non | Oui | Biens accessibles uniquement à ceux qui paient ou remplissent certaines conditions, mais dont la consommation par un individu n'affecte pas les autres. | Cinéma, abonnements Netflix |
+
+------------------------------------------------------------------------
+
+### Explication des catégories :
+
+1.  **Biens publics purs** :
+    -   **Non-rival** : La consommation par un individu n'empêche pas
+        celle des autres.
+    -   **Non-exclusif** : Impossible d'empêcher quelqu'un de consommer
+        le bien.
+    -   Exemple : Éclairage public, défense nationale.
+2.  **Biens communs** :
+    -   **Rival** : Si une personne consomme le bien, il en reste moins
+        pour les autres.
+    -   **Non-exclusif** : Impossible ou difficile d'empêcher quelqu'un
+        de l'utiliser.
+    -   Exemple : Ressources naturelles comme l'eau ou les forêts.
+3.  **Biens privés** :
+    -   **Rival** : La consommation par une personne empêche celle des
+        autres.
+    -   **Exclusif** : Possible d'empêcher quelqu'un de consommer le
+        bien.
+    -   Exemple : Nourriture, vêtements.
+4.  **Biens de club** :
+    -   **Non-rival** : La consommation par une personne n'affecte pas
+        celle des autres, jusqu’à un certain point (effet de
+        congestion).
+    -   **Exclusif** : Accessible uniquement à ceux qui paient ou
+        remplissent une condition.
+    -   Exemple : Abonnements, services de streaming.
+
+------------------------------------------------------------------------
+
+### Visualisation simplifiée :
+
+|               | **Exclusif**  | **Non exclusif**   |
+|---------------|---------------|--------------------|
+| **Rival**     | Biens privés  | Biens communs      |
+| **Non-rival** | Biens de club | Biens publics purs |
+
+Ce tableau permet de mieux comprendre les différences entre les biens et
+leurs implications économiques, notamment en termes de gestion et de
+régulation.
+
+## Concurrence imparfaite
+
+Monopole permet d'imposer un prix supérieur à l'optimum concurrentiel
+
+-   Monopole naturel : coûts fixes importants, coûts unitaires
+    décroissants, une seule firme domine
+
+    -   Production publique
+
+    -   Production privée réglementée
+
+    -   Production réglementée de la part qui génère le coût fixe
+        (infrastructure), concurrence pour le reste
+
+-   Monopoles générés par entente (collusion) ou abus de position
+    dominante (barrière à l'entrée)
+
+    -   Droit de la concurrence, autorités de contrôle
+
+## Rationalité limitée
+
+Dans quelle mesure peut-on considérer qu'un agent économique prend des
+décisions contraires à son intérêt ?
+
+Révolution plus récente (mais initiée par Kahneman et Tversky dans les
+années 70) : revenir sur le modèle de rationnalité des agents
+(*behavioral economics*)
+
+-   **Information** : décisions rationnelles supposent une très grande
+    quantité d'informations, coûteuse à réunir
+
+-   **Biais cognitifs** : la complexité des décisions (comparer tous les
+    choix possibles) conduit à prendre des raccourcis
+
+-   **Incohérence temporelle** : n'agit pas demain comme il le prévoit
+    aujourd'hui (exemple de l'addiction, taxes cigarettes, etc.)
+
+## Conclusion de cette première partie très théorique
+
+-   Des marchés imparfaits...
+
+-   Qui justifient l'action publique et le rôle de l'Etat d'un point de
+    vue théorique (stabilité des marchés, contrats, déficience des
+    marchés, redistribution)
+
+-   Mais aussi très éloigné des considérations pratiques sur les
+    politiques publiques
+
+    -   Secteur public très important :
+
+        -   Dépense publique = 58.2% du PIB en 2022 (en incluant les
+            prestations sociales)
+
+        -   Secteur public = 21% de l'emploi total (5.7 millions de
+            salariés)
+
+        -   Des pans entiers de l'économie sont publics : éducation,
+            police, etc.
+
+        -   Sans évaluation, pas de façon probante de savoir si la
+            politique a atteint ses objectifs, si elle est efficace,
+            etc.
+
+## Objectifs du reste du cours
+
+Principe :
+
+-   Il faut évaluer les politiques publiques !
+
+2 concepts :
+
+-   Causalité vs corrélation
+
+-   La notion du contrefactuel
+
+6 méthodes :
+
+-   RCTs
+
+-   Différence en différence (DiD)
+
+-   Régression de discontinuités (RDD)
+
+-   Méthodes d'appariement / contrôles synthétique
+
+-   Régression linéaires et analyse descriptive
+
+-   Micro-simulation
+
+à retenir et comprendre :
+
+## Plan
+
+1.  Cadre général pour l'évalution des pol publiques
+
+2.  Evaluations d'impact
+
+## Politique publique: définition
+
+Une politique publique est une intervention de l'Etat ou d'une autre
+autorité publique (banque centrale, collectivité terr) afin de
+
+## A quoi sert l'évaluation des politiques publiques ?
+
+-   **Justifier** : montrer que la politique est efficace, qu'elle
+    atteint ses objectifs
+
+-   **Améliorer** : identifier les points faibles, les ajustements
+
+-   **Apprendre** : capitaliser sur les expériences passées
+
+-   **Rendre des comptes** : transparence, démocratie
+
+## Défintions de l'EPP
+
+L'évaluation d'une politique publique est une démarche qui conssite à
+émetre un jugement de valeur sur une intervention publique
+
+Déf de l'EPP tournent souvent autour du triptyque "objectifs - moyens -
+résultats"
+
+-   [**Décret n° 90-82 du 22 janvier
+    1990**](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000524121)
+    :\
+    \> "L'évaluation d'une politique publique au sens du présent décret
+    a pour objet de rechercher si les moyens juridiques, administratifs
+    ou financiers mis en œuvre permettent de produire les effets
+    attendus de cette politique et d'atteindre les objectifs qui lui
+    sont assignés."
+
+-   [**Décret du 18 novembre
+    1988**](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000007755522)
+    :\
+    \> "L'évaluation d'une politique publique a pour objet d'apprécier,
+    dans un cadre interministériel, l'efficacité de cette politique en
+    comparant ses résultats aux objectifs assignés et aux moyens mis en
+    œuvre."
+
+## Les critères d'évaluation dans l'EPP
+
+Principaux critères : la pertinence, la cohérence, l'efficacité et
+l'efficience
+
+L'évaluation d'une PP permet d'apprécier si cette PP est :
+
+-   **pertinente** : on évalue l'adéquation, l'adaptation, entre les
+    objectifs explicites de la PP d'une apart et la réalité sociales
+    d'autre part
+
+-   **cohérente**
+
+Exemple de coûts bénéfices : rentabilité d'une année d'études
+supplémentaire. Gros biais : les gens qui font des études en plus ont
+les capacités de les faire.
+
+L'économiste James Heckman a étudié la rentabilité d'une année d'études
+supplémentaire, en tenant compte des biais liés aux capacités
+individuelles des étudiants. Il a développé des méthodes économétriques
+pour estimer les rendements de l'éducation en corrigeant ces biais de
+sélection. Concernant l'impact de Mai 1968 sur l'obtention du
+baccalauréat, le sociologue Edgar Morin a analysé les conséquences
+sociales et culturelles de cette période, notamment le fait que le
+baccalauréat a été largement attribué cette année-là. Il a exploré
+comment cette massification de l'accès à l'enseignement supérieur a
+influencé la société française.
+
+### Un peu d'histoire : dans le monde
+
+L'évaluation des politiques publiques (EPP) a des racines historiques
+profondes et variées selon les régions du monde. L'idée de juger
+l'efficacité des actions publiques remonte à des réflexions
+philosophiques et économiques sur la gestion des ressources et
+l'efficacité collective. Cependant, l'institutionnalisation de
+l'évaluation en tant que pratique formalisée commence véritablement dans
+la seconde moitié du 20ᵉ siècle :
+
+-   **États-Unis** : Les États-Unis sont souvent cités comme pionniers
+    dans le développement de l'EPP. Dès les années 1960, sous
+    l'administration de Lyndon B. Johnson et son programme "Great
+    Society", des outils systématiques d'évaluation sont introduits pour
+    mesurer l'efficacité des politiques sociales. Le
+    "Planning-Programming-Budgeting System" (PPBS), instauré en 1965,
+    marque une étape importante dans l'intégration de l'évaluation dans
+    les processus décisionnels.
+
+-   **Royaume-Uni** : Dans les années 1980, sous le gouvernement de
+    Margaret Thatcher, l'accent est mis sur la gestion publique et la
+    rationalisation des dépenses. Des méthodes comme le "Value for
+    Money" sont développées pour évaluer la pertinence, l'efficacité et
+    l'efficience des programmes publics.
+
+-   **Internationalisation** : À partir des années 1990, les
+    organisations internationales comme la Banque mondiale, le Fonds
+    monétaire international (FMI) et les Nations unies intègrent
+    l'évaluation comme une composante essentielle de leurs programmes de
+    développement, imposant des cadres d'évaluation aux projets
+    financés.
+
+-   **Source** : Vie publique (2022) souligne comment l'évaluation s’est
+    diffusée dans les pays développés et en développement pour répondre
+    à des attentes accrues de transparence et de responsabilité.
+
+------------------------------------------------------------------------
+
+### Un peu d'histoire : en France
+
+En France, l'intégration de l'évaluation des politiques publiques est un
+processus plus tardif, marqué par des étapes progressives d'adoption :
+
+-   **Années 1970-1980 : La rationalisation des choix budgétaires
+    (RCB)**\
+    La RCB est un tournant majeur dans la gestion publique française.
+    Introduite dans les années 1970, cette démarche vise à améliorer
+    l'efficacité des dépenses publiques en intégrant l'analyse
+    coûts-bénéfices dans les décisions budgétaires. L'évaluation devient
+    alors un outil pour justifier l'allocation des ressources en
+    fonction des objectifs fixés.
+
+-   **Années 1980 : L'institutionnalisation de l'EPP**\
+    À partir des années 1980, l'État français commence à structurer
+    l'évaluation. En 1988, la création de la "Mission interministérielle
+    de l'évaluation des politiques publiques" (MIEPP) marque une
+    première étape vers une approche coordonnée.
+
+-   **Années 1990 : Développement méthodologique et juridique**\
+    Le décret n° 90-82 du 22 janvier 1990 précise les contours de
+    l'évaluation, en soulignant la nécessité d'évaluer les moyens,
+    objectifs et résultats des politiques publiques. Cette décennie voit
+    également une montée en puissance des audits et des rapports
+    parlementaires.
+
+-   **Années 2000 et suivantes : Généralisation et transparence**\
+    Avec la Loi organique relative aux lois de finances (LOLF) de 2001,
+    l'évaluation est intégrée dans les dispositifs de gestion publique.
+    Les indicateurs de performance deviennent obligatoires dans les
+    documents budgétaires, renforçant l'obligation de transparence et de
+    justification des actions publiques.
+
+Décembre 2012 : le gouvernement lance une démarche d'évaluation ex-post
+de l'ensemble des pp, dans le cadre de la modernisation de l'action
+publique
+
+L'évaluation des politiques publiques mobilise de nombreux acteurs,
+institutionnels et non institutionnels, qui jouent des rôles
+complémentaires dans l'analyse, le suivi et l'appréciation des actions
+publiques.
+
+-   **Parlement (article 24 de la Constitution)**\
+    Le Parlement exerce un rôle clé dans l'évaluation et le contrôle des
+    politiques publiques. L'article 24 de la Constitution précise que le
+    Parlement "vote la loi, contrôle l'action du Gouvernement et évalue
+    les politiques publiques". Les commissions parlementaires
+    spécialisées, comme celles des finances ou des affaires sociales,
+    réalisent des rapports d'évaluation.
+
+-   **Cour des comptes (article 47-2 de la Constitution)**\
+    La Cour des comptes contribue à l'évaluation en vérifiant la bonne
+    gestion des ressources publiques. Elle s'appuie sur l'article 47-2
+    de la Constitution, qui lui confère la mission de "s'assurer du bon
+    emploi des fonds publics" et d'évaluer l'efficacité des politiques
+    publiques. Ses rapports publics sont une source précieuse
+    d'information pour les décideurs.
+
+-   **France Stratégie**\
+    Cet organisme de réflexion et d’analyse prospective, rattaché au
+    Premier ministre, joue un rôle central dans l’évaluation à travers
+    la production de rapports, d’études et de propositions sur les
+    grandes politiques publiques.
+
+-   **Les grands corps d'inspection (IGF, IGAS, CGEDD, etc.)**
+
+    -   **Inspection générale des finances (IGF)** : Évalue l’efficacité
+        et la pertinence des politiques économiques et financières.\
+    -   **Inspection générale des affaires sociales (IGAS)** : Se
+        concentre sur les politiques sociales et de santé.\
+    -   **Conseil général de l'environnement et du développement durable
+        (CGEDD)** : Spécialisé dans l’évaluation des politiques
+        environnementales et d’aménagement du territoire.
+
+-   **Les SSM (services statistiques ministériels)**\
+    Chaque ministère dispose d’un service statistique qui produit les
+    données nécessaires à l’évaluation des politiques publiques. Ces
+    services collaborent avec l’INSEE et d’autres organismes pour
+    garantir la qualité et la fiabilité des données.
+
+-   **Autorités publiques ou administratives indépendantes**
+
+    -   Exemples : Autorité de la concurrence, Défenseur des droits,
+        Haute Autorité de Santé (HAS).\
+        Ces organismes évaluent des aspects spécifiques des politiques
+        publiques, comme la concurrence, les droits fondamentaux ou la
+        qualité des soins.
+
+-   **Universités et laboratoires de recherche**\
+    Les universités et leurs laboratoires jouent un rôle essentiel dans
+    l’évaluation grâce à leurs études académiques, souvent
+    interdisciplinaires, qui apportent une vision critique et
+    indépendante des politiques publiques.
+
+-   **Chercheurs et économistes**\
+    Les chercheurs, notamment en économie et en sciences sociales,
+    contribuent par des analyses approfondies et des modèles
+    économétriques. Leur travail, publié dans des revues scientifiques
+    ou commandé par des institutions publiques, éclaire les débats sur
+    les politiques publiques.
