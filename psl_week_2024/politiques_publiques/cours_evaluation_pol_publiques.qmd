@@ -372,7 +372,7 @@ résumés :\
 ### Méthodes d'Inférence Causale en Machine Learning
 
 | Nom de la Méthode | Description | Date de Publication | Référence de l'Article de Recherche |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Double Machine Learning** | Utilise des algorithmes de machine learning pour estimer les effets causaux en contrôlant les variables confondantes, permettant des estimations robustes même avec des covariables complexes. | 2018 | Chernozhukov, V., et al. (2018). "Double/Debiased Machine Learning for Treatment and Structural Parameters." |
 | **Causal Forests** | Extension des forêts aléatoires pour estimer les effets de traitement hétérogènes, aidant à comprendre comment les effets causaux varient selon les caractéristiques des individus. | 2016 | Wager, S., & Athey, S. (2016). "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests." |
 | **DoWhy** | Bibliothèque Python intégrant des outils pour modéliser et estimer des effets causaux en combinant des approches statistiques et des graphes causaux. | 2019 | Sharmanska, V., et al. (2019). "DoWhy: An End-to-End Library for Causal Inference." |
@@ -382,7 +382,7 @@ résumés :\
 ### Méthodes d'Interprétation des Coefficients des Modèles de Machine Learning
 
 | Nom de la Méthode | Description | Date de Publication | Référence de l'Article de Recherche |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **SHAP (SHapley Additive Explanations)** | Basée sur la théorie des jeux, cette méthode attribue à chaque variable une contribution à la prédiction, offrant une interprétation cohérente et additive des modèles complexes. | 2017 | Lundberg, S. M., & Lee, S.-I. (2017). "A Unified Approach to Interpreting Model Predictions." |
 | **LIME (Local Interpretable Model-Agnostic Explanations)** | Génère des explications locales en ajustant un modèle simple autour de chaque prédiction, permettant de comprendre les décisions des modèles "boîtes noires". | 2016 | Ribeiro, M. T., et al. (2016). "Why Should I Trust You?": Explaining the Predictions of Any Classifier." |
 | **ALE (Accumulated Local Effects)** | Visualise l'effet moyen d'une variable sur la prédiction en tenant compte des interactions entre variables, offrant une alternative aux graphiques de dépendance partielle. | 2017 | Apley, D. W., & Zhu, J. (2017). "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models." |
@@ -570,7 +570,7 @@ donner lieu à une compensation. Ces effets peuvent être **positifs** ou
 **négatifs**.
 
 | Type | Exemple | Description | Référence ou Contexte |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Externalité négative** | Pollution industrielle | Une usine rejette des déchets dans une rivière, affectant les pêcheurs en aval sans compenser leur perte de revenus. | Cas classique discuté par Ronald Coase dans "The Problem of Social Cost" (1960). |
 | **Externalité positive** | Vaccination | La vaccination d'une personne réduit la propagation d'une maladie, protégeant indirectement les autres membres de la société. | Analyse dans la santé publique et les modèles épidémiologiques. |
 | **Externalité négative** | Embouteillages | Les conducteurs ajoutent de la congestion sur les routes, augmentant le temps de trajet des autres sans payer pour ce coût imposé. | Études sur les coûts sociaux des embouteillages urbains. |
@@ -602,7 +602,7 @@ donner lieu à une compensation. Ces effets peuvent être **positifs** ou
     empêcher une peronne de consommer ce bien.
 
 | Exemple | Description | Type de Bien Public | Référence ou Contexte |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Éclairage public** | Les lampadaires dans une rue éclairent tous les passants sans réduire la lumière disponible pour les autres et il est impossible d'exclure quelqu'un d'en bénéficier. | Bien public pur | Exemple classique en économie des biens publics. |
 | **Défense nationale** | La sécurité assurée par l'armée profite à toute la population sans possibilité d'exclusion et sans rivalité dans la protection. | Bien public pur | Débats dans les politiques publiques de sécurité. |
 | **Qualité de l'air** | Un air propre est consommé par tous sans réduire la quantité disponible pour les autres, bien que la pollution puisse rendre le bien partiellement rival. | Bien public avec externalités | Études environnementales et climatiques. |
@@ -634,7 +634,7 @@ communes**) sont :
     ces biens.
 
 | Exemple | Description | Type de Bien | Référence ou Contexte |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Ressources halieutiques** | Les poissons dans les océans peuvent être pêchés par tout le monde, mais chaque prise réduit la quantité restante pour les autres pêcheurs. | Bien commun rival | Débats sur la surpêche et les quotas de pêche. |
 | **Pâturages communs** | Les terres de pâturage accessibles à tous risquent d’être surutilisées, menant à une dégradation environnementale si aucun contrôle n’est mis en place. | Bien commun rival | Exemple historique de la tragédie des communs (Hardin, 1968). |
 | **Nappes phréatiques** | L'eau souterraine est accessible à tous, mais chaque usage individuel (agriculture, consommation) réduit la quantité disponible pour les autres. | Bien commun rival | Études sur l'épuisement des ressources en eau douce. |
@@ -656,7 +656,7 @@ communes**) sont :
 #### Solutions possibles :
 
 | Solution | Description | Exemple |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Régulation gouvernementale** | Imposer des quotas ou des restrictions d’accès pour limiter la consommation excessive des biens communs. | Quotas de pêche pour éviter la surpêche. |
 | **Privatisation** | Attribuer des droits de propriété pour responsabiliser les utilisateurs et encourager la gestion durable. | Redistribution des terres de pâturage. |
 | **Gestion collective** | Les communautés locales s’organisent pour établir des règles d’utilisation et surveiller leur application. | Exemple des systèmes d'irrigation locaux. |
@@ -668,7 +668,7 @@ encourager une gestion durable des biens communs.
 ### Classification des biens économiques
 
 | Type de Bien | Rivalité ? | Exclusivité ? | Description | Exemples |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | **Biens publics purs** | Non | Non | Biens consommés par tous sans réduire la quantité disponible et accessibles à tous. | Éclairage public, défense nationale |
 | **Biens communs** | Oui | Non | Biens accessibles à tous mais dont la consommation par un individu réduit la quantité pour les autres. | Ressources halieutiques, pâturages |
 | **Biens privés** | Oui | Oui | Biens consommés uniquement par celui qui les achète et pour lesquels il est possible d’empêcher les autres de les consommer. | Nourriture, vêtements |

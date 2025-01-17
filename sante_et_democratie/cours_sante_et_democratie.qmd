@@ -1,0 +1,775 @@
+---
+title: Santé et Démocratie
+subtitle: Etudes démocratiques
+#bibliography: references.bib
+#format: 
+  #pdf:
+    #documentclass: article
+    #classoption: a4paper
+    #fontsize: 10pt
+format:
+  #pdf:
+    #classoption: aspectratio=169,10pt
+  beamer:
+    keep_tex: true
+    pdf-engine: xelatex
+    preamble: |
+      \usepackage{etoolbox}
+      \setcounter{secnumdepth}{5}
+      \setcounter{tocdepth}{5}
+      \setcounter{maxdepth}{6}
+author:
+  - name: Olivier Caron
+    orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 01/17/2025
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+## Intervenants : Jean-François Delfraissy
+
+Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
+
+------------------------------------------------------------------------
+
+## **Michel Foucault – *Il faut défendre la société***
+
+-   La médecine dépasse le cadre strictement médical : elle comporte un
+    **aspect politique** complexe, notamment en période de crise
+    sanitaire.\
+-   **Biopouvoir** : Concept développé par Michel Foucault, qui souligne
+    que :
+    -   Le pouvoir sur la vie (santé, corps) ne doit pas être monopolisé
+        par les institutions ou les médecins.\
+    -   La maladie **appartient au malade**, non au médecin.\
+    -   Le rôle du médecin est d’agir comme une **boussole**, guidant le
+        patient/citoyen, sans exercer de contrôle autoritaire.\
+-   Ce concept prend une importance particulière dans le contexte des
+    **années sida**, remettant en question la nature même du biopouvoir.
+
+------------------------------------------------------------------------
+
+## **Quelques grandes vérités sur la médecine**
+
+### 1. **Santé et contexte global**
+
+-   La santé ne peut être dissociée de ses **déterminants globaux** :
+    -   Société, environnement, nutrition, modes de vie.
+    -   Exemples :
+        -   Environnement social (conditions de vie).\
+        -   Habitudes personnelles (tabac, activité physique,
+            alimentation).
+
+### 2. **Chiffres clés**
+
+-   **20%** de la santé est directement liée à la **médecine de
+    soins**.\
+-   **80%** des déterminants de la santé sont sociétaux et
+    comportementaux :
+    -   Exemples : arrêter de fumer, marcher 10 000 pas par jour, avoir
+        une alimentation équilibrée.\
+-   Pourtant, **90% des budgets** en santé sont alloués aux **soins**,
+    laissant peu de place à la prévention.
+    -   Cela crée une **incohérence majeure** dans les politiques de
+        santé publique.
+
+### 3. **Prévention insuffisante**
+
+-   La prévention est sous-financée et mal coordonnée :
+    -   **Manque de budget** pour les campagnes préventives.\
+    -   Faible implication des acteurs locaux et associatifs.
+
+### 4. **Santé et citoyenneté**
+
+-   La santé **n'appartient ni aux médecins ni aux politiques**, mais
+    **aux citoyens**.
+    -   Cela implique une démocratisation des débats et des décisions
+        liés à la santé.\
+    -   L’**éthique du soin** devient un enjeu **citoyen**.\
+    -   Les **milieux associatifs** doivent jouer un rôle **majeur**
+        pour mobiliser et représenter les citoyens.
+
+------------------------------------------------------------------------
+
+## **Évolution des connaissances médicales**
+
+-   La **demi-vie des connaissances médicales** est estimée à **2 ans**,
+    soulignant la rapidité des progrès scientifiques.\
+-   Ce renouvellement constant ouvre des perspectives, même dans des
+    domaines autrefois perçus comme des "plafonds de verre" :
+    -   Exemple : Recherche sur Alzheimer et d'autres maladies
+        dégénératives.
+
+------------------------------------------------------------------------
+
+::: callout-important
+## À retenir :
+
+1.  **La santé est bien plus que le soin.**\
+2.  **La maladie appartient au malade, pas au médecin.**\
+:::
+
+## Émergence infectieuse : une constante répétition
+
+### Exemples récents de pandémies ou d’épidémies majeures :
+
+-   **SARS** : 2003\
+-   **Chikungunya** : 2005\
+-   **H1N1 (Grippe A)** : 2009\
+-   **MERS-CoV** : 2013\
+-   **Ebola** : 2014\
+-   **Zika** : 2015\
+-   **SARS-CoV-2 (Covid-19)** :
+    -   Durée : **2020-2022**
+
+------------------------------------------------------------------------
+
+### Facteurs majeurs favorisant l’émergence infectieuse :
+
+1.  **Changements climatiques et du monde vivant** :
+    -   Modification des écosystèmes (déforestation, perte de
+        biodiversité).\
+    -   Apparition de nouveaux réservoirs ou vecteurs (ex. moustiques).
+2.  **Changements démographiques et répartition des populations** :
+    -   Urbanisation croissante et surpopulation.\
+    -   Mobilité humaine accrue (migrations, voyages internationaux).
+3.  **Changements technologiques et interactions humaines** :
+    -   Intensification des échanges mondiaux.\
+    -   Interactions accrues entre humains, animaux domestiques et
+        sauvages.
+
+### Sources :
+
+-   **Baker et al.**, *Nature Reviews*, 2021\
+-   **T. Lefrançois**, *The Lancet*, 2022
+
+------------------------------------------------------------------------
+
+::: callout-important
+## Les 3 grandes menaces à surveiller pour les années à venir :
+
+1.  **Maladies infectieuses** : Émergences potentielles de nouvelles
+    épidémies/pandémies.\
+2.  **Malbouffe** : Impacts sur les maladies chroniques (diabète,
+    obésité, etc.).\
+3.  **Vieillissement de la population** : Enjeux économiques, sociaux et
+    sanitaires liés à la longévité croissante.\
+:::
+
+## Le Nil – Égypte (1968-2018)
+
+### Contexte historique
+
+-   **1967** : Guerre des Six Jours (conflit israélo-arabe) :
+    -   Défaite militaire de l’Égypte face à Israël.
+    -   Déstabilisation politique majeure : le président **Gamal Abdel
+        Nasser**, leader du panarabisme, annonce sa démission le **9
+        juin 1967**. Sous la pression populaire, il revient au pouvoir
+        peu après.
+
+------------------------------------------------------------------------
+
+### Transformations du Nil (1968-2018)
+
+#### 1. **Le rôle du Nil dans le développement égyptien**
+
+-   Le Nil, source vitale pour l'Égypte, représente :
+    -   **97% de l'approvisionnement en eau douce** du pays.
+    -   Une ressource essentielle pour l’agriculture, l’énergie
+        hydroélectrique, et la survie de la population.
+
+#### 2. **Projets de gestion de l'eau**
+
+-   Construction du **barrage d’Assouan** (terminé en 1970, initié sous
+    Nasser) :
+    -   Permet un meilleur contrôle des crues et une irrigation stable.
+    -   Fournit une importante source d’énergie via l’hydroélectricité.
+    -   **Conséquences négatives** :
+        -   Perte de fertilité des sols en aval.
+        -   Érosion de la biodiversité dans le delta du Nil.
+
+#### 3. **Défis contemporains**
+
+-   **Croissance démographique** : La population égyptienne passe de 30
+    millions en 1968 à près de 100 millions en 2018, augmentant la
+    pression sur les ressources en eau.
+-   **Tensions hydropolitiques** :
+    -   Construction du **Grand Barrage de la Renaissance** par
+        l’Éthiopie (2011-2020), suscitant des différends sur le partage
+        des eaux du Nil.
+    -   Négociations complexes entre l’Égypte, le Soudan et l’Éthiopie.
+
+#### 4. **Changement climatique**
+
+-   Réduction des précipitations et montée du niveau de la mer affectant
+    le delta du Nil.
+-   Salinisation croissante des terres agricoles en aval, menaçant la
+    sécurité alimentaire. \## Le Fleuve Sénégal
+
+### Années 1980 – Saint-Louis, Sénégal
+
+-   **Impact des barrages** :
+    -   La construction des barrages de **Diama** et **Manantali**
+        entraîne une diminution de la salinité de l'eau dans la région.
+    -   Conséquences positives :
+        -   Développement agricole grâce à des zones cultivées riches en
+            légumes (+++).
+        -   Amélioration économique de la région.
+    -   Conséquences négatives :
+        -   Apparition de la **bilharziose urinaire** due à *Schistosoma
+            haematobium* :
+            -   La baisse de la salinité de l'eau favorise la
+                prolifération des escargots hôtes du parasite.
+            -   Les enfants, malgré les avertissements, continuent de
+                jouer dans l’eau contaminée.
+        -   Le gouvernement sénégalais exprime son inquiétude : bien que
+            le développement économique soit important, ce problème de
+            santé publique représente un **gros danger**.
+
+------------------------------------------------------------------------
+
+### Le vaccin contre la bilharziose
+
+-   **Développement du vaccin (1993-2012)** :
+    -   Mené par l’équipe d’**André et Monique Capron** à Lille.
+    -   Objectif : créer un vaccin efficace pour lutter contre
+        *Schistosoma haematobium*.
+    -   Les essais sont suivis avec beaucoup d’espoir. Le vaccin est
+        censé "fonctionner".
+-   **Résultats décevants en 2012** :
+    -   Les essais contrôlés randomisés montrent que le vaccin n’a
+        **aucun effet**.
+    -   Le professeur, chargé d’analyser les données, annonce ces
+        résultats aux autorités.
+    -   Réaction des autorités :
+        -   Le Premier ministre, dépité par les résultats, envisage
+            malgré tout de déclarer publiquement que le vaccin
+            fonctionne pour ne pas briser l’espoir ou compromettre les
+            investissements.
+
+------------------------------------------------------------------------
+
+### Défi : Comment expliquer un résultat négatif aux autorités ?
+
+-   Importance de communiquer clairement sur la **science et les limites
+    des interventions** :
+    -   Éviter de céder à la pression politique ou économique.
+    -   Préserver l’intégrité scientifique tout en proposant des
+        solutions alternatives pour répondre à la crise sanitaire.
+-   Le cas met en lumière les tensions entre :
+    -   Les **exigences politiques** (maintenir une image positive et
+        rassurer la population).
+    -   Les **réalités scientifiques** (accepter et tirer des leçons des
+        échecs).
+
+## Afrique du Sud (1996-2006)
+
+### Contexte général
+
+-   **VIH en Afrique du Sud** :
+    -   Le pays est le plus touché au monde par le VIH dès **1988**.
+    -   En **1996**, l’arrivée de la **trithérapie** marque une avancée
+        majeure : bien que le VIH ne soit toujours pas éradiqué, la
+        trithérapie permet d'atténuer considérablement ses effets.
+
+### Le rôle controversé du Ministère de la Santé
+
+-   **Manto Tshabalala-Msimang** (surnommée "Dr Betterave") :
+    -   Ministre de la Santé entre **1999 et 2008**, elle nie
+        l'existence du VIH et refuse de promouvoir les traitements
+        antirétroviraux (ARVs).
+    -   Elle prône une approche basée sur la **nutrition**, encourageant
+        les malades à manger des **betteraves**, de l'ail et du citron.
+    -   Ses positions reflètent le contexte post-apartheid, marqué par
+        une méfiance envers les pays occidentaux ("les Blancs du Nord")
+        et leur ingérence perçue.
+
+### Conférence de Durban – 2000
+
+-   Lors de la conférence internationale sur le sida à Durban, un moment
+    marquant se produit :
+    -   **Edwin Cameron**, juge blanc et membre de la Cour
+        constitutionnelle sud-africaine, affirme publiquement son
+        **homosexualité** et sa **séropositivité**.
+    -   Il plaide pour un accès élargi aux **médicaments
+        antirétroviraux**, déclarant qu'il est crucial que l'Afrique
+        prenne des mesures.
+
+### Conséquences des politiques anti-ARVs
+
+-   Refus du ministère d'adopter les ARVs :
+    -   Environ **500 000 morts prématurées** entre 1999 et 2005 sont
+        attribuées à cette décision.
+    -   **Transmission materno-fœtale** élevée : des millions d'enfants
+        naissent contaminés par le VIH.
+
+### Acteurs externes et changement
+
+-   **Débat international** :
+    -   Implication d'organisations comme l'**ANRS** (France) et le
+        **Fonds mondial** pour le financement des trithérapies.
+-   **Rôle des entreprises minières** :
+    -   Face à une mortalité élevée parmi leurs jeunes ouvriers, les
+        grandes entreprises minières prennent les devants :
+        -   Elles achètent des **ARVs** et facilitent leur distribution
+            parmi leurs employés.
+        -   Ce tournant marque une amélioration progressive dans la
+            lutte contre le VIH en Afrique du Sud.
+
+## Guinée – Automne 2014
+
+### Été 2014
+
+-   **Enterrements** :
+    -   En Guinée, les enterrements doivent être réalisés dans les **48
+        heures** suivant le décès, selon les traditions musulmanes.
+    -   Les proches touchent les corps des défunts dans le cadre des
+        rites religieux/traditionnels, ce qui favorise la propagation de
+        maladies.
+-   **Épidémie d’Ebola** :
+    -   Une **panique générale** s’installe dans la région.
+    -   La France intervient pour soutenir la Guinée dans la lutte
+        contre Ebola.
+    -   Le professeur (mentionné dans le cours) participait à une
+        **mission interministérielle**.
+-   **Institutions impliquées** :
+    -   ANRS (Agence nationale de recherche sur le sida et les hépatites
+        virales) et INSERM (Institut national de la santé et de la
+        recherche médicale).
+
+------------------------------------------------------------------------
+
+### Facteurs de propagation
+
+-   **Pratiques funéraires** :
+    -   Enterrements fréquents (+++) dans les milieux musulmans.
+    -   Utilisation de **fosses communes** et de **linceuls en sacs
+        plastiques blancs** comme mesure sanitaire.
+-   **Conflits sociaux** :
+    -   Les ONG intervenant dans les villages sont souvent **mal
+        accueillies** et parfois même **caillassées**.
+        -   **Conflit** : Les mesures sanitaires imposées (fosses
+            communes, interdiction de toucher les corps) sont perçues
+            comme une violation des traditions.
+    -   Le président **Alpha Condé** refuse d’intervenir directement,
+        préférant une approche concertée.
+
+------------------------------------------------------------------------
+
+### Réponse et adaptation
+
+-   **Communication adaptée** :
+    -   Les ONG ont compris qu’il fallait **adapter leur discours** pour
+        être acceptées.
+    -   Les **imams** locaux ont été identifiés comme des relais
+        essentiels pour faire passer les messages de santé publique.
+        -   Contrairement au christianisme, l’islam en Guinée n’a pas de
+            hiérarchie formelle (pas d’archevêque, d’évêque, etc.).
+        -   Un **imam local** d’un petit village peut avoir **plus
+            d’influence** que l’imam de Conakry.
+-   **Stratégie** :
+    -   Les imams influents ont été **réunis et formés** pour expliquer
+        les enjeux sanitaires liés à Ebola.
+    -   Cela a permis de concilier la **préservation des traditions**
+        avec les **mesures de lutte contre l’épidémie**.
+
+## Conclusions Provisoires
+
+1.  **Des exemples très réducteurs : une relecture de l'histoire *a
+    posteriori***
+    -   **Rôle de la médecine** : Elle ne représente que **25% des
+        bénéfices en santé**, d'autres facteurs jouent un rôle crucial.\
+    -   **Mesures de santé publique** : De nombreuses décisions
+        politiques ont eu un impact positif sur la santé publique :
+        -   Feux rouges (sécurité routière)\
+        -   Port de la ceinture de sécurité\
+        -   Lutte contre le tabac\
+        -   Introduction du Nutri-Score pour améliorer l'alimentation\
+        -   Campagnes de vaccination
+2.  **Les dérives potentielles de la médecine dans un contexte
+    politique**
+    -   Exemple historique : **Procès de Nuremberg**, où la médecine a
+        été utilisée à des fins idéologiques et politiques, illustrant
+        les dangers d’une instrumentalisation scientifique.
+3.  **Comment s'appuyer sur la science dans des crises contemporaines
+    ?**
+    -   Le **Covid-19** a mis en lumière les défis liés à l’utilisation
+        de la science pour orienter les politiques publiques :
+        -   Gestion des incertitudes scientifiques\
+        -   Communication auprès du public\
+        -   Équilibre entre décisions politiques et recommandations
+            scientifiques.
+
+## Covid19 en France
+
+### 2020 : Les confinements
+
+**Première vague**
+
+24 janvier 2020
+
+14 février 2020
+
+10 mars 2020 Création du conseil scientifiques covid
+
+du 17 mars au 11 ma 2020 premier confinement général =\> on commence à
+mettre les masques et on ccmprend un peu mieux. Le virus est aussi
+transmis par les personnes asymptomatiques
+
+juin 2020 Nouvelles contamination \<5000 par jour
+
+2 juin 2020 StopCOVID application de suivi des contactes
+
+**Seconde vague**
+
+27 juillet 2020 avis du CS covid19 : une seconde vague prévue à
+l'automne si les mesures barrières ne ont pa respctées
+
+Septembre 2020 Reprise épidémique
+
+22 octobre 220 evolution de StopCOVID en TousantiCOVID
+
+29 octobre 2020 : second confinement général (adapté)
+
+10 dévembre 2020: anonce d'un déconfinement progressif par le premier
+ministre à partir du 15 décembre 2020 commencant par un couvre feu
+
+2 confinements, couvres feux, pa de vaccin, pas de variant, 65000 décès,
+28000 en EHPAD
+
+### 2021 : Vaccins et variants
+
+#### Troisième vague variant alpha
+
+Fin décembre 2020 un nouveau variant séquence détecté au RU plus
+transmissible et létal devient dominannt en France
+
+29 janvier 2021 alerte du conseil scientifque COVID
+
+3 avril 2021 Troisième confinement national Course entre vaccination et
+variants
+
+Taux d'occupation des lits de réanimation : 106% (mettre en rouge le
+chiffre)\
+Début mai 2021 : début de sortie de confinement progressif: baisse des
+nouvelles contaminations = 20 000 par jour
+
+45k décès
+
+#### 4è, 5è, et 6è vague (indice è en haut) variant DELTA
+
+31 mai 2021 : ouverture de la vaccination à tous les adultes sans
+acondition
+
+30 juin 2021 : reprose très rapide du nombre de contaminations
+
+12 juillets 2021: annonce par le président de la Rép de la nécessité
+d'un passe sanitaire (vaccin, test ou rétablissement) dès fin juillet
+2021, puis extension à de nombreux lieux dès août 2021
+
+30 aoûts 2021 : 50M de personnes ont reçu au moins une dose de vaccin
+
+LA seconde partie de la 4eme vague présentée en Europe de l'Est et au RU
+puis généralisée en europe, dot la France en novembre et décembre
+
+12k décès
+
+**Une course de vitesse entre variants et vaccins**
+
+### 2022 : OMICRON et la suite
+
+**Décès : 65000 en 2020 / 55000 en 2021 / 40000 en 2022**
+
+7ème et 8è vague Variants Omicron BA.1 et BA.2
+
+Le variant DElta a été rès majoritairement remplacé par le variant
+omicron
+
+Intensité de la vague fonction du niveau de vacc dans les pays
+
+Impacts sur le système de soins : plus réduit que précédemment
+
+un variant plus transmissible mais moins évère qui demeure sensiblé à
+l'efficacité de la 3ème dose
+
+..
+
+..
+
+..
+
+## Les variants d'intérêt du SARS-CoV-2 :
+
+### Phylogénie des Virus - 08.03.2022
+
+## Avancées médicales et innovations depuis 36 mois
+
+tableau de gauche à droite de 1 à 8 cadre :
+
+1 MArs 2020
+
+2 Avril mai 2020
+
+3 Ete 2020 Médiaments: pas d'effet
+
+...
+
+..
+
+## Covid-19 : Fin 2023
+
+Vivre AVEC – Phase d'endémie ?
+
+LA branche Omicron domine BQ1.1, XB1.5, BA2, avec une convergence
+évolutive des muttions
+
+90% des itoyens infectés par Omicron
+
+20 à 25 décès par jour ... 9000 décès par an
+
+Fin ds obligations
+
+Disparation des gestes barrières
+
+adaption de la population, forme de résilence - tests rapides
+
+Utilisation limitée du aPaxlovid
+
+..
+
+..
+
+## COVID-19 et espérance de vie : une place honorable pour la france.
+
+graphique **Life expectancy changes since COVID-19 NAture human
+behaviour** Jonas Schöley 1 , José Manuel Aburto 2,3,4,5 , Ilya
+Kashnitsky 4, Maxi S. Kniffka 1, Luyin Zhang2, Hannaliis Jaadla 6,7,
+Jennifer B. Dowd2,3 and Ridhi Kashyap 2,3
+
+![](images/clipboard-211497635.png)
+
+graphique **Estimating excess mortalityd due to the cvid19 pandemic: a
+systematic analysis of COVID19 related mortality 2020-2021 Nature**
+COVID-19 Excess Mortality Collaborators\* <https://doi.org/10.1016/>
+S0140-6736(21)02796-3
+
+Italie très durement touchée
+
+USA aussi mais leader
+
+Innovation qui arrive, l'accès aux soins des Etats unis est le maillon
+faible . Le plus troublant encore c'est quand on regarde la carte dans
+ce pays qui est un pays fédéral avec les états républicains/démocrates.\
+Différences fortes entre états républicains/démocrates. On rappelle que
+TRump nie l'ampleur de l'épidémoe mais il met 3 milliars de dollars pour
+les plateformes vaccinales. Il finance l'innovation.
+
+2 grandes puissances mondailes, ce snot elles qui ont le moins bien
+réussi. Quand le prof entend dire que les démocraties sot finies, sont
+faibles. Il dit que finalement laréponse des Etats qui ont le moins mal
+réussi, ce sont les démocraties européennes, par rapport aux USA et à la
+Chine en tout cas.
+
+## Bilan COVID en France
+
+La France est le pays qui a le plus longtemps laissé les écoles
+ouvertes.
+
+Estimating the population effectiveness of interventions against
+COVID-19 in France A modelling study. Epidemics
+
+## Les mesures de restrictions
+
+-   Confiement 1: 84% de réduction de la circulation virale
+
+-   Couvre feu
+
+## France : COVID19 et inégalités en santé
+
+3 graphiques
+
+Distribution de la population résidente de la popualtion hospitalisée
+par âge
+
+Distribution de la population par âge (décès et soins critiques)
+
+::: callout-important
+En France, l'accès aux soins s'est fait quand même dans de bonnes
+conditions, et plus ou moins égales.
+
+Malgré tout : différence entre les habitants de Sceaux et du 93, **8.2
+ans de durée de vie de différence**. Facteurs sociétaux, malbouffe,
+petits appartements, la drogue, toutce qu'on peut imaginer.\
+\
+Avant le COVID, il y avait déjà une très grande inégalité là-dessus.
+
+Est-ce que la France doit rester avec l'**égalité de l'accès aux
+soins**, ou plutôt **l'équité de l'accès aux soins** ? =\> Dans les 30
+zones où c'est le moins vrai. On ne met actuellement pas l'offre de
+soins en prioriété là où il elle serait nécessaire le plus
+:::
+
+## Conclusions provisoires
+
+1.  La france consacre une part insuffisante de son PIB à la recherche
+    dont l'importance n'est pas comprise par les autorités publiques
+    depuis des années. Cette situation est particulirèement visible en
+    cs de crise sanitaire.
+
+12 ans pour la création de l'ANRS-MIE à la suite d'une pandémie mondiale
+illustre bien une certaine forme d'incompréhension de la part des
+décideurs politiques, institutions de recherche, et des chercheurs eux
+mêmes vis à vis de la recherche en ....
+
+## Chine 2023 : Une crise maeure et prévisible (1)
+
+### Quand le politque ne tient pas compte de la science...
+
+-   Janvier 2020: Isolement et séquencage du sarscov2 Transparence
+    scientifques
+
+-   Février 2020: mise en places du programme 0 covid, Vision politique,
+    ils ferment tout. Surveillance par immeuble etc.
+
+-   2020-2021 : Stratégie 0 covid qui s'avère effiace (car extrêmement
+    dure) + production de vaccins (non mRNA, moins effaces mais portage
+    polituque). Est-ce qu'il faut ieux ne pas être dans un pays
+    démocratique alors ? vu que ça fonctionne bien ? LE problème c'est
+    que leur vaccin fonctionne moins bien, pas mRNA
+
+-   2021-2022 : Vaccination des sujets jeunes avec vaccins à efficacité
+    réduite, pas de protection des anciens.
+
+-   2022 : Arrivée d'OMICRON contenue durant les 6 premiers mois mais
+    avec une atteinte majeure aux libertés individuelles. Pour rappel :
+    Transmission 1000x supérieure à celui de Wuhan.
+
+-   2023 : Echec retentissant de la stratégie 0 covid. La version
+    officielle de l'OMS c'est xxx morts, mais y'a probablement eu
+    30Milliosn de morts en Chine. Failli exploser en 2022
+
+## Chine 2023 : Une crise majeure et prévisible (2)
+
+-   Uene perte de 5 à 7 ans d'espérance de vie
+
+-   Un bilan (nombre de décès) "90 fois supérieur..."
+
+-   ...
+
+-   ...
+
+## France : La réponse du gouvernement à la crise Mars 2020
+
+1.  La création d'un conseil scientifique indépendant de novo – 9 mars
+    2020
+2.  Conseil de défense Covid-19
+3.  La promulgation de la loi d'urgence n9 2020-290 du 23 mars 2020 pour
+    faire face à l'épidémoe de covid10 ui permettant de prendre ds
+    décisiosn opérationnelles et de les faire valdier par le Parlement
+    dans un 2ème temps
+4.  La recherche d'une politique européenne cordoonnée – fin mars
+
+## Fonctionnement du Conseil scientifique COVID-19
+
+2.  TEmporalité n'est pas la même
+    -   Temps des médias : heures
+    -   Temps des plitiques : jours
+    -   Temps ds scientifuqes : mois
+3.  Doute, incertitude, modestie et humilité
+    -   La science se construit sur le doute teoutefois les polituques
+        n'aiment pas le doute. dans la haute hiérarchie les décideurs
+        n'ont pas à faire de thèses (différente de l'allemagne). "Ce
+        sont de machines à décider, on les formes à décider à trancher.
+        On ne leur apprend pas à écouter. Ils sont formés de façon
+        différente."
+4.  Anticipation
+    -   **Une grande évolution**
+    -   Le fait que la courbe épidémique soit exponentelle montre qu'il
+        est nécessaires d'naticiper pour ne pas saturer le sytème de
+        soins. 3 messages d'anticipation plus ou moins perçus
+5.  Agenda
+    2.  Les politiques et les cientifiques n'ont pas les mêmes agendas :
+
+        Les premiers ... et les seconds...
+
+## Fonctionnement du Conseil scientifique COVID-19 et autorités
+
+3 niveaux de relations avec les autorités
+
+## Quelques moments clefs entre le CV et les politques
+
+12 mars 2020 : réunion à l'élysée. Décision du 1er confinement
+
+9 avril 2020 : Visite de l'IHU Marseille. Le prof raconte qu'il essaie
+de dire au Président qu'il ne faut pas aller à MArseille pour ne pas
+donner du crédit à Raoult mais il peut pas lutter logntemps donc ils y
+vont. Il veut pas donner son avis au président pour pas l'influencer et
+le président se fait son avis. Ensuite le président lui dit qu'il s'est
+fait son avis, le prof a gagné sur le fond mais par contre il se fait
+défoncer par le conseil scientifique qui lui dit qu'il aurait jamais dû
+aller là-bas, ce avec quoi il était d'accord detoute façon.
+
+28 septembre 2020 : Annonce au gouvernement de la nécessité d'un 2ème
+confinement qui sera mis en place seulement fin octobre 2020
+
+28 novembre 2020 : stratégie vaccinale
+
+26 janvier 2021 : Annonces du gvt de la nécessité d'un 3ème confinement
+qui ne sera mis en place qu'en avril 2021.
+
+mai 2021 : LEs vaccins mRNA protegent ils contre
+l'infection/transmission ?
+
+5 juin 2021 : choix d'un pass sanitaire par rapport au pass vaccinal
+
+15 décembre 2021 : Omicron. Annonce au gouvernement de l'explosion des
+contaminations en janvier 2022 mais le systèe de santé ..
+
+## Transparence, Comité citoyen
+
+### Appel à la responsabilité et aux choix personnelles et volontaires
+
+Mettre en margin droit Quarto l'image de la couverture du livre "Il faut
+défendre la société" de Michel Foucault. Cours au collège de France
+
+-   Une volonté de tarnsparence: publication d'avis et de notes,
+    auditions par l'Assemblée nationale, le Sénat, le Conseil
+    économique, social et environnemental (CESE), la commission Pittet,
+    interventosn dans la presse ..
+
+-   Un appel à la création d'un comité citoyen, porté par le conseil
+    Scientifique, la Comission nationale de la anté et la Comission
+    nationale des droits de l'homme =\> finalement ça ne s'est pasfait.
+    Dans le contexte en confiance entre le peuple et les politques, ça
+    aurait été bien pourtant. Il y a eu largement une relatio Top/Down.
+    Pour le prof c'est un grand échec.
+
+-   Un échec au niveau national mais un succès au niveau des grandes
+    métropoles (Grenoble Lyon Bordeaux Paris sTrasbourg)
+
+-   Une doctrine constante de resposnabilitéet de choix personnes des
+    citoyens.\
+    Des choix volontaires pour chaque mesure : écoles, tests, isolement
+    après la fin du confinement pour les patients positifs ou les
+    patients âgés à haut risque...
+
+-   Mais aussi une recommandation forte pour le passe sanitaire et en
+    juillet 2021, la vaccination obligatoire de ssoignantes
+
+-   L'introduction du rappel vaccinal dans le passe sanitaire (novembre
+
+    2021) 
+
+Le prof regrette que l'explicaton ne se soit pas faite (par cause de la
+formation des énarques probablmenet) longuement comme ça a pu être le
+cas dans d'autres pays. JE crois qu'il a pris l'exemple de la Finlande
+ou de la Hollande.
