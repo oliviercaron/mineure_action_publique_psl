@@ -11,6 +11,9 @@ format:
   #pdf:
     #classoption: aspectratio=169,10pt
   beamer:
+    aspectratio: 169
+    fontsize: 8pt
+    font: serif
     keep_tex: true
     pdf-engine: xelatex
     preamble: |
@@ -18,9 +21,18 @@ format:
       \setcounter{secnumdepth}{5}
       \setcounter{tocdepth}{5}
       \setcounter{maxdepth}{6}
+      \usepackage{fontspec}
+      \setmainfont{Roboto} 
+      \setbeamercolor{normal text}{fg=red} % Définit le texte normal en rouge
+      %\usetheme{Berlin}  % Thème avec bleu/gris
+      \setbeamertemplate{navigation symbols}{% Active les symboles de navigation
+          \insertslidenavigationsymbol
+          \insertframenavigationsymbol
+          \insertbackfindforwardnavigationsymbol
+      }
 author:
   - name: Olivier Caron
-    orcid: 0000-0000-0000-0000
+    #orcid: 0000-0000-0000-0000
     email: olivier.caron@dauphine.psl.eu
     affiliations:
       name: "Paris Dauphine - PSL"
@@ -35,9 +47,19 @@ editor:
 #csl: apa.csl
 ---
 
-## Intervenants : Jean-François Delfraissy
+## Intervenant : Jean-François Delfraissy
 
-Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
+
+- **Président du Comité Consultatif National d'Éthique (CCNE)** depuis 2017.
+- **Ancien président du Conseil scientifique COVID-19**
+- **Parcours professionnel** :
+  - **Spécialisation** : Médecin et professeur de médecine, spécialisé en immunologie.
+  - **Carrière hospitalière** :
+    - Interne des hôpitaux de Paris (1972).
+    - Chef de clinique-assistant à l'hôpital Antoine-Béclère de Clamart (1978).
+    - Chef du service de médecine interne et immunologie clinique au CHU Bicêtre (1996-).
+  - **Responsabilités académiques** :
+    - Professeur d'immunologie clinique à l'université Paris-Sud (Paris XI).
 
 ------------------------------------------------------------------------
 
@@ -54,15 +76,15 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
     -   Le rôle du médecin est d’agir comme une **boussole**, guidant le
         patient/citoyen, sans exercer de contrôle autoritaire.\
 -   Ce concept prend une importance particulière dans le contexte des
-    **années sida**, remettant en question la nature même du biopouvoir.
+    **années SIDA**, remettant en question la nature même du biopouvoir.
 
 ------------------------------------------------------------------------
 
-## **Quelques grandes vérités sur la médecine**
+## **Quelques grandes vérités sur la médecine** (1)
 
 ### 1. **Santé et contexte global**
 
--   La santé ne peut être dissociée de ses **déterminants globaux** :
+-   La santé ne peut être dissociée de ses **déterminants globaux**
     -   Société, environnement, nutrition, modes de vie.
     -   Exemples :
         -   Environnement social (conditions de vie).\
@@ -81,6 +103,8 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
     laissant peu de place à la prévention.
     -   Cela crée une **incohérence majeure** dans les politiques de
         santé publique.
+
+## **Quelques grandes vérités sur la médecine** (2)
 
 ### 3. **Prévention insuffisante**
 
@@ -193,47 +217,33 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
     Nasser) :
     -   Permet un meilleur contrôle des crues et une irrigation stable.
     -   Fournit une importante source d’énergie via l’hydroélectricité.
-    -   **Conséquences négatives** :
-        -   Perte de fertilité des sols en aval.
-        -   Érosion de la biodiversité dans le delta du Nil.
+        **Conséquences négatives** :
+    -   Perte de fertilité des sols en aval.
+    -   Érosion de la biodiversité dans le delta du Nil. ...
 
-#### 3. **Défis contemporains**
+## Années 1980 – Saint-Louis, Sénégal
 
--   **Croissance démographique** : La population égyptienne passe de 30
-    millions en 1968 à près de 100 millions en 2018, augmentant la
-    pression sur les ressources en eau.
--   **Tensions hydropolitiques** :
-    -   Construction du **Grand Barrage de la Renaissance** par
-        l’Éthiopie (2011-2020), suscitant des différends sur le partage
-        des eaux du Nil.
-    -   Négociations complexes entre l’Égypte, le Soudan et l’Éthiopie.
+-   **Impact des barrages** :\
+    La construction des barrages de **Diama** et **Manantali** a
+    entraîné des changements significatifs dans la région.
 
-#### 4. **Changement climatique**
+### Conséquences positives :
 
--   Réduction des précipitations et montée du niveau de la mer affectant
-    le delta du Nil.
--   Salinisation croissante des terres agricoles en aval, menaçant la
-    sécurité alimentaire. \## Le Fleuve Sénégal
+-   Développement agricole grâce à des zones cultivées riches en légumes
+    (+++).
+-   Amélioration économique de la région.
 
-### Années 1980 – Saint-Louis, Sénégal
+### Conséquences négatives :
 
--   **Impact des barrages** :
-    -   La construction des barrages de **Diama** et **Manantali**
-        entraîne une diminution de la salinité de l'eau dans la région.
-    -   Conséquences positives :
-        -   Développement agricole grâce à des zones cultivées riches en
-            légumes (+++).
-        -   Amélioration économique de la région.
-    -   Conséquences négatives :
-        -   Apparition de la **bilharziose urinaire** due à *Schistosoma
-            haematobium* :
-            -   La baisse de la salinité de l'eau favorise la
-                prolifération des escargots hôtes du parasite.
-            -   Les enfants, malgré les avertissements, continuent de
-                jouer dans l’eau contaminée.
-        -   Le gouvernement sénégalais exprime son inquiétude : bien que
-            le développement économique soit important, ce problème de
-            santé publique représente un **gros danger**.
+-   Apparition de la **bilharziose urinaire** due à *Schistosoma
+    haematobium* :
+    -   La baisse de la salinité de l'eau favorise la prolifération des
+        escargots hôtes du parasite.
+    -   Les enfants, malgré les avertissements, continuent de jouer dans
+        l’eau contaminée.
+-   Le gouvernement sénégalais exprime son inquiétude : bien que le
+    développement économique soit important, ce problème de santé
+    publique représente un **gros danger**.
 
 ------------------------------------------------------------------------
 
@@ -275,6 +285,8 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
 
 ### Contexte général
 
+\small
+
 -   **VIH en Afrique du Sud** :
     -   Le pays est le plus touché au monde par le VIH dès **1988**.
     -   En **1996**, l’arrivée de la **trithérapie** marque une avancée
@@ -293,9 +305,10 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
         une méfiance envers les pays occidentaux ("les Blancs du Nord")
         et leur ingérence perçue.
 
-### Conférence de Durban – 2000
+## Conférence de Durban – 2000
 
--   Lors de la conférence internationale sur le sida à Durban, un moment
+::: {style="font-size: 50%;"}
+-   Lors de la conférence internationale sur le SIDA à Durban, un moment
     marquant se produit :
     -   **Edwin Cameron**, juge blanc et membre de la Cour
         constitutionnelle sud-africaine, affirme publiquement son
@@ -324,6 +337,7 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
             parmi leurs employés.
         -   Ce tournant marque une amélioration progressive dans la
             lutte contre le VIH en Afrique du Sud.
+:::
 
 ## Guinée – Automne 2014
 
@@ -342,7 +356,7 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
     -   Le professeur (mentionné dans le cours) participait à une
         **mission interministérielle**.
 -   **Institutions impliquées** :
-    -   ANRS (Agence nationale de recherche sur le sida et les hépatites
+    -   ANRS (Agence nationale de recherche sur le SIDA et les hépatites
         virales) et INSERM (Institut national de la santé et de la
         recherche médicale).
 
@@ -384,6 +398,8 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
 
 ## Conclusions Provisoires
 
+\small
+
 1.  **Des exemples très réducteurs : une relecture de l'histoire *a
     posteriori***
     -   **Rôle de la médecine** : Elle ne représente que **25% des
@@ -409,103 +425,160 @@ Président du CCNE (Comité Consultatif National d'Éthique), Paris-Saclay
         -   Équilibre entre décisions politiques et recommandations
             scientifiques.
 
-## Covid19 en France
+## Covid19 en France {.tiny}
+
+\small
 
 ### 2020 : Les confinements
 
-**Première vague**
+\small
 
-24 janvier 2020
+::::: columns
+::: {.column width="50%"}
+#### **Première vague** (1)
 
-14 février 2020
+\small
 
-10 mars 2020 Création du conseil scientifiques covid
+-   **24 janvier 2020** : Premier cas confirmé de Covid-19 en France,
+    marquant le début de l'épidémie dans le pays.\
 
-du 17 mars au 11 ma 2020 premier confinement général =\> on commence à
-mettre les masques et on ccmprend un peu mieux. Le virus est aussi
-transmis par les personnes asymptomatiques
+-   **14 février 2020** : Premier décès lié au Covid-19 en France, un
+    touriste chinois âgé.\
 
-juin 2020 Nouvelles contamination \<5000 par jour
+-   **10 mars 2020** : Création du **Conseil scientifique Covid-19**,
+    chargé de conseiller le gouvernement sur la gestion de la crise
+    sanitaire.\
 
-2 juin 2020 StopCOVID application de suivi des contactes
+-   **Du 17 mars au 11 mai 2020** : **Premier confinement général**
 
-**Seconde vague**
+    -   La population est confinée à domicile pour limiter la
+        propagation du virus.\
+    -   Prise de conscience que le virus est transmis aussi par les
+        **personnes asymptomatiques**.\
+    -   Début de l’utilisation des **masques**, avec une adoption
+        croissante.\
 
-27 juillet 2020 avis du CS covid19 : une seconde vague prévue à
-l'automne si les mesures barrières ne ont pa respctées
+-   **Juin 2020** : Les nouvelles contaminations passent à moins de **5
+    000 par jour**, marquant un ralentissement de la première vague.\
 
-Septembre 2020 Reprise épidémique
+-   **2 juin 2020** : Lancement de l’application **StopCOVID**, destinée
+    à suivre les contacts des personnes contaminées pour interrompre les
+    chaînes de transmission.\
+:::
 
-22 octobre 220 evolution de StopCOVID en TousantiCOVID
+::: {.column width="50%"}
+#### **Seconde vague**
 
-29 octobre 2020 : second confinement général (adapté)
+\small
 
-10 dévembre 2020: anonce d'un déconfinement progressif par le premier
-ministre à partir du 15 décembre 2020 commencant par un couvre feu
+-   **27 juillet 2020** : Le **Conseil scientifique Covid-19** publie un
+    avis prévoyant une **seconde vague à l’automne** si les mesures
+    barrières ne sont pas respectées.\
+-   **Septembre 2020** : Début de la reprise épidémique, marquant le
+    début de la seconde vague.\
+-   **22 octobre 2020** : L’application **StopCOVID** est remplacée par
+    **TousAntiCOVID**, avec des améliorations pour une meilleure
+    utilisation par le public.\
+-   **29 octobre 2020** : Début du **second confinement général**
+    (adapté) :
+    -   Les écoles restent ouvertes.\
+    -   Les déplacements pour le travail et les achats essentiels sont
+        autorisés.\
+-   **10 décembre 2020** : Le Premier ministre annonce un
+    **déconfinement progressif** à partir du **15 décembre 2020**, avec
+    l’introduction d’un **couvre-feu** pour limiter les contacts
+    nocturnes.\
+:::
+:::::
 
-2 confinements, couvres feux, pa de vaccin, pas de variant, 65000 décès,
-28000 en EHPAD
+------------------------------------------------------------------------
 
 ### 2021 : Vaccins et variants
 
-#### Troisième vague variant alpha
+#### **Troisième vague : variant Alpha**
 
-Fin décembre 2020 un nouveau variant séquence détecté au RU plus
-transmissible et létal devient dominannt en France
+#### Troisième vague : variant Alpha
 
-29 janvier 2021 alerte du conseil scientifque COVID
+-   **Fin décembre 2020** :
+    -   Détection d’un **nouveau variant** séquencé au Royaume-Uni,
+        nommé **variant Alpha**.\
+    -   Ce variant est **plus transmissible** et **plus létal**, et
+        devient rapidement dominant en France.\
+-   **29 janvier 2021** :
+    -   Alerte du **Conseil scientifique Covid-19** sur la propagation
+        rapide du variant Alpha.\
+-   **3 avril 2021** :
+    -   Début du **troisième confinement national** pour limiter la
+        montée des contaminations et soulager les hôpitaux.\
+    -   Une véritable **course entre la vaccination et les variants**
+        s’engage.\
+-   **Taux d'occupation des lits de réanimation** :
+    -   [**106%**]{style="color:red;"}, atteignant un niveau critique.
 
-3 avril 2021 Troisième confinement national Course entre vaccination et
-variants
+#### Sortie progressive et bilan
 
-Taux d'occupation des lits de réanimation : 106% (mettre en rouge le
-chiffre)\
-Début mai 2021 : début de sortie de confinement progressif: baisse des
-nouvelles contaminations = 20 000 par jour
+-   **Début mai 2021** :
+    -   Début d’une **sortie progressive du confinement** avec une
+        baisse significative des contaminations, ramenées à environ **20
+        000 par jour**.\
+-   **Décès cumulés en 2021** :
+    -   Environ **45 000 décès supplémentaires** attribués au Covid-19
+        sur cette période.\
+-   La vaccination s’accélère mais reste en compétition avec la
+    propagation des variants émergents.
 
-45k décès
+------------------------------------------------------------------------
 
-#### 4è, 5è, et 6è vague (indice è en haut) variant DELTA
+### 4ᵉ, 5ᵉ et 6ᵉ vagues (variant Delta)
 
-31 mai 2021 : ouverture de la vaccination à tous les adultes sans
-acondition
+-   **31 mai 2021** : Ouverture de la vaccination à tous les adultes
+    sans condition préalable.
 
-30 juin 2021 : reprose très rapide du nombre de contaminations
+-   **30 juin 2021** : Reprise très rapide du nombre de contaminations,
+    marquant le début d'une nouvelle dynamique épidémique.
 
-12 juillets 2021: annonce par le président de la Rép de la nécessité
-d'un passe sanitaire (vaccin, test ou rétablissement) dès fin juillet
-2021, puis extension à de nombreux lieux dès août 2021
+-   **12 juillet 2021** : Annonce par le Président de la République de
+    la nécessité d’un passe sanitaire (vaccination, test négatif ou
+    certificat de rétablissement). Sa mise en œuvre est prévue dès la
+    fin juillet 2021, avec une extension à de nombreux lieux dès août
 
-30 aoûts 2021 : 50M de personnes ont reçu au moins une dose de vaccin
+    2021. 
 
-LA seconde partie de la 4eme vague présentée en Europe de l'Est et au RU
-puis généralisée en europe, dot la France en novembre et décembre
+-   **30 août 2021** : Atteinte de l’objectif de 50 millions de
+    personnes ayant reçu au moins une dose de vaccin.
 
-12k décès
+-   La seconde partie de la 4ᵉ vague se manifeste d’abord en Europe de
+    l’Est et au Royaume-Uni, avant de se généraliser à l’ensemble de
+    l’Europe, notamment en France, en novembre et décembre 2021.
+
+-   **12 000 décès** enregistrés au cours de cette période.
 
 **Une course de vitesse entre variants et vaccins**
 
 ### 2022 : OMICRON et la suite
 
-**Décès : 65000 en 2020 / 55000 en 2021 / 40000 en 2022**
+-   **Décès** :
 
-7ème et 8è vague Variants Omicron BA.1 et BA.2
+    -   65 000 en 2020\
+    -   55 000 en 2021\
+    -   40 000 en 2022
 
-Le variant DElta a été rès majoritairement remplacé par le variant
-omicron
+-   **7ᵉ et 8ᵉ vagues** : Variants Omicron BA.1 et BA.2.
 
-Intensité de la vague fonction du niveau de vacc dans les pays
+-   Le variant Delta a été très majoritairement remplacé par le variant
+    Omicron, qui est devenu dominant à l’échelle mondiale.
 
-Impacts sur le système de soins : plus réduit que précédemment
+-   **Intensité des vagues** : Variable selon le niveau de vaccination
+    dans les différents pays.
 
-un variant plus transmissible mais moins évère qui demeure sensiblé à
-l'efficacité de la 3ème dose
+-   **Impact sur le système de soins** : Moins important que lors des
+    vagues précédentes, notamment grâce à l’atténuation des formes
+    graves.
 
-..
+-   Omicron : Un variant plus transmissible mais moins sévère, restant
+    toutefois sensible à l’efficacité de la **3ᵉ dose** de vaccin.
 
-..
-
-..
+...
 
 ## Les variants d'intérêt du SARS-CoV-2 :
 
@@ -513,263 +586,409 @@ l'efficacité de la 3ème dose
 
 ## Avancées médicales et innovations depuis 36 mois
 
-tableau de gauche à droite de 1 à 8 cadre :
+| Période | Événements et avancées clés |
+|-----------------------|-------------------------------------------------|
+| **1. Mars 2020** | Début de la pandémie et premières mesures sanitaires. |
+| **2. Avril-Mai 2020** | Premiers essais cliniques sur les médicaments existants. |
+| **3. Été 2020** | Résultats : Les médicaments initiaux testés n'ont pas montré d'efficacité significative. |
+| ... | ... |
+| ... | ... |
 
-1 MArs 2020
+### Vivre AVEC – Phase d'endémie ?
 
-2 Avril mai 2020
+-   **Domination de la branche Omicron** : Les sous-variants BQ1.1,
+    XB1.5, et BA.2 dominent, marquant une convergence évolutive des
+    mutations.
 
-3 Ete 2020 Médiaments: pas d'effet
+-   **Taux d’infection** : 90 % des citoyens ont été infectés par
+    Omicron à un moment donné, reflétant sa très forte transmissibilité.
+
+-   **Décès** :
+
+    -   **20 à 25 décès par jour**, soit environ **9 000 décès par an**
+        liés au COVID-19, malgré une intensité réduite des vagues.
+
+-   **Évolution des mesures sanitaires** :
+
+    -   Fin des obligations strictes.
+    -   Disparition progressive des gestes barrières dans les pratiques
+        quotidiennes.
+    -   Adaptation de la population, qui adopte une forme de résilience.
+
+-   **Tests et traitements** :
+
+    -   Usage régulier des tests rapides pour surveiller les infections
+        dans des contextes spécifiques.
+    -   Utilisation limitée de traitements antiviraux comme le Paxlovid.
 
 ...
 
-..
-
-## Covid-19 : Fin 2023
-
-Vivre AVEC – Phase d'endémie ?
-
-LA branche Omicron domine BQ1.1, XB1.5, BA2, avec une convergence
-évolutive des muttions
-
-90% des itoyens infectés par Omicron
-
-20 à 25 décès par jour ... 9000 décès par an
-
-Fin ds obligations
-
-Disparation des gestes barrières
-
-adaption de la population, forme de résilence - tests rapides
-
-Utilisation limitée du aPaxlovid
-
-..
-
-..
-
 ## COVID-19 et espérance de vie : une place honorable pour la france.
 
-graphique **Life expectancy changes since COVID-19 NAture human
-behaviour** Jonas Schöley 1 , José Manuel Aburto 2,3,4,5 , Ilya
-Kashnitsky 4, Maxi S. Kniffka 1, Luyin Zhang2, Hannaliis Jaadla 6,7,
-Jennifer B. Dowd2,3 and Ridhi Kashyap 2,3
+::::: columns
+::: {.column width="60%"}
+![](images/clipboard-211497635.png){width="82%"}
+:::
 
-![](images/clipboard-211497635.png)
+::: {.column width="40%"}
+-   **Life Expectancy Changes Since COVID-19**\
+    *Nature Human Behaviour*\
+    Jonas Schöley, José Manuel Aburto, Ilya Kashnitsky, Maxi S. Kniffka,
+    Luyin Zhang, Hannaliis Jaadla, Jennifer B. Dowd et Ridhi Kashyap.\
+    DOI :
+    [10.1038/s41562-022-01450-3](https://doi.org/10.1038/s41562-022-01450-3)
 
-graphique **Estimating excess mortalityd due to the cvid19 pandemic: a
-systematic analysis of COVID19 related mortality 2020-2021 Nature**
-COVID-19 Excess Mortality Collaborators\* <https://doi.org/10.1016/>
-S0140-6736(21)02796-3
+\
+\
 
-Italie très durement touchée
+-   **Estimating Excess Mortality Due to the COVID-19 Pandemic: A
+    Systematic Analysis of COVID-19 Related Mortality (2020-2021)**\
+    *Nature*\
+    COVID-19 Excess Mortality Collaborators\
+    DOI :
+    [10.1016/S0140-6736(21)02796-3](https://doi.org/10.1016/S0140-6736(21)02796-3){.uri}
+:::
+:::::
 
-USA aussi mais leader
+------------------------------------------------------------------------
 
-Innovation qui arrive, l'accès aux soins des Etats unis est le maillon
-faible . Le plus troublant encore c'est quand on regarde la carte dans
-ce pays qui est un pays fédéral avec les états républicains/démocrates.\
-Différences fortes entre états républicains/démocrates. On rappelle que
-TRump nie l'ampleur de l'épidémoe mais il met 3 milliars de dollars pour
-les plateformes vaccinales. Il finance l'innovation.
+### Analyse et Observations
 
-2 grandes puissances mondailes, ce snot elles qui ont le moins bien
-réussi. Quand le prof entend dire que les démocraties sot finies, sont
-faibles. Il dit que finalement laréponse des Etats qui ont le moins mal
-réussi, ce sont les démocraties européennes, par rapport aux USA et à la
-Chine en tout cas.
+-   **Italie** : L’un des pays les plus durement touchés en termes
+    d’excès de mortalité durant la pandémie.\
+-   **États-Unis** : Également fortement impactés, mais paradoxalement,
+    leaders en termes d’innovation vaccinale.
+
+#### Points spécifiques sur les États-Unis :
+
+-   L'accès aux soins est le maillon faible du système de santé
+    américain, illustrant de grandes inégalités structurelles.
+-   Les différences entre les états républicains et démocrates sont
+    marquées, reflétant des réponses disparates à la pandémie.
+    -   Sous l'administration Trump, bien que l'ampleur de l'épidémie
+        ait été minimisée, un investissement majeur de **3 milliards de
+        dollars** a été alloué pour le développement des plateformes
+        vaccinales, ce qui a accéléré les innovations.
+
+------------------------------------------------------------------------
+
+### Comparaison internationale
+
+-   Les **démocraties européennes** ont obtenu des résultats globalement
+    meilleurs que les États-Unis et la Chine dans leur gestion de la
+    pandémie.\
+-   Les réponses des États européens montrent une forme de résilience
+    collective malgré les critiques adressées aux démocraties.
+
+------------------------------------------------------------------------
 
 ## Bilan COVID en France
 
-La France est le pays qui a le plus longtemps laissé les écoles
-ouvertes.
+-   La France est le pays qui a le plus longtemps laissé les écoles
+    ouvertes.
 
-Estimating the population effectiveness of interventions against
-COVID-19 in France A modelling study. Epidemics
+-   Estimating the population effectiveness of interventions against
+    COVID-19 in France A modelling study. Epidemics Ganser I, Buckeridge
+    DL, Heffernan J, Prague M, Thiébaut R.
+
+    Epidemics. 2024 Mar;46:100744.
+
+    DOI: <https://doi.org/10.1016/j.epidem.2024.100744>.
 
 ## Les mesures de restrictions
 
--   Confiement 1: 84% de réduction de la circulation virale
+-   **Confinement 1** :
+    -   Réduction de 84 % de la circulation virale, marquant une
+        efficacité significative de cette mesure stricte.\
+    -   Cette période a été caractérisée par une limitation stricte des
+        déplacements et la fermeture de nombreux services non
+        essentiels.
+-   **Couvre-feu** :
+    -   Introduit pour limiter la propagation du virus tout en
+        permettant une activité économique et sociale réduite.\
+    -   Son impact a été notable dans la diminution des contacts sociaux
+        en soirée, contribuant à freiner la transmission.
 
--   Couvre feu
+------------------------------------------------------------------------
 
 ## France : COVID19 et inégalités en santé
 
-3 graphiques
+### Graphiques
 
-Distribution de la population résidente de la popualtion hospitalisée
-par âge
+1.  **Distribution de la population résidente vs population hospitalisée
+    par âge**
+2.  **Distribution de la population par âge (décès et soins critiques)**
 
-Distribution de la population par âge (décès et soins critiques)
+------------------------------------------------------------------------
 
 ::: callout-important
-En France, l'accès aux soins s'est fait quand même dans de bonnes
-conditions, et plus ou moins égales.
+### Analyse des inégalités en France
 
-Malgré tout : différence entre les habitants de Sceaux et du 93, **8.2
-ans de durée de vie de différence**. Facteurs sociétaux, malbouffe,
-petits appartements, la drogue, toutce qu'on peut imaginer.\
-\
-Avant le COVID, il y avait déjà une très grande inégalité là-dessus.
+-   **Accès aux soins en France** :\
+    En dépit des défis posés par la pandémie, l’accès aux soins en
+    France s’est globalement déroulé dans de bonnes conditions et de
+    manière relativement égale.
 
-Est-ce que la France doit rester avec l'**égalité de l'accès aux
-soins**, ou plutôt **l'équité de l'accès aux soins** ? =\> Dans les 30
-zones où c'est le moins vrai. On ne met actuellement pas l'offre de
-soins en prioriété là où il elle serait nécessaire le plus
+-   **Inégalités territoriales** :
+
+    -   Exemple frappant : Entre les habitants de **Sceaux** et du
+        **93**, on observe une différence de **8,2 ans d’espérance de
+        vie**.\
+    -   Les facteurs contributifs incluent des **causes sociétales**
+        telles que :
+        -   Malbouffe\
+        -   Logements exigus\
+        -   Drogues et autres vulnérabilités sociales.
+
+-   **Inégalités préexistantes** :\
+    Avant même l’arrivée de la pandémie, les inégalités en matière de
+    santé étaient déjà très marquées dans ces territoires.
 :::
+
+------------------------------------------------------------------------
 
 ## Conclusions provisoires
 
-1.  La france consacre une part insuffisante de son PIB à la recherche
-    dont l'importance n'est pas comprise par les autorités publiques
-    depuis des années. Cette situation est particulirèement visible en
-    cs de crise sanitaire.
+1.  **Insuffisance des investissements dans la recherche** :\
+    La France consacre une part insuffisante de son PIB à la recherche,
+    reflétant un manque de compréhension de son importance par les
+    autorités publiques depuis de nombreuses années. Cette faiblesse est
+    particulièrement visible en période de crise sanitaire, où les
+    retards dans les avancées scientifiques et l'innovation ont été
+    amplifiés par le manque de moyens alloués.
 
-12 ans pour la création de l'ANRS-MIE à la suite d'une pandémie mondiale
-illustre bien une certaine forme d'incompréhension de la part des
-décideurs politiques, institutions de recherche, et des chercheurs eux
-mêmes vis à vis de la recherche en ....
+2.  **Exemple marquant : création tardive de l'ANRS-MIE** :\
+    Le délai de **12 ans** pour la création de l’ANRS-MIE (Agence
+    nationale de recherche sur le SIDA et les maladies infectieuses
+    émergentes) après une pandémie mondiale illustre une certaine forme
+    d’inertie et d’incompréhension parmi les décideurs politiques, les
+    institutions de recherche, et même les chercheurs eux-mêmes
+    vis-à-vis des besoins urgents en recherche. Cela met en évidence un
+    déficit structurel de priorisation des enjeux sanitaires à long
+    terme.
 
-## Chine 2023 : Une crise maeure et prévisible (1)
+## Chine 2023 : Une crise majeure et prévisible (1)
 
-### Quand le politque ne tient pas compte de la science...
+### Quand le politique ne tient pas compte de la science...
 
--   Janvier 2020: Isolement et séquencage du sarscov2 Transparence
-    scientifques
+-   **Janvier 2020** :
+    -   Isolement et séquençage du SARS-CoV-2.\
+    -   Transparence scientifique initiale mise en avant.
+-   **Février 2020** :
+    -   Mise en place du programme "Zéro COVID".\
+    -   Une vision politique stricte : fermetures totales, surveillance
+        étroite jusqu’au niveau des immeubles, atteintes majeures aux
+        libertés individuelles.
+-   **2020-2021** :
+    -   Stratégie "Zéro COVID" initialement efficace grâce à des mesures
+        extrêmement dures.\
+    -   Production de vaccins locaux (non mRNA), moins efficaces mais
+        soutenus pour des raisons politiques.\
+    -   Une question qui émerge : "Est-il préférable d’être dans un
+        régime non démocratique si cela permet un contrôle strict de la
+        pandémie ?"\
+    -   Problème majeur : Les vaccins chinois (non mRNA) sont moins
+        performants, limitant leur impact sur la pandémie.
+-   **2021-2022** :
+    -   Vaccination prioritaire des jeunes avec des vaccins à efficacité
+        réduite.\
+    -   Protection insuffisante des populations âgées, accentuant leur
+        vulnérabilité.
+-   **2022** :
+    -   Arrivée du variant OMICRON.\
+    -   La stratégie "Zéro COVID" parvient à contenir sa propagation
+        durant les 6 premiers mois, mais cela s’accompagne d’une
+        atteinte majeure aux libertés individuelles.\
+    -   Pour rappel : la transmissibilité d’OMICRON est **1 000 fois
+        supérieure à celle du virus de Wuhan**.
+-   **2023** :
+    -   Échec retentissant de la stratégie "Zéro COVID".\
+    -   Version officielle de l’OMS : un nombre limité de décès est
+        rapporté.\
+    -   Estimations officieuses : environ **30 millions de morts** en
+        Chine.\
+    -   Le système sanitaire a frôlé l’effondrement dès 2022.
 
--   Février 2020: mise en places du programme 0 covid, Vision politique,
-    ils ferment tout. Surveillance par immeuble etc.
-
--   2020-2021 : Stratégie 0 covid qui s'avère effiace (car extrêmement
-    dure) + production de vaccins (non mRNA, moins effaces mais portage
-    polituque). Est-ce qu'il faut ieux ne pas être dans un pays
-    démocratique alors ? vu que ça fonctionne bien ? LE problème c'est
-    que leur vaccin fonctionne moins bien, pas mRNA
-
--   2021-2022 : Vaccination des sujets jeunes avec vaccins à efficacité
-    réduite, pas de protection des anciens.
-
--   2022 : Arrivée d'OMICRON contenue durant les 6 premiers mois mais
-    avec une atteinte majeure aux libertés individuelles. Pour rappel :
-    Transmission 1000x supérieure à celui de Wuhan.
-
--   2023 : Echec retentissant de la stratégie 0 covid. La version
-    officielle de l'OMS c'est xxx morts, mais y'a probablement eu
-    30Milliosn de morts en Chine. Failli exploser en 2022
+------------------------------------------------------------------------
 
 ## Chine 2023 : Une crise majeure et prévisible (2)
 
--   Uene perte de 5 à 7 ans d'espérance de vie
+-   **Perte d'espérance de vie** :\
+    La crise a entraîné une perte estimée de **5 à 7 ans d'espérance de
+    vie** dans certaines régions, un impact massif rarement observé à
+    cette échelle.
 
--   Un bilan (nombre de décès) "90 fois supérieur..."
+-   **Bilan des décès** :
+
+    -   Le nombre de décès réel serait **90 fois supérieur** aux
+        chiffres officiels communiqués par les autorités.\
+    -   Cette sous-estimation reflète des lacunes dans la transparence
+        et la communication des données sanitaires.
 
 -   ...
 
 -   ...
 
-## France : La réponse du gouvernement à la crise Mars 2020
+## France : La réponse du gouvernement à la crise (Mars 2020)
 
-1.  La création d'un conseil scientifique indépendant de novo – 9 mars
-    2020
-2.  Conseil de défense Covid-19
-3.  La promulgation de la loi d'urgence n9 2020-290 du 23 mars 2020 pour
-    faire face à l'épidémoe de covid10 ui permettant de prendre ds
-    décisiosn opérationnelles et de les faire valdier par le Parlement
-    dans un 2ème temps
-4.  La recherche d'une politique européenne cordoonnée – fin mars
+\small
+
+1.  **Création d'un conseil scientifique indépendant** – *9 mars 2020* :
+    -   Mise en place d’un organe consultatif pour guider les décisions
+        stratégiques du gouvernement en s’appuyant sur des données
+        scientifiques fiables.\
+    -   Objectif : fournir des recommandations indépendantes sur la
+        gestion de la crise.
+2.  **Conseil de défense Covid-19** :
+    -   Instance dédiée permettant une prise de décision rapide et
+        confidentielle.\
+    -   Rôle centralisé pour coordonner les actions face à la pandémie.
+3.  **Promulgation de la loi d'urgence n° 2020-290** – *23 mars 2020* :
+    -   Objectif : répondre à l’épidémie de COVID-19 en permettant la
+        prise de décisions opérationnelles immédiates.\
+    -   Particularité : Les décisions prises pouvaient être validées par
+        le Parlement dans un second temps pour gagner en réactivité.
+4.  **Recherche d'une politique européenne coordonnée** – *Fin mars
+    2020* :
+    -   Tentatives de coordination avec les autres pays de l’Union
+        européenne pour harmoniser les réponses sanitaires.\
+    -   Mise en commun des ressources et des connaissances pour faire
+        face à une crise commune.
+
+------------------------------------------------------------------------
 
 ## Fonctionnement du Conseil scientifique COVID-19
 
-2.  TEmporalité n'est pas la même
-    -   Temps des médias : heures
-    -   Temps des plitiques : jours
-    -   Temps ds scientifuqes : mois
-3.  Doute, incertitude, modestie et humilité
-    -   La science se construit sur le doute teoutefois les polituques
-        n'aiment pas le doute. dans la haute hiérarchie les décideurs
-        n'ont pas à faire de thèses (différente de l'allemagne). "Ce
-        sont de machines à décider, on les formes à décider à trancher.
-        On ne leur apprend pas à écouter. Ils sont formés de façon
-        différente."
-4.  Anticipation
-    -   **Une grande évolution**
-    -   Le fait que la courbe épidémique soit exponentelle montre qu'il
-        est nécessaires d'naticiper pour ne pas saturer le sytème de
-        soins. 3 messages d'anticipation plus ou moins perçus
-5.  Agenda
-    2.  Les politiques et les cientifiques n'ont pas les mêmes agendas :
+2.  **Temporalité différente** :
+    -   **Temps des médias** : Mesuré en heures, exige des réponses
+        rapides et continues.\
+    -   **Temps des politiques** : Mesuré en jours, permet une certaine
+        réflexion avant la prise de décision.\
+    -   **Temps des scientifiques** : Mesuré en mois, nécessaire pour
+        produire des résultats fiables et reproductibles.
+3.  **Doute, incertitude, modestie et humilité** :
+    -   La science se construit sur le doute et l’incertitude, mais les
+        politiques ont souvent du mal à accepter ces notions.\
+    -   Dans les hautes sphères hiérarchiques, les décideurs sont formés
+        à trancher rapidement, sans forcément apprendre à écouter ou
+        intégrer la complexité scientifique.
+        -   Comparaison notable : En Allemagne, certains décideurs
+            politiques réalisent des thèses, ce qui n’est pas le cas en
+            France.\
+    -   Citation : "Ce sont des machines à décider. On les forme à
+        décider, pas à écouter."
+4.  **Anticipation** :
+    -   **Une grande évolution** dans la gestion des crises :
+        -   La nature exponentielle des courbes épidémiques montre qu’il
+            est crucial d’anticiper pour éviter la saturation des
+            systèmes de soins.\
+    -   **Messages d’anticipation** : Trois messages d’alerte ont été
+        émis, avec une réception variable selon les décideurs.
+5.  **Agenda divergents** :
+    -   **Politiques** : Leur agenda est guidé par les priorités
+        immédiates et la nécessité de répondre aux attentes des
+        citoyens.\
+    -   **Scientifiques** : Leur agenda est axé sur la compréhension
+        approfondie et la production de connaissances robustes, souvent
+        à un rythme plus lent.
 
-        Les premiers ... et les seconds...
+------------------------------------------------------------------------
 
-## Fonctionnement du Conseil scientifique COVID-19 et autorités
+## Fonctionnement du Conseil scientifique COVID-19 et des autorités
 
-3 niveaux de relations avec les autorités
+-   3 niveaux de relations avec les autorités
 
-## Quelques moments clefs entre le CV et les politques
+## Quelques moments clés entre le Conseil scientifique et les politiques
 
-12 mars 2020 : réunion à l'élysée. Décision du 1er confinement
+\small
 
-9 avril 2020 : Visite de l'IHU Marseille. Le prof raconte qu'il essaie
-de dire au Président qu'il ne faut pas aller à MArseille pour ne pas
-donner du crédit à Raoult mais il peut pas lutter logntemps donc ils y
-vont. Il veut pas donner son avis au président pour pas l'influencer et
-le président se fait son avis. Ensuite le président lui dit qu'il s'est
-fait son avis, le prof a gagné sur le fond mais par contre il se fait
-défoncer par le conseil scientifique qui lui dit qu'il aurait jamais dû
-aller là-bas, ce avec quoi il était d'accord detoute façon.
+1.  **12 mars 2020** :
+    -   Réunion à l'Élysée pour décider du **1er confinement**.
+2.  **9 avril 2020** :
+    -   **Visite de l'IHU Marseille** :\
+        Le professeur raconte avoir essayé de dissuader le Président de
+        se rendre à Marseille pour ne pas donner de crédit à Didier
+        Raoult. Cependant, il n’a pas pu maintenir cette position
+        longtemps et la visite a eu lieu.
+        -   Le professeur décide de ne pas influencer directement le
+            Président, qui se forge alors son propre avis.\
+        -   Après la visite, le Président revient avec une position
+            alignée sur celle du professeur. Néanmoins, ce dernier est
+            critiqué par le Conseil scientifique pour avoir permis cette
+            visite, critique qu’il partage sur le fond.
+3.  **28 septembre 2020** :
+    -   Annonce au gouvernement de la nécessité d’un **2ᵉ confinement**,
+        qui sera finalement instauré **fin octobre 2020**.
+4.  **28 novembre 2020** :
+    -   Définition et présentation de la **stratégie vaccinale** au
+        gouvernement.
+5.  **26 janvier 2021** :
+    -   Recommandation de la mise en place d’un **3ᵉ confinement**, qui
+        ne sera appliqué qu’en **avril 2021**, causant un décalage
+        notable avec l’évolution épidémique.
+6.  **Mai 2021** :
+    -   Débat sur l’efficacité des **vaccins mRNA** contre l’infection
+        et la transmission.
+7.  **5 juin 2021** :
+    -   Choix entre un **pass sanitaire** et un **pass vaccinal**.
+8.  **15 décembre 2021** :
+    -   Arrivée d'Omicron :\
+        Annonce au gouvernement de l’explosion prévue des contaminations
+        en **janvier 2022**....
 
-28 septembre 2020 : Annonce au gouvernement de la nécessité d'un 2ème
-confinement qui sera mis en place seulement fin octobre 2020
+------------------------------------------------------------------------
 
-28 novembre 2020 : stratégie vaccinale
+## Transparence et Comité citoyen
 
-26 janvier 2021 : Annonces du gvt de la nécessité d'un 3ème confinement
-qui ne sera mis en place qu'en avril 2021.
+### Appel à la responsabilité et aux choix personnels et volontaires (1)
 
-mai 2021 : LEs vaccins mRNA protegent ils contre
-l'infection/transmission ?
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-1107814942.png){width="60%"}
+:::
 
-5 juin 2021 : choix d'un pass sanitaire par rapport au pass vaccinal
+::: {.column width="50%"}
+-   **Une volonté de transparence** :
+    -   Publication des avis et notes du Conseil scientifique.\
+    -   Auditions régulières devant l’Assemblée nationale, le Sénat, et
+        le Conseil économique, social et environnemental (CESE).\
+    -   Collaboration avec la commission Pittet.\
+    -   Multiples interventions dans la presse pour informer le public.
+-   **Un appel à la création d’un comité citoyen** :
+    -   Cette initiative, portée par le Conseil scientifique, la
+        Commission nationale de la santé et la Commission nationale des
+        droits de l’homme, n’a finalement pas abouti.\
+    -   Dans un contexte de méfiance entre le peuple et les politiques,
+        ce comité aurait pu renforcer la confiance.\
+    -   Malheureusement, une relation principalement "Top-Down" a
+        prévalu, ce que le professeur considère comme un **grand
+        échec**.
+:::
+:::::
 
-15 décembre 2021 : Omicron. Annonce au gouvernement de l'explosion des
-contaminations en janvier 2022 mais le systèe de santé ..
+## Appel à la responsabilité et aux choix personnels et volontaires (2)
 
-## Transparence, Comité citoyen
-
-### Appel à la responsabilité et aux choix personnelles et volontaires
-
-Mettre en margin droit Quarto l'image de la couverture du livre "Il faut
-défendre la société" de Michel Foucault. Cours au collège de France
-
--   Une volonté de tarnsparence: publication d'avis et de notes,
-    auditions par l'Assemblée nationale, le Sénat, le Conseil
-    économique, social et environnemental (CESE), la commission Pittet,
-    interventosn dans la presse ..
-
--   Un appel à la création d'un comité citoyen, porté par le conseil
-    Scientifique, la Comission nationale de la anté et la Comission
-    nationale des droits de l'homme =\> finalement ça ne s'est pasfait.
-    Dans le contexte en confiance entre le peuple et les politques, ça
-    aurait été bien pourtant. Il y a eu largement une relatio Top/Down.
-    Pour le prof c'est un grand échec.
-
--   Un échec au niveau national mais un succès au niveau des grandes
-    métropoles (Grenoble Lyon Bordeaux Paris sTrasbourg)
-
--   Une doctrine constante de resposnabilitéet de choix personnes des
-    citoyens.\
-    Des choix volontaires pour chaque mesure : écoles, tests, isolement
-    après la fin du confinement pour les patients positifs ou les
-    patients âgés à haut risque...
-
--   Mais aussi une recommandation forte pour le passe sanitaire et en
-    juillet 2021, la vaccination obligatoire de ssoignantes
-
--   L'introduction du rappel vaccinal dans le passe sanitaire (novembre
-
-    2021) 
-
-Le prof regrette que l'explicaton ne se soit pas faite (par cause de la
-formation des énarques probablmenet) longuement comme ça a pu être le
-cas dans d'autres pays. JE crois qu'il a pris l'exemple de la Finlande
-ou de la Hollande.
+-   **Résultats contrastés** :
+    -   **Échec au niveau national**, mais succès relatif dans les
+        grandes métropoles comme Grenoble, Lyon, Bordeaux, Paris, et
+        Strasbourg.
+-   **Doctrine de responsabilité individuelle** :
+    -   Encouragement des **choix personnels et volontaires** pour des
+        mesures telles que :
+        -   Maintien des écoles ouvertes.\
+        -   Dépistage volontaire.\
+        -   Isolement des patients positifs ou à haut risque après la
+            fin du confinement.
+-   **Recommandations fermes** :
+    -   Mise en place du **pass sanitaire** dès juillet 2021.\
+    -   **Vaccination obligatoire des soignants** à partir de la même
+        période.\
+    -   Introduction du **rappel vaccinal** dans le pass sanitaire en
+        novembre 2021.
+-   **Manque d’explications et de pédagogie** :
+    -   Le professeur regrette le manque de pédagogie dans l’explication
+        des mesures, probablement en raison de la formation insuffisante
+        des décideurs (comme les énarques).\
+    -   Exemple inspirant : d'autres pays (exemple du prof de la Hollande ou Finlande)
+        ont privilégié une approche plus explicative et participative
+        envers leurs citoyens.
