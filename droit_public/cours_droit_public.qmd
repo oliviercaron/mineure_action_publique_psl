@@ -323,56 +323,61 @@ Puisque l'intérêt général varie, le service public doit varier aussi. Mais �
 
 Le **principe d’égalité** exige de **traiter de manière identique** des situations **identiques** et, **inversement**, d’accepter de **traiter différemment** des **situations différentes**.
 
-- **Évolution jurisprudentielle** :  
-  - Pendant longtemps, la jurisprudence attachait une grande importance à la notion d’égalité, parfois de façon très **abstraite**, sans prendre en compte les spécificités de chaque situation.  
-  - Un **arrêt de 1978** (non cité ici, mais souvent désigné comme l’arrêt *CE, 10 novembre 1978, GISTI* ou d’autres décisions de la même époque) a permis d’admettre des **traitements différenciés** en fonction de la **différence objective** de la situation.
-  
-> **Citation d’Anatole France** : « La loi, dans sa majestueuse égalité, interdit aux riches comme aux pauvres de coucher sous les ponts, de mendier dans les rues et de voler du pain. »  
+-   **Évolution jurisprudentielle** :
+    -   Pendant longtemps, la jurisprudence attachait une grande importance à la notion d’égalité, parfois de façon très **abstraite**, sans prendre en compte les spécificités de chaque situation.\
+    -   Un **arrêt de 1978** (non cité ici, mais souvent désigné comme l’arrêt *CE, 10 novembre 1978, GISTI* ou d’autres décisions de la même époque) a permis d’admettre des **traitements différenciés** en fonction de la **différence objective** de la situation.
+
+> **Citation d’Anatole France** : « La loi, dans sa majestueuse égalité, interdit aux riches comme aux pauvres de coucher sous les ponts, de mendier dans les rues et de voler du pain. »\
 > — Critique ironique de l’égalité formelle qui ne prend pas en compte les inégalités réelles.
 
 **Exemple** : Pour un concours administratif, il est **légitime** d’exiger un **diplôme** (ex. BAC+3) en fonction des compétences requises. Les candidats ne répondant pas à ce critère seront **légalement écartés**.
 
-**Remarque** :  
-- Dans certains domaines (par ex. les **services de renseignement**), seuls des **nationaux** peuvent être recrutés, ce qui constitue une **différence de traitement** justifiée par l’intérêt supérieur de l’État.  
+**Remarque** :\
+- Dans certains domaines (par ex. les **services de renseignement**), seuls des **nationaux** peuvent être recrutés, ce qui constitue une **différence de traitement** justifiée par l’intérêt supérieur de l’État.\
 - En droit de l’environnement, la **personnalité juridique** de la biodiversité (ou d’entités naturelles) n’existe pas en France, contrairement à certains pays (Equateur, Espagne) qui ont fait le choix de **reconnaître des droits** à la nature.
 
----
+------------------------------------------------------------------------
 
 ## Le Principe de Neutralité
 
 Le **principe de neutralité** signifie que le service public doit être **exempt de toute discrimination** liée aux convictions religieuses, politiques ou philosophiques.
 
 ### 1. Aspect historique et jurisprudence
-- **Arrêt de 1954** (affaire non nommée ici, souvent évoquée comme *CE, 28 mai 1954, Barel* pour l’ENA) : Il était question d’exclure un communiste de l’ENA. Le **Conseil d’État** a rappelé que l’on **ne peut écarter** un candidat en raison de ses **opinions politiques**.
-- **Neutralité religieuse** : L’administration **ne peut** imposer d’interdiction générale à un usager en fonction de sa religion.  
-  - La **laïcité** est incluse dans le principe de neutralité.  
-  - Historiquement, **seuls les agents** étaient tenus de **ne pas manifester** de convictions religieuses ou politiques. Les usagers avaient la **liberté de le faire**.
+
+-   **Arrêt de 1954** (affaire non nommée ici, souvent évoquée comme *CE, 28 mai 1954, Barel* pour l’ENA) : Il était question d’exclure un communiste de l’ENA. Le **Conseil d’État** a rappelé que l’on **ne peut écarter** un candidat en raison de ses **opinions politiques**.
+-   **Neutralité religieuse** : L’administration **ne peut** imposer d’interdiction générale à un usager en fonction de sa religion.
+    -   La **laïcité** est incluse dans le principe de neutralité.\
+    -   Historiquement, **seuls les agents** étaient tenus de **ne pas manifester** de convictions religieuses ou politiques. Les usagers avaient la **liberté de le faire**.
 
 ### 2. Loi de 1905 et consécration de la liberté de culte
-- La **loi de 1905** sur la **séparation des Églises et de l’État** impose à l’État de garantir le **libre exercice** des cultes.  
-- Toutes les **croyances** doivent être **respectées**.  
-- **Pas de définition légale** en France de ce qu’est une religion.
+
+-   La **loi de 1905** sur la **séparation des Églises et de l’État** impose à l’État de garantir le **libre exercice** des cultes.\
+-   Toutes les **croyances** doivent être **respectées**.\
+-   **Pas de définition légale** en France de ce qu’est une religion.
 
 ### 3. Le Port de Signes Religieux
-- **Arrêt 1996 (CE, avis ou décision?)** : Le Conseil d’État explique que le **port du voile** dans les établissements scolaires n’est **pas interdit** sauf si un **règlement intérieur** le prohibe pour des motifs tenant à l’**ordre public** ou au bon fonctionnement du service.  
-- **Loi de 2004** : Interdit les **signes religieux ostensibles** dans les **écoles publiques** (primaire et secondaire).  
-  - Distinction entre le **pré-bac** (interdit) et le **post-bac** (autorisé à l’université).  
-  - Une évolution législative envisage aujourd’hui de **restreindre** ces libertés également au **post-bac**, voire dans l’espace public, ce qui marque un **élargissement** du champ d’application du principe de laïcité au-delà de son cadre initial.
 
-**Exemple** :  
+-   **Arrêt 1996 (CE, avis ou décision?)** : Le Conseil d’État explique que le **port du voile** dans les établissements scolaires n’est **pas interdit** sauf si un **règlement intérieur** le prohibe pour des motifs tenant à l’**ordre public** ou au bon fonctionnement du service.\
+-   **Loi de 2004** : Interdit les **signes religieux ostensibles** dans les **écoles publiques** (primaire et secondaire).
+    -   Distinction entre le **pré-bac** (interdit) et le **post-bac** (autorisé à l’université).\
+    -   Une évolution législative envisage aujourd’hui de **restreindre** ces libertés également au **post-bac**, voire dans l’espace public, ce qui marque un **élargissement** du champ d’application du principe de laïcité au-delà de son cadre initial.
+
+**Exemple** :\
 - Le **niqab** : une loi interdit la **dissimulation intégrale** du visage dans l’espace public (loi de 2010), avec des **exceptions** (motifs festifs, carnavals, casques de moto, etc.).
 
 ### 4. Particularité de l’Alsace-Moselle
-- Dans les départements d’Alsace et de Moselle (rattachés tardivement à la France), on **ne** pratique **pas** la **séparation stricte** de 1905.  
-- Les **cultes reconnus** (catholique, protestant, israélite) sont subventionnés par l’État, ce qui permet aux ministres du culte d’être **rémunérés**.  
-- L’enseignement religieux est toujours prévu dans les établissements scolaires, sauf dispense demandée par les parents.
 
----
+-   Dans les départements d’Alsace et de Moselle (rattachés tardivement à la France), on **ne** pratique **pas** la **séparation stricte** de 1905.\
+-   Les **cultes reconnus** (catholique, protestant, israélite) sont subventionnés par l’État, ce qui permet aux ministres du culte d’être **rémunérés**.\
+-   L’enseignement religieux est toujours prévu dans les établissements scolaires, sauf dispense demandée par les parents.
+
+------------------------------------------------------------------------
 
 ## En Synthèse
-- Le **principe d’égalité** dans le service public admet des **traitements différenciés** lorsqu’il existe des **justifications objectives** (diplômes, nationalité, etc.).
-- Le **principe de neutralité** impose à l’administration de **ne pas discriminer** selon les convictions politiques ou religieuses, même si ces dernières années ont vu **s’élargir** le champ des restrictions concernant le port de **signes religieux**.
-- Certaines **particularités locales** (Alsace-Moselle) et **exception(s)** (services de renseignement, armée, etc.) nuancent l’application uniforme de ces principes sur l’ensemble du territoire.
+
+-   Le **principe d’égalité** dans le service public admet des **traitements différenciés** lorsqu’il existe des **justifications objectives** (diplômes, nationalité, etc.).
+-   Le **principe de neutralité** impose à l’administration de **ne pas discriminer** selon les convictions politiques ou religieuses, même si ces dernières années ont vu **s’élargir** le champ des restrictions concernant le port de **signes religieux**.
+-   Certaines **particularités locales** (Alsace-Moselle) et **exception(s)** (services de renseignement, armée, etc.) nuancent l’application uniforme de ces principes sur l’ensemble du territoire.
 
 ### Principe de continuité du service public
 
@@ -380,18 +385,20 @@ c'est le corollaire de continuité de l'Etat. Comme l'Etat est continu, les serv
 
 Aiguilleurs du ciel pareil, service minimum d'accueil pour les enfants pour les enseignants en primaire. S'ils font grève les parents peuvent pas travailler, et si les parents peuvent pas travailler, c'est problématique pour l'économie.
 
-
 ### Police administrative
 
-La police administrative est la seconde mission que l'Etat doit assurer au nom de l'intérêt général. Le but de la police administrative est de garantir et maintenir l'odre public.
-La police administrative tient de la nature particulier de la mission menée et non des personnes. Elle se différencie de la police judiciare car elle a un but préventif tandis que la police judiciare a un but répressif. Au cours d'une même intervention, on peut donc exercer à la fois une mission de police administrative et judiciaire.
+La police administrative est la seconde mission que l'Etat doit assurer au nom de l'intérêt général. Le but de la police administrative est de garantir et maintenir l'odre public. La police administrative tient de la nature particulier de la mission menée et non des personnes. Elle se différencie de la police judiciare car elle a un but préventif tandis que la police judiciare a un but répressif. Au cours d'une même intervention, on peut donc exercer à la fois une mission de police administrative et judiciaire.
 
 Exemple : barrager routier pour exercer un contrôle d'alcoolémie tient d'abord de la police administrative puis éventuellement judiciaire si une personne dépasse le seul autorisé. Les deux polices ont jugées par des juridications différentes.
 
-
 ### Ordre public
 
+En droit administration, l'ordre public, c'est le tryptique SST :
 
+-   Sécurité
 
+-   Salubrité
 
+-   Tranquilité
 
+-   
