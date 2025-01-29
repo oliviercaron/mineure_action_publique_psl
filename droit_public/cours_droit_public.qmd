@@ -1,0 +1,397 @@
+---
+title: "droit_public"
+format: html
+editor: visual
+---
+
+## Prof :
+
+## Récupérer cours Décentralisation/Déconcentration
+
+## Comment est organisé l'organe central
+
+### Ministère de la Justice =\> Garde des sceaux
+
+Les attributions des ministres sont fixés par un décret d'attribution pris par le premier ministre en lien avec le président de la République. C'est lui qui détermine les misisons et bojectifs que doivent atteindre les ministres.
+
+Ca nous dit aussi sur quelles administrations va pouvoir s'appuyer le ministre, auxquelles il peut donner du travail etc.
+
+Quand le premier ministre est élu, il fait (depuis la 5ème république) une lettre mandatée de démission, sur laquelle le président de la République apose la date quand il en a marre du premier ministre.\
+\
+A l'intérieur d'un ministère, il y a un ministre, et il ne travaille pas tout seul. Il a :
+
+-   un cabinet. (Pas le droit d'embaucher son frère, sa soeur, son père, sa mère...) dirigé par un directeur de cabinet (dircab) qui a autorité sur tous les autres membres du cabinet.
+
+-   le nombre de collaborateurs est fixé (15 pour un ministre, 10 pour un ministère, 7 pour un secrétaire d'Etat
+
+-   chef du cabinet =\> enregistre la vie du ministre avec son agenda. Plutôt la partie "représentation" du ministre, pas décisionnelle.
+
+-   secrétariats généraux : un secrétariat par ministère, mais il peut y avoir un secrétariat général pour plusieurs ministères. Il s'occupe du RH, administration, **juridique.** C'est au sein de ces secrétariats qu'on trouve les direction juridiques. C'est le SGAE qui s'occupe de transcrire le droit européen en droit français (à 50% ou 60% donc c'est beaucoup de travail)
+
+-   Elysée : on y trouve un **secrétariat général**. C'est Alexis Kohler le **secrétaire générale** actuellement, c'est un poste très important (l'autre Président un peu). Il est en contact avec le premier ministre et avec ses homologues étrangers. C'est quelqu'un d'absolument central. Il faut y mettre quelqu'un de confiance. C'est quelqu'un qui va tout entendre.\
+    L'élysée emploie environ 800 personnes mais il y a aussi des cuisiniers, des gens qui ouvrent la porte etc. Ceux qui l'entourent, on l'appelle "l'Etat Major" =\> c'est environ 50 personnes. (Bennalla vraisemblablement en faisait partie)\
+    Le but de l'Elysee c'est aussi de faire de la surveillance du premier ministre =\> partir dans une voie qui lui serait personnelle. Et le premier ministre essaie d'exister par lui-même malgré tout.\
+    Opactité des budgets de fonctionnement de l'Etat =\> on peut avoir une transparence "globale" mais par service par service, donc ça reste opaque. **René Dosière**<https://fr.wikipedia.org/wiki/Ren%C3%A9_Dosi%C3%A8re> fait des travaux là-dessus.\
+    Exemple : 5400€/mois pour le coiffeur de la première dame, c'est sorti récemment. Il existe une commission d'accès aux documents administratifs =\> les documents ne doivent normalement pas être couverts pas le secret. Dans la pratique, les administrations refusent. On saisit la CADA (Commission d'accès aux documents administratifs).
+
+-   le SGG, secrétariat général du gouvernement. A sa tête, il y a une des personnes les plus importantes de l'Etat. C'est lui qui accueille le premier ministre à Matignon quand il est nommé. C'est le SGG qui prépare et organise le conseil des ministres. C'est lui qui représente l'Etat quand il est en procès administratif . Missions :
+
+    -   Maintien de la continuité de l'Etat (maintien des archives depuis la 5ème République)
+
+    -   Respect de la légalité et de la constitutionnalité
+
+    -   Greffier du travail gouvernemental
+
+    -   Rôle dans la procédure législative, c'est lui qui prépare les soumissions de loi au Parlement
+
+    -   La supervision des services administratifs du premier ministre
+
+Il y a aussi d'autres structures de secrétariats généraux comme celui de la Défense (SGDSN)
+
+On oppose souvent deux régimes :
+
+Montesquieu indique que ce qui est important, c'est qu'une seule personne ne possède pas les 3 pouvoirs. Mais il ne dit pas que cette séparation doit être égale. Il pourrait en posséder 2, ou 2.5.
+
+A quel point est-ce qu'un pouvoir peut agir sur un autre pouvoir ?
+
+| Parlementaire     | Présidentiel       |
+|-------------------|--------------------|
+| Séparation souple | Séparation stricte |
+|                   |                    |
+|                   |                    |
+
+## 21/01/2025
+
+## Le Processus Législatif sous la Ve République
+
+### 1. **Adoption et Examen d’un Texte de Loi**
+
+-   **Étape 1 : Assemblée Nationale**
+
+    -   Le texte (projet ou proposition de loi) est étudié en **commission permanente** ou en commission spéciale.\
+    -   En séance publique : discussion, **vote article par article**, puis **vote global** sur la loi.
+
+-   **Étape 2 : Sénat**
+
+    -   Même processus : étude en commission, discussion en séance, votes.\
+    -   Le Sénat adopte souvent un texte modifié, différent de celui voté par l’Assemblée.
+
+-   **Étape 3 : Relecture Parlementaire**
+
+    -   Le texte retourne alors devant l’Assemblée Nationale pour une nouvelle lecture.\
+    -   Si les deux chambres adoptent le texte **en termes identiques**, il est définitivement adopté.\
+    -   Sinon, une **Commission Mixte Paritaire (CMP)** est convoquée, composée de représentants des deux assemblées pour chercher un compromis.
+
+    > **Issue de la CMP :**
+    >
+    > -   Si un accord est trouvé, la version commune est adoptée.\
+    > -   En cas d’échec, le Gouvernement peut demander à l’Assemblée Nationale de statuer définitivement, conformément à l’**article 45 de la Constitution** (bicaméralisme inégalitaire).
+
+```{mermaid}
+flowchart TB
+    A((Texte déposé)) --> B[Examen en Commission (AN)]
+    B --> C[Discussion et Vote (AN)]
+    C --> D((Sénat))]
+    D --> E[Examen en Commission (Sénat)]
+    E --> F[Discussion et Vote (Sénat)]
+    F --> G{Adopté Identique ?}
+    G -- Oui --> H((Loi adoptée))
+    G -- Non --> I[Commission Mixte Paritaire]
+    I --> J{Accord Trouvé ?}
+    J -- Oui --> H((Loi adoptée))
+    J -- Non --> K[Dernier Mot à l’Assemblée]
+    K --> H((Loi adoptée))
+```
+
+{.callout-tip} *Comment in English (required in code)*: This diagram shows the main phases of the legislative process in France, including the CMP and the possibility for the National Assembly to have the final say.
+
+------------------------------------------------------------------------
+
+### 2. **Promulgation et Contrôle de Constitutionnalité**
+
+-   Une fois le texte adopté, le **Président de la République** dispose de **15 jours** pour le promulguer[^1].
+-   Pendant ce délai, un **contrôle de constitutionnalité a priori** peut être sollicité auprès du **Conseil Constitutionnel** par :
+    -   Le Premier ministre,
+    -   Les présidents de l’Assemblée Nationale et du Sénat,
+    -   **60 députés** ou **60 sénateurs**.
+
+[^1]: Article 10 de la Constitution.
+
+> **À noter** :\
+> Le Président de la République n’est pas strictement contraint de promulguer une loi. Toutefois, s’il refusait délibérément de le faire, il pourrait être exposé à une procédure de destitution pour « manquement incompatible avec l’exercice de ses fonctions ».[^2]
+
+[^2]: Cons. const., Décision n° 2014-XXX. Voir également articles 67 et 68 de la Constitution.
+
+#### **Question Prioritaire de Constitutionnalité (QPC)**
+
+-   Depuis le **1er mars 2010**, une **QPC** permet un contrôle **a posteriori** de la constitutionnalité d’une loi déjà promulguée.
+-   La QPC est soumise à des conditions de recevabilité strictes, ce qui peut conduire certaines lois à **échapper** à tout contrôle constitutionnel si elles ne répondent pas aux critères nécessaires (notamment l’applicabilité au litige et le caractère « nouveau ou sérieux » de la question).
+
+------------------------------------------------------------------------
+
+## La Ve République : Une Réaction aux Régimes Précédents
+
+### 1. **Critiques des IIIe et IVe Républiques**
+
+-   **IIIe République** : Critiquée pour sa faiblesse, ayant permis l’octroi des pleins pouvoirs au maréchal Pétain.\
+-   **IVe République** : Instabilité gouvernementale et incapacité à résoudre des crises majeures, dont la question de l’indépendance algérienne.
+
+> **Constat des rédacteurs de la Constitution de 1958 :**\
+> - Excès de pouvoir législatif au détriment de l’exécutif, menant à des blocages institutionnels.
+
+### 2. **Rationalisation du Parlementarisme**
+
+Pour renforcer l’exécutif et contenir le Parlement : - Symboliquement, la Constitution énumère d’abord le **Président**, puis le **Gouvernement**, enfin le **Parlement**. - **Mécanismes de rationalisation** :\
+- Maîtrise (partielle) de l’ordre du jour,\
+- **Article 49.3** (adoption sans vote, sauf motion de censure),\
+- Autres procédures encadrant strictement l’initiative et les débats parlementaires.
+
+------------------------------------------------------------------------
+
+## La Maîtrise de l’Ordre du Jour
+
+### 1. **Évolution Historique**
+
+-   **Avant 1995** : Le Gouvernement contrôlait la quasi-totalité de l’ordre du jour parlementaire.\
+-   **Depuis la révision constitutionnelle de 2008** :
+    -   Volonté de « revaloriser le Parlement ».\
+    -   Sur un cycle de 4 semaines :
+        -   2 semaines au Gouvernement pour fixer l’ordre du jour,
+        -   1 semaine pour le contrôle et l’évaluation des politiques publiques,
+        -   1 semaine pour l’initiative parlementaire, dont 1 jour pour les groupes minoritaires et 1 jour pour les questions au Gouvernement.
+
+{.callout-important} **Important** : Malgré ces avancées, lorsque le parti majoritaire soutient le Gouvernement, la réelle liberté parlementaire peut rester limitée, car l’ordre du jour est souvent déterminé en accord avec l’exécutif.
+
+------------------------------------------------------------------------
+
+## La Hiérarchie des Normes
+
+### 1. **Pyramide des Normes**
+
+| Niveau | Contenu |
+|--------------------------|----------------------------------------------|
+| **Constitution** | Texte suprême définissant l’organisation des pouvoirs et les libertés. |
+| **Traités internationaux** | Ratifiés selon l’article 53 C ; doivent être compatibles avec la Constitution. |
+| **Lois (Article 34 C.)** | Domaine législatif réservé au Parlement. |
+| **Règlements (Article 37 C.)** | Pouvoir réglementaire autonome ou d’application des lois (gouvernement). |
+
+-   **Conformité des Lois à la Constitution** : Contrôlée par le Conseil constitutionnel (a priori ou a posteriori via QPC).
+-   **Conflits internes à la Constitution** : Le Conseil constitutionnel **refuse** de reconnaître une hiérarchie entre normes constitutionnelles (principe de conciliation).
+
+### 2. **Conflit Constitution vs. Traités**
+
+-   Pour la **Cour de Justice de l’Union Européenne (CJUE)**, les traités européens ont une **primauté** sur le droit interne, **y compris** sur la Constitution[^3].
+-   En droit français, le Conseil constitutionnel considère que la Constitution demeure la norme suprême, mais il invite à réviser la Constitution si un traité est manifestement contraire à celle-ci.
+
+[^3]: CJCE, Costa c/ ENEL, 1964, aff. 6/64 (arrêt fondateur sur la primauté du droit communautaire).
+
+{.callout-note} **Note** : Cette tension entre la primauté du droit de l’Union et la suprématie de la Constitution est un sujet récurrent de doctrine et de jurisprudence. Les juridictions françaises se sont efforcées de trouver des compromis (ex. : la théorie de la « Constitution réceptive »[^4]).
+
+[^4]: Voir L. Favoreu, *Droit constitutionnel*, Dalloz, 2022
+
+------------------------------------------------------------------------
+
+## Références et Notes de Bas de Page
+
+-   **Constitution française du 4 octobre 1958** (version consolidée) : [www.legifrance.gouv.fr](https://www.legifrance.gouv.fr).\
+-   **Conseil constitutionnel** : site officiel et décisions en accès libre : [www.conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr).\
+-   **Cour de Justice de l’Union Européenne (CJUE)** : [curia.europa.eu](https://curia.europa.eu).\
+-   Favoreu, L. et al. *Droit constitutionnel*. Dalloz, 2022.
+
+## 28/01/2025
+
+"Domaine réservé du Président" =\> c'est une expression qui n'existe pas dans la Constitution. Elle a été inventée par ... qui veut dire qu'il y a des choses qui n'appartiennent qu'aux présidents car trop importantes pour être confiées à d'autres.\
+Traditionnellement ce sont les domaines reliés aux affaires :
+
+-   Militaires
+
+-   Affaire étrangères
+
+-   Régalien : Défense, Justice, Affaires étrangères
+
+Le Président dispose d'un droit de regard sur quel ministre il va aller à ces ministères.
+
+Lorsque l'on a fait la Vème république, on a évite de refaire les mêmes qu'avec les IIIème et IVème Républiques : le Parlement avait un pouvoir trop fort, pas de majorité politique qui immobilisait le pouvoir. Il n'y a pas une force politique qui dispose de 50% + 1 voix, pas de majorité.
+
+\
+Pour éviter cela, on a essayé de renforcer les pouvoirs de l'exécutif avec la Constitution. Mais seulement 4 ans après la Constitution, en 1962, on voit apparaître ce qu'on appelle le "**fait majoritaire**" =\> apparition d'un pouvoir politique en majorité à l'Assemblée.
+
+On peut avoir :
+
+| Concordance | Cohabitation |
+|------------------------------------|------------------------------------|
+| Le Président a la **même couleur politique** que pouvoir majoritaire à l'Assemblée. | Le Président est d'une **couleur politique différente** du pouvoir majoritaire présent à l'Assemblée. |
+| Le Président a donc un pouvoir important. Personne ne s'oppose à lui car il est le chef de la majorité politique. |  |
+|  |  |
+
+Entre 1958 et 2000 =\> Mandat du Président de la République est de 7 ans
+
+de 2000 à maintenant, c'est 5 ans. C'est donc la même durée que les députés maintenant. Donc plus de "mid-term" comme aux USA.
+
+Députés 1958 =\> 5 ans
+
+## Le Droit Administratif : Principes Généraux et Service Public
+
+Le **droit administratif** est un ensemble de règles dérogatoires au droit privé, justifiées par la nécessité de servir **l’intérêt général** (IG) et d’assurer l’égalité de tous les citoyens. Il comporte des principes et prérogatives propres (**exorbitance du droit commun**) qui ne se retrouveraient pas en droit privé.
+
+### 1. L’Intérêt Général (IG)
+
+-   L’**intérêt général** est au cœur de l’action administrative.\
+-   Il justifie la création et le fonctionnement des **services publics** (SP) et l’exercice de la **police administrative**.\
+-   Cet intérêt général est **variable** dans le temps, en fonction des évolutions politiques, économiques et sociales.
+
+### 2. Service Public et Police Administrative
+
+-   Le **service public** (SP) regroupe les activités d’intérêt général assurées directement par l’administration ou confiées à des entités privées sous son contrôle.
+-   La **police administrative** vise à maintenir l’ordre public (sécurité, tranquillité, salubrité, etc.), afin de garantir une coexistence harmonieuse dans la société.
+
+### 3. L’Exorbitance du Droit Commun
+
+-   Le droit administratif prévoit des règles **exorbitantes** du droit commun, c’est-à-dire des règles qui ne seraient pas admises dans les rapports de droit privé.\
+-   Ces règles sont liées aux **prérogatives de puissance publique (PPP)**, telles que :
+    -   La capacité d’édicter des actes administratifs unilatéraux.\
+    -   La possibilité d’exécuter ces actes de force, sans nécessiter l’aval du juge civil.\
+    -   Des régimes de responsabilité spécifiques, différents du droit civil.
+
+### 4. L’Évolution : Personnes Privées Gestionnaires d’un Service Public
+
+-   **Avant 1938** : Seules les **personnes publiques** (État, collectivités territoriales, établissements publics) pouvaient gérer un service public.\
+-   **Depuis 1938** : La jurisprudence (CE, 13 mai 1938, *Caisse primaire Aide et Protection*) admet qu’une **personne privée** puisse être chargée d’une mission de service public, sous condition de respecter l’intérêt général et d’être soumise à un contrôle de l’administration.
+
+### 5. Les Critères du Service Public
+
+Pour déterminer si une activité est un service public, la jurisprudence retient généralement un **faisceau d’indices** (arrêts *Narcy* et *APREI*) : 1. **La finalité d’intérêt général** (IG).\
+2. **Le contrôle exercé par une personne publique** (suivi, orientation, évaluation de l’activité).\
+3. **L’existence de prérogatives de puissance publique (PPP)** permettant de mettre en œuvre la mission avec des moyens particuliers.
+
+Lorsque **ces critères** sont réunis, l’activité relève du **droit administratif**.
+
+Le **faisceau d’indices** n’est utilisé que lorsque la présence d’une **PPP** n’est pas clairement établie, ou bien lorsqu’on ne peut pas démontrer de manière certaine le **critère “classique”** de la prérogative de puissance publique.
+
+Autrement dit, **si on trouve une PPP**, alors la qualification de service public peut être plus « **directe** » (modèle traditionnel de l’arrêt *Narcy*). En revanche, **si la PPP fait défaut**, on regarde si, malgré tout, l’activité présente d’autres **éléments suffisamment forts** pour la qualifier de service public : un **véritable intérêt général**, un **contrôle administratif** étroit (financier, fonctionnel, direction, etc.), et une volonté **claire** de la puissance publique que l’activité **serve la collectivité**. C’est là qu’intervient le **« faisceau d’indices »** dégagé (notamment) par la jurisprudence *APREI*, pour pallier **l’absence de PPP**.
+
+------------------------------------------------------------------------
+
+## La Distinction SPA/SPIC
+
+Le professeur a également précisé que les **services publics** (SP) se subdivisent en deux grandes catégories :
+
+### 1. **SPA (Service Public Administratif)**
+
+-   **Objet** : Missions administratives « classiques » (ex. éducation, police, défense, justice, etc.)\
+-   **Régime juridique** : Principalement régi par le **droit administratif** (juge administratif compétent).\
+-   **Personnel** : **Agents publics** (fonctionnaires ou contractuels de droit public).\
+-   **Financement** : Principalement assuré par **l’impôt** ou des ressources publiques.
+
+> **Exemples** : Écoles publiques, hôpitaux publics, services de police, etc.
+
+### 2. **SPIC (Service Public Industriel et Commercial)**
+
+-   **Objet** : Activités économiques de nature industrielle ou commerciale (production de biens ou de services vendus contre rémunération).\
+-   **Régime juridique** : Majoritairement soumis au **droit privé** (juge judiciaire compétent pour la plupart des litiges).\
+-   **Personnel** : Souvent régi par le **droit privé** (contrats de travail de droit privé).\
+-   **Financement** : Principalement par des **redevances** payées par les usagers (logique proche de l’entreprise).
+
+> **Exemples** : Régies de transport, distribution d’eau, de gaz ou d’électricité, les télécommunications (selon l’organisation retenue), etc.
+
+------------------------------------------------------------------------
+
+### Origine et Critères
+
+-   La distinction SPA/SPIC remonte à l’arrêt **CE, 1921, *Société commerciale de l’Ouest africain* (Bac d’Eloka)**, où le **Conseil d’État** a reconnu qu’une **personne publique** peut gérer une activité à caractère industriel et commercial.\
+-   Les **critères** permettant de qualifier un service public d’« administratif » ou « industriel et commercial » reposent sur la **nature** de l’activité, son **mode de financement**, ses **méthodes de fonctionnement**, ainsi que la présence ou non d’un **profit** recherché.
+
+------------------------------------------------------------------------
+
+### En Synthèse
+
+-   **SPA** : Activité administrative, fonctionnement essentiellement sous droit public, financement par l’impôt, personnel statutaire.\
+-   **SPIC** : Activité économique, fonctionnement plutôt sous droit privé, financement par redevances, personnel de droit privé.
+
+### 6. Références et Jurisprudences Clés
+
+-   **TC, 8 février 1873, *Blanco*** : arrêt fondateur du droit administratif, consacre le principe de responsabilité de l’État selon des règles spéciales.\
+-   **CE, 13 mai 1938, *Caisse primaire Aide et Protection*** : possibilité pour une personne privée d’assurer un service public.\
+-   **CE, 28 juin 1963, *Narcy*** : identification des critères constitutifs du service public (IG, contrôle public, PPP).\
+-   **CE, 22 février 2007, *APREI*** : confirmation et évolution de la méthode du faisceau d’indices.
+
+### Principes de mutabilité du service public (Lois Rolland)
+
+Puisque l'intérêt général varie, le service public doit varier aussi. Mais ça veut dire qu'on a pas droit à un maintien d'un service public. Car il évolue en fonction de l'intérêt général : le service évolue avec lui.
+
+## Le Principe d’Égalité dans le Service Public
+
+Le **principe d’égalité** exige de **traiter de manière identique** des situations **identiques** et, **inversement**, d’accepter de **traiter différemment** des **situations différentes**.
+
+- **Évolution jurisprudentielle** :  
+  - Pendant longtemps, la jurisprudence attachait une grande importance à la notion d’égalité, parfois de façon très **abstraite**, sans prendre en compte les spécificités de chaque situation.  
+  - Un **arrêt de 1978** (non cité ici, mais souvent désigné comme l’arrêt *CE, 10 novembre 1978, GISTI* ou d’autres décisions de la même époque) a permis d’admettre des **traitements différenciés** en fonction de la **différence objective** de la situation.
+  
+> **Citation d’Anatole France** : « La loi, dans sa majestueuse égalité, interdit aux riches comme aux pauvres de coucher sous les ponts, de mendier dans les rues et de voler du pain. »  
+> — Critique ironique de l’égalité formelle qui ne prend pas en compte les inégalités réelles.
+
+**Exemple** : Pour un concours administratif, il est **légitime** d’exiger un **diplôme** (ex. BAC+3) en fonction des compétences requises. Les candidats ne répondant pas à ce critère seront **légalement écartés**.
+
+**Remarque** :  
+- Dans certains domaines (par ex. les **services de renseignement**), seuls des **nationaux** peuvent être recrutés, ce qui constitue une **différence de traitement** justifiée par l’intérêt supérieur de l’État.  
+- En droit de l’environnement, la **personnalité juridique** de la biodiversité (ou d’entités naturelles) n’existe pas en France, contrairement à certains pays (Equateur, Espagne) qui ont fait le choix de **reconnaître des droits** à la nature.
+
+---
+
+## Le Principe de Neutralité
+
+Le **principe de neutralité** signifie que le service public doit être **exempt de toute discrimination** liée aux convictions religieuses, politiques ou philosophiques.
+
+### 1. Aspect historique et jurisprudence
+- **Arrêt de 1954** (affaire non nommée ici, souvent évoquée comme *CE, 28 mai 1954, Barel* pour l’ENA) : Il était question d’exclure un communiste de l’ENA. Le **Conseil d’État** a rappelé que l’on **ne peut écarter** un candidat en raison de ses **opinions politiques**.
+- **Neutralité religieuse** : L’administration **ne peut** imposer d’interdiction générale à un usager en fonction de sa religion.  
+  - La **laïcité** est incluse dans le principe de neutralité.  
+  - Historiquement, **seuls les agents** étaient tenus de **ne pas manifester** de convictions religieuses ou politiques. Les usagers avaient la **liberté de le faire**.
+
+### 2. Loi de 1905 et consécration de la liberté de culte
+- La **loi de 1905** sur la **séparation des Églises et de l’État** impose à l’État de garantir le **libre exercice** des cultes.  
+- Toutes les **croyances** doivent être **respectées**.  
+- **Pas de définition légale** en France de ce qu’est une religion.
+
+### 3. Le Port de Signes Religieux
+- **Arrêt 1996 (CE, avis ou décision?)** : Le Conseil d’État explique que le **port du voile** dans les établissements scolaires n’est **pas interdit** sauf si un **règlement intérieur** le prohibe pour des motifs tenant à l’**ordre public** ou au bon fonctionnement du service.  
+- **Loi de 2004** : Interdit les **signes religieux ostensibles** dans les **écoles publiques** (primaire et secondaire).  
+  - Distinction entre le **pré-bac** (interdit) et le **post-bac** (autorisé à l’université).  
+  - Une évolution législative envisage aujourd’hui de **restreindre** ces libertés également au **post-bac**, voire dans l’espace public, ce qui marque un **élargissement** du champ d’application du principe de laïcité au-delà de son cadre initial.
+
+**Exemple** :  
+- Le **niqab** : une loi interdit la **dissimulation intégrale** du visage dans l’espace public (loi de 2010), avec des **exceptions** (motifs festifs, carnavals, casques de moto, etc.).
+
+### 4. Particularité de l’Alsace-Moselle
+- Dans les départements d’Alsace et de Moselle (rattachés tardivement à la France), on **ne** pratique **pas** la **séparation stricte** de 1905.  
+- Les **cultes reconnus** (catholique, protestant, israélite) sont subventionnés par l’État, ce qui permet aux ministres du culte d’être **rémunérés**.  
+- L’enseignement religieux est toujours prévu dans les établissements scolaires, sauf dispense demandée par les parents.
+
+---
+
+## En Synthèse
+- Le **principe d’égalité** dans le service public admet des **traitements différenciés** lorsqu’il existe des **justifications objectives** (diplômes, nationalité, etc.).
+- Le **principe de neutralité** impose à l’administration de **ne pas discriminer** selon les convictions politiques ou religieuses, même si ces dernières années ont vu **s’élargir** le champ des restrictions concernant le port de **signes religieux**.
+- Certaines **particularités locales** (Alsace-Moselle) et **exception(s)** (services de renseignement, armée, etc.) nuancent l’application uniforme de ces principes sur l’ensemble du territoire.
+
+### Principe de continuité du service public
+
+c'est le corollaire de continuité de l'Etat. Comme l'Etat est continu, les services qu'il assure doivent être continus. Ce qu'il faut éviter, c'est l'Etat à "éclipses". Cette continuité s'oppose néanmoins au droit constitutionnel de grève. Le juge doit donc essayer de concilier les deux. Le Conseil Constitutionnel a autorisé le législateur à apporter des imitations au droit de grève. (policiers et militaires sont interdits de grève.
+
+Aiguilleurs du ciel pareil, service minimum d'accueil pour les enfants pour les enseignants en primaire. S'ils font grève les parents peuvent pas travailler, et si les parents peuvent pas travailler, c'est problématique pour l'économie.
+
+
+### Police administrative
+
+La police administrative est la seconde mission que l'Etat doit assurer au nom de l'intérêt général. Le but de la police administrative est de garantir et maintenir l'odre public.
+La police administrative tient de la nature particulier de la mission menée et non des personnes. Elle se différencie de la police judiciare car elle a un but préventif tandis que la police judiciare a un but répressif. Au cours d'une même intervention, on peut donc exercer à la fois une mission de police administrative et judiciaire.
+
+Exemple : barrager routier pour exercer un contrôle d'alcoolémie tient d'abord de la police administrative puis éventuellement judiciaire si une personne dépasse le seul autorisé. Les deux polices ont jugées par des juridications différentes.
+
+
+### Ordre public
+
+
+
+
+
