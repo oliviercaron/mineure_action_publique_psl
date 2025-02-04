@@ -379,26 +379,242 @@ Le **principe de neutralité** signifie que le service public doit être **exemp
 -   Le **principe de neutralité** impose à l’administration de **ne pas discriminer** selon les convictions politiques ou religieuses, même si ces dernières années ont vu **s’élargir** le champ des restrictions concernant le port de **signes religieux**.
 -   Certaines **particularités locales** (Alsace-Moselle) et **exception(s)** (services de renseignement, armée, etc.) nuancent l’application uniforme de ces principes sur l’ensemble du territoire.
 
-### Principe de continuité du service public
+### Principe de Continuité du Service Public
 
-c'est le corollaire de continuité de l'Etat. Comme l'Etat est continu, les services qu'il assure doivent être continus. Ce qu'il faut éviter, c'est l'Etat à "éclipses". Cette continuité s'oppose néanmoins au droit constitutionnel de grève. Le juge doit donc essayer de concilier les deux. Le Conseil Constitutionnel a autorisé le législateur à apporter des imitations au droit de grève. (policiers et militaires sont interdits de grève.
+Le **principe de continuité du service public** découle de la continuité de l'État lui-même. Étant donné que l'État est une entité permanente, les services qu'il fournit doivent également fonctionner de manière continue, évitant ainsi un État à "éclipses".
 
-Aiguilleurs du ciel pareil, service minimum d'accueil pour les enfants pour les enseignants en primaire. S'ils font grève les parents peuvent pas travailler, et si les parents peuvent pas travailler, c'est problématique pour l'économie.
+Cependant, ce principe entre parfois en conflit avec le **droit constitutionnel de grève**. Le juge administratif est alors chargé de concilier ces deux principes de valeur constitutionnelle. Le Conseil constitutionnel a reconnu que le législateur peut apporter des limitations au droit de grève pour assurer la continuité du service public. Par exemple, les policiers et les militaires ne sont pas autorisés à faire grève. :contentReference[oaicite:0]{index=0}
 
-### Police administrative
+De même, les aiguilleurs du ciel sont soumis à des restrictions en raison de l'importance de leur rôle dans la sécurité aérienne. Dans l'enseignement primaire, un service minimum d'accueil a été mis en place pour les enfants en cas de grève des enseignants, afin de permettre aux parents de continuer à travailler et de limiter l'impact économique.
 
-La police administrative est la seconde mission que l'Etat doit assurer au nom de l'intérêt général. Le but de la police administrative est de garantir et maintenir l'odre public. La police administrative tient de la nature particulier de la mission menée et non des personnes. Elle se différencie de la police judiciare car elle a un but préventif tandis que la police judiciare a un but répressif. Au cours d'une même intervention, on peut donc exercer à la fois une mission de police administrative et judiciaire.
+### Police Administrative
 
-Exemple : barrager routier pour exercer un contrôle d'alcoolémie tient d'abord de la police administrative puis éventuellement judiciaire si une personne dépasse le seul autorisé. Les deux polices ont jugées par des juridications différentes.
+La **police administrative** est une mission essentielle que l'État assure au nom de l'intérêt général. Son objectif est de garantir et de maintenir l'ordre public. Elle se distingue de la police judiciaire par sa finalité préventive, visant à empêcher les troubles à l'ordre public, tandis que la police judiciaire a une fonction répressive, intervenant après la commission d'une infraction pour en rechercher les auteurs. :contentReference[oaicite:1]{index=1}
 
-### Ordre public
+Il est possible qu'une même intervention comporte à la fois des aspects de police administrative et de police judiciaire. Par exemple, un barrage routier mis en place pour effectuer un contrôle d'alcoolémie relève initialement de la police administrative. Si une personne est trouvée en infraction pour conduite en état d'ivresse, l'action devient alors de la compétence de la police judiciaire. Ces deux types de police sont soumis à des juridictions différentes : la police administrative relève du juge administratif, tandis que la police judiciaire dépend du juge judiciaire.
 
-En droit administration, l'ordre public, c'est le tryptique SST :
+### Ordre Public
 
--   Sécurité
+En droit administratif, l'**ordre public** est traditionnellement défini par le triptyque **SST** :
 
--   Salubrité
+- **Sécurité** : protection des personnes et des biens contre les atteintes physiques.
+- **Salubrité** : préservation de la santé publique, notamment par des mesures d'hygiène.
+- **Tranquillité** : maintien de la paix publique en évitant les nuisances sonores et les troubles de voisinage.
 
--   Tranquilité
+Ces composantes forment le cadre dans lequel la police administrative exerce ses missions pour assurer le bon ordre dans la société.
 
--   
+## 04/02/2025
+
+## Morale
+
+La notion de **moralité publique** constitue un fondement essentiel du droit administratif français, notamment en matière de police administrative. Elle a été précisée à travers plusieurs arrêts emblématiques du Conseil d'État.
+
+## 1. L'Arrêt du Conseil d'État du 4 janvier 1923, « Commune de Castelnaudary »
+
+Dans cet arrêt, le Conseil d'État reconnaît qu’un maire peut valablement interdire la tenue d’un match de boxe en considérant que la **contemplation de scènes de violence physique**, telles que des hommes se frappant violemment, est contraire à la morale publique. L’argument invoqué repose sur l'idée que de telles représentations pourraient encourager les **bas instincts** de la population, justifiant ainsi l'intervention de la police administrative locale.
+
+## 2. L'Arrêt du 18 décembre 1959, « Société des Films Lutetia »
+
+Cet arrêt constitue un tournant dans la jurisprudence administrative. Il concernait la projection d’un film jugé « olé olé » pour l’époque, dont le maire d’une commune avait interdit la diffusion au motif qu’il portait atteinte à la moralité publique.
+
+Le Conseil d'État a jugé que, bien que le film ait obtenu un visa d’exploitation délivré par le Ministère de la Culture, le **maire dispose d’un pouvoir de police générale** lui permettant d’interdire la projection du film si des **circonstances locales particulières** le justifient. Ainsi, une interdiction locale peut être fondée sur la nécessité de préserver l’ordre public, notamment en ce qui concerne la moralité publique.
+
+::: {.caution}
+**Attention :** Le visa d’exploitation délivré par le Ministère de la Culture classe les films selon différentes catégories (interdits aux moins de 16 ans, de 18 ans, ou classés X).  
+- Un film peut être **interdit aux moins de 18 ans sans être classé X**.  
+- La classification **pornographique (classé X)** a des conséquences spécifiques : très peu de salles sont autorisées à diffuser ces films, et des **différences fiscales** s’appliquent.
+:::
+
+## 3. L'Arrêt du Conseil d'État du 14 juin 2002, « Association Promouvoir »
+
+> **Exemple :**  
+> L'arrêt du Conseil d'État, en date du 14 juin 2002, « Association Promouvoir » met fin au contentieux du film *Baise-moi*. Il concerne le contrôle de légalité exercé par le Conseil d'État sur les visas d'exploitation des films cinématographiques, ainsi que sur les compétences du Ministre de la Culture chargé de classer les films cinématographiques eu égard à ses pouvoirs de police spéciale.
+
+Dans cette affaire, l’association **Promouvoir**, connue pour sa défense des valeurs chrétiennes, avait contesté la légalité du visa d’exploitation du film *Baise-moi*, au motif qu’il portait atteinte à la moralité publique. L’arrêt confirme que le Conseil d'État peut contrôler la légalité des décisions administratives liées à la diffusion des œuvres cinématographiques, en veillant à l'équilibre entre **liberté d’expression** et **protection de la moralité publique**.
+
+## Synthèse Morale/Moralité
+
+Depuis l’arrêt de 1959, la **moralité publique** est un fondement reconnu pour justifier des mesures de police administrative, qu’il s’agisse d’interdictions locales par les maires ou de décisions ministérielles relatives à la classification des films. Toutefois, ces restrictions doivent toujours être motivées par des **circonstances locales particulières** et respecter les principes de proportionnalité afin de ne pas porter atteinte de manière excessive aux libertés fondamentales.
+
+## La Dignité Humaine comme Principe Fondamental du Droit Administratif
+
+Le principe de **dignité de la personne humaine** est une notion clé en droit administratif, servant de fondement à des décisions de police administrative visant à protéger l'intégrité et le respect des individus, même lorsque ceux-ci consentent aux pratiques concernées.
+
+### 1. L'Affaire du « Lancer de Nain » (Arrêt du Conseil d'État, 27 octobre 1995, *Commune de Morsang-sur-Orge*)
+
+Cette affaire emblématique concerne l'interdiction d'une attraction consistant à organiser des concours de **lancer de nains** dans des établissements de divertissement.
+
+#### **Faits :**
+Un maire avait pris un arrêté interdisant l'organisation de ce type d'événement sur le territoire de sa commune, au motif qu'il portait atteinte à la dignité de la personne humaine. L'organisateur ainsi qu’un participant volontaire ont contesté cette décision, arguant que l’activité était pratiquée avec le **consentement** des personnes concernées et qu’elle constituait pour elles une source de revenus.
+
+#### **Problématique juridique :**
+La question posée était de savoir si le **consentement de la personne** suffisait à justifier la légalité d’une activité susceptible de porter atteinte à la dignité humaine.
+
+#### **Solution du Conseil d'État :**
+Le Conseil d'État a confirmé l’interdiction, affirmant que :
+> « Le respect de la dignité de la personne humaine est une composante de l’ordre public. »
+
+Cette décision est novatrice car elle établit que la **dignité humaine est un principe supérieur** à la simple liberté individuelle, y compris lorsque la personne concernée est consentante. En d'autres termes, **le consentement ne peut pas justifier une atteinte à la dignité humaine**.
+
+::: {.callout-caution}
+## Attention
+Ce principe s’applique de manière stricte, mais il n’est pas systématiquement invoqué pour toutes les activités spectaculaires. Par exemple :
+- **Les hommes-canon** dans les cirques ou les **combats de femmes dans la boue** ne sont généralement pas interdits, car ils ne sont pas considérés comme portant atteinte à la dignité humaine de la même manière que le lancer de nain.  
+- La distinction repose sur la perception sociale et le caractère dégradant ou non de l’activité pour la personne concernée.
+:::
+
+### 2. Portée Juridique du Principe de Dignité
+
+Le principe de dignité humaine est aujourd’hui un **fondement de la police administrative générale**, permettant aux autorités de restreindre certaines libertés individuelles pour préserver l’ordre public. Il s’ajoute aux trois composantes traditionnelles de l’ordre public (sécurité, tranquillité, salubrité publiques).
+
+Il est souvent mobilisé dans des domaines sensibles, notamment :
+- La **bioéthique** (expérimentations sur le corps humain, procréation assistée) ;
+- La **lutte contre les discriminations** et la protection des personnes vulnérables ;
+- Les **pratiques culturelles ou sportives** perçues comme dégradantes.
+
+### Conclusion
+
+L’arrêt *Commune de Morsang-sur-Orge* marque une évolution significative du droit administratif en affirmant que la **dignité de la personne humaine** constitue un principe fondamental de l’ordre public, justifiant des restrictions à la liberté, même en l'absence de troubles matériels immédiats. Ce principe est désormais un pilier des décisions de police administrative en France.
+
+
+
+Blog intéressant : https://blog.juspoliticum.com/
+
+
+Hiérarchie sommaire de la Police
+
+Premier ministre
+Ministre de l'intérieur
+PRéfet
+Maire
+
+L'autorité de police la plus basse ne peut qu'aggraver la mesurer, pas l'adoucir.
+
+Le juge effectue un contrôle de proportionalité de la mesure.
+On ne peut pas prendre d'interdiction générale et absolue (La police) et "La liberté est la règle, la restriction l'exception"
+
+C'est seulement si on prouve qu'un truc va troubler la stabilité publique qu'on peut l'interdire. LE juge administratif est vu comme très protecteur des libertés.
+
+
+## La Responsabilité
+
+Pour engager la responsabilité civile, trois éléments doivent être réunis :
+
+- **Un préjudice** : Il s'agit d'une atteinte subie par une personne dans ses biens, son corps ou ses droits.
+- **Une faute** : Un manquement à une obligation légale ou contractuelle, ou une violation du devoir général de ne causer aucun dommage à autrui.
+- **Un lien de causalité** : La faute doit être la cause directe du préjudice subi. 
+
+Cette combinaison permet de mettre en œuvre la responsabilité pour faute.
+
+L'article 1240 du Code civil dispose :
+
+> « Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer. »
+
+Il est important de noter que la loi ne reconnaît pas tous les dommages comme des préjudices indemnisables. Par exemple, les préjudices purement immatériels ou insignifiants peuvent ne pas donner lieu à réparation.
+
+La question de l'indemnisation de la douleur morale, telle que la perte d'un être cher, a été largement débattue en jurisprudence. Le droit français reconnaît l'indemnisation du **préjudice moral**, également connu sous le terme latin *pretium doloris* (prix de la douleur). Ainsi, les proches d'une victime décédée peuvent obtenir réparation pour la souffrance morale endurée. Le montant de cette indemnisation est déterminé au cas par cas par le juge, en fonction de divers critères tels que la proximité de la relation avec la victime et l'intensité de la douleur ressentie. :contentReference[oaicite:0]{index=0}
+
+### La Vérité Scientifique et la Vérité Juridique
+
+Il existe des différences fondamentales entre la **vérité scientifique** et la **vérité juridique**. La vérité scientifique repose sur des faits mesurables, des lois physiques et des principes universels. En revanche, la vérité juridique est construite dans un cadre normatif, visant à établir des responsabilités et à rendre la justice.
+
+#### Exemple : La Chute d’un Stylo
+
+Si un stylo tombe au sol, plusieurs explications peuvent être proposées :
+
+- **Scientifiquement** : La chute est due à la force gravitationnelle, l’influence des planètes et les lois de la physique.
+
+- **Juridiquement** : La responsabilité est attribuée à la personne qui a ouvert la main, car c’est elle qui a accompli l’acte concret.
+
+Le droit cherche donc à **simplifier la chaîne causale** pour identifier un responsable, même si la réalité scientifique est plus complexe.
+
+---
+
+### Le Lien de Causalité en Droit
+
+En jurisprudence, plusieurs **théories du lien de causalité** coexistent pour déterminer la responsabilité :
+
+1. **La théorie de l'équivalence des conditions** : Toute condition ayant contribué au dommage est considérée comme cause.
+
+2. **La théorie de la causalité adéquate** : Seule la cause qui a joué un rôle déterminant est retenue.
+
+> **Exemple** : Celui qui a joué le rôle le plus déterminant dans la survenance du dommage sera tenu responsable.
+
+---
+
+### Les Différents Types de Faute
+
+Dans l’histoire de la jurisprudence, on distingue plusieurs catégories de fautes, essentielles pour déterminer la nature de la responsabilité.
+
+#### 1. Faute Lourde et Faute Simple
+
+- **Faute simple** : Négligence, imprudence, erreur sans gravité exceptionnelle.
+
+- **Faute lourde** : Comportement particulièrement grave, marquant un manquement manifeste à des obligations essentielles.
+
+La distinction est cruciale car certains domaines exigent la preuve d’une faute lourde pour engager la responsabilité (par exemple, en matière de gestion publique).
+
+#### 2. Faute Personnelle et Faute de Service
+
+- **Faute personnelle** : Comportement imputable à l'agent public, détachable de l'exercice de ses fonctions.
+
+  - *Exemple* : Un gendarme qui, en dehors de ses fonctions, commet des actes criminels constitue une faute personnelle.
+
+- **Faute de service** : Comportement lié à l'exercice des fonctions de l'agent public.
+
+  - *Exemple* : Une erreur commise par un fonctionnaire dans l'exercice de ses fonctions administratives relève de la faute de service.
+
+---
+
+### La Responsabilité Sans Faute (RSF)
+
+La **responsabilité sans faute** permet d’obtenir une indemnisation sans avoir à prouver une faute. Elle repose sur deux grands fondements :
+
+#### 1. Responsabilité Fondée sur le Risque
+
+L’État ou une personne morale est responsable des risques qu’il fait courir à autrui.
+
+- *Exemple* : Les policiers ou gendarmes portent des armes à feu dans le cadre de leur mission. L’État assume les risques inhérents à cette obligation.
+
+- *Exemple militaire* : Une grenade explose en dehors de l’intervalle prévu par le constructeur, causant des blessures. L’État indemnise la victime, même en l’absence de faute.
+
+#### 2. Responsabilité Fondée sur la Rupture d’Égalité devant les Charges Publiques
+
+Lorsqu’une décision administrative ou une loi impose à un individu une charge exceptionnelle, l’État doit compenser.
+
+- **Affaire des Bédouins** :
+
+  - *Faits* : Un tribunal ordonne l'expulsion d’une tribu bédouine avec le concours de la force publique. La police refuse d’intervenir.
+
+  - *Décision* : La personne lésée obtient une indemnité au titre de la rupture d’égalité devant les charges publiques, car elle a supporté seule une charge qui aurait dû être partagée.
+
+- **Affaire Société La Fleurette** :
+
+  - *Faits* : Une loi du 29 juin 1934 relative à la protection des produits laitiers interdit la fabrication et la vente de tout produit présentant l'aspect de la crème et destiné aux mêmes usages mais ne provenant pas exclusivement du lait. La société *La Fleurette*, qui fabriquait un produit appelé « Gradine » directement concerné par cette interdiction, a dû cesser son activité en conséquence.
+
+  - *Décision* : Par un arrêt du 14 janvier 1938, le Conseil d'État a reconnu que la société subissait une charge particulière et devait être indemnisée par l'État pour rupture de l'égalité devant les charges publiques. :contentReference[oaicite:0]{index=0}
+
+---
+
+### Conclusion
+
+Le droit de la responsabilité civile s’articule autour de concepts clés comme la **faute**, le **lien de causalité** et la **notion de préjudice**. Toutefois, des mécanismes comme la **responsabilité sans faute** montrent que le droit va au-delà de la recherche d’un responsable pour garantir l’indemnisation des victimes et préserver l’équilibre social.
+
+Il y a des nomenclatures pour un équivalent monétaire à l'indemnisation de la perte d'un être cher :
+- famille 
+- soeurs frère
+- cousins etc.
+
+
+
+
+
+On estime qu'il faut que le préjudice soit **anormal et spécial**
+
+
+
+
+
+
+
+
