@@ -1,0 +1,506 @@
+---
+title: "Causal Treatments"
+title-block-banner: true
+subtitle: "Mineure action publique"
+author:
+  - name: Olivier CARON
+    email: caron.olivier.80@gmail.com
+    affiliations: 
+      name: "Paris Dauphine-PSL"
+      city: Paris
+      state: France
+date: "last-modified"
+toc: true
+toc-depth: 3
+toc-expand: 3
+number-sections: true
+number-depth: 10
+format:
+  html:
+    theme:
+      light: litera
+    code-fold: true
+    code-summary: "Display code"
+    code-tools: true #enables to display/hide all blocks of code
+    code-copy: true #enables to copy code
+    grid:
+      body-width: 800px
+      margin-width: 100px
+    toc: true
+    toc-title: "Table of content"
+    toc-location: left
+execute:
+  echo: true
+  warning: false
+  message: false
+editor: visual
+fig-align: "center"
+highlight-style: ayu-light
+reference-location: margin
+#lightbox: true
+#filters:
+  #- parse-latex
+---
+
+## Introduction {.unnumbered}
+
+In the public employment service (PES), job-seekers may benefit from a job-search program. The outcome of interest is a dummy for being on a job after 6 months (or not), and we call it $Y$, with $Y(1)$ the counterfactual when the job-seeker receives the program and $Y(0)$ the counterfactual when she doesn’t. $Y$ is observed for all job-seekers.
+
+The PES is wondering whether it should rely on the counselor’s expertise to allocate job-seekers to the program, or whether it should use an algorithm that generates a score based on job-seekers' characteristics. *(Nota: we are not directly interested here in evaluating the impact of the program on job finding, but rather on the best allocation rule).*
+
+A score has been produced for all job-seekers and the score recommendation is observed. We note $S = 1$ when according to the score the job-seeker should be sent to the program and $S = 0$ otherwise. However, the decision to actually send job-seekers to the program has been left to the counselors, with the following rule: 
+
+- When $S = 1$, the counselor **must** send the job-seeker to the program.
+- When $S = 0$, the counselor **can** overrule the algorithm and send the job-seeker to the program anyway.
+
+We note $C = 1$ if the job-seeker has been sent to the program, and $C = 0$ if she hasn’t. $C$ is also observed.
+
+The proportions of job-seekers sent to the program for the four possible combinations of algorithm and counselor decisions are as follows:
+
+|  | S = 0 | S = 1 |
+|---|------|------|
+| **C=0** | 0.2  | 0 |
+| **C=1** | 0.2    | 0.6  |
+
+## Commenting on the table
+
+Is this table consistent with the description of the process? Do counselors overrule a lot the algorithm?
+
+::: {.callout-tip title="Answer"}
+
+The table is consistent with the description of the process in the case of $S = 1$, not exactly in the case of $S = 0$.
+
+ For the $S = 1$ column, we see that the counselor strictly follows the algorithm. All job-seekers recommended by the algorithm (60%) are sent to the program, as there are no cases where $S = 1$ and $C = 0$.
+
+ For the $S = 0$ column, the counselor overrules the algorithm 50% of the time $(P(C = 1|S = 0) = 0.2/0.4 = 0.5)$. Among the job-seekers for whom the algorithm did not recommend the program ($S = 0$), 20% are still sent to the program ($C = 1$), meaning that counselors do not strictly follow the recommendation when $S = 0$.
+ 
+:::
+
+## Computing Empirical Probabilities
+
+
+Using the table, compute the following probabilities:
+
+::: {.callout-tip title="Answer"}
+
+- $P(S = 1) = P(S=1,C=0) + P(S=1,C=1) = 0 + 0.6 = \mathbf{0.6}$
+
+- $P(C = 1) = P(S=0,C=1) + P(S=1,C=1) = 0.2 + 0.6 = \mathbf{0.8}$
+
+**Understanding Conditional Probability and Its Application to Our Case**
+
+1️⃣ What is Conditional Probability?**
+Conditional probability helps us determine the likelihood of an event **given that another event has already occurred**. 
+
+In general, we define it as:
+
+$$
+P(A | B) = \frac{P(A, B)}{P(B)}
+$$
+
+where:
+- $P(A | B)$ is the probability of $A$ happening given that $B$ has already happened.
+- $P(A, B)$ (joint probability) is the probability that **both** $A$ and $B$ happen together.
+- $P(B)$ is the total probability that $B$ occurs.
+
+This formula allows us to **extract** the probability of $A$ occurring under the condition that $B$ is true.
+
+---
+
+2️⃣ Why Are We Using This Formula Instead of Bayes' Theorem?**
+Bayes' Theorem is written as:
+
+$$
+P(A | B) = \frac{P(B | A) P(A)}{P(B)}
+$$
+
+This version is useful when we **don’t know** $P(A, B)$ but have $P(B | A)$ and $P(A)$. However, in our case, the **table already provides joint probabilities $P(S, C)$**, making it **easier** to use the simpler form:
+
+$$
+P(A | B) = \frac{P(A, B)}{P(B)}
+$$
+
+This is why we don’t need the full Bayes’ formula for our computations.
+
+---
+
+3️⃣ Applying Conditional Probability to Our Case
+
+We need to compute:
+
+$$
+P(S = 0 | C = 1)
+$$
+
+This means we are asking:  
+
+> What is the probability that the algorithm recommended **not** sending the job-seeker to the program $( S = 0 )$, **given** that the counselor actually **sent them** to the program $( C = 1 )$?
+
+Using the **conditional probability formula**:
+
+$$
+P(S = 0 | C = 1) = \frac{P(S = 0, C = 1)}{P(C = 1)}
+$$
+
+From the **table**:
+
+$$
+P(S = 0, C = 1) = 0.2
+$$
+
+$$
+P(C = 1) = 0.8
+$$
+
+Now, computing the probability:
+
+$$
+P(S = 0 | C = 1) = \frac{0.2}{0.8} = 0.25
+$$
+
+
+**Summary: When to Use This Approach?**
+
+- **Use** $P(A | B) = \frac{P(A, B)}{P(B)}$ **when we already have joint probabilities**.
+
+- **Use Bayes' Theorem** $$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$ **when we only know conditional probabilities and need to infer joint probabilities**.
+
+Here, we directly **extract $P(S = 0 | C = 1)$ from the table**, making our calculation straightforward.
+
+
+
+- $$P(S = 0|C = 1) = \frac{P(S = 0, C = 1)}{P(C = 1)} = \frac{0.2}{0.8} = \mathbf{0.25}$$
+
+
+- $$P(S = 1|C = 1) = \frac{P(S = 1, C = 1)}{P( C = 1)} = \frac{0.6}{0.8} = \mathbf{0.75}$$
+
+
+- $$P(C = 1|S = 1) = \frac{P(C = 1, S = 1)}{P( S = 1)} = \frac{0.6}{0.6} = \mathbf{1}$$
+
+
+- $$P(C = 1|S = 0) = \frac{P(C = 1, S = 0)}{P( S = 0)} = \frac{0.2}{0.4} = \mathbf{0.5}$$
+
+
+- $$P(C = 0|S = 0) = \frac{P(C = 0, S = 0)}{P( S = 0)} = \frac{0.2}{0.4} = \mathbf{0.5}$$
+
+:::
+
+
+
+## Interpreting the Objective Function
+
+The objective of the PES is to maximize the average value of:
+
+$$
+W = Y - \alpha T
+$$
+
+where $\alpha$ is some cost parameter set by the PES and $T$ is a dummy variable for being treated or not.
+
+- **Interpret this formula.**  
+- **Why would the PES take it as an objective function?**
+
+::: {.callout-tip title="Answer"}
+
+**Interpreting the Objective Function**
+
+The objective function $W = Y - \alpha T$ can be interpreted as follows:
+
+- $Y$ represents the **outcome** of the job-seeker, such as finding a job or not.  
+- $T$ is a **dummy variable** that takes the value 1 if the job-seeker is treated and 0 otherwise.  
+- $\alpha$ is a **cost parameter** that reflects the trade-off between the outcome $Y$ and the cost of treatment $T$.
+
+By maximizing the average value of $W$, the PES ensures that job-seekers achieve the best possible outcomes ($Y$) while also minimizing the cost $\alpha T$ incurred by providing treatment.
+
+:::
+
+---
+
+## Deriving $E_S(W)$
+
+Define $E_S(W)$, the expected value of $W$ in the population of job-seekers **if the allocation rule strictly follows the score-based decision**, without any counselor intervention. Show that:
+
+$$
+E_S(W) = E(Y(1)\mid S=1)\,P(S=1) + E(Y(0)\mid S=0)\,P(S=0) - \alpha\,P(S=1).
+$$
+
+::: {.callout-tip title="Answer"}
+
+To derive $E_S(W)$, we focus on the scenario where:
+
+1. All job-seekers with $S=1$ get treated ($T=1$).  
+2. All job-seekers with $S=0$ do not get treated ($T=0$).
+
+Hence, under the **score-based** rule:
+
+- The outcome for those with $S=1$ is $Y(1)$, with probability $P(S=1)$.  
+- The outcome for those with $S=0$ is $Y(0)$, with probability $P(S=0)$.  
+- The cost applies to everyone in treatment, i.e., $\alpha$ times $P(S=1)$.
+
+Thus,
+
+$$
+E_S(W) 
+= E\bigl(Y(1)\mid S=1\bigr)\,P(S=1)
++ E\bigl(Y(0)\mid S=0\bigr)\,P(S=0)
+- \alpha\,P(S=1).
+$$
+
+:::
+
+---
+
+## Observability of Terms
+
+- **Which terms in the equation for $E_S(W)$ can be directly observed from the data?**  
+- **Which terms cannot?**
+
+::: {.callout-tip title="Answer"}
+
+In
+
+$$
+E_S(W) 
+= E(Y(1)\mid S=1)\,P(S=1)
++ E(Y(0)\mid S=0)\,P(S=0)
+- \alpha\,P(S=1),
+$$
+
+- $P(S=1)$ and $P(S=0)$ **can** be observed directly because $S$ is the algorithm’s recommendation.  
+- $E(Y(1)\mid S=1)$ and $E(Y(0)\mid S=0)$ **cannot** be directly observed, as they represent counterfactual expectations for those subgroups.
+
+Therefore, we need additional assumptions or data to identify those quantities.
+
+:::
+
+---
+
+## Deriving $E_C(W)$
+
+Now, consider $E_C(W)$, the expected value of $W$ in the population of job-seekers **under the actual allocation rule** that was implemented (where counselors may overrule the algorithm if $S=0$).
+
+Derive a similar expression for $E_C(W)$ in terms of $P(C=1)$ and $P(C=0)$.
+
+- **Which terms can be directly observed in the data?**
+
+::: {.callout-tip title="Answer"}
+
+Under the actual allocation $C$:
+
+- With probability $P(C=1)$, the job-seeker is treated ($T=1$).  
+- With probability $P(C=0)$, the job-seeker is not treated ($T=0$).
+
+Hence,
+
+$$
+E_C(W)
+= E(Y(1)\mid C=1)\,P(C=1)
++ E(Y(0)\mid C=0)\,P(C=0)
+- \alpha\,P(C=1).
+$$
+
+- **Directly observable**: $P(C=1)$ and $P(C=0)$.  
+- **Not directly observable**: $E(Y(1)\mid C=1)$ and $E(Y(0)\mid C=0)$, for the same counterfactual reasoning as before.
+
+:::
+
+---
+
+## Assuming a Constant Treatment Effect
+
+Now assume the treatment effect is **constant**, meaning:
+
+$$
+Y(1) = Y(0) + \Delta,
+$$
+
+where $\Delta$ is the same for every job-seeker.
+
+1. **Derive an expression for $E_S(W) - E_C(W)$.**  
+2. **Which decision rule maximizes the PES objective?**  
+3. **What would be the optimal decision rule?**
+
+::: {.callout-tip title="Answer"}
+
+### Deriving $E_S(W) - E_C(W)$
+
+Recall:
+
+$$
+E_S(W) 
+= E(Y(1)\mid S=1)\,P(S=1)
++ E(Y(0)\mid S=0)\,P(S=0)
+- \alpha\,P(S=1),
+$$
+
+$$
+E_C(W)
+= E(Y(1)\mid C=1)\,P(C=1)
++ E(Y(0)\mid C=0)\,P(C=0)
+- \alpha\,P(C=1).
+$$
+
+With a **constant** treatment effect $\Delta$:
+
+$$
+Y(1) = Y(0) + \Delta 
+\quad \Longrightarrow \quad
+E\bigl(Y(1)\mid \dots\bigr) = E\bigl(Y(0)\mid \dots\bigr) + \Delta.
+$$
+
+Thus,
+
+$$
+\begin{aligned}
+E_S(W)
+&= \bigl[E(Y(0)\mid S=1) + \Delta\bigr]\,P(S=1)
++ E(Y(0)\mid S=0)\,P(S=0)
+- \alpha\,P(S=1), \\[8pt]
+E_C(W)
+&= \bigl[E(Y(0)\mid C=1) + \Delta\bigr]\,P(C=1)
++ E(Y(0)\mid C=0)\,P(C=0)
+- \alpha\,P(C=1).
+\end{aligned}
+$$
+
+Subtracting:
+
+$$
+\begin{aligned}
+E_S(W) - E_C(W)
+&= \Bigl[E(Y(0)\mid S=1)\,P(S=1) \;-\; E(Y(0)\mid C=1)\,P(C=1)\Bigr]\\
+&\quad + \Bigl[E(Y(0)\mid S=0)\,P(S=0) \;-\; E(Y(0)\mid C=0)\,P(C=0)\Bigr]\\
+&\quad + \Delta\,\bigl[P(S=1) \;-\; P(C=1)\bigr]
+\;-\; \alpha\,\bigl[P(S=1) \;-\; P(C=1)\bigr].
+\end{aligned}
+$$
+
+---
+
+### Which Decision Rule Maximizes the PES Objective?
+
+If $\Delta$ is the **same** for all:
+
+- **If** $\Delta > \alpha$, then treatment always adds more benefit than cost, so **treat everyone**.  
+- **If** $\Delta < \alpha$, cost exceeds benefit, so **treat no one**.  
+- **If** $\Delta = \alpha$, the net effect is zero, so it does not matter how many are treated in terms of average $W$.
+
+---
+
+### The Optimal Decision Rule
+
+Under a constant treatment effect:
+
+- **$\Delta > \alpha$**: Treat **all** individuals ($T=1$ for everyone).  
+- **$\Delta < \alpha$**: Treat **no one** ($T=0$).  
+- **$\Delta = \alpha$**: Indifferent among all allocations (any fraction yields the same net average outcome).
+
+Thus, if the effect is truly uniform, the score does not matter for the optimal decision.
+
+:::
+
+---
+
+## Relaxing the Constant Treatment Effect Assumption
+
+Now, we allow for **heterogeneous** treatment effects. The following table shows **average observed outcomes** $Y$ in each subgroup:
+
+|            | S=0 | S=1 |
+|------------|-----|-----|
+| **C=0**    | 0.1 |  -  |
+| **C=1**    | 0.1 | 0.3 |
+
+The “-” indicates there are **no** job-seekers with $(S=1, C=0)$.
+
+---
+
+## Computing $E_C(W)$
+
+- **Compute the empirical value of $E_C(W)$ as a function of $\alpha$.**
+
+::: {.callout-tip title="Answer"}
+
+From the **joint probabilities** of $(S,C)$:
+
+- $P(S=0, C=0) = 0.2$  
+- $P(S=0, C=1) = 0.2$  
+- $P(S=1, C=1) = 0.6$  
+- $P(S=1, C=0) = 0$
+
+And from the **average outcomes**:
+
+- $E(Y \mid S=0,C=0) = 0.1$  
+- $E(Y \mid S=0,C=1) = 0.1$  
+- $E(Y \mid S=1,C=1) = 0.3$
+
+First, compute the overall expected outcome $E_C(Y)$:
+
+$$
+E_C(Y) 
+= 0.1 \times 0.2
++ 0.1 \times 0.2
++ 0.3 \times 0.6
+= 0.02 + 0.02 + 0.18
+= 0.22.
+$$
+
+Next, $P(C=1) = 0.2 + 0.6 = 0.8$. Therefore,
+
+$$
+E_C(W) 
+= E_C(Y) - \alpha \times P(C=1)
+= 0.22 - 0.8\,\alpha.
+$$
+
+So,
+
+$$
+\boxed{\mathbf{E_C(W) = 0.22 - 0.8\,\alpha.}}
+$$
+
+:::
+
+---
+
+## Computing $E_S(W)$
+
+- **Can you compute the empirical value of $E_S(W)$ as a function of $\alpha$?**
+
+::: {.callout-tip title="Answer"}
+
+Under the **score-based** rule (no counselor veto):
+
+- $S=1$ implies treatment.  
+- $S=0$ implies no treatment.
+
+From the data:
+
+- $P(S=1) = 0.6$, $P(S=0) = 0.4$.  
+- If $S=1$, we look at $(S=1,C=1)$ for the outcome, which is 0.3 on average. So $E(Y(1)\mid S=1) \approx 0.3$.  
+- If $S=0$, we look at $(S=0,C=0)$ for the outcome of no treatment, which is 0.1 on average. So $E(Y(0)\mid S=0) \approx 0.1$.
+
+Hence,
+
+$$
+E_S(Y)
+= 0.3 \times 0.6
++ 0.1 \times 0.4
+= 0.18 + 0.04
+= 0.22.
+$$
+
+Because $\alpha$ is paid only for those treated (i.e. $P(S=1)=0.6$):
+
+$$
+E_S(W) 
+= E_S(Y) - \alpha \times 0.6
+= 0.22 - 0.6\,\alpha.
+$$
+
+So,
+
+$$
+\boxed{\mathbf{E_S(W) = 0.22 - 0.6\,\alpha.}}
+$$
+
+:::
