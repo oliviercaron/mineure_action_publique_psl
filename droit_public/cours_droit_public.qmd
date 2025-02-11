@@ -383,13 +383,13 @@ Le **principe de neutralité** signifie que le service public doit être **exemp
 
 Le **principe de continuité du service public** découle de la continuité de l'État lui-même. Étant donné que l'État est une entité permanente, les services qu'il fournit doivent également fonctionner de manière continue, évitant ainsi un État à "éclipses".
 
-Cependant, ce principe entre parfois en conflit avec le **droit constitutionnel de grève**. Le juge administratif est alors chargé de concilier ces deux principes de valeur constitutionnelle. Le Conseil constitutionnel a reconnu que le législateur peut apporter des limitations au droit de grève pour assurer la continuité du service public. Par exemple, les policiers et les militaires ne sont pas autorisés à faire grève. :contentReference[oaicite:0]{index=0}
+Cependant, ce principe entre parfois en conflit avec le **droit constitutionnel de grève**. Le juge administratif est alors chargé de concilier ces deux principes de valeur constitutionnelle. Le Conseil constitutionnel a reconnu que le législateur peut apporter des limitations au droit de grève pour assurer la continuité du service public. Par exemple, les policiers et les militaires ne sont pas autorisés à faire grève. :contentReference[oaicite:0]{index="0"}
 
 De même, les aiguilleurs du ciel sont soumis à des restrictions en raison de l'importance de leur rôle dans la sécurité aérienne. Dans l'enseignement primaire, un service minimum d'accueil a été mis en place pour les enfants en cas de grève des enseignants, afin de permettre aux parents de continuer à travailler et de limiter l'impact économique.
 
 ### Police Administrative
 
-La **police administrative** est une mission essentielle que l'État assure au nom de l'intérêt général. Son objectif est de garantir et de maintenir l'ordre public. Elle se distingue de la police judiciaire par sa finalité préventive, visant à empêcher les troubles à l'ordre public, tandis que la police judiciaire a une fonction répressive, intervenant après la commission d'une infraction pour en rechercher les auteurs. :contentReference[oaicite:1]{index=1}
+La **police administrative** est une mission essentielle que l'État assure au nom de l'intérêt général. Son objectif est de garantir et de maintenir l'ordre public. Elle se distingue de la police judiciaire par sa finalité préventive, visant à empêcher les troubles à l'ordre public, tandis que la police judiciaire a une fonction répressive, intervenant après la commission d'une infraction pour en rechercher les auteurs. :contentReference[oaicite:1]{index="1"}
 
 Il est possible qu'une même intervention comporte à la fois des aspects de police administrative et de police judiciaire. Par exemple, un barrage routier mis en place pour effectuer un contrôle d'alcoolémie relève initialement de la police administrative. Si une personne est trouvée en infraction pour conduite en état d'ivresse, l'action devient alors de la compétence de la police judiciaire. Ces deux types de police sont soumis à des juridictions différentes : la police administrative relève du juge administratif, tandis que la police judiciaire dépend du juge judiciaire.
 
@@ -397,9 +397,9 @@ Il est possible qu'une même intervention comporte à la fois des aspects de pol
 
 En droit administratif, l'**ordre public** est traditionnellement défini par le triptyque **SST** :
 
-- **Sécurité** : protection des personnes et des biens contre les atteintes physiques.
-- **Salubrité** : préservation de la santé publique, notamment par des mesures d'hygiène.
-- **Tranquillité** : maintien de la paix publique en évitant les nuisances sonores et les troubles de voisinage.
+-   **Sécurité** : protection des personnes et des biens contre les atteintes physiques.
+-   **Salubrité** : préservation de la santé publique, notamment par des mesures d'hygiène.
+-   **Tranquillité** : maintien de la paix publique en évitant les nuisances sonores et les troubles de voisinage.
 
 Ces composantes forment le cadre dans lequel la police administrative exerce ses missions pour assurer le bon ordre dans la société.
 
@@ -419,15 +419,15 @@ Cet arrêt constitue un tournant dans la jurisprudence administrative. Il concer
 
 Le Conseil d'État a jugé que, bien que le film ait obtenu un visa d’exploitation délivré par le Ministère de la Culture, le **maire dispose d’un pouvoir de police générale** lui permettant d’interdire la projection du film si des **circonstances locales particulières** le justifient. Ainsi, une interdiction locale peut être fondée sur la nécessité de préserver l’ordre public, notamment en ce qui concerne la moralité publique.
 
-::: {.caution}
-**Attention :** Le visa d’exploitation délivré par le Ministère de la Culture classe les films selon différentes catégories (interdits aux moins de 16 ans, de 18 ans, ou classés X).  
-- Un film peut être **interdit aux moins de 18 ans sans être classé X**.  
+::: caution
+**Attention :** Le visa d’exploitation délivré par le Ministère de la Culture classe les films selon différentes catégories (interdits aux moins de 16 ans, de 18 ans, ou classés X).\
+- Un film peut être **interdit aux moins de 18 ans sans être classé X**.\
 - La classification **pornographique (classé X)** a des conséquences spécifiques : très peu de salles sont autorisées à diffuser ces films, et des **différences fiscales** s’appliquent.
 :::
 
 ## 3. L'Arrêt du Conseil d'État du 14 juin 2002, « Association Promouvoir »
 
-> **Exemple :**  
+> **Exemple :**\
 > L'arrêt du Conseil d'État, en date du 14 juin 2002, « Association Promouvoir » met fin au contentieux du film *Baise-moi*. Il concerne le contrôle de légalité exercé par le Conseil d'État sur les visas d'exploitation des films cinématographiques, ainsi que sur les compétences du Ministre de la Culture chargé de classer les films cinématographiques eu égard à ses pouvoirs de police spéciale.
 
 Dans cette affaire, l’association **Promouvoir**, connue pour sa défense des valeurs chrétiennes, avait contesté la légalité du visa d’exploitation du film *Baise-moi*, au motif qu’il portait atteinte à la moralité publique. L’arrêt confirme que le Conseil d'État peut contrôler la légalité des décisions administratives liées à la diffusion des œuvres cinématographiques, en veillant à l'équilibre entre **liberté d’expression** et **protection de la moralité publique**.
@@ -445,21 +445,23 @@ Le principe de **dignité de la personne humaine** est une notion clé en droit 
 Cette affaire emblématique concerne l'interdiction d'une attraction consistant à organiser des concours de **lancer de nains** dans des établissements de divertissement.
 
 #### **Faits :**
+
 Un maire avait pris un arrêté interdisant l'organisation de ce type d'événement sur le territoire de sa commune, au motif qu'il portait atteinte à la dignité de la personne humaine. L'organisateur ainsi qu’un participant volontaire ont contesté cette décision, arguant que l’activité était pratiquée avec le **consentement** des personnes concernées et qu’elle constituait pour elles une source de revenus.
 
 #### **Problématique juridique :**
+
 La question posée était de savoir si le **consentement de la personne** suffisait à justifier la légalité d’une activité susceptible de porter atteinte à la dignité humaine.
 
 #### **Solution du Conseil d'État :**
-Le Conseil d'État a confirmé l’interdiction, affirmant que :
-> « Le respect de la dignité de la personne humaine est une composante de l’ordre public. »
+
+Le Conseil d'État a confirmé l’interdiction, affirmant que : \> « Le respect de la dignité de la personne humaine est une composante de l’ordre public. »
 
 Cette décision est novatrice car elle établit que la **dignité humaine est un principe supérieur** à la simple liberté individuelle, y compris lorsque la personne concernée est consentante. En d'autres termes, **le consentement ne peut pas justifier une atteinte à la dignité humaine**.
 
-::: {.callout-caution}
+::: callout-caution
 ## Attention
-Ce principe s’applique de manière stricte, mais il n’est pas systématiquement invoqué pour toutes les activités spectaculaires. Par exemple :
-- **Les hommes-canon** dans les cirques ou les **combats de femmes dans la boue** ne sont généralement pas interdits, car ils ne sont pas considérés comme portant atteinte à la dignité humaine de la même manière que le lancer de nain.  
+
+Ce principe s’applique de manière stricte, mais il n’est pas systématiquement invoqué pour toutes les activités spectaculaires. Par exemple : - **Les hommes-canon** dans les cirques ou les **combats de femmes dans la boue** ne sont généralement pas interdits, car ils ne sont pas considérés comme portant atteinte à la dignité humaine de la même manière que le lancer de nain.\
 - La distinction repose sur la perception sociale et le caractère dégradant ou non de l’activité pour la personne concernée.
 :::
 
@@ -467,42 +469,31 @@ Ce principe s’applique de manière stricte, mais il n’est pas systématiquem
 
 Le principe de dignité humaine est aujourd’hui un **fondement de la police administrative générale**, permettant aux autorités de restreindre certaines libertés individuelles pour préserver l’ordre public. Il s’ajoute aux trois composantes traditionnelles de l’ordre public (sécurité, tranquillité, salubrité publiques).
 
-Il est souvent mobilisé dans des domaines sensibles, notamment :
-- La **bioéthique** (expérimentations sur le corps humain, procréation assistée) ;
-- La **lutte contre les discriminations** et la protection des personnes vulnérables ;
-- Les **pratiques culturelles ou sportives** perçues comme dégradantes.
+Il est souvent mobilisé dans des domaines sensibles, notamment : - La **bioéthique** (expérimentations sur le corps humain, procréation assistée) ; - La **lutte contre les discriminations** et la protection des personnes vulnérables ; - Les **pratiques culturelles ou sportives** perçues comme dégradantes.
 
 ### Conclusion
 
 L’arrêt *Commune de Morsang-sur-Orge* marque une évolution significative du droit administratif en affirmant que la **dignité de la personne humaine** constitue un principe fondamental de l’ordre public, justifiant des restrictions à la liberté, même en l'absence de troubles matériels immédiats. Ce principe est désormais un pilier des décisions de police administrative en France.
 
-
-
 Blog intéressant : https://blog.juspoliticum.com/
-
 
 Hiérarchie sommaire de la Police
 
-Premier ministre
-Ministre de l'intérieur
-PRéfet
-Maire
+Premier ministre Ministre de l'intérieur PRéfet Maire
 
 L'autorité de police la plus basse ne peut qu'aggraver la mesurer, pas l'adoucir.
 
-Le juge effectue un contrôle de proportionalité de la mesure.
-On ne peut pas prendre d'interdiction générale et absolue (La police) et "La liberté est la règle, la restriction l'exception"
+Le juge effectue un contrôle de proportionalité de la mesure. On ne peut pas prendre d'interdiction générale et absolue (La police) et "La liberté est la règle, la restriction l'exception"
 
 C'est seulement si on prouve qu'un truc va troubler la stabilité publique qu'on peut l'interdire. LE juge administratif est vu comme très protecteur des libertés.
-
 
 ## La Responsabilité
 
 Pour engager la responsabilité civile, trois éléments doivent être réunis :
 
-- **Un préjudice** : Il s'agit d'une atteinte subie par une personne dans ses biens, son corps ou ses droits.
-- **Une faute** : Un manquement à une obligation légale ou contractuelle, ou une violation du devoir général de ne causer aucun dommage à autrui.
-- **Un lien de causalité** : La faute doit être la cause directe du préjudice subi. 
+-   **Un préjudice** : Il s'agit d'une atteinte subie par une personne dans ses biens, son corps ou ses droits.
+-   **Une faute** : Un manquement à une obligation légale ou contractuelle, ou une violation du devoir général de ne causer aucun dommage à autrui.
+-   **Un lien de causalité** : La faute doit être la cause directe du préjudice subi.
 
 Cette combinaison permet de mettre en œuvre la responsabilité pour faute.
 
@@ -512,7 +503,7 @@ L'article 1240 du Code civil dispose :
 
 Il est important de noter que la loi ne reconnaît pas tous les dommages comme des préjudices indemnisables. Par exemple, les préjudices purement immatériels ou insignifiants peuvent ne pas donner lieu à réparation.
 
-La question de l'indemnisation de la douleur morale, telle que la perte d'un être cher, a été largement débattue en jurisprudence. Le droit français reconnaît l'indemnisation du **préjudice moral**, également connu sous le terme latin *pretium doloris* (prix de la douleur). Ainsi, les proches d'une victime décédée peuvent obtenir réparation pour la souffrance morale endurée. Le montant de cette indemnisation est déterminé au cas par cas par le juge, en fonction de divers critères tels que la proximité de la relation avec la victime et l'intensité de la douleur ressentie. :contentReference[oaicite:0]{index=0}
+La question de l'indemnisation de la douleur morale, telle que la perte d'un être cher, a été largement débattue en jurisprudence. Le droit français reconnaît l'indemnisation du **préjudice moral**, également connu sous le terme latin *pretium doloris* (prix de la douleur). Ainsi, les proches d'une victime décédée peuvent obtenir réparation pour la souffrance morale endurée. Le montant de cette indemnisation est déterminé au cas par cas par le juge, en fonction de divers critères tels que la proximité de la relation avec la victime et l'intensité de la douleur ressentie. :contentReference[oaicite:0]{index="0"}
 
 ### La Vérité Scientifique et la Vérité Juridique
 
@@ -522,25 +513,25 @@ Il existe des différences fondamentales entre la **vérité scientifique** et l
 
 Si un stylo tombe au sol, plusieurs explications peuvent être proposées :
 
-- **Scientifiquement** : La chute est due à la force gravitationnelle, l’influence des planètes et les lois de la physique.
+-   **Scientifiquement** : La chute est due à la force gravitationnelle, l’influence des planètes et les lois de la physique.
 
-- **Juridiquement** : La responsabilité est attribuée à la personne qui a ouvert la main, car c’est elle qui a accompli l’acte concret.
+-   **Juridiquement** : La responsabilité est attribuée à la personne qui a ouvert la main, car c’est elle qui a accompli l’acte concret.
 
 Le droit cherche donc à **simplifier la chaîne causale** pour identifier un responsable, même si la réalité scientifique est plus complexe.
 
----
+------------------------------------------------------------------------
 
 ### Le Lien de Causalité en Droit
 
 En jurisprudence, plusieurs **théories du lien de causalité** coexistent pour déterminer la responsabilité :
 
-1. **La théorie de l'équivalence des conditions** : Toute condition ayant contribué au dommage est considérée comme cause.
+1.  **La théorie de l'équivalence des conditions** : Toute condition ayant contribué au dommage est considérée comme cause.
 
-2. **La théorie de la causalité adéquate** : Seule la cause qui a joué un rôle déterminant est retenue.
+2.  **La théorie de la causalité adéquate** : Seule la cause qui a joué un rôle déterminant est retenue.
 
 > **Exemple** : Celui qui a joué le rôle le plus déterminant dans la survenance du dommage sera tenu responsable.
 
----
+------------------------------------------------------------------------
 
 ### Les Différents Types de Faute
 
@@ -548,23 +539,23 @@ Dans l’histoire de la jurisprudence, on distingue plusieurs catégories de fau
 
 #### 1. Faute Lourde et Faute Simple
 
-- **Faute simple** : Négligence, imprudence, erreur sans gravité exceptionnelle.
+-   **Faute simple** : Négligence, imprudence, erreur sans gravité exceptionnelle.
 
-- **Faute lourde** : Comportement particulièrement grave, marquant un manquement manifeste à des obligations essentielles.
+-   **Faute lourde** : Comportement particulièrement grave, marquant un manquement manifeste à des obligations essentielles.
 
 La distinction est cruciale car certains domaines exigent la preuve d’une faute lourde pour engager la responsabilité (par exemple, en matière de gestion publique).
 
 #### 2. Faute Personnelle et Faute de Service
 
-- **Faute personnelle** : Comportement imputable à l'agent public, détachable de l'exercice de ses fonctions.
+-   **Faute personnelle** : Comportement imputable à l'agent public, détachable de l'exercice de ses fonctions.
 
-  - *Exemple* : Un gendarme qui, en dehors de ses fonctions, commet des actes criminels constitue une faute personnelle.
+    -   *Exemple* : Un gendarme qui, en dehors de ses fonctions, commet des actes criminels constitue une faute personnelle.
 
-- **Faute de service** : Comportement lié à l'exercice des fonctions de l'agent public.
+-   **Faute de service** : Comportement lié à l'exercice des fonctions de l'agent public.
 
-  - *Exemple* : Une erreur commise par un fonctionnaire dans l'exercice de ses fonctions administratives relève de la faute de service.
+    -   *Exemple* : Une erreur commise par un fonctionnaire dans l'exercice de ses fonctions administratives relève de la faute de service.
 
----
+------------------------------------------------------------------------
 
 ### La Responsabilité Sans Faute (RSF)
 
@@ -574,47 +565,119 @@ La **responsabilité sans faute** permet d’obtenir une indemnisation sans avoi
 
 L’État ou une personne morale est responsable des risques qu’il fait courir à autrui.
 
-- *Exemple* : Les policiers ou gendarmes portent des armes à feu dans le cadre de leur mission. L’État assume les risques inhérents à cette obligation.
+-   *Exemple* : Les policiers ou gendarmes portent des armes à feu dans le cadre de leur mission. L’État assume les risques inhérents à cette obligation.
 
-- *Exemple militaire* : Une grenade explose en dehors de l’intervalle prévu par le constructeur, causant des blessures. L’État indemnise la victime, même en l’absence de faute.
+-   *Exemple militaire* : Une grenade explose en dehors de l’intervalle prévu par le constructeur, causant des blessures. L’État indemnise la victime, même en l’absence de faute.
 
 #### 2. Responsabilité Fondée sur la Rupture d’Égalité devant les Charges Publiques
 
 Lorsqu’une décision administrative ou une loi impose à un individu une charge exceptionnelle, l’État doit compenser.
 
-- **Affaire des Bédouins** :
+-   **Affaire des Bédouins** :
 
-  - *Faits* : Un tribunal ordonne l'expulsion d’une tribu bédouine avec le concours de la force publique. La police refuse d’intervenir.
+    -   *Faits* : Un tribunal ordonne l'expulsion d’une tribu bédouine avec le concours de la force publique. La police refuse d’intervenir.
 
-  - *Décision* : La personne lésée obtient une indemnité au titre de la rupture d’égalité devant les charges publiques, car elle a supporté seule une charge qui aurait dû être partagée.
+    -   *Décision* : La personne lésée obtient une indemnité au titre de la rupture d’égalité devant les charges publiques, car elle a supporté seule une charge qui aurait dû être partagée.
 
-- **Affaire Société La Fleurette** :
+-   **Affaire Société La Fleurette** :
 
-  - *Faits* : Une loi du 29 juin 1934 relative à la protection des produits laitiers interdit la fabrication et la vente de tout produit présentant l'aspect de la crème et destiné aux mêmes usages mais ne provenant pas exclusivement du lait. La société *La Fleurette*, qui fabriquait un produit appelé « Gradine » directement concerné par cette interdiction, a dû cesser son activité en conséquence.
+    -   *Faits* : Une loi du 29 juin 1934 relative à la protection des produits laitiers interdit la fabrication et la vente de tout produit présentant l'aspect de la crème et destiné aux mêmes usages mais ne provenant pas exclusivement du lait. La société *La Fleurette*, qui fabriquait un produit appelé « Gradine » directement concerné par cette interdiction, a dû cesser son activité en conséquence.
 
-  - *Décision* : Par un arrêt du 14 janvier 1938, le Conseil d'État a reconnu que la société subissait une charge particulière et devait être indemnisée par l'État pour rupture de l'égalité devant les charges publiques. :contentReference[oaicite:0]{index=0}
+    -   *Décision* : Par un arrêt du 14 janvier 1938, le Conseil d'État a reconnu que la société subissait une charge particulière et devait être indemnisée par l'État pour rupture de l'égalité devant les charges publiques. :contentReference[oaicite:0]{index="0"}
 
----
+------------------------------------------------------------------------
 
 ### Conclusion
 
 Le droit de la responsabilité civile s’articule autour de concepts clés comme la **faute**, le **lien de causalité** et la **notion de préjudice**. Toutefois, des mécanismes comme la **responsabilité sans faute** montrent que le droit va au-delà de la recherche d’un responsable pour garantir l’indemnisation des victimes et préserver l’équilibre social.
 
-Il y a des nomenclatures pour un équivalent monétaire à l'indemnisation de la perte d'un être cher :
-- famille 
-- soeurs frère
-- cousins etc.
-
-
-
-
+Il y a des nomenclatures pour un équivalent monétaire à l'indemnisation de la perte d'un être cher : - famille - soeurs frère - cousins etc.
 
 On estime qu'il faut que le préjudice soit **anormal et spécial**
 
+## 05/02/2025
 
+### Les motifs de protection en droit de l'asile
 
+C'est basé sur son cours de Contentieux des Etrangers à l'UPJV.
 
+Structure du Premier Accueil des Demandeurs d'Asile (SPADA) =\> Une fois qu'ils ont demandé à ... et ça se passe devant un GUDA: Guichet unique du demandeur d'asile. C'est l'interlocuteur unique qui va lui dire ce dont elle va avoir besoin. Une fois que le dossier est déposé dans un GUDA, la personne va ensuite être convoquée pour un entretien auprès d'une structure : Office français de protection des réfugiés et apatrides (OFPRA)
 
+Organisme supposément indépendant du pouvoir en place. Le dossier va être traité par une aire culturelle adaptée (amérique du sud etc.) et un officier de protection adapté.
 
+Il est convoqué par l'oficier de protection :
 
+Le demandeur va devoir préciser sa vie, plus de détails. Cet entretien est fondamental pour le demandeur d'asile car ça va être la première fois qu'il va être en contact avec un traducteur assermenté. Il va pouvoir retranscrire avec facilité l'histoire du demandeur d'asile. Jusque-là il faisait tout tout seul. Tous les documents doivent être en français d'ailleurs donc ça peut être très problématique.
 
+(Exemple problème de traduction entre "terroriste" et "agresseur". Y'a des gens vers Stalingrad qui font des traductions merdiques, qui font des copier coller en reprenant d'autres histoires ça n'a ni queue ni tête.)
+
+Il arrive fréquemment qu'il n'y ait pas assez de traducteurs assermentés. Il y a environ 130 langues parlées disponibles avec des traducteurs assermentés.
+
+Il y a un cas de Français pour lequel on a autorisé l'asile à l'étranger =\> Au Canada, un kickboxeur ou boxeur qui a été critique du Roi du Maroc. Et donc les services secrets marocains l'ont menacé à plusieurs reprises.
+
+Il s'agit probablement de Zakaria Moumni, un ancien champion marocain de kickboxing. Après avoir critiqué le roi Mohammed VI et affirmé avoir été torturé au Maroc, il a renoncé à sa nationalité marocaine et a obtenu la nationalité française en 2017. Se sentant menacé en France, il a demandé l'asile politique au Canada en 2017. Le 26 mai 2022, la Commission de l'immigration et du statut de réfugié de Montréal lui a accordé le statut de réfugié politique, estimant que les autorités françaises n'avaient pas démontré une volonté suffisante de le protéger contre les menaces et agressions liées à ses positions politiques.
+
+<https://www.journaldemontreal.com/2017/09/26/un-champion-de-kickboxing-du-maroc-demande-lasile-au-canada>
+
+Ensuite l'OFPRA propose soit : un rejet =\> une acceptation =\> refugiée (10 ans) au sens de la convention de Genève ou alors ce qu'on appelle "La protection subsidiaire" (4 ans) au titre du Droit Européen. Quand on veut modifier un traité, il faut que tous ceux qui ont signé le traité acceptent de le modifier, donc pas facile à mettre en place pour modifier les 10 ans de la Convention de Genève qui date de 1951'. Avant les guerres ça durait longtemps, maintenant ça ne dure plus vraiment 10 ans. C'est pour ça que subsidiare c'est plus court (dans les années 1990).
+
+On parle "d'agent persécuteur". LEs objecteurs de conscience, ceux qui refusent d'être enrollés dans l'armée par exemple, ils vont refuser de contacter la Police.
+
+Le règlement Dublin qui vise à réglementer le pays qui va être responsable en Europe du traitement de la demande d'asile.
+
+Fait non établi : les faits rapportés ne sont pas suffisemment crédibles pour convaincre.
+
+Le "pushback", le fait de pousser les demandeurs d'asile/réfugiés vers les côtes est interdit. L'italie a été condamnée pour ça. L'union Européenne a été mise en cause.
+
+Motifs de persécution réels ou imputés :
+
+1.  Religion
+
+2.  Race ou nationalité
+
+3.  Opinions publiques
+
+4.  Groupe social
+
+Article 10 de la Directive Qualification et Article L. 511-2 CESEDA
+
+CLDA : Cour nationale du droit d'asile (CNDA)
+
+La juridiction Américaine a reconnu l'existence d'un Poltergeist
+
+1)  On peut aussi prendre en compte
+
+2)  Le racisme est universel. Dès la première audience à la Cour, le prof l'a vu, Guinée. Une personne en Guinée qui s'était fait persécuter et qui disait que la personne qui l'avait fait était tellement méchante qu'elle était forcément de l'ethnie Susu.
+
+Ethnie :
+
+-   Couleur
+
+-   Ascendance
+
+-   Appartenance à un certain groupe ethnique
+
+Nationalité :
+
+-   Identité culturelle, ethnique, linguistique
+
+-   Origines géographiques communes
+
+-   Relation avec la population d'un autre ETat
+
+Liens
+
+-   Peu ou pas de distinction entre les deux en pratique
+
+-   Parfois connotation politique
+
+-   Parfois connotation religieuse
+
+3.   Les Erythréens par exemple sont très durs, il y a une liste avec tous les requérants demandeurs d'asile devant la salle. Et il y a des Erythréenns qui regardent les citoyens de leur pays qui sont sur les listes et ensuite ils s'occupent de leur famille dans le pays natal.
+4.  Caractéristique qui appartient à la personne et qui aboutit au fait que ces gens se regroupent soient vus comme à part de la Société. =\> minorités sexuelles, albinos (considérés comme un réceptable magique....), femmes non excisées (vues comme des putes, traînées, chiennes dans leur pays, impossible de trouver un travail, objectivement regardées comme étant à part). Il pourrait peut-être un jour y avoir des Américains avec ce qui se passe avec Trump.
+
+Fouille systématique maintenant car il y a des gens qui se sont immolés dans la cour quand ils ont été refusés d'asile. (on les appelles des requérants d'ailleurs)
+
+Quand l'officier signe une décision, c'est un trigramme qui est marqué. Pour le prof c'est différent, comme la justice est publique, il y a son nom en bas.
+
+Dans le principe, on peut pas protéger des militaires car ils sont déjà protégés par le Code de la Guerre. MAis on l'a déjà fait pour des américains, des afghans etc.
