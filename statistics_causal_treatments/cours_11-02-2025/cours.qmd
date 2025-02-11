@@ -1,0 +1,79 @@
+---
+title: "Causal Treatments"
+title-block-banner: true
+subtitle: "Mineure action publique"
+author:
+  - name: Olivier CARON
+    email: caron.olivier.80@gmail.com
+    affiliations: 
+      name: "Paris Dauphine-PSL"
+      city: Paris
+      state: France
+date: "last-modified"
+toc: true
+toc-depth: 3
+toc-expand: 3
+number-sections: true
+number-depth: 10
+format:
+  html:
+    theme:
+      light: litera
+    code-fold: true
+    code-summary: "Display code"
+    code-tools: true #enables to display/hide all blocks of code
+    code-copy: true #enables to copy code
+    grid:
+      body-width: 800px
+      margin-width: 100px
+    toc: true
+    toc-title: "Table of content"
+    toc-location: left
+execute:
+  echo: true
+  warning: false
+  message: false
+editor: visual
+fig-align: "center"
+highlight-style: ayu-light
+reference-location: margin
+#lightbox: true
+#filters:
+  #- parse-latex
+---
+
+## Loading file
+
+```{r}
+library(arrow)
+library(dplyr)
+
+df <- read_parquet("data/DataMallette.parquet")
+
+df_debat <- df %>% filter(debat == 1)
+df_nodebat <- df %>% filter(debat == 0)
+
+mean(df_debat$behav_z_t1)
+mean(df_nodebat$behav_z_t1)
+
+#or 
+
+mean(df$behav_z_t1[df$debat == 1])  # Moyenne de behav_z_t1 pour ceux qui ont participé au débat
+mean(df$behav_z_t1[df$debat == 0])  # Moyenne de behav_z_t1 pour ceux qui n'ont pas participé
+```
+
+## Compute take-up
+
+-   tirage is assignement to treatment (invitation)
+
+-   "debat3" is actual treatment (attendance to meetings)
+
+1.  Compute the take-up of the treatment in the treatment and control groups
+2.  Compute the delta compliance rate between the two groups, or net take-up
+
+```{r}
+#| label: takeup-compute
+
+
+
+```
