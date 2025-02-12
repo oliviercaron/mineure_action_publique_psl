@@ -1,0 +1,156 @@
+---
+title: "Droit Européen"
+title-block-banner: true
+subtitle: "Mineure action publique"
+author:
+  - name: Olivier CARON
+    email: caron.olivier.80@gmail.com
+    affiliations: 
+      name: "Paris Dauphine-PSL"
+      city: Paris
+      state: France
+date: "last-modified"
+toc: true
+toc-depth: 3
+toc-expand: 3
+number-sections: true
+number-depth: 10
+format:
+  html:
+    theme:
+      light: litera
+    code-fold: true
+    code-summary: "Display code"
+    code-tools: true #enables to display/hide all blocks of code
+    code-copy: true #enables to copy code
+    grid:
+      body-width: 800px
+      margin-width: 100px
+    toc: true
+    toc-title: "Table of content"
+    toc-location: left
+execute:
+  echo: true
+  warning: false
+  message: false
+editor: visual
+fig-align: "center"
+highlight-style: ayu-light
+reference-location: margin
+#lightbox: true
+#filters:
+  #- parse-latex
+---
+
+## Fondamentaux du droit de l'UE - Cours INSP {.unnumbered}
+
+## Les grandes étapes de la construction européenne
+
+Les grands étapes de la construction européenne :
+
+-   Les prémices entre les deux geurres (projet Briand 5 septembre 1929)
+
+-   Installation de la guerre froide (**coup de Prague 1948; Blocus de Berlin 1948**) : contexte très tendu, monde bipolaire.
+
+-   Le congrès de la Haye (1948) et la mise en place des organisations de coopérations régionales européennes =\> Première tentative de coopération dans le domaine militaire pour répondre au triple objettif de reconstruction de sécurité pour apporter une paix globale et géostratégique. (0ECE 1948; Europe occidentale 1948; Conseil de l'Europe 1949=\> volonté de coopérer dans le domaine de la culture, coopération de droit)
+
+Conseil de l'Europe qui n'a rien à voir avec l'Europe : a son propre juge. Cours Européenne des droits de l'homme. Le siège est à Strasbourg. La cour est à Strabourg.
+
+-   **La déclaration Schuman (9 mai 1950)** : parti pris d'annoncer sur des points limités mais de façon décisive "Ne soyons pas ambitieux". Il faut faire l'Europe de façon progressive =\> Charbon et Acier\
+    On met la production et la gestion du charbon et acier de l'Allemangne et de la France gérée par une autorité commune.\
+
+-   6 Etats qui signent ceci : CECA 18 avril 1951
+
+-   CED 1952-1954 : idée que si on crée une armée, autant en faire une avec l'Allemagne dedans, qui permettrait de mieux la contrôler. C'est signé par 5 Etats. L'assemblée Nationale refuse de ratifier donc échec.
+
+-   Staline meurt en 1953, fin de la Guerre de Corée, crise du Canal de Suez : chars à Budapest. Ce qui inquiète la partie Occidentale. On décide de penser à l'énergie : Communauté Européenne de l'Energie Atomique (CEEA) le 25 mars 1957
+
+-   Alternances de crise politiques et/ou économiques (crise de la chaise vide 1965, relations UK-UE ; chocs pétroliers 1973 et 1979 ; crise du chèque britannique 1984 : MArgaret Tatcher trouve que la contribution de l'UK à l'Europe est trop importante vis-à-vis de ce que ça lui rapporte "[I want my money back]{.underline}" ; crises institutionnelles ; crises financières et sanitaires ; Brexit)\
+    \
+    Les anglais ont fait leur propre zone d'échange avec le Commonwealth donc en Europe on fait pareil avec ... . Général de Gaulle en 1958, très hostile à l'adhésion à l'Union Européenne et à ce que le Royaume Uni la rejoigne. La France a posé son veto deux fois.\
+    Crise de la chaise vide : La France ne peut pas voter pour la PAC car absence de Charles de Gaulle.\
+    FSE, accords de coopération
+
+-   Avec néanmoins des avancées (mise en place des premières politiques communes ; sommet de la Haye 1969 ; serpent monétaire sommet de Paris 1974 ;
+
+-   qui ont permis l'aboutissement de dossiers structurants
+
+1997 : traité d'Amsterdam : grand élargissement historique. Il faut aussi modifier les traités car à 6 c'est OK mais pas vraiment à plus. Ca va pas être suffisant donc Traité de Nice 2001. On repense à une nouvelle révision des traités. Traité de lisbonne en 2009.\
+\
+2 tendances fortes :
+
+-   on va vers un fonctionnement de plus en plus démocratique : on donne de plus en plus de pouvoir au conseil et au Parlement.
+
+-   on donne plus de compétences à l'UE.
+
+::: callout-note
+## Ce qu'il faut retenir :
+
+-   un triple objectif qui reste d'actualité : il faut trouver une façon de faire de maintenir la paix sur le continent. Aussi, au début, un objectif de reconstruction après la Seconde Guerre Mondiale.
+-   On est sur une UE qui s'est construite sur le droit qui établit une liste de compétences : tout un système contruit de façon spécifique (jurisprudence) cours européenne. Cadre général qui est le droit international et on crée aussi un cadre général pour l'UE
+:::
+
+## La structure juridique de l'UE
+
+### Différences cas de figure :
+
+-   L'action des Etats s'inscrit dans le cadre des traités (Ex.: politique environnementale ; PAC)
+
+-   L'action des Etats s'inscrit dans le cadre des traités mais seuls quelques Etats souhaitent y participer (coopérations renforcées)
+
+-   L'action des Etats s'inscrit dans le cadre des traités mais certains Etats négocient une exemption (option out : UEM ; PSDC ; JAI ; Charte des droits fondamentaux...)
+
+-   L'action des Etats ne s'inscrit pas dans le cadre des traités mais pourrait y être intégrée à terme (Schengen)
+
+-   L'action des Etats relève de simples coopérations intergouvernementales et ne s'inscrit pas dans les traités (Processus de Bologne) LMD =\> négocié en dehors des traités, avec des pays en dehors de l'UE. Mais qui porte sur des sujets de compétence de l'UE.
+
+-   L'action des Etats relève de simples coopérations bilatérales (traité de l'Elysée)
+
+## Le système de répartition des compétences
+
+Comment on sait si c'est l'UE ou les Etats membres qui sont compétents sur des sujets ?
+
+Pour une politique publique par exemple, en éducation, justice.. qui est compétent ? **C'est l'Etat:** c'est lui qui s'engage.
+
+A partir de quel moment c'est l'UE qui devient compétente ? A partir du moment où les Etats membres lui attribuent la compétence : c'est le **principe d'attribution.**
+
+Comment ils attribuent la compétence ? L'UE reçoit ces compétences en fonction de la ratification des traités.
+
+**Principe de subsidiarité** : acte législatif de l'UE. IL faut que la Commission européenne justifie la base juridique. Et elle n'intervient que dans la limite de l'objectif visé.
+
+On dégage un effort en proportion de l'objectif recherché : c'est le **principe de proportionnalité.**
+
+On considère qu'il y a trois types de compétences données à l'UE :
+
+1.  Est-ce que c'est une compétence **exclusive** ? Si chaque Etat membre peut discuter tout seul son droit de douane avec la Chine, il n'y a plus de compétence exclusive. Pareil pour les règles de commandes publiques, aider ses entreprises.
+
+2.  Les **compétences partagées** : à la fois l'UE et les Etats membres. Tant que l'UE n'a pas légiféré sur un secteur. Il s'agit du **principe de préemption**.
+
+3.  Les **compétences d'appui** : typiquement le cas en matière culturelle ou d'éducation. Qui décide de la durée des études ? Des diplômes qu'il faut avoir pour devenir professeur ? Pas de directive européenne : ce sont les Etats membres qui les fixent. Mais on va essayer de favoriser des échanges entre les professeurs européens. On met un programme qui permet la mobilité.
+
+| Type de compétence | Qui décide ? | Exemples |
+|------------------|-----------------------|-------------------------------|
+| **Compétence exclusive** | Seule l’UE peut légiférer et les États ne peuvent pas intervenir | Politique commerciale (ex : accords douaniers avec la Chine), règles de concurrence, gestion de l’euro |
+| **Compétence partagée** | L’UE et les États peuvent agir, mais si l’UE légifère, les États ne peuvent plus intervenir (principe de préemption) | Environnement, transport, énergie, agriculture |
+| **Compétence d’appui** | L’UE ne fait que compléter les actions des États, sans imposer de règles contraignantes | Éducation, culture, tourisme, santé publique |
+
+Les politiques publiques de l'UE doivent être mise en oeuvre par les Etats membres. Par exemple pour la pollution de l'air : ce sont aux Etats membres de mettre des mesures pour encourager le recours à des chauffages domestique (par exemple) peu producteurs de particules fines. Quelles sont les administrations qui vont faire des contrôles ou vont aider =\> les Etats membres.
+
+**autonomie procédure et exécutaire des États membres** :
+Les États membres sont responsables de la mise en œuvre des politiques de l’UE dans leur ordre juridique national. Ils disposent ainsi d’une autonomie pour définir leurs procédures, leurs tribunaux compétents et leurs modalités d’exécution. Toutefois, ils doivent garantir que ces procédures permettent d’appliquer réellement le droit de l’UE : c’est le \*\*principe d’effectivité\*\*.
+
+**Principe d’équivalence :**
+Les recours et règles procédurales servant à faire respecter le droit européen ne doivent pas être moins favorables que ceux employés pour le droit national. Autrement dit, on ne peut pas exiger des conditions plus strictes pour mettre en œuvre une règle de l’UE que pour une règle nationale équivalente.
+
+**Principe de primauté :** en respectant le droit européen :
+En cas de conflit entre une norme nationale et le droit de l’Union européenne, c’est le droit de l’UE qui prévaut. Les juridictions nationales doivent donc écarter l’application d’une loi nationale contraire au droit de l’UE.
+
+**Principe de coopération loyale** :
+Les institutions de l’UE et les États membres se doivent un respect et un soutien mutuel. Les États doivent par exemple mettre tout en œuvre pour appliquer et faire respecter le droit européen, tandis que l’UE doit tenir compte des spécificités des États membres dans ses actions.
+
+**Principe d’administration indirecte** :
+Même si l’UE adopte une réglementation ou une directive, ce sont les administrations nationales qui sont chargées de son exécution. On dit que l’Union administre “indirectement” car elle ne possède pas, la plupart du temps, d’administration propre pour mettre en œuvre ses règles : ce sont donc les fonctionnaires, juridictions et administrations de chaque État membre qui appliquent concrètement le droit de l’UE.
+
+La ratification d'un traité européen se fait par référendum ou par voie parlementaire.
+
+Référendum : traité de Maastricht et traité de Lisbonne
