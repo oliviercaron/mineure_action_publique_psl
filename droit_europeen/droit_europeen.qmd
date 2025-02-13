@@ -136,21 +136,94 @@ On considère qu'il y a trois types de compétences données à l'UE :
 
 Les politiques publiques de l'UE doivent être mise en oeuvre par les Etats membres. Par exemple pour la pollution de l'air : ce sont aux Etats membres de mettre des mesures pour encourager le recours à des chauffages domestique (par exemple) peu producteurs de particules fines. Quelles sont les administrations qui vont faire des contrôles ou vont aider =\> les Etats membres.
 
-**autonomie procédure et exécutaire des États membres** :
-Les États membres sont responsables de la mise en œuvre des politiques de l’UE dans leur ordre juridique national. Ils disposent ainsi d’une autonomie pour définir leurs procédures, leurs tribunaux compétents et leurs modalités d’exécution. Toutefois, ils doivent garantir que ces procédures permettent d’appliquer réellement le droit de l’UE : c’est le \*\*principe d’effectivité\*\*.
+**autonomie procédure et exécutaire des États membres** : Les États membres sont responsables de la mise en œuvre des politiques de l’UE dans leur ordre juridique national. Ils disposent ainsi d’une autonomie pour définir leurs procédures, leurs tribunaux compétents et leurs modalités d’exécution. Toutefois, ils doivent garantir que ces procédures permettent d’appliquer réellement le droit de l’UE : c’est le \*\*principe d’effectivité\*\*.
 
-**Principe d’équivalence :**
-Les recours et règles procédurales servant à faire respecter le droit européen ne doivent pas être moins favorables que ceux employés pour le droit national. Autrement dit, on ne peut pas exiger des conditions plus strictes pour mettre en œuvre une règle de l’UE que pour une règle nationale équivalente.
+**Principe d’équivalence :** Les recours et règles procédurales servant à faire respecter le droit européen ne doivent pas être moins favorables que ceux employés pour le droit national. Autrement dit, on ne peut pas exiger des conditions plus strictes pour mettre en œuvre une règle de l’UE que pour une règle nationale équivalente.
 
-**Principe de primauté :** en respectant le droit européen :
-En cas de conflit entre une norme nationale et le droit de l’Union européenne, c’est le droit de l’UE qui prévaut. Les juridictions nationales doivent donc écarter l’application d’une loi nationale contraire au droit de l’UE.
+**Principe de primauté :** en respectant le droit européen : En cas de conflit entre une norme nationale et le droit de l’Union européenne, c’est le droit de l’UE qui prévaut. Les juridictions nationales doivent donc écarter l’application d’une loi nationale contraire au droit de l’UE.
 
-**Principe de coopération loyale** :
-Les institutions de l’UE et les États membres se doivent un respect et un soutien mutuel. Les États doivent par exemple mettre tout en œuvre pour appliquer et faire respecter le droit européen, tandis que l’UE doit tenir compte des spécificités des États membres dans ses actions.
+**Principe de coopération loyale** : Les institutions de l’UE et les États membres se doivent un respect et un soutien mutuel. Les États doivent par exemple mettre tout en œuvre pour appliquer et faire respecter le droit européen, tandis que l’UE doit tenir compte des spécificités des États membres dans ses actions.
 
-**Principe d’administration indirecte** :
-Même si l’UE adopte une réglementation ou une directive, ce sont les administrations nationales qui sont chargées de son exécution. On dit que l’Union administre “indirectement” car elle ne possède pas, la plupart du temps, d’administration propre pour mettre en œuvre ses règles : ce sont donc les fonctionnaires, juridictions et administrations de chaque État membre qui appliquent concrètement le droit de l’UE.
+**Principe d’administration indirecte** : Même si l’UE adopte une réglementation ou une directive, ce sont les administrations nationales qui sont chargées de son exécution. On dit que l’Union administre “indirectement” car elle ne possède pas, la plupart du temps, d’administration propre pour mettre en œuvre ses règles : ce sont donc les fonctionnaires, juridictions et administrations de chaque État membre qui appliquent concrètement le droit de l’UE.
 
 La ratification d'un traité européen se fait par référendum ou par voie parlementaire.
 
 Référendum : traité de Maastricht et traité de Lisbonne
+
+Au conseil est-ce qu'on vote à la majorité ou ..
+
+## Les institution de l'Union européenne (art 13 TUE)
+
+
+
+| Institution                 | Fonction                                                                                                        | Composition                                                                                                    | Mission                                                                                                                     | Rôle                                                                                                      | Siège        |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **Conseil européen**       | Impulser les grandes orientations politiques et budgétaires de l’UE                                             | Président du Conseil européen, 27 chefs d’État ou de gouvernement, Président de la Commission européenne      | Les chefs d’État et de gouvernement définissent les priorités et le programme d’action dans les domaines de compétence de l’UE | Fixer les orientations et priorités politiques générales de l’UE                                          | Bruxelles    |
+| **Commission européenne**  | Proposer le budget, proposer les lois (directives, règlements, décisions) et exécuter les politiques européennes | 27 commissaires européens (un par État membre, dont le président), chacun en charge d’un domaine d’activité   | Agir en faveur de l’intérêt général de l’UE, veiller au respect des traités et à l’application des décisions prises         | Gardienne des traités et moteur de l’initiative législative de l’UE                                       | Bruxelles    |
+| **Conseil de l’UE**        | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Parlement européen              | Ministres des 27 États membres réunis par domaine d’activité (environnement, économie, commerce, agriculture…) | Représenter les États membres dans chaque domaine d’activité et coordonner les politiques européennes                       | Organe décisionnel clé représentant les gouvernements des États membres                                   | Bruxelles    |
+| **Parlement européen**     | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Conseil de l’UE, et contrôler la Commission | 720 députés européens (mandature 2024-2029) répartis en groupes politiques                                    | Élu au suffrage universel direct, le Parlement européen représente les citoyens européens                                  | Organe législatif représentant directement les citoyens de l’UE                                           | Strasbourg   |
+| **Cour de justice de l’UE**| *Non spécifiée explicitement*                                                                                    | 27 juges, un par État membre                                                                                  | Assurer l’application correcte de la législation européenne                                                                | Interprète la législation européenne et veille à sa bonne application                                     | Luxembourg   |
+| **Banque centrale européenne** | Gérer la monnaie unique et mener la politique monétaire de la zone euro                                    | Le directoire (six membres) et les gouverneurs des banques centrales des pays de la zone euro                 | Assurer la stabilité des prix et la gestion de l’euro                                                                     | Garantir la stabilité monétaire et superviser l’utilisation de l’euro                                      | Francfort    |
+| **Cour des comptes européenne** | *Non spécifiée explicitement*                                                                               | 27 membres, un par État membre                                                                                | Veiller à la bonne gestion du budget de l’Union européenne                                                                | Garantir l’utilisation transparente et appropriée des ressources de l’UE                                   | Luxembourg   |
+
+:::{.callout-note icon=false}
+**Source**: [Infographie] Les 7 institutions de l'Union européenne  
+<https://www.touteleurope.eu/institutions/infographie-les-7-institutions-de-l-union-europeenne/>
+:::
+
+
+{{< pdf data/infographie-les-sept-institutions-union-europeenne.pdf width=100% height=800 >}}
+
+## Les autres organes de l'UE qui ne sont pas des institutions (au sens du traité)
+
+| Organe                                         | Fonction |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Service européen pour l’action extérieure (SEAE)** | Service diplomatique de l'UE, il aide le haut représentant pour les affaires étrangères à mettre en œuvre la politique étrangère et de sécurité commune. Il assure la cohérence et la coordination de l'action extérieure de l’UE et gère un réseau de délégations dans le monde entier. |
+| **Comité économique et social européen (CESE)** | Représente la société civile européenne, incluant employeurs, travailleurs et autres organisations. Il est consulté par les institutions de l'UE sur des questions de politique relevant de sa compétence. |
+| **Comité européen des régions (CdR)** | Représente les collectivités régionales et locales et est consulté sur les questions importantes pour ces dernières. |
+| **Banque européenne d’investissement (BEI)** | Institution financière de l’UE qui finance des projets liés au climat, à l’environnement, au développement, à l’innovation, aux PME et aux infrastructures. |
+| **Médiateur européen** | Organe indépendant qui enquête sur les cas de mauvaise administration des institutions de l’UE et aide les citoyens, entreprises et organisations rencontrant des problèmes avec ces dernières. |
+| **Contrôleur européen de la protection des données (CEPD)** | Veille à ce que les institutions de l’UE respectent les droits des citoyens à la vie privée lors du traitement de leurs données personnelles. |
+| **Comité européen de la protection des données (CEPD)** | Organe indépendant qui veille à l’application cohérente des règles de protection des données à travers l’UE et encourage la coopération entre les autorités nationales de protection des données. |
+| **Parquet européen** | Parquet indépendant de l’UE chargé de rechercher, poursuivre et traduire en justice les auteurs d’infractions portant atteinte aux intérêts financiers de l’UE. |
+| **Centre de compétences européen en matière de cybersécurité (ECCC)** | Soutient l’innovation et la politique industrielle dans le domaine de la cybersécurité, en collaboration avec les centres nationaux de coordination. Contribue à renforcer l’autonomie stratégique et la compétitivité mondiale du secteur de la cybersécurité de l’UE. |
+
+:::{.callout-note icon=false}
+**Source**: [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)
+:::
+
+## Les services interinstitutionnels
+
+| Service interinstitutionnel | Fonction |
+|----------------------------|------------------------------------------------------------------------------------------------------------|
+| **CERT-UE** | Centre de réponse aux incidents de cybersécurité de l’Union européenne, chargé de protéger les institutions de l’UE contre les cyberattaques et d’assurer une coordination en cas d’incident. |
+| **École européenne d’administration (EEA)** | Fournit des formations et des programmes de développement pour le personnel des institutions européennes afin d'améliorer leurs compétences professionnelles. |
+| **Office européen de sélection du personnel (EPSO)** | Organise les concours et procédures de recrutement pour les institutions et agences de l’UE, garantissant une sélection transparente et efficace des fonctionnaires européens. |
+| **Office des publications de l’UE** | Fournit des services d’édition aux institutions de l’UE et gère la publication du Journal officiel de l’Union européenne ainsi que d’autres documents officiels. |
+
+:::{.callout-note icon=false}
+**Source**: [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)
+:::
+
+## Agences
+
+Exemples : 
+Autorité européenne des marchés financiers (ESMA)
+Agence exécutive européenne pour l'éducation et la culture (EACEA)
+Centre de traduction des organes de l'UE (CdT)
+CEPOL
+
+## Budget de l'UE (peut-être)
+
+:::{.callout-note icon=false}
+**Source**: 
+https://www.europarl.europa.eu/factsheets/fr/sheet/29/cadre-financier-pluriannuel
+:::
+
+
+
+
+
+
+
+
