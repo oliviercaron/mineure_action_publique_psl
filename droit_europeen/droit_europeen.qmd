@@ -223,6 +223,50 @@ https://www.europarl.europa.eu/factsheets/fr/sheet/29/cadre-financier-pluriannue
 
 
 
+## Ordre des décisions de l'UE :
+
+1️⃣ **Le Conseil européen** – 📌 *Fixe les grandes orientations*  
+   - Rôle : Il définit **les grandes priorités et orientations politiques** de l'UE.  
+   - Composition : Les **27 chefs d'État ou de gouvernement**, le président du Conseil européen et le président de la Commission européenne.  
+   - Pouvoirs : Il ne légifère pas directement mais **donne l’impulsion stratégique** aux autres institutions.  
+
+2️⃣ **La Commission européenne** – 🏗️ *Propose les actes législatifs*  
+   - Rôle : C’est l’**organe exécutif et moteur législatif** de l’UE.  
+   - Composition : **27 commissaires européens**, un par État membre, dirigés par un président.  
+   - Pouvoirs :  
+     - **Monopole de l’initiative législative** (elle seule peut proposer des directives, règlements et décisions).  
+     - **Exécution des politiques et du budget** de l’UE.  
+     - **Gardienne des traités**, elle veille au respect des lois européennes.  
+
+3️⃣ **Le Parlement européen** – 🏛️ *Co-décide et représente les citoyens*  
+   - Rôle : Il est **l’organe législatif représentant les citoyens** de l’UE.  
+   - Composition : **720 députés européens (mandature 2024-2029)**, élus au suffrage universel direct.  
+   - Pouvoirs :  
+     - **Vote et amende les propositions de lois** avec le Conseil de l’UE.  
+     - **Adopte le budget** de l’UE.  
+     - **Contrôle démocratique** sur la Commission européenne.  
+
+4️⃣ **Le Conseil de l’Union européenne** – 🤝 *Co-décide et représente les États membres*  
+   - Rôle : Il représente **les gouvernements des États membres** et négocie les lois européennes avec le Parlement.  
+   - Composition : Les **ministres des 27 États membres**, réunis par domaine d’activité (économie, environnement, agriculture…).  
+   - Pouvoirs :  
+     - **Vote et modifie les propositions législatives** conjointement avec le Parlement.  
+     - **Coordonne les politiques nationales** en matière économique, sociale et de défense.  
+     - **Adopte le budget** en collaboration avec le Parlement européen.  
+     
+📌 **À retenir** :  
+✔️ **Le Conseil européen** fixe les grandes orientations.  
+✔️ **La Commission européenne** propose les lois.  
+✔️ **Le Parlement européen et le Conseil de l’UE** adoptent les lois en codécision.  
+✔️ **La procédure législative** est un processus de négociation et d'équilibre entre les institutions.  
+
+Il y a ce qu'on appelle un trilogue qui fait que quasi toutes les décisions sont prise en première lecture.
+
+:::{.callout-note icon=false}
+**Sources** :  
+📖 [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)  
+📖 [Processus législatif européen](https://www.europarl.europa.eu/about-parliament/fr/powers-and-procedures/legislative-powers)
+:::
 
 
 
