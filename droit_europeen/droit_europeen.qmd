@@ -154,30 +154,27 @@ Au conseil est-ce qu'on vote à la majorité ou ..
 
 ## Les institution de l'Union européenne (art 13 TUE)
 
+| Institution | Fonction | Composition | Mission | Rôle | Siège |
+|------------|------------|------------|------------|------------|------------|
+| **Conseil européen** | Impulser les grandes orientations politiques et budgétaires de l’UE | Président du Conseil européen, 27 chefs d’État ou de gouvernement, Président de la Commission européenne | Les chefs d’État et de gouvernement définissent les priorités et le programme d’action dans les domaines de compétence de l’UE | Fixer les orientations et priorités politiques générales de l’UE | Bruxelles |
+| **Commission européenne** | Proposer le budget, proposer les lois (directives, règlements, décisions) et exécuter les politiques européennes | 27 commissaires européens (un par État membre, dont le président), chacun en charge d’un domaine d’activité | Agir en faveur de l’intérêt général de l’UE, veiller au respect des traités et à l’application des décisions prises | Gardienne des traités et moteur de l’initiative législative de l’UE | Bruxelles |
+| **Conseil de l’UE** | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Parlement européen | Ministres des 27 États membres réunis par domaine d’activité (environnement, économie, commerce, agriculture…) | Représenter les États membres dans chaque domaine d’activité et coordonner les politiques européennes | Organe décisionnel clé représentant les gouvernements des États membres | Bruxelles |
+| **Parlement européen** | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Conseil de l’UE, et contrôler la Commission | 720 députés européens (mandature 2024-2029) répartis en groupes politiques | Élu au suffrage universel direct, le Parlement européen représente les citoyens européens | Organe législatif représentant directement les citoyens de l’UE | Strasbourg |
+| **Cour de justice de l’UE** | *Non spécifiée explicitement* | 27 juges, un par État membre | Assurer l’application correcte de la législation européenne | Interprète la législation européenne et veille à sa bonne application | Luxembourg |
+| **Banque centrale européenne** | Gérer la monnaie unique et mener la politique monétaire de la zone euro | Le directoire (six membres) et les gouverneurs des banques centrales des pays de la zone euro | Assurer la stabilité des prix et la gestion de l’euro | Garantir la stabilité monétaire et superviser l’utilisation de l’euro | Francfort |
+| **Cour des comptes européenne** | *Non spécifiée explicitement* | 27 membres, un par État membre | Veiller à la bonne gestion du budget de l’Union européenne | Garantir l’utilisation transparente et appropriée des ressources de l’UE | Luxembourg |
 
-
-| Institution                 | Fonction                                                                                                        | Composition                                                                                                    | Mission                                                                                                                     | Rôle                                                                                                      | Siège        |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
-| **Conseil européen**       | Impulser les grandes orientations politiques et budgétaires de l’UE                                             | Président du Conseil européen, 27 chefs d’État ou de gouvernement, Président de la Commission européenne      | Les chefs d’État et de gouvernement définissent les priorités et le programme d’action dans les domaines de compétence de l’UE | Fixer les orientations et priorités politiques générales de l’UE                                          | Bruxelles    |
-| **Commission européenne**  | Proposer le budget, proposer les lois (directives, règlements, décisions) et exécuter les politiques européennes | 27 commissaires européens (un par État membre, dont le président), chacun en charge d’un domaine d’activité   | Agir en faveur de l’intérêt général de l’UE, veiller au respect des traités et à l’application des décisions prises         | Gardienne des traités et moteur de l’initiative législative de l’UE                                       | Bruxelles    |
-| **Conseil de l’UE**        | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Parlement européen              | Ministres des 27 États membres réunis par domaine d’activité (environnement, économie, commerce, agriculture…) | Représenter les États membres dans chaque domaine d’activité et coordonner les politiques européennes                       | Organe décisionnel clé représentant les gouvernements des États membres                                   | Bruxelles    |
-| **Parlement européen**     | Adopter le budget de l’UE et voter les textes législatifs, en codécision avec le Conseil de l’UE, et contrôler la Commission | 720 députés européens (mandature 2024-2029) répartis en groupes politiques                                    | Élu au suffrage universel direct, le Parlement européen représente les citoyens européens                                  | Organe législatif représentant directement les citoyens de l’UE                                           | Strasbourg   |
-| **Cour de justice de l’UE**| *Non spécifiée explicitement*                                                                                    | 27 juges, un par État membre                                                                                  | Assurer l’application correcte de la législation européenne                                                                | Interprète la législation européenne et veille à sa bonne application                                     | Luxembourg   |
-| **Banque centrale européenne** | Gérer la monnaie unique et mener la politique monétaire de la zone euro                                    | Le directoire (six membres) et les gouverneurs des banques centrales des pays de la zone euro                 | Assurer la stabilité des prix et la gestion de l’euro                                                                     | Garantir la stabilité monétaire et superviser l’utilisation de l’euro                                      | Francfort    |
-| **Cour des comptes européenne** | *Non spécifiée explicitement*                                                                               | 27 membres, un par État membre                                                                                | Veiller à la bonne gestion du budget de l’Union européenne                                                                | Garantir l’utilisation transparente et appropriée des ressources de l’UE                                   | Luxembourg   |
-
-:::{.callout-note icon=false}
-**Source**: [Infographie] Les 7 institutions de l'Union européenne  
+::: {.callout-note icon="false"}
+**Source**: \[Infographie\] Les 7 institutions de l'Union européenne\
 <https://www.touteleurope.eu/institutions/infographie-les-7-institutions-de-l-union-europeenne/>
 :::
-
 
 {{< pdf data/infographie-les-sept-institutions-union-europeenne.pdf width=100% height=800 >}}
 
 ## Les autres organes de l'UE qui ne sont pas des institutions (au sens du traité)
 
-| Organe                                         | Fonction |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Organe | Fonction |
+|--------------------|----------------------------------------------------|
 | **Service européen pour l’action extérieure (SEAE)** | Service diplomatique de l'UE, il aide le haut représentant pour les affaires étrangères à mettre en œuvre la politique étrangère et de sécurité commune. Il assure la cohérence et la coordination de l'action extérieure de l’UE et gère un réseau de délégations dans le monde entier. |
 | **Comité économique et social européen (CESE)** | Représente la société civile européenne, incluant employeurs, travailleurs et autres organisations. Il est consulté par les institutions de l'UE sur des questions de politique relevant de sa compétence. |
 | **Comité européen des régions (CdR)** | Représente les collectivités régionales et locales et est consulté sur les questions importantes pour ces dernières. |
@@ -188,86 +185,82 @@ Au conseil est-ce qu'on vote à la majorité ou ..
 | **Parquet européen** | Parquet indépendant de l’UE chargé de rechercher, poursuivre et traduire en justice les auteurs d’infractions portant atteinte aux intérêts financiers de l’UE. |
 | **Centre de compétences européen en matière de cybersécurité (ECCC)** | Soutient l’innovation et la politique industrielle dans le domaine de la cybersécurité, en collaboration avec les centres nationaux de coordination. Contribue à renforcer l’autonomie stratégique et la compétitivité mondiale du secteur de la cybersécurité de l’UE. |
 
-:::{.callout-note icon=false}
+::: {.callout-note icon="false"}
 **Source**: [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)
 :::
 
 ## Les services interinstitutionnels
 
 | Service interinstitutionnel | Fonction |
-|----------------------------|------------------------------------------------------------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **CERT-UE** | Centre de réponse aux incidents de cybersécurité de l’Union européenne, chargé de protéger les institutions de l’UE contre les cyberattaques et d’assurer une coordination en cas d’incident. |
 | **École européenne d’administration (EEA)** | Fournit des formations et des programmes de développement pour le personnel des institutions européennes afin d'améliorer leurs compétences professionnelles. |
 | **Office européen de sélection du personnel (EPSO)** | Organise les concours et procédures de recrutement pour les institutions et agences de l’UE, garantissant une sélection transparente et efficace des fonctionnaires européens. |
 | **Office des publications de l’UE** | Fournit des services d’édition aux institutions de l’UE et gère la publication du Journal officiel de l’Union européenne ainsi que d’autres documents officiels. |
 
-:::{.callout-note icon=false}
+::: {.callout-note icon="false"}
 **Source**: [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)
 :::
 
 ## Agences
 
-Exemples : 
-Autorité européenne des marchés financiers (ESMA)
-Agence exécutive européenne pour l'éducation et la culture (EACEA)
-Centre de traduction des organes de l'UE (CdT)
-CEPOL
+Exemples : Autorité européenne des marchés financiers (ESMA) Agence exécutive européenne pour l'éducation et la culture (EACEA) Centre de traduction des organes de l'UE (CdT) CEPOL
 
 ## Budget de l'UE (peut-être)
 
-:::{.callout-note icon=false}
-**Source**: 
-https://www.europarl.europa.eu/factsheets/fr/sheet/29/cadre-financier-pluriannuel
+::: {.callout-note icon="false"}
+**Source**: https://www.europarl.europa.eu/factsheets/fr/sheet/29/cadre-financier-pluriannuel
 :::
-
-
-
 
 ## Ordre des décisions de l'UE :
 
-1️⃣ **Le Conseil européen** – 📌 *Fixe les grandes orientations*  
-   - Rôle : Il définit **les grandes priorités et orientations politiques** de l'UE.  
-   - Composition : Les **27 chefs d'État ou de gouvernement**, le président du Conseil européen et le président de la Commission européenne.  
-   - Pouvoirs : Il ne légifère pas directement mais **donne l’impulsion stratégique** aux autres institutions.  
+1️⃣ **Le Conseil européen** – 📌 *Fixe les grandes orientations*\
+- Rôle : Il définit **les grandes priorités et orientations politiques** de l'UE.\
+- Composition : Les **27 chefs d'État ou de gouvernement**, le président du Conseil européen et le président de la Commission européenne.\
+- Pouvoirs : Il ne légifère pas directement mais **donne l’impulsion stratégique** aux autres institutions.
 
-2️⃣ **La Commission européenne** – 🏗️ *Propose les actes législatifs*  
-   - Rôle : C’est l’**organe exécutif et moteur législatif** de l’UE.  
-   - Composition : **27 commissaires européens**, un par État membre, dirigés par un président.  
-   - Pouvoirs :  
-     - **Monopole de l’initiative législative** (elle seule peut proposer des directives, règlements et décisions).  
-     - **Exécution des politiques et du budget** de l’UE.  
-     - **Gardienne des traités**, elle veille au respect des lois européennes.  
+2️⃣ **La Commission européenne** – 🏗️ *Propose les actes législatifs*\
+- Rôle : C’est l’**organe exécutif et moteur législatif** de l’UE.\
+- Composition : **27 commissaires européens**, un par État membre, dirigés par un président.\
+- Pouvoirs :\
+- **Monopole de l’initiative législative** (elle seule peut proposer des directives, règlements et décisions).\
+- **Exécution des politiques et du budget** de l’UE.\
+- **Gardienne des traités**, elle veille au respect des lois européennes.
 
-3️⃣ **Le Parlement européen** – 🏛️ *Co-décide et représente les citoyens*  
-   - Rôle : Il est **l’organe législatif représentant les citoyens** de l’UE.  
-   - Composition : **720 députés européens (mandature 2024-2029)**, élus au suffrage universel direct.  
-   - Pouvoirs :  
-     - **Vote et amende les propositions de lois** avec le Conseil de l’UE.  
-     - **Adopte le budget** de l’UE.  
-     - **Contrôle démocratique** sur la Commission européenne.  
+3️⃣ **Le Parlement européen** – 🏛️ *Co-décide et représente les citoyens*\
+- Rôle : Il est **l’organe législatif représentant les citoyens** de l’UE.\
+- Composition : **720 députés européens (mandature 2024-2029)**, élus au suffrage universel direct.\
+- Pouvoirs :\
+- **Vote et amende les propositions de lois** avec le Conseil de l’UE.\
+- **Adopte le budget** de l’UE.\
+- **Contrôle démocratique** sur la Commission européenne.
 
-4️⃣ **Le Conseil de l’Union européenne** – 🤝 *Co-décide et représente les États membres*  
-   - Rôle : Il représente **les gouvernements des États membres** et négocie les lois européennes avec le Parlement.  
-   - Composition : Les **ministres des 27 États membres**, réunis par domaine d’activité (économie, environnement, agriculture…).  
-   - Pouvoirs :  
-     - **Vote et modifie les propositions législatives** conjointement avec le Parlement.  
-     - **Coordonne les politiques nationales** en matière économique, sociale et de défense.  
-     - **Adopte le budget** en collaboration avec le Parlement européen.  
-     
-📌 **À retenir** :  
-✔️ **Le Conseil européen** fixe les grandes orientations.  
-✔️ **La Commission européenne** propose les lois.  
-✔️ **Le Parlement européen et le Conseil de l’UE** adoptent les lois en codécision.  
-✔️ **La procédure législative** est un processus de négociation et d'équilibre entre les institutions.  
+4️⃣ **Le Conseil de l’Union européenne** – 🤝 *Co-décide et représente les États membres*\
+- Rôle : Il représente **les gouvernements des États membres** et négocie les lois européennes avec le Parlement.\
+- Composition : Les **ministres des 27 États membres**, réunis par domaine d’activité (économie, environnement, agriculture…).\
+- Pouvoirs :\
+- **Vote et modifie les propositions législatives** conjointement avec le Parlement.\
+- **Coordonne les politiques nationales** en matière économique, sociale et de défense.\
+- **Adopte le budget** en collaboration avec le Parlement européen.
+
+📌 **À retenir** :\
+✔️ **Le Conseil européen** fixe les grandes orientations.\
+✔️ **La Commission européenne** propose les lois.\
+✔️ **Le Parlement européen et le Conseil de l’UE** adoptent les lois en codécision.\
+✔️ **La procédure législative** est un processus de négociation et d'équilibre entre les institutions.
 
 Il y a ce qu'on appelle un trilogue qui fait que quasi toutes les décisions sont prise en première lecture.
 
-:::{.callout-note icon=false}
-**Sources** :  
-📖 [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)  
+::: {.callout-note icon="false"}
+**Sources** :\
+📖 [Institutions et organes de l'Union européenne](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_fr)\
 📖 [Processus législatif européen](https://www.europarl.europa.eu/about-parliament/fr/powers-and-procedures/legislative-powers)
 :::
 
+Parlement européen depuis 1979 =\>députés européens élus par suffrage universisel direct
 
+Première femme élue =\> Simone Veil
 
+on siège par groupe politique :
 
+![](images/clipboard-1574964575.png)
