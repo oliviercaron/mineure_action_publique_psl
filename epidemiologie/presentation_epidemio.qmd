@@ -1,0 +1,52 @@
+---
+title: "Named Entity Recognition (NER)"
+subtitle: "A focus on the GliNER Model Using Twitter Data During COVID-19"
+author:
+  - name: Olivier Caron
+    email: "olivier.caron@dauphine.psl.eu"
+    affiliations:
+      - name: "Université Paris Dauphine - PSL"
+        city: "Paris"
+        state: "France"
+date: "October 17, 2024"
+date-format: long
+format:
+  beamer:
+    theme: metropolis
+    navigation: vertical
+    aspectratio: 169
+    pdf-engine: xelatex
+    mainfont: "TeX Gyre Heros"
+#bibliography: references.bib
+---
+
+# Introduction to Named Entity Recognition (NER)
+
+-   **Definition**: Named Entity Recognition (**NER**) is an information extraction task [@goyalRecentNamedEntity2018] in Natural Language Processing (**NLP**) for identifying **entities** like names of **people**, **locations**, **organizations**, **dates**, and numerical expressions within text.
+
+<!--![](images/ner_example.png){fig-align="center"}-->
+
+# Historical overview of NER
+
+-   **Early Contributions**: Lisa Rau’s [-@rau1991extracting] work on extracting company names was pioneering, addressing the challenges posed by unknown words in NLP tasks.
+
+<!--![](images/NER_rau.png){fig-align="center" width="70%"}-->
+
+# Historical overview of NER
+
+-   **Origins**: The term "Named Entitty" was formally introduced in the Sixth Message Understanding Conference (MUC-6), where it was recognized as essential for **extracting structured information**, such as names and temporal expressions [@grishman1996message].
+
+-   **Evolution**: Over time, methods evolved from rule-based approaches to **machine learning** and, eventually, to **deep learning**-based models [@nadeau2007survey; @liu2022overview].
+
+<!-- 
+Origins and Early Work (1991): The concept of "Named Entity" (NE) was formally introduced at the Sixth Message Understanding Conference (MUC-6) in 1996, focusing on extracting structured information such as company activities and defense-related events. Early research in NER started with Lisa Rau’s work on extracting company names using handcrafted rule-based approaches, which laid the foundation for future studies (Rau, 1991).
+
+Rule-Based Systems (1991-1995): In the early 1990s, NER systems relied on rules crafted by linguists, focusing on syntactic and lexical cues to identify entities. These methods were effective but limited in flexibility and scalability. Initial research and publications on NER were sparse, but interest grew as its potential became evident (MUC-6, 1995).
+
+Shift to Machine Learning (Late 1990s): In the late 1990s, researchers adopted machine learning (ML) algorithms to enhance NER systems. This shift marked a transition from rule-based methods to supervised learning approaches, such as Hidden Markov Models (HMMs), Decision Trees, and Conditional Random Fields (CRFs) (Bikel et al., 1997; Freitag and McCallum, 2000). Events like the CoNLL (Conference on Natural Language Learning) workshops highlighted learning-based NER systems.
+
+Diversity of NER Tasks and Languages (2000s): Research diversified to include more languages and domains, leading to the development of multilingual NER systems. Programs like ACE (Automatic Content Extraction) expanded the scope of NER by introducing finer entity types and new tasks, such as coreference resolution (Grishman and Sundheim, 1996). Techniques became more advanced, with the use of unsupervised and semi-supervised learning methods that leveraged large, unlabeled datasets for training (Miller et al., 2004).
+
+Expanding Applications and Refinement of Techniques (2000s-2006): By the early 2000s, NER became essential in information extraction, with applications across fields such as bioinformatics, where it helped identify gene and protein names (Collier et al., 2000). The development of sophisticated evaluation metrics also emerged to assess NER systems, including those for partial matches and nuanced error types, marking its transition from academic research to real-world applications in search engines, media monitoring, and scientific research (Tjong Kim Sang and De Meulder, 2003).
+-->
+
