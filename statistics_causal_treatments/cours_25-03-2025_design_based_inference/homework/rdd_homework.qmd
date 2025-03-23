@@ -1,0 +1,360 @@
+---
+title: "Fuzzy design RDD"
+title-block-banner: false
+subtitle: "Causal statistics for treatment models"
+author:
+  - name: Olivier CARON
+    email: caron.olivier.80@gmail.com
+    affiliations: 
+      name: "Paris Dauphine-PSL"
+      city: Paris
+      state: France
+date: "last-modified"
+format:
+  pdf:
+    fontsize: 6pt
+    fontfamily: mathpazo
+    documentclass: article
+    geometry: top=2cm, bottom=2cm, left=2cm, right=2cm
+    include-in-header: 
+      text: |
+        \usepackage{titling}
+        \setlength{\droptitle}{-4em}  % <-- Remonte le bloc titre sur la page
+    toc: true
+    number-sections: true
+execute:
+  warning: false
+  message: false
+  echo: false
+---
+
+
+```{r}
+#| label: load-data
+
+library(arrow)
+library(ggplot2)
+library(dplyr)
+library(ggstatsplot)
+library(AER)      # For ivreg (2SLS)
+library(ggthemr)
+library(huxtable)
+library(rdrobust)
+
+ggthemr("greyscale")
+data <- arrow::read_parquet("data/EduloanFEMALE.parquet")
+
+theme_custom <- theme(
+text = element_text(size = 12),
+panel.grid = element_blank(),
+panel.grid.major.y = element_line(colour = "#e3e1e1",
+linetype = 2),
+plot.title.position = 'plot',
+legend.position = 'top',
+legend.title = element_blank()
+)
+```
+
+```{r}
+#| label: data-summary
+#| echo: false
+#| eval: false
+
+skimr::skim(data)
+
+df <- subset(data, empirica >= -13 & empirica <= 13)
+
+ggplot(df, aes(x = empirica, y = loan)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "loess", se = FALSE) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  labs(title = "First Stage: Loan vs. Empirica")
+
+ggplot(df, aes(x = empirica, y = univ_register)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "loess", se = FALSE) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  labs(title = "Reduced Form: University Registration vs. Empirica")
+
+```
+\newpage
+::: {.callout-note title="Research Question"}
+We want to know if receiving a loan (the treatment T) increases the chances to enroll at university (the outcome Y), using an RDD.
+:::
+
+## Fuzzy RDD Methodology
+
+We implement a Fuzzy Regression Discontinuity Design (RDD) due to the following institutional setup:
+
+- The Empirica score is used as the eligibility criterion for student loans.
+- In theory, students with `Empirica > 0` should receive a loan.
+- In practice, this rule is not strictly applied—some students below the threshold get loans, and some above do not—creating a "fuzzy" discontinuity.
+
+Thus, we treat the threshold crossing as an instrument for actual loan receipt, using it in a Two-Stage Least Squares (2SLS) setup.
+
+## Visual Evidence
+
+We begin by visually inspecting the discontinuity at the threshold.
+
+
+```{r}
+#| label: data-plot7
+#| layout-ncol: 2
+
+# Filter the data to the optimal bandwidth [-13, 13]
+data_optimal <- data %>% 
+  filter(empirica >= -13 & empirica <= 13)
+
+# Adding binned averages to the first stage plot (with uniform point sizes)
+bin_data <- data_optimal %>%
+  mutate(bin = cut(empirica, breaks = seq(-13, 13, by = 1))) %>%
+  group_by(bin) %>%
+  summarize(
+    mean_empirica = mean(empirica),
+    mean_loan = mean(loan),
+    mean_univ_register = mean(univ_register)
+  )
+
+# Proper RDD visualization
+# First-stage visualization (treatment probability)
+p1 <- ggplot(data, aes(x = empirica, y = loan)) +
+  geom_smooth(data = subset(data, empirica < 0), method = "lm", se = TRUE) +
+  geom_smooth(data = subset(data, empirica >= 0), method = "lm", se = TRUE) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "First Stage: Loan Approval Probability",
+       x = "Empirica Score",
+       y = "Probability of Receiving Loan") +
+  ylim(0, 1) +
+  xlim(-13, 13) +
+  theme_custom +
+  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.1))
+
+p1 <- p1 + 
+  geom_point(data = bin_data, aes(x = mean_empirica, y = mean_loan), 
+             color = "red", size = 1, alpha = 0.2)
+# Reduced form visualization (outcome)
+p2 <- ggplot(data, aes(x = empirica, y = univ_register)) +
+  geom_smooth(data = subset(data, empirica < 0), method = "lm", se = TRUE) +
+  geom_smooth(data = subset(data, empirica >= 0), method = "lm", se = TRUE) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Reduced Form: University Enrollment",
+       x = "Empirica Score",
+       y = "Probability of University Enrollment") +
+  ylim(0, 1) +
+  xlim(-13, 13) +
+  theme_custom +
+  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.1))
+
+p2 <- p2 + 
+  geom_point(data = bin_data, aes(x = mean_empirica, y = mean_univ_register), 
+             color = "red", size = 1, alpha = 0.2)
+print(p1)
+print(p2)
+
+
+```
+
+The figure above illustrates the discontinuity at the Empirica score cutoff (0) for both loan approval and university enrollment:
+
+- Left panel: There is a clear and sharp increase in the probability of receiving a loan just above the threshold. This confirms that the Empirica score functions effectively as an instrument, even if imperfectly enforced.
+
+- Right panel: A visible jump in university enrollment at the same cutoff mirrors the pattern observed in the first stage, suggesting a potential causal link between loan receipt and enrollment decisions.
+
+
+## Regressions
+### First Stage Regression + Reduced Form Regression + 2SLS Estimation
+
+```{r}
+#| label: regression-first-stage
+
+# First Stage Regression (using local linear regression)
+first_stage <- lm(loan ~ discont_r + empirica + empirica_r, data = data_optimal)
+```
+
+```{r}
+#| label: regression-reduced-form
+
+# 2 Reduced Form Regression
+reduced_form <- lm(univ_register ~ discont_r + empirica + empirica_r, data = data_optimal)
+```
+\newpage
+```{r}
+#| label: iv-regression
+
+# 4. 2SLS Estimation
+iv_model <- ivreg(univ_register ~ loan + empirica + empirica_r | discont_r + empirica + empirica_r, 
+                  data = data_optimal)
+# Additional robust analysis - Summary for IV model with diagnostics
+
+huxreg(
+  "FS (Loan ~ Threshold)" = first_stage,
+  "RF (Univ ~ Threshold)" = reduced_form,
+  "2SLS (Univ ~ Loan)" = iv_model,
+  statistics = c("N" = "nobs", "R²" = "r.squared")
+)
+```
+
+
+
+
+
+
+
+
+
+### Key Regression Results and Interpretation
+
+| Model                       | Key Coefficient       | Estimate | Interpretation                                                                 |
+|----------------------------|------------------------|----------|---------------------------------------------------------------------------------|
+| First Stage Regression     | `discont_r`            | 0.422    | Students just above the Empirica threshold (repayment score > 0) are 42.2% more likely to receive a loan, confirming the instrument's strength. |
+| Reduced Form Regression    | `discont_r`            | 0.202    | Students just above the Empirica threshold are 20.2% more likely to enroll in university, suggesting a positive reduced-form effect of loan eligibility. |
+| 2SLS Estimation (IV model) | `loan`                 | 0.478    | Receiving a loan increases the probability of university enrollment by 47.8%. This reflects the causal effect for compliers identified by the fuzzy RDD. |
+
+\newpage
+## Confirm results with Robust Estiimation (rdrobust)
+
+```{r}
+#| label: rdrobust-fuzzy-plots
+#| layout-ncol: 2
+#| echo: false
+
+# First Stage plot with automatic bin selection (IMSE-optimal, quantile-spaced)
+test1 <- rdplot(
+  y = data$loan, 
+  x = data$empirica,
+  binselect = "qs",            # Automatically selects optimal number of quantile-spaced bins
+  x.lim = c(-13, 13), 
+  y.lim = c(0, 1),
+  title = "First Stage (Loan) - Optimal Bins",
+  x.label = "Empirica Score",
+  y.label = "Probability of Receiving Loan",
+  masspoints = "off"
+)
+
+# Reduced Form plot with automatic bin selection
+test2 <- rdplot(
+  y = data$univ_register, 
+  x = data$empirica,
+  binselect = "qs",            # Automatically selects optimal number of quantile-spaced bins
+  x.lim = c(-13, 13), 
+  y.lim = c(0, 1),
+  title = "Reduced Form (University Registration) - Optimal Bins",
+  x.label = "Empirica Score",
+  y.label = "Probability of University Registration",
+  masspoints = "off"
+)
+```
+
+Let's now estimate the effect of the loan on university registration using the rdrobust package.
+
+```{r}
+#| label: rdrobust-fuzzy
+
+rd_result_fuzzy <- rdrobust(y = data$univ_register,
+                            x = data$empirica,
+                            fuzzy = data$loan,  # indique que c'est une fuzzy RDD
+                            c = 0,
+                            p = 1, q = 2,
+                            kernel = "tri")
+
+summary(rd_result_fuzzy)
+
+
+#bw <- rdbwselect(y = data$univ_register,
+                 #x = data$empirica,
+                 #c = 0,  # cutoff
+                 #p = 1,  # local linear
+                 #q = 2,  # bias-correction polynomial
+                 #kernel = "tri", 
+                 #bwselect = "mserd")
+#print(bw)
+
+# Pour les bande passante h (gauche et droite)
+#h_values <- bw$bws[1, 1:2]
+
+# Pour les bande passante b (gauche et droite)
+#b_values <- bw$bws[1, 3:4]
+
+#rd_result <- rdrobust(y = data$univ_register,
+                      #x = data$empirica,
+                      #c = 0,
+                      #p = 1, q = 2,
+                      #h = h_values,
+                      #b = b_values,
+                      #kernel = "tri")
+
+#rd_result
+
+#summary(rd_result)
+```
+\newpage
+
+| Method      | Estimate | Statistically Significant? | Method comparison                                                                    |
+|-------------|----------|-----------------------------|------------------------------------------------------------------------------------|
+| `rdrobust`  | 0.468    | Yes (p = 0.001)             | LATE estimated using robust local polynomial regression at the Empirica threshold[^1]. |
+| 2SLS        | 0.478    | Yes (p = 0.0024)            | LATE estimated using a global linear Two-Stage Least Squares (2SLS) specification.         |
+
+Both methods yield consistent estimates of approximately 47%.  
+
+[^1]: When using `rdrobust` for a fuzzy RDD, we need to specify the argument `fuzzy = data$loan`. Otherwise, the package will treat the RDD as a sharp design.
+
+## Conclusion
+
+Fuzzy Regression Discontinuity Design analysis reveals a substantial causal effect of student loans on university enrollment among South African female students: obtaining a loan increases the likelihood of university enrollment by 47%.
+
+
+
+
+
+```{r}
+#| label: data-plot6
+#| fig-cap: "Fuzzy RDD"
+#| fig-dpi: 300
+#| echo: false
+#| eval: false
+
+
+ggcoefstats(
+  x = iv_model,
+  title = "2SLS Regression: Effect of Loan on University Registration"
+)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+#| label: data-plot2
+#| fig-cap: "Effect of Loan on University Registration"
+#| fig-dpi: 300
+#| echo: false
+#| eval: false
+
+ggbarstats(
+  data = data,
+  x = loan,
+  y = univ_register,
+  title = "",
+  xlab = "Loan",
+  ylab = "University Registration"
+)
+
+#This bar chart shows the link between getting a loan and enrolling in university.
+
+#- Among students **without a loan**, only **33%** registered.
+#- Among those **with a loan**, **57%** registered.
+ 
+#This difference is highly significant (**$\chi^2(1) = 269.33$, $p < 0.001$**) with a moderate effect size (**Cramér’s $V = 0.23$** $95\%$ CI: $[0.20, 0.26]$).
+#Each group also shows significant differences in registration rates compared to what we could expect by chance ($p < 10^{-15}$), supporting the idea that loans help students enroll.
+```
+
+
+

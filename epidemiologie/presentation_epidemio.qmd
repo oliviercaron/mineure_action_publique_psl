@@ -1,52 +1,127 @@
 ---
-title: "Named Entity Recognition (NER)"
-subtitle: "A focus on the GliNER Model Using Twitter Data During COVID-19"
+title: "Impact des IVG sur la prématurité"
+subtitle: "Analyse de l'étude EUROPOP"
 author:
-  - name: Olivier Caron
+  - name: "Olivier CARON"
     email: "olivier.caron@dauphine.psl.eu"
     affiliations:
       - name: "Université Paris Dauphine - PSL"
         city: "Paris"
         state: "France"
-date: "October 17, 2024"
+  - name: "Lina CHEKROUN"
+    email: "lina.chekroun@ens.psl.eu"
+    affiliations:
+      - name: "ENS - PSL"
+        city: "Paris"
+        state: "France"
+  - name: "Sandra SINNASSAMY"
+    email: "sandra.sinnassamy@ens.psl.eu"
+    affiliations:
+      - name: "ENS - PSL"
+        city: "Paris"
+        state: "France"
+date: "last-modified"
 date-format: long
 format:
   beamer:
     theme: metropolis
     navigation: vertical
     aspectratio: 169
-    pdf-engine: xelatex
-    mainfont: "TeX Gyre Heros"
+    pdf-engine: xelatex #propose me many fonts as a list
+    mainfont: Fira Sans
+    #fontoptions: "Weight=200"
+    #fontfamily: Fira Sans
 #bibliography: references.bib
 ---
 
-# Introduction to Named Entity Recognition (NER)
+# Présentation de l'article «History of induced abortion as a risk factor for preterm birth ...»
 
--   **Definition**: Named Entity Recognition (**NER**) is an information extraction task [@goyalRecentNamedEntity2018] in Natural Language Processing (**NLP**) for identifying **entities** like names of **people**, **locations**, **organizations**, **dates**, and numerical expressions within text.
+- **Référence complète**:  
+  Ancel P.-Y., Lelong N., Papiernik E., Saurel-Cubizolles M.-J., Kaminski M. (2004). *History of induced abortion as a risk factor for preterm birth in European countries: results of the EUROPOP survey*. Human Reproduction, 19(3): 734–740.
 
-<!--![](images/ner_example.png){fig-align="center"}-->
+# Contexte et Objectifs de l’étude
 
-# Historical overview of NER
+- **Contexte**  
+  - Impact potentiel des avortements induits sur la santé reproductive.  
+  - Risque accru d’accouchement prématuré (suggéré par études antérieures).  
+- **Objectif principal**  
+  - Investiguer la relation entre l’historique d’avortements induits et le risque de prématurité.  
+  - Comparer ces effets dans différents pays européens.  
 
--   **Early Contributions**: Lisa Rau’s [-@rau1991extracting] work on extracting company names was pioneering, addressing the challenges posed by unknown words in NLP tasks.
+# Population étudiée
 
-<!--![](images/NER_rau.png){fig-align="center" width="70%"}-->
+- **Type d’étude**: Étude *cas-témoins* (EUROPOP) menée entre 1994 et 1997.  
+- **Population**  
+  - Cas : 2938 naissances prématurées (22-36 SA).  
+  - Témoins : 4781 naissances à terme (>37 SA).  
+- **Pays inclus**: 10 pays européens (ex. Allemagne, Finlande, Italie, Russie, etc.).  
+- **Critères d’exclusion**: Absence ou confusion dans la déclaration des avortements, données manquantes.  
 
-# Historical overview of NER
+# Méthodes de collecte et Variables
 
--   **Origins**: The term "Named Entitty" was formally introduced in the Sixth Message Understanding Conference (MUC-6), where it was recognized as essential for **extracting structured information**, such as names and temporal expressions [@grishman1996message].
+- **Recueil de données**  
+  - Questionnaire pendant le séjour à la maternité.  
+  - Données sur :  
+    - Facteurs sociodémographiques (âge, statut marital, etc.).  
+    - Historique obstétrical (avortements, naissances précédentes).  
+    - Comportements (tabagisme).  
+- **Catégories d’avortements induits**  
+  - 0, 1, ou ≥2 avortements.  
+- **Analyse**  
+  - Ajustements pour facteurs de confusion : âge, parité, tabagisme, etc.  
+  - Calcul d’**Odds Ratios (OR)** et IC 95%.  
 
--   **Evolution**: Over time, methods evolved from rule-based approaches to **machine learning** and, eventually, to **deep learning**-based models [@nadeau2007survey; @liu2022overview].
+# Principaux Résultats
 
-<!-- 
-Origins and Early Work (1991): The concept of "Named Entity" (NE) was formally introduced at the Sixth Message Understanding Conference (MUC-6) in 1996, focusing on extracting structured information such as company activities and defense-related events. Early research in NER started with Lisa Rau’s work on extracting company names using handcrafted rule-based approaches, which laid the foundation for future studies (Rau, 1991).
+- **Association avortement induit / prématurité**  
+  - OR global ajusté ~1,2-1,5 si ≥1 avortement.  
+  - Risque plus élevé (OR = 1,63) pour ≥2 avortements.  
+- **Causes de la prématurité**  
+  - Risque augmenté pour :  
+    - Rupture prématurée des membranes (OR = 1,35).  
+    - Travail prématuré idiopathique (OR = 1,31).  
+    - Hémorragie antepartum (OR = 1,65).  
+  - Pas d’association avec hypertension maternelle.  
+- **Effet selon le terme**  
+  - Association plus forte pour la prématurité très précoce (22-32 SA) que modérée (33-36 SA).  
 
-Rule-Based Systems (1991-1995): In the early 1990s, NER systems relied on rules crafted by linguists, focusing on syntactic and lexical cues to identify entities. These methods were effective but limited in flexibility and scalability. Initial research and publications on NER were sparse, but interest grew as its potential became evident (MUC-6, 1995).
+# Conclusion et Limites
 
-Shift to Machine Learning (Late 1990s): In the late 1990s, researchers adopted machine learning (ML) algorithms to enhance NER systems. This shift marked a transition from rule-based methods to supervised learning approaches, such as Hidden Markov Models (HMMs), Decision Trees, and Conditional Random Fields (CRFs) (Bikel et al., 1997; Freitag and McCallum, 2000). Events like the CoNLL (Conference on Natural Language Learning) workshops highlighted learning-based NER systems.
+- **Conclusion**  
+  - Historique d’avortements induits = facteur de risque indépendant de prématurité.  
+  - Effet dose-réponse (plus d’avortements => risque plus élevé).  
+  - Pas de différence majeure selon le pays, malgré des pratiques variées.  
+- **Limites**  
+  - Biais de déclaration (sous-déclaration possible des IVG).  
+  - Biais de sélection (échantillon de maternités volontaires).  
+  - Pas de distinction précise entre différentes techniques d’IVG.  
 
-Diversity of NER Tasks and Languages (2000s): Research diversified to include more languages and domains, leading to the development of multilingual NER systems. Programs like ACE (Automatic Content Extraction) expanded the scope of NER by introducing finer entity types and new tasks, such as coreference resolution (Grishman and Sundheim, 1996). Techniques became more advanced, with the use of unsupervised and semi-supervised learning methods that leveraged large, unlabeled datasets for training (Miller et al., 2004).
+# Questions et Réponses
 
-Expanding Applications and Refinement of Techniques (2000s-2006): By the early 2000s, NER became essential in information extraction, with applications across fields such as bioinformatics, where it helped identify gene and protein names (Collier et al., 2000). The development of sophisticated evaluation metrics also emerged to assess NER systems, including those for partial matches and nuanced error types, marking its transition from academic research to real-world applications in search engines, media monitoring, and scientific research (Tjong Kim Sang and De Meulder, 2003).
--->
+1. **Population étudiée**  
+   - Femmes ayant accouché prématurément (cas) vs. femmes ayant accouché à terme (témoins), dans 10 pays européens (≈7700 femmes).  
 
+2. **Type d’étude et avantages/inconvénients**  
+   - **Cas-témoins**  
+     - *Avantages*: Rapide, adapté aux événements rares (prématurité).  
+     - *Inconvénients*: Biais de sélection, dépend de la mémoire des patientes (déclaration).  
+
+3. **Pertinence de l’étude cas-témoins**  
+   - Oui, car la prématurité est un événement relativement rare. Une cohorte prospective serait plus coûteuse et plus longue.  
+
+4. **Biais potentiels**  
+   - Sous-déclaration d’IVG (biais de déclaration).  
+   - Biais de sélection (participation non aléatoire des maternités).  
+   - Résultats potentiellement sous-estimés.  
+
+5. **Exemple d’interprétation d’un OR dans un tableau**  
+   - *Placenta praevia, OR = 2.31* : Les femmes avec un avortement induit ont 2,31 fois plus de risque d’accouchement prématuré lié au placenta praevia qu’une femme sans antécédent.  
+
+# Synthèse Finale
+
+- **Analyse globale**  
+  - Étude solide suggérant un lien robuste entre IVG et prématurité.  
+  - Renforce l’importance du suivi gynécologique et obstétrical, notamment chez les femmes avec antécédents d’IVG multiples.  
+- **Perspectives**  
+  - Nécessité d’enquêtes complémentaires (cohortes prospectives) pour confirmer la causalité et préciser le rôle des techniques d’avortement.  
+  - Intérêt d’études sur la prévention d’éventuelles complications infectieuses ou mécaniques après IVG.  
