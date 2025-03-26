@@ -1,0 +1,23 @@
+---
+title: "Causal statistics for treatment models"
+subtitle: "TD Presentation"
+author:
+  - name: Olivier Caron
+    email: "olivier.caron@dauphine.psl.eu"
+    affiliations:
+      - name: "Université Paris Dauphine - PSL"
+        city: "Paris"
+        state: "France"
+date: "last-modified"
+date-format: long
+format:
+  beamer:
+    theme: metropolis
+    navigation: vertical
+    aspectratio: 169
+    pdf-engine: xelatex
+    mainfont: Fira Sans
+    #fontoptions: "Weight=200"
+    #fontfamily: Fira Sans
+#bibliography: references.bib
+---

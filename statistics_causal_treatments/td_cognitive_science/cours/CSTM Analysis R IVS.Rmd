@@ -1,0 +1,558 @@
+---
+title: "CSTM Analysis R IVS"
+author: "Thomas Beuchot"
+date: "2025-01-30"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 4
+    number_sections: true
+abstract: |
+  | This document summarises an analysis of the European Values Study. In this project, I analyse the relationship between environmental and phenotypical factors, and personality traits.
+header-includes:
+  - \usepackage{fancyvrb}
+  - \usepackage{fvextra}
+  - \fvset{breaklines=true, breakanywhere=true}
+  - \usepackage{graphicx}
+  - \usepackage{hyperref}
+  - \usepackage{tabularx}
+  - \usepackage{caption}
+  - \usepackage{float}
+  - \usepackage{url}
+---
+
+```{r global_options, echo = TRUE, warning = FALSE, message = FALSE, include = FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, include = TRUE)
+
+```
+
+```{r Preparing the environment, include = FALSE}
+
+### Preparing the environment ####
+rm(list = ls())
+
+### Load packages ####
+library(haven)
+library(here)
+library(tidyverse)
+library(kableExtra)
+library(psych)
+library(purrr)
+
+#library(xtable) #To format tables and export them in .tex format
+#library(reshape2) #To modify dataframes
+#library(stringr) #To substract strings
+#library(collapse) #For fast data transformation
+#library(ggplot2) #For graphical representation
+#library(ggtext) #For more flexible graphical representation
+#library(tidyverse)
+#library(janitor) #Cleaning and descriptive stats
+#library(vtable) #stats desc
+#library(stringr) #Strings
+#library(sjPlot) #For scores and other scales
+#library(tidycomm)
+
+#tinytex::install_tinytex()
+
+```
+
+\newpage
+
+```{r Loading the data}
+
+### Load the Stata dataset ####
+data <- read_dta(here("ZA7503_v3-0-0.dta"))
+t <- data
+
+``` 
+
+# First steps
+
+## The European Values Study
+
+The European Values Study database includes `r nrow(t)` observations and `r length(t)` variables.
+
+## Define the research question
+
+What is the relationship between resource availability and personality traits? To what extent does health mediate this relationship?
+
+## Define the prediction(s)
+1) Resource availability is linked to a higher level in each personality trait.
+2) Health partly mediate the relationship between resource availability and personality traits.
+
+```{r Keeping relevant variables}
+
+### Keep relevant variables in ts ####
+ts <- t[, c("S007", "S009", "S017", "S020", 
+            "Y001", 
+            "A010", "A058", "A059", "A061", "A063", "A118", "C025", "E049", 
+            "A066", "A071", "A083", "A088", "E033", "E046", "E061", "E104", "E108", "E143", "F001", 
+            "A064", "A080_01", "A081", "A107", "A108", "A168A", "B001", 
+            "A119", "C041", "C042B5", "E048", "E051", 
+            "A017", "A019", "A173", "E047", "F010", 
+            "A009", "X001", "X003", "X007", "X025", "X025R", "X028", "X045", "X047_EVS",
+            "F024")]
+
+# S007 (id), S009 (country_abb), S017 (weight), S020 (survey_year)
+# Y001 (postmat)
+# A010 (ext_excited), A058 (ext_no_friends), A059 (ext_no_colleagues), A061 (ext_no_community), A063 (ext_no_persuasion), A118 (ext_v_social), C025 (ext_meeting), E049 (ext_convince)
+# A066 (ope_arts), A071 (ope_ecology), A083 (ope_v_arts), A088 (ope_v_ecology), E033 (ope_no_liberal), E046 (ope_new), E061 (ope_reform), E104 (ope_no_app_ecology), E108 (ope_no_app_women), E143 (ope_no_immigration), F001 (ope_never_meaning)
+# A064 (agr_welfare), A080_01 (agr_humanitarian), A081 (agr_v_welfare), A107 (agr_v_solidarity), A108 (agr_v_compassion), A168A (trust), B001(agr_no__give)
+# A119 (con_v_skills), C041 (con_no_work), C042B5 (con_imp_work), E048 (con_success), E051 (con_get)
+# A017 (sta_depressed), A019 (sta_upset), A173 (sta_control), E047 (sta_serenity), F010 (sta_no_meaning)
+# A009 (health), X001 (sex), X003 (age), X007 (marital_status), X025 (education), X025R (education_levels), X028 (employment_status), X045 (social_class), X047_EVS (income_scale)
+# F024 (religion)
+
+### Give new names to variables in ts ####
+names(ts) <- c(
+  "id", "country_abb", "weight", "survey_year",  
+  "postmat",  
+  "ext_excited", "ext_no_friends", "ext_no_colleagues", "ext_no_community",
+  "ext_no_persuasion", "ext_v_social", "ext_meeting", "ext_convince",  
+  "ope_arts", "ope_ecology", "ope_v_arts", "ope_v_ecology", "ope_no_liberal", "ope_new", 
+  "ope_reform", "ope_no_app_ecology", "ope_no_app_women", "ope_no_immigration", "ope_never_meaning",  
+  "agr_welfare", "agr_humanitarian", "agr_v_welfare", "agr_v_solidarity", "agr_v_compassion", "trust", 
+  "agr_no_give",  
+  "con_v_skills", "con_no_work", "con_imp_work", "con_success", "con_get",  
+  "sta_depressed", "sta_upset", "sta_control", "sta_serenity", "sta_no_meaning",  
+  "health", "sex", "age", "marital_status", "education", "education_levels", "employment_status",
+  "social_class", "income_scale",
+  "religion"
+)
+
+### Reorder the columns in ts ####
+
+# Define the order of column names
+column_order <- c(
+  "id", "sex", "age", "weight", "country_abb", "survey_year",    
+  "ext_excited", "ext_no_friends", "ext_no_colleagues", "ext_no_community",
+  "ext_no_persuasion", "ext_v_social", "ext_meeting", "ext_convince",  
+  "ope_arts", "ope_ecology", "ope_v_arts", "ope_v_ecology", "ope_no_liberal", "ope_new", 
+  "ope_reform", "ope_no_app_ecology", "ope_no_app_women", "ope_no_immigration", "ope_never_meaning",  
+  "agr_welfare", "agr_humanitarian", "agr_v_welfare", "agr_v_solidarity", "agr_v_compassion", "trust",
+  "agr_no_give",
+  "con_v_skills", "con_no_work", "con_imp_work", "con_success", "con_get",  
+  "sta_depressed", "sta_upset", "sta_control", "sta_serenity", "sta_no_meaning",
+  "postmat",
+  "social_class", "marital_status", "education", "education_levels", "employment_status", 
+  "income_scale", "health",
+  "religion"
+)
+
+# Reorder the columns in ts to match the defined order
+ts <- ts[, column_order]
+
+```
+
+## List relevant variables
+
+The shortened database "ts" includes `r nrow(ts)` observations and `r length(ts)` variables.
+
+It consists of several categories of variables:
+
+- **General/Demographic Variables**: Individual-level attributes such as `id` (respondent ID), `sex`, `age`, `weight` (sampling weight), `country_abb` (country of survey), and `survey_year` (year of survey).
+
+- **Big Five Personality Traits** (candidate variables before a factor analysis): 
+  - **Extraversion**: `ext_excited` (ever felt very excited or interested), `ext_no_friends` (spend time with friends), `ext_no_colleagues` (spend time with colleagues from work), `ext_no_community` (spend time with people at sport, culture, communal organization), `ext_no_persuasion` (persuading friends, relatives or fellow workers), `ext_v_social` (reasons voluntary work: for social reasons), `ext_meeting` (important in a job: meeting people), `ext_convince` (personal characteristics: I enjoy convincing others of my opinion).
+  - **Openness to Experience**: `ope_arts` (member: belong to education, arts, music or cultural activities), `ope_ecology` (member: belong to conservation, the environment, ecology, animal rights), `ope_v_arts` (voluntary work: unpaid work education, arts, music or cultural activities), `ope_v_ecology` (voluntary work: unpaid work environment, conservation, animal rights), `ope_no_liberal` (self positioning in political scale), `ope_new` (new and old ideas), `ope_reform` (political reform is moving too rapidly), `ope_no_app_ecology` (no_approval: ecology movement or nature protection), `ope_no_app_women` (no_approval: women’s movement), `ope_no_immigration` (immigrant policy), `ope_never_meaning` (thinking about meaning and purpose of life).
+  - **Agreeableness**: `agr_welfare` (member: belong to social welfare service for elderly, handicno_apped or deprived people), `agr_humanitarian` (member: belong to humanitarian or charitable organization), `agr_v_welfare` (voluntary work: unpaid work social welfare service for elderly, handicno_apped or deprived people), `agr_v_solidarity` (reasons voluntary work: solidarity with the poor and disadvantaged), `agr_v_compassion` (reasons voluntary work: compassion for those in need), `agr_trust` (do you think most people try to take advantage of you (10-point scale)) `agr_no_give` (would give part of my income for the environment).
+  - **Conscientiousness**: `con_v_skills` (reasons voluntary work: gain new skills and useful experience), `con_no_work` (Work should come first even if it means less spare time), `con_imp_work` (why people work: work most important in my life), `con_success` (personal characteristics: I usually count on being successful in everything I do), `con_get` (personal characteristics: I am good at getting what I want).
+  - **Emotional Stability (Inverse of Neuroticism)**: `sta_depressed` (ever felt depressed or very unhno_appy), `sta_upset` (ever felt upset because somebody criticized you), `sta_control` (how much freedom of choice and control), `sta_serenity` (personal characteristics: changes, worry or welcome possibility), `sta_no_meaning` (life has no meaning).
+
+- **Postmaterialist Values**: `postmat` (post-materialist index 12-item).
+
+- **Environmental and Phenotypic Factors**:
+  - `social_class` (subjective social class),
+  - `marital_status`,
+  - `education` (education attainment ),
+  - `education_levels` (education attainment simplified),
+  - `employment_status` (employment category),
+  - `income_scale` (scale of incomes),
+  - `health` (self-assessed health).
+
+- **Potential Confound**: `religion` (religious denomination).
+
+# Data cleaning
+
+I check whether the variables contain inno_appropriate values (like "-1" or "-99") using the "table" function and the codebook to interpret values. If this is the case, I convert these values into "NA".
+
+
+```{r Data cleaning}
+
+### Clean the data ####
+
+# Put NAs instead of irrelevant numerical values
+variables_to_clean <- c(
+  "sex", "age", "weight",    
+  "ext_excited", "ext_no_friends", "ext_no_colleagues", "ext_no_community",
+  "ext_no_persuasion", "ext_v_social", "ext_meeting", "ext_convince",  
+  "ope_arts", "ope_ecology", "ope_v_arts", "ope_v_ecology", "ope_no_liberal", "ope_new", 
+  "ope_reform", "ope_no_app_ecology", "ope_no_app_women", "ope_no_immigration", "ope_never_meaning",  
+  "agr_welfare", "agr_humanitarian", "agr_v_welfare", "agr_v_solidarity", "agr_v_compassion", "trust",
+  "agr_no_give",  
+  "con_v_skills", "con_no_work", "con_imp_work", "con_success", "con_get",  
+  "sta_depressed", "sta_upset", "sta_control", "sta_serenity", "sta_no_meaning",
+  "postmat",
+  "social_class", "marital_status", "education", "education_levels", "employment_status", 
+  "income_scale", "health",
+  "religion"
+)
+
+for (var in variables_to_clean) {
+  ts[[var]][ts[[var]] %in% c(-5, -4, -3, -2, -1)] <- NA
+}
+
+# Create a new 'country' variable based on 'country_abb'
+ts$country <- recode(ts$country_abb,
+    "AL" = "Albania", "AM" = "Armenia", "AT" = "Austria", "AZ" = "Azerbaijan", 
+    "BA" = "Bosnia and Herzegovina", "BE" = "Belgium", "BG" = "Bulgaria", "BY" = "Belarus", 
+    "CA" = "Canada", "CH" = "Switzerland", "CY" = "Cyprus", "CY-TCC" = "Cyprus-TCC", 
+    "CZ" = "Czech Republic", "DE" = "Germany", "DK" = "Denmark", "EE" = "Estonia", 
+    "ES" = "Spain", "FI" = "Finland", "FR" = "France", "GB-GBN" = "United Kingdom (GBN)", 
+    "GB-NIR" = "United Kingdom (Northern Ireland)", "GE" = "Georgia", "GR" = "Greece", 
+    "HR" = "Croatia", "HU" = "Hungary", "IE" = "Ireland", "IS" = "Iceland", "IT" = "Italy", 
+    "LT" = "Lithuania", "LU" = "Luxembourg", "LV" = "Latvia", "MD" = "Moldova", 
+    "ME" = "Montenegro", "MK" = "North Macedonia", "MT" = "Malta", "NL" = "Netherlands", 
+    "NO" = "Norway", "PL" = "Poland", "PT" = "Portugal", "RO" = "Romania", "RS" = "Serbia", 
+    "RS-KM" = "Serbia-Kosovo", "RU" = "Russia", "SE" = "Sweden", "SI" = "Slovenia", 
+    "SK" = "Slovakia", "TR" = "Turkey", "UA" = "Ukraine", "US" = "United States"
+)
+
+# Remove 'country_abb' as it's no longer needed
+ts$country_abb <- NULL
+
+# Modify the sex variable (1=0, 2=1)
+ts$sex[ts$sex == 1] <- 0
+ts$sex[ts$sex == 2] <- 1
+
+# Create a new 'partner' variable based on 'marital_status'
+ts$partner <- ifelse(ts$marital_status %in% c(1, 2, 8), 1, 0)
+ts$marital_status <- NULL
+
+# Create a new 'unemployment' variable based on 'employment_status'
+ts$unemployment <- ifelse(ts$employment_status %in% c(7), 1, 0)
+ts$employment_status <- NULL
+
+# Invert the social_class variable so a higher score reflects a higher class
+ts$social_class[ts$social_class == 1] <- 50
+ts$social_class[ts$social_class == 2] <- 40
+ts$social_class[ts$social_class == 4] <- 2
+ts$social_class[ts$social_class == 5] <- 1
+ts$social_class[ts$social_class == 50] <- 5
+ts$social_class[ts$social_class == 40] <- 4
+
+# Recode the sta_no_meaning variable
+ts$sta_no_meaning[ts$sta_no_meaning == 1] <- 30
+ts$sta_no_meaning[ts$sta_no_meaning == 2] <- 1
+ts$sta_no_meaning[ts$sta_no_meaning == 3] <- 2
+ts$sta_no_meaning[ts$sta_no_meaning == 30] <- 3
+
+# Convert haven-labelled variables to appropriate R types
+numerical_vars <- c(
+  "sex", "age", "weight", "survey_year",    
+  "ext_excited", "ext_no_friends", "ext_no_colleagues", "ext_no_community",
+  "ext_no_persuasion", 
+  "ext_v_social", "ext_meeting", "ext_convince",  
+  "ope_arts", "ope_ecology", "ope_v_arts", "ope_v_ecology", "ope_no_liberal", "ope_new", 
+  "ope_reform", "ope_no_app_ecology", "ope_no_app_women", "ope_no_immigration", "ope_never_meaning",  
+  "agr_welfare", "agr_humanitarian", "agr_v_welfare", "agr_v_solidarity", "agr_v_compassion", "trust",
+  "agr_no_give",  
+  "con_v_skills", "con_no_work", "con_imp_work", "con_success", "con_get",  
+  "sta_depressed", "sta_upset", "sta_control", "sta_serenity", "sta_no_meaning",
+  "postmat",
+  "social_class", "partner", "education", "education_levels", "unemployment", 
+  "income_scale", "health",
+  "religion"
+)
+
+ts <- ts %>%
+  mutate(
+    # Convert 'id' to character
+    id = as.character(id),
+    # Convert other variables to numeric
+    across(all_of(numerical_vars), as.numeric)
+  )
+
+```
+
+Below, here is a table with information on demographic variables.
+
+```{r Summary table}
+
+### Create a summary table (PDF document) ####
+
+# Create the summary table
+summary_table <- data.frame(
+  Variable = c("Sex", "Age", "Social Class", "Income Scale", "Partner", "Unemployment", "Health"),
+  
+  Non_NA = c(
+    sum(!is.na(ts$sex)),
+    sum(!is.na(ts$age)),
+    sum(!is.na(ts$social_class)),
+    sum(!is.na(ts$income_scale)),
+    sum(!is.na(ts$partner)),
+    sum(!is.na(ts$unemployment)),
+    sum(!is.na(ts$health))
+  ),
+  
+  Missing = c(
+    sum(is.na(ts$sex)),
+    sum(is.na(ts$age)),
+    sum(is.na(ts$social_class)),
+    sum(is.na(ts$income_scale)),
+    sum(is.na(ts$partner)),
+    sum(is.na(ts$unemployment)),
+    sum(is.na(ts$health))
+  ),
+  
+  # For 'Sex', 1=Female, 0=Male => mean is proportion of females
+  Mean = c(
+    round(mean(ts$sex, na.rm = TRUE), 2),
+    round(mean(ts$age, na.rm = TRUE), 2),
+    round(mean(ts$social_class, na.rm = TRUE), 2),
+    round(mean(ts$income_scale, na.rm = TRUE), 2),
+    round(mean(ts$partner, na.rm = TRUE), 2),
+    round(mean(ts$unemployment, na.rm = TRUE), 2),
+    round(mean(ts$health, na.rm = TRUE), 2)
+  ),
+  
+  SD = c(
+    round(sd(ts$sex, na.rm = TRUE), 2),
+    round(sd(ts$age, na.rm = TRUE), 2),
+    round(sd(ts$social_class, na.rm = TRUE), 2),
+    round(sd(ts$income_scale, na.rm = TRUE), 2),
+    round(sd(ts$partner, na.rm = TRUE), 2),
+    round(sd(ts$unemployment, na.rm = TRUE), 2),
+    round(sd(ts$health, na.rm = TRUE), 2)
+  ),
+  
+  Min = c(
+    round(min(ts$sex, na.rm = TRUE), 2),
+    round(min(ts$age, na.rm = TRUE), 2),
+    round(min(ts$social_class, na.rm = TRUE), 2),
+    round(min(ts$income_scale, na.rm = TRUE), 2),
+    round(min(ts$partner, na.rm = TRUE), 2),
+    round(min(ts$unemployment, na.rm = TRUE), 2),
+    round(min(ts$health, na.rm = TRUE), 2)
+  ),
+  
+  Max = c(
+    round(max(ts$sex, na.rm = TRUE), 2),
+    round(max(ts$age, na.rm = TRUE), 2),
+    round(max(ts$social_class, na.rm = TRUE), 2),
+    round(max(ts$income_scale, na.rm = TRUE), 2),
+    round(max(ts$partner, na.rm = TRUE), 2),
+    round(max(ts$unemployment, na.rm = TRUE), 2),
+    round(max(ts$health, na.rm = TRUE), 2)
+  )
+)
+
+# Display the table as LaTeX (for inclusion in a PDF document)
+kable(summary_table, 
+      format = "latex", 
+      booktabs = TRUE, 
+      caption = "Summary of Relevant Variables", 
+      label = "tab:summary") %>%
+  kable_styling(latex_options = c("hold_position"), font_size = 8)
+
+```
+
+# Create outcome measures
+
+In what follows, I create Big Five personality scores based on items in the European Values Study.
+
+```{r Psychometric analyses}
+
+### Psychometric analyses ####
+
+# A) Safely compute alpha with suppressed messages/warnings
+safe_alpha <- function(df) {
+  # If <2 cols or <2 rows, alpha is meaningless
+  if (ncol(df) < 2 || nrow(df) < 2) {
+    return(NA_real_)
+  }
+  out <- tryCatch(
+    suppressWarnings(
+      suppressMessages(
+        psych::alpha(df, check.keys = FALSE)$total$raw_alpha
+      )
+    ),
+    error = function(e) NA_real_
+  )
+  return(out)
+}
+
+# B) Build personality scale with standardized scoring
+build_personality_scale <- function(
+  data, 
+  items, 
+  negative_items = NULL,
+  scale_name = "some_trait",
+  alpha_threshold = 0.50
+) {
+  cat("---- Building scale for", toupper(scale_name), "----\n")
+  
+  # Subset relevant items
+  df <- data %>% select(all_of(items))
+  
+  # Reverse-code negative items
+  if (!is.null(negative_items) && length(negative_items) > 0) {
+    df <- df %>%
+      mutate(across(all_of(negative_items), ~ {
+        if (all(is.na(.))) {
+          .
+        } else {
+          # Reverse code: newValue = max + min - oldValue
+          v_max <- max(., na.rm = TRUE)
+          v_min <- min(., na.rm = TRUE)
+          v_max + v_min - .
+        }
+      }))
+  }
+  
+  # Check alpha on all subsets of size >= 2
+  if (length(items) >= 2) {
+    all_subsets <- unlist(
+      lapply(2:length(items), function(k) combn(items, k, simplify = FALSE)),
+      recursive = FALSE
+    )
+    alpha_results <- map_df(all_subsets, function(subset_items) {
+      subset_data <- df %>% select(all_of(subset_items)) %>% na.omit()
+      this_alpha <- safe_alpha(subset_data)
+      data.frame(
+        Items     = paste(subset_items, collapse = ", "),
+        Num_Items = length(subset_items),
+        CronAlpha = this_alpha
+      )
+    })
+    max_alpha <- max(alpha_results$CronAlpha, na.rm = TRUE)
+  } else {
+    alpha_results <- data.frame(Items = NA, Num_Items = 1, CronAlpha = NA_real_)
+    max_alpha <- NA_real_
+  }
+  
+  cat("Highest alpha found for", scale_name, "=", round(max_alpha, 3), "\n")
+  
+  # Use multi-item or fallback to single
+  if (is.na(max_alpha) || max_alpha < alpha_threshold) {
+    cat(" -> No subset with alpha >=", alpha_threshold, ". Using single best item.\n")
+    non_missing_counts <- sapply(df, function(x) sum(!is.na(x)))
+    best_item <- names(non_missing_counts)[which.max(non_missing_counts)]
+    
+    single_vec <- df[[best_item]]
+    if (all(is.na(single_vec))) {
+      final_scale <- single_vec
+    } else {
+      final_scale <- as.numeric(scale(single_vec, center = TRUE, scale = TRUE))
+    }
+    data[[paste0(scale_name, "_scale")]] <- final_scale
+    
+    cat("    -> Created", paste0(scale_name, "_scale"),
+        "based on standardized item:", best_item, "\n")
+  } else {
+    best_row <- alpha_results[which.max(alpha_results$CronAlpha), ]
+    chosen_items <- strsplit(as.character(best_row$Items), ", ")[[1]]
+    
+    cat(" -> Found subset with alpha =", round(best_row$CronAlpha, 3), "\n")
+    cat("    Items:", best_row$Items, "\n")
+    
+    subset_data <- df[, chosen_items, drop = FALSE]
+    scaled_mat <- scale(subset_data, center = TRUE, scale = TRUE)
+    
+    rowwise_means <- apply(scaled_mat, 1, function(x) {
+      if (any(is.na(x))) NA_real_ else mean(x)
+    })
+    
+    data[[paste0(scale_name, "_scale")]] <- rowwise_means
+    cat("    -> Created", paste0(scale_name, "_scale"),
+        "by averaging standardized chosen items.\n")
+  }
+  
+  cat("---- End of scale building for", toupper(scale_name), "----\n\n")
+  return(data)
+}
+
+alpha_cutoff <- 0.50
+
+### Extraversion ####
+extraversion_items <- c(
+  "ext_excited", "ext_no_friends", "ext_no_colleagues", "ext_no_community",
+  "ext_no_persuasion", "ext_v_social", "ext_meeting", "ext_convince"
+)
+extraversion_negative <- c(
+  "ext_no_friends", "ext_no_colleagues", "ext_no_community", "ext_no_persuasion"
+)
+ts <- build_personality_scale(
+  data = ts,
+  items = extraversion_items,
+  negative_items = extraversion_negative,
+  scale_name = "extraversion",
+  alpha_threshold = alpha_cutoff
+)
+
+### Openness ####
+final_openness_items <- c(
+  "ope_arts", "ope_v_arts", "ope_no_liberal",
+  "ope_no_app_ecology", "ope_no_app_women",
+  "ope_no_immigration", "ope_never_meaning"
+)
+final_openness_negative <- c(
+  "ope_no_liberal", "ope_no_app_ecology", 
+  "ope_no_app_women", "ope_no_immigration", 
+  "ope_never_meaning"
+)
+ts <- build_personality_scale(
+  data = ts,
+  items = final_openness_items,
+  negative_items = final_openness_negative,
+  scale_name = "openness",
+  alpha_threshold = alpha_cutoff
+)
+
+### Agreeableness ####
+agreeableness_items <- c(
+  "agr_welfare", "agr_humanitarian", "agr_v_welfare", 
+  "agr_v_solidarity", "agr_v_compassion", 
+  "trust", 
+  "agr_no_give"
+)
+agreeableness_negative <- c("agr_no_give")
+ts <- build_personality_scale(
+  data = ts,
+  items = agreeableness_items,
+  negative_items = agreeableness_negative,
+  scale_name = "agreeableness",
+  alpha_threshold = alpha_cutoff
+)
+
+### Conscientiousness ####
+conscientiousness_items <- c(
+  "con_v_skills", "con_no_work", "con_imp_work", "con_success", "con_get"
+)
+conscientiousness_negative <- c("con_no_work")
+ts <- build_personality_scale(
+  data = ts,
+  items = conscientiousness_items,
+  negative_items = conscientiousness_negative,
+  scale_name = "conscientiousness",
+  alpha_threshold = alpha_cutoff
+)
+
+### Emotional Stability ####
+emotional_stability_items <- c(
+  "sta_depressed", "sta_upset", 
+  "sta_control", "sta_serenity", 
+  "sta_no_meaning"
+)
+emotional_stability_negative <- c("sta_depressed", "sta_upset", "sta_no_meaning")
+ts <- build_personality_scale(
+  data = ts,
+  items = emotional_stability_items,
+  negative_items = emotional_stability_negative,
+  scale_name = "emotional_stability",
+  alpha_threshold = alpha_cutoff
+)
+```
+
+

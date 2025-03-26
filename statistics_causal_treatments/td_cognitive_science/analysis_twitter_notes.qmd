@@ -1,0 +1,63 @@
+---
+title: "Causal statistics for treatment models"
+title-block-banner: true
+subtitle: "Mineure action publique"
+author:
+  - name: Olivier CARON
+    email: caron.olivier.80@gmail.com
+    affiliations: 
+      name: "Paris Dauphine-PSL"
+      city: Paris
+      state: France
+date: "last-modified"
+toc: true
+number-sections: true
+number-depth: 10
+format:
+  html:
+    theme:
+      light: litera
+    code-fold: true
+    code-summary: "Display code"
+    code-tools: true #enables to display/hide all blocks of code
+    code-copy: true #enables to copy code
+    grid:
+      body-width: 1000px
+      margin-width: 100px
+    toc: true
+    toc-title: "Table of content"
+    toc-location: left
+execute:
+  echo: true
+  warning: false
+  message: false
+editor: visual
+fig-align: "center"
+highlight-style: ayu-light
+reference-location: margin
+#lightbox: true
+filters:
+  - parse-latex
+---
+
+## Load data
+
+```{r}
+#| label: load-data
+#| column: screen-right
+
+library(tidyverse)
+library(report)
+library(janitor)
+library(readxl)
+library(DT)
+library(hrbrthemes)
+library(extrafont)
+library(ggthemr)
+
+#ggthemr("fresh")
+
+
+```
+
+## 
