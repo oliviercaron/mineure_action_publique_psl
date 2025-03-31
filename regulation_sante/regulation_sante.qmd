@@ -1,0 +1,163 @@
+---
+title: Régulation des systèmes de santé
+#bibliography: references.bib
+#subtitle: A systematic analysis
+format:
+  pdf:
+    classoption: aspectratio=169,10pt
+author:
+  - name: Olivier Caron
+    orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 11/28/2024
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Soutenabilité
+
+![](images/clipboard-1829468084.png)
+
+Soutenabilité définition : d'après le rapport Brundtland de 1987, elle
+implique la satisfaction des besoins des générations présentes sans
+compromettre la capacité des générations futures à satisfaire leurs
+propres besoins.
+
+Il faut essayer de comprendre la performance du système de soins en
+prenant en compte sa soutenabilité. Pollution des médicaments
+(inhalateurs etc.), pollution des transports et autres.
+
+## Estimation de la performance globale du système de soins
+
+-   pas de consensus sur la façon de mesurer. Covid Resilence Ranking :
+
+    -   5 premiers, que des îles : Nouvelle Zéland, Singapour,
+        Australie, Taiwan, Israël, Corée du Sud. Par exemple l'Australie
+        a carrément interdit aux Australiens de rentrer chez eux s'ils
+        étaient à l'étranger.
+
+    -   Réduction des chirurgies de hanche entre 2019 et 2020 : France
+        -12% , UK -45% donc ça va on a réussi à pas trop réduire malgré
+        le COVID.
+
+## Les liens entre les ressources et les résultats du système de santé
+
+Ressourecs dédiées au système de santé (1) / Résultats intermédiaires
+(2)/ Résultats finaux (2)/ Facteurs externes au système (4)
+
+1\) En termes de coûts et ressources physiques
+
+2\) Cout efficience efficene technique
+
+3\) Etat de santé
+
+## A starting point: 2000 World Health Report
+
+-   Première tentative de classer 191 systèmes nationaux de santé
+
+-   Identification et mesures de la performance des Etats membres
+
+La France a été classée première mais tout le monde n'a pas été
+d'accord.
+
+Cette tentative a été beaucoup critiquée (indicateurs non pondérés ou
+pondérations remises en doute)
+
+## On peut comparer
+
+-   L'état de santé de la population
+
+    -   Difficile à mesurer
+
+    -   Le système de santé joue qu'un rôle limité
+
+-   Expérience avec le système de santé
+
+    -   Accès aux soins, perception des patients, ...
+
+    -   La qualité
+
+-   Capacité d'interventions/traitements considérés "efficaces"
+
+    -   Résultats intermédiaires
+
+**Types d'indicateurs utilisés :**
+
+-   Espérance de vie à 65 ans (France 3ème ou 4ème pays)
+
+-   Mortalité infantile pour 1000 enfants (Etats-unis mal classés alors
+    qu'ils dépensent le plus en santé)
+
+-   Espérance de vie en bonne santé : Life expectancy (LE) and healthy
+    life years (HLY). (graphe 2022)
+
+    -   C'est fait à base de questionnaires. Données régulièrement
+        publiées par l'OCDE. France 3ème position sur les femmes
+
+-   Mortalité évitable (Avoidable mortality) 2021
+
+    -   Certains types de cancer, problèmes respiratoires. Le système de
+        santé n'est pas là juste pour soigner mais aussi pour prévenir
+        donc c'est pour cela qu'on les inclue. La France est bien
+        classée en "mortality from treatable causes" mais pas trop dans
+        "mortality from preventive causes" car on est pas encore très
+        bons en prévention.
+
+-   Evolution des années potentielles de vie perdue (PYLL) =
+
+    -   Male PYLL by cancer, Male PYLL by heart disease. C'est
+        intéressant de regarder les tendances. Le Japon est le pays avec
+        le Male PYLL by heart disease le plus bas. Le Japon est stable,
+        les Etats-Unis descendent (progressent) le plus.
+
+-   Distribution de l'état de santé perçu en Europe parmi les 50 ans et
+    plus
+
+    -   2 modalités : Bon état de santé perçu et Très bon état de santé
+        perçu (on a enlevé le "excellent" car personne ne dit
+        "excellent" concernant son état de santé en France, alors qu'aux
+        USA oui).
+
+    -   Self rated health, adults, 2023, y'a que 65% en France qui sont
+        heureux alors qu'on est le top 3 en termes d'espérance de vie en
+        bonne santé. Donc il faut faire attention à ce genre de
+        résultats. C'est un peu pareil avec les recherches en économie
+        du bonheur (Claudia Senik)
+
+-   Vaccination coverage with recommended doses for measles and
+    hepitatitis B
+
+-   Cervical cancer screening aged 20-69 : dépistage du cancer cervical
+    dans les 3 années précédentes
+
+-   Qualité de soins primaires - Hospotalisations évitables
+
+    -   Avec les bonnes recommandations de vie, ces maladies sont
+        évitables
+
+        -   Graphiques sur l'admission des adultes à l'hôputal par
+            rapport à l'asthme et ...
+
+-   Margins for improving care quality with better primary care
+
+    -   Amputations du pied à cause du diabète. Cela ne devrait jamais
+        arriver. Si on voit qu'il y a amputation =\> très mauvaise prise
+        en charge parce qu'il faut juste enlever la chaussure et
+        regarder les pieds. Donc pas de bon suivi ni de conseils si on
+        en arrive jusque-là.
+
+        -   La France ne brille pas, 12.6 personnes sur 100,000 (2009)
+            =\> données PMST. Chaque interaction est une interaction
+            donc fait l'objet d'un enregistrmeent avec un identifiant.
+            **SNDS =\> système national de données de santé.** Code
+            diagnostic principal + les actes
+
+## Expérience des patients
+
+... (je dois partir)
