@@ -1,0 +1,78 @@
+---
+title: Santé et Démocratie
+subtitle: La santé comme levier d'action face au changement climatique
+#bibliography: references.bib
+#format: 
+  #pdf:
+    #documentclass: article
+    #classoption: a4paper
+    #fontsize: 10pt
+format:
+  #pdf:
+    #classoption: aspectratio=169,10pt
+  beamer:
+    aspectratio: 169
+    fontsize: 8pt
+    font: serif
+    keep_tex: true
+    pdf-engine: xelatex
+    preamble: |
+      \usepackage{etoolbox}
+      \setcounter{secnumdepth}{5}
+      \setcounter{tocdepth}{5}
+      \setcounter{maxdepth}{6}
+      \usepackage{fontspec}
+      \setmainfont{Roboto} 
+      \setbeamercolor{normal text}{fg=red} % Définit le texte normal en rouge
+      %\usetheme{Berlin}  % Thème avec bleu/gris
+      \setbeamertemplate{navigation symbols}{% Active les symboles de navigation
+          \insertslidenavigationsymbol
+          \insertframenavigationsymbol
+          \insertbackfindforwardnavigationsymbol
+      }
+author:
+  - name: Olivier Caron
+    #orcid: 0000-0000-0000-0000
+    email: olivier.caron@dauphine.psl.eu
+    affiliations:
+      name: "Paris Dauphine - PSL"
+      city: Paris
+      state: France
+date: 04/04/2025
+date-format: long
+editor: 
+  markdown: 
+    wrap: 72
+#bibliography: references.bib
+#csl: apa.csl
+---
+
+## Intervenant : Kévin Jean
+kevin.jean@ens.psl.eu
+
+
+- Chaire Prof. Junior Santé et Changements Globaux
+- Epidémiologiste
+
+##
+
+Sciences de l'attribution : permet d'attribuer 
+
+post-growth economy => le futur 
+
+empreinte carbone d'un français : 10 t Co2 equivalent / an => ça prend en compte les entreprises du pays et ça divise par le nombre d'habitants.
+
+problème de justice climatique : inégalités massives entre les personnes et les régions responsables des problèmes et ceux qui en paient les problèmes.
+
+
+
+## Impact du changement climatique et santé
+
+  éco-anxiété => impact fonctionnel (sur le fonctionnement) des 18-25 ans et c'est + dans les pays à pauvres ou à risque comme philippines etc.
+  
+  
+
+
+
+
+
