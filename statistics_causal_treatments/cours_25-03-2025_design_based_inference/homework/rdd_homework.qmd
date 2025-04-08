@@ -11,15 +11,7 @@ author:
       state: France
 date: "last-modified"
 format:
-  pdf:
-    fontsize: 6pt
-    fontfamily: mathpazo
-    documentclass: article
-    geometry: top=2cm, bottom=2cm, left=2cm, right=2cm
-    include-in-header: 
-      text: |
-        \usepackage{titling}
-        \setlength{\droptitle}{-4em}  % <-- Remonte le bloc titre sur la page
+  html:
     toc: true
     number-sections: true
 execute:
@@ -32,33 +24,37 @@ execute:
 ```{r}
 #| label: load-data
 
-library(arrow)
+library(arrow) # For reading parquet files
 library(ggplot2)
 library(dplyr)
-library(ggstatsplot)
-library(AER)      # For ivreg (2SLS)
+library(ggstatsplot) # For ggcoefstats
+library(ivreg) # For 2SLS
 library(ggthemr)
-library(huxtable)
-library(rdrobust)
+library(huxtable) # for lovely tables
+library(rdrobust) # For robust RDD estimation (sharp and fuzzy)
 
 ggthemr("greyscale")
 data <- arrow::read_parquet("data/EduloanFEMALE.parquet")
 
 theme_custom <- theme(
-text = element_text(size = 12),
-panel.grid = element_blank(),
-panel.grid.major.y = element_line(colour = "#e3e1e1",
-linetype = 2),
-plot.title.position = 'plot',
-legend.position = 'top',
-legend.title = element_blank()
+  text = element_text(size = 12),
+  panel.grid = element_blank(),
+  panel.grid.major.y = element_line(
+    colour = "#e3e1e1",
+    linetype = 2
+  ),
+  plot.title.position = 'plot',
+  legend.position = 'top',
+  legend.title = element_blank()
 )
 ```
+
+## Data description
 
 ```{r}
 #| label: data-summary
 #| echo: false
-#| eval: false
+#| eval: true
 
 skimr::skim(data)
 
@@ -90,7 +86,7 @@ We begin by visually inspecting the discontinuity at the threshold.
 #| label: data-plot7
 #| layout-ncol: 2
 
-# Filter the data to the optimal bandwidth [-13, 13]
+# Filter the data to the optimal bandwidth [-13, 13] given by the professor
 data_optimal <- data %>% 
   filter(empirica >= -13 & empirica <= 13)
 
@@ -121,6 +117,7 @@ p1 <- ggplot(data, aes(x = empirica, y = loan)) +
 p1 <- p1 + 
   geom_point(data = bin_data, aes(x = mean_empirica, y = mean_loan), 
              color = "red", size = 1, alpha = 0.2)
+
 # Reduced form visualization (outcome)
 p2 <- ggplot(data, aes(x = empirica, y = univ_register)) +
   geom_smooth(data = subset(data, empirica < 0), method = "lm", se = TRUE) +
@@ -173,13 +170,14 @@ reduced_form <- lm(univ_register ~ discont_r + empirica + empirica_r, data = dat
 # 4. 2SLS Estimation
 iv_model <- ivreg(univ_register ~ loan + empirica + empirica_r | discont_r + empirica + empirica_r, 
                   data = data_optimal)
-# Additional robust analysis - Summary for IV model with diagnostics
+
+# Summary with huxreg, it's better than stargazer, flextable, etc.
 
 huxreg(
   "FS (Loan ~ Threshold)" = first_stage,
   "RF (Univ ~ Threshold)" = reduced_form,
   "2SLS (Univ ~ Loan)" = iv_model,
-  statistics = c("N" = "nobs", "R²" = "r.squared", "LogLik" = "logLik", "AIC" = "AIC")
+  statistics = c("N" = "nobs", "R²" = "r.squared") # we can also add "LogLik" = "logLik", "AIC" = "AIC"
 )
 ```
 
@@ -200,7 +198,7 @@ huxreg(
 | 2SLS Estimation (IV model) | `loan`                 | 0.478    | Receiving a loan increases the probability of university enrollment by 47.8%. This reflects the causal effect for compliers identified by the fuzzy RDD. |
 
 \newpage
-## Confirm results with Robust Estiimation (rdrobust)
+## Confirm results with Robust Estimation (rdrobust)
 
 ```{r}
 #| label: rdrobust-fuzzy-plots
@@ -211,7 +209,7 @@ huxreg(
 test1 <- rdplot(
   y = data$loan, 
   x = data$empirica,
-  binselect = "qs",            # Automatically selects optimal number of quantile-spaced bins
+  binselect = "qs", # best visualization with quantile-spaced bins
   x.lim = c(-13, 13), 
   y.lim = c(0, 1),
   title = "First Stage (Loan) - Optimal Bins",
@@ -224,7 +222,7 @@ test1 <- rdplot(
 test2 <- rdplot(
   y = data$univ_register, 
   x = data$empirica,
-  binselect = "qs",            # Automatically selects optimal number of quantile-spaced bins
+  binselect = "qs",
   x.lim = c(-13, 13), 
   y.lim = c(0, 1),
   title = "Reduced Form (University Registration) - Optimal Bins",
@@ -294,16 +292,15 @@ Fuzzy Regression Discontinuity Design analysis reveals a substantial causal effe
 
 
 
-## Bonus 
+
 
 ```{r}
 #| label: data-plot6
 #| fig-cap: "Fuzzy RDD"
-#| fig-dpi: 300
 #| echo: false
 #| eval: false
 
-
+## Bonus 
 ggcoefstats(
   x = iv_model,
   title = "2SLS Regression: Effect of Loan on University Registration"
@@ -315,6 +312,8 @@ ggcoefstats(
 ```{r}
 #| label: data-plot2
 #| fig-cap: "Effect of Loan on University Registration"
+#| echo: false
+#| eval: false
 
 ggbarstats(
   data = data,
@@ -325,13 +324,14 @@ ggbarstats(
   ylab = "University Registration"
 )
 
+#This bar chart shows the link between getting a loan and enrolling in university.
+
+#- Among students **without a loan**, only **33%** registered.
+#- Among those **with a loan**, **57%** registered.
+ 
+#This difference is highly significant (**$\chi^2(1) = 269.33$, $p < 0.001$**) with a moderate effect size (**Cramér’s $V = 0.23$** $95\%$ CI: $[0.20, 0.26]$).
+#Each group also shows significant differences in registration rates compared to what we could expect by chance ($p < 10^{-15}$), supporting the idea that loans help students enroll.
+
 ```
 
-This bar chart shows the link between getting a loan and enrolling in university.
-
-- Among students **without a loan**, only **33%** registered.
-- Among those **with a loan**, **57%** registered.
- 
-This difference is highly significant (**$\chi^2(1) = 269.33$, $p < 0.001$**) with a moderate effect size (**Cramér’s $V = 0.23$** $95\%$ CI: $[0.20, 0.26]$).
-Each group also shows significant differences in registration rates compared to what we could expect by chance ($p < 10^{-15}$), supporting the idea that loans help students enroll.
 
