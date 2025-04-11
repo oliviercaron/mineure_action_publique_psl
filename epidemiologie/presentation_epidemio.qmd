@@ -21,6 +21,7 @@ author:
         city: "Paris"
         state: "France"
 date: "last-modified"
+institute: "Mineure Action Publique"
 date-format: long
 format:
   beamer:
@@ -29,179 +30,185 @@ format:
     aspectratio: 169
     pdf-engine: xelatex
     mainfont: Latin Modern Sans #Fira Sans
-    #fontoptions: "Weight=200"
-    #fontfamily: Fira Sans
-#bibliography: references.bib
+    lang: fr
+    header-includes: |
+      \setbeamertemplate{footline}[frame number]
 ---
 
 # Présentation de l'article
 
-Ancel, P. Y., Lelong, N., Papiernik, E., Saurel‐Cubizolles, M. J., & Kaminski, M. (2004). History of induced abortion as a risk factor for preterm birth in European countries: results of the EUROPOP survey. Human reproduction, 19(3), 734-740.
+<!-- Lina -->
 
-------------------------------------------------------------------------
+Ancel, P. Y., Lelong, N., Papiernik, E., Saurel‐Cubizolles, M. J., & Kaminski, M. (2004). History of induced abortion as a risk factor for preterm birth in European countries: results of the EUROPOP survey. Human reproduction, 19(3), 734-740.
 
 # Sommaire
 
-1.  **Introduction et Contexte**
-    * Présentation de l'article (Ancel et al., 2004)
-    * Le débat sur le lien IVG et prématurité
+<!-- Lina -->
 
-2.  **Cadre Théorique et Hypothèses**
-    * État de la littérature et questions persistantes
-    * Hypothèses de l'étude EUROPOP
-
-3.  **Méthodologie de l'étude EUROPOP**
-    * Design cas-témoins, population étudiée
-    * Variables clés et analyse statistique
-
-4.  **Résultats Principaux**
-    * Association globale IVG - prématurité (effet dose-réponse)
-    * Variations selon le contexte national, la sévérité et le type de prématurité
-
-5.  **Discussion et Analyse Critique**
-    * Interprétation des résultats et mécanismes potentiels
-    * Forces et limites méthodologiques (biais)
-
-6.  **Conclusion et Perspectives**
-    * Synthèse des conclusions
-    * Implications cliniques, en santé publique et pour la recherche future
-
-------------------------------------------------------------------------
+1.  **Présentation de l’article**
+    -   Étude EUROPOP (Ancel et al., 2004)
+    -   Lien entre IVG et prématurité
+2.  **Cadre théorique**
+    -   État des connaissances
+    -   Hypothèses principales
+3.  **Méthodologie**
+    -   Enquête EUROPOP : design, population, typologie
+    -   Approche statistique
+4.  **Résultats**
+    -   Risque global et différencié
+    -   Comparaisons par pays, type de prématurité, causes
+5.  **Discussion**
+    -   Interprétation, mécanismes biologiques
+    -   Limites et biais
+6.  **Conclusion & Perspectives**
+    -   Implications cliniques et de santé publique
+    -   Pistes pour la recherche future
 
 # Cadre théorique : un débat ancien, encore ouvert
- 
-## Une question de recherche claire qui s’inscrit dans un enjeu de santé
-publique
-- Question : quelles conséquences d’un avortement (1er trimestre) sur la
-grossesse suivante ?
-- Focus sur lien entre IVG et accouchement prématuré dans plusieurs pays
-européens
 
-------------------------------------------------------------------------
+<!-- Lina -->
 
+## Une question de recherche claire qui s’inscrit dans un enjeu de santé publique
+
+-   Question : quelles conséquences d’un avortement (1er trimestre) sur la grossesse suivante ?
+-   Focus sur lien entre IVG et accouchement prématuré dans plusieurs pays européens
 
 ## Une étude située dans la littérature
-- Étude pensée pour combler un vide dans la littérature
-- Peu d’études existantes
-- Résultats divergents :
-         - Études anciennes : pas de lien IVG/prématurité
-- Études récentes : risque accru avec le nombre d’IVG
+
+-   Étude pensée pour combler un vide dans la littérature
+-   Peu d’études existantes
+-   Résultats divergents : - Études anciennes : pas de lien IVG/prématurité
+-   Études récentes : risque accru avec le nombre d’IVG
 
 ------------------------------------------------------------------------
 
 # Cadre théorique : un débat ancien, encore ouvert
- 
+
+<!-- Lina -->
+
 ## Des zones d’ombres persistantes
-- **Contextes nationaux** sous-étudiés (ex : Europe de l’Est = taux IVG
-élevés, conditions insécures)
-- **Mécanismes biologiques** non prouvés (lésions cervicales, synechiae,
-infections)
-- **Prématurité peu différenciée** (formes variées non distinguées)
+
+-   **Contextes nationaux** sous-étudiés (ex : Europe de l’Est = taux IVG élevés, conditions insécures)
+-   **Mécanismes biologiques** non prouvés (lésions cervicales, synechiae, infections)
+-   **Prématurité peu différenciée** (formes variées non distinguées)
+
+## Objectifs de l’étude : combler les lacunes, affiner les risques
+
+-   Affiner les types de prématurité
+-   Prendre en compte contexte social et géographique
+-   Tester lien IVG antérieure / accouchement prématuré
 
 ------------------------------------------------------------------------
- 
+
 # Cadre théorique : un débat ancien, encore ouvert
- 
+
+<!-- Lina -->
+
 ## Des hypothèses multiples et ciblées
-- **Hypothèse géographique** : plus de risques en Europe de l’Est
-- **Hypothèse mécanistique** : IVG = dommages col/infections → risques
-de prématurité **spontanée**
-- **Hypothèse différenciée** : plus fort risque pour prématurité **très
-précoce**
-- **Hypothèse typologique** : variation selon type de complication
-(rupture, hémorragie, etc.)
 
----------------------------------------------------------------------------
- 
-# Cadre méthodologique : de la théorie à l’analyse empirique
- 
-## A- Une enquête rigoureusement construite
-- Étude cas-témoins non appariée (observationnelle analytique)
-- Données : 1994–1997, 60 maternités, 17 pays (EUROPOP)
-- Protocole standardisé dans tous les pays
-- Adaptée à l’étude d’événements rares comme la prématurité
- 
+-   **Hypothèse géographique** : plus de risques en Europe de l’Est
+-   **Hypothèse mécanistique** : IVG = dommages col/infections → risques de prématurité **spontanée**
+-   **Hypothèse différenciée** : plus fort risque pour prématurité **très précoce**
+-   **Hypothèse typologique** : variation selon type de complication (rupture, hémorragie, etc.)
+
 ------------------------------------------------------------------------
 
 # Cadre méthodologique : de la théorie à l’analyse empirique
- 
+
+<!-- Lina -->
+
+## Une enquête rigoureusement construite
+
+-   Étude cas-témoins non appariée (observationnelle analytique)
+-   Données : 1994–1997, 60 maternités, 17 pays (EUROPOP)
+-   Protocole standardisé dans tous les pays
+-   Adaptée à l’étude d’événements rares comme la prématurité
+
+------------------------------------------------------------------------
+
+# Cadre méthodologique : de la théorie à l’analyse empirique
+
+<!-- Lina -->
+
 ## Définition de la population étudiée
-- Cas : accouchements prématurés (22–36 SA, vivants uniquement)
-- Témoins : accouchements à terme (≥ 37 SA, 1/10 des naissances)
-- Seules grossesses **simples** incluses
-- Échantillon : 2 938 cas / 4 781 témoins
-- Données collectées :
-          - Antécédents d’IVG (1er trimestre)
-         - PCS (femme ou conjoint)
-         - Statut marital, tabagisme, âge maternel, antécédents
-obstétricaux
-- Catégories IVG : 0 / 1 / 2 ou plus
+
+-   Cas : accouchements prématurés (22–36 SA, vivants uniquement)
+-   Témoins : accouchements à terme (≥ 37 SA, 1/10 des naissances)
+-   Seules grossesses **simples** incluses
+-   Échantillon : 2 938 cas / 4 781 témoins
+-   Données collectées :
+-   Antécédents d’IVG (1er trimestre)
+-   PCS (femme ou conjoint)
+-   Statut marital, tabagisme, âge maternel, antécédents obstétricaux
+-   Catégories IVG : 0 / 1 / 2 ou plus
 
 ------------------------------------------------------------------------
 
 # Cadre méthodologique : de la théorie à l’analyse empirique
- 
+
+<!-- Lina -->
+
 ## Critères d’exclusion et sélection des pays
-- Exclusion : Turquie, Irlande, Espagne, Pologne, France, Pays-Bas
-- Raisons : données IVG absentes, interdites ou non distinguables
-- Inclusion : Allemagne, Finlande, Écosse, Suède, Italie, Tchéquie,
-Slovénie, Roumanie, Russie, Hongrie
-- Taux de données manquantes très faible (4,1 % cas / 2,5 % témoins)
+
+-   Exclusion : Turquie, Irlande, Espagne, Pologne, France, Pays-Bas
+-   Raisons : données IVG absentes, interdites ou non distinguables
+-   Inclusion : Allemagne, Finlande, Écosse, Suède, Italie, Tchéquie, Slovénie, Roumanie, Russie, Hongrie
+-   Taux de données manquantes très faible (4,1 % cas / 2,5 % témoins)
 
 ------------------------------------------------------------------------
 
 # Cadre méthodologique : de la théorie à l’analyse empirique
- 
-## iii- Typologie des naissances prématurées
-- **Âge gestationnel** :
-          - Modérée : 33–36 SA
-          - Sévère : 22–32 SA
-- **Mode de déclenchement** :
-         - Spontané : naturel ou rupture membranes
-          - Indiqué : déclenché médicalement, sans rupture
-- **Complications obstétricales** (5 groupes) :
-  - Rupture prématurée des membranes
-         - Travail prématuré idiopathique
-         - Hypertension maternelle
-         - Hémorragie ante-partum (ex : placenta prævia)
-         - Autres complications
+
+<!-- Lina -->
+
+## Typologie des naissances prématurées
+
+-   **Âge gestationnel** : - Modérée : 33–36 SA - Sévère : 22–32 SA
+-   **Mode de déclenchement** : - Spontané : naturel ou rupture membranes - Indiqué : déclenché médicalement, sans rupture
+-   **Complications obstétricales** (5 groupes) :
+    -   Rupture prématurée des membranes - Travail prématuré idiopathique - Hypertension maternelle - Hémorragie ante-partum (ex : placenta prævia) - Autres complications
 
 ------------------------------------------------------------------------
- 
+
 # Points forts méthodologiques et limites
+
+<!-- Lina -->
+
 ## Points forts
-- Échantillon large → analyses par sous-groupes possibles
-- Protocole standardisé à l’échelle européenne
-- Distinctions typologiques précises (ex : IVG provoquées vs spontanées)
-- Tentative d’analyser les mécanismes biologiques **et** contextuels
- 
+
+-   Échantillon large → analyses par sous-groupes possibles
+-   Protocole standardisé à l’échelle européenne
+-   Distinctions typologiques précises (ex : IVG provoquées vs spontanées)
+-   Tentative d’analyser les mécanismes biologiques **et** contextuels
+
 ## Limites
-- Classification des pays selon taux IVG peu précise
-- Comparaison difficile entre pays (contexte socio-juridico-médical
-hétérogène)
-- Variables sociales peu mobilisées dans l’analyse
-         - Ex : statut migratoire, précarité non intégrés
-- Données anciennes (1994–1997), avant généralisation IVG médicamenteuse
- 
+
+-   Classification des pays selon taux IVG peu précise
+-   Comparaison difficile entre pays (contexte socio-juridico-médical hétérogène)
+-   Variables sociales peu mobilisées dans l’analyse - Ex : statut migratoire, précarité non intégrés
+-   Données anciennes (1994–1997), avant généralisation IVG médicamenteuse
+
 ------------------------------------------------------------------------
 
 # Points forts méthodologiques et limites
- 
+
+<!-- Lina -->
+
 ## Une autre forme d’enquête plus adaptée ?
-- Étude de cohorte prospective = idéale :
-         - Suit femmes depuis l’exposition (IVG) jusqu’à accouchement
-          - Réduit les biais (notamment mémoire)
-         - Intègre les évolutions médicales
-- Mais très coûteuse et longue
-- Choix du cas-témoins reste pertinent et pragmatique
+
+-   Étude de cohorte prospective = idéale : - Suit femmes depuis l’exposition (IVG) jusqu’à accouchement - Réduit les biais (notamment mémoire) - Intègre les évolutions médicales
+-   Mais très coûteuse et longue
+-   Choix du cas-témoins reste pertinent et pragmatique
 
 ------------------------------------------------------------------------
 
 # Méthodologie - Analyse Statistique
 
+<!-- Olivier -->
+
 ## Approche Analytique
 
--   Comparaison initiale des caractéristiques (Test du $χ$²). (à revoir, rajouter cf. Tableau 1, 2 etc.)
+-   Comparaison initiale des caractéristiques (Test du $χ$²). <!-- (à revoir, rajouter cf. Tableau 1, 2 etc.) -->
 -   **Régression logistique multiple**:
     -   Estimer les **Odds Ratios ajustés (aOR)** et IC 95%.
     -   Ajustement pour facteurs de confusion : Âge maternel, statut marital, classe sociale, tabagisme.
@@ -213,6 +220,8 @@ hétérogène)
 ------------------------------------------------------------------------
 
 # Résultats - Prévalence & Caractéristiques
+
+<!-- Olivier -->
 
 ## Fréquence de l'IVG déclarée (chez les témoins)
 
@@ -233,6 +242,8 @@ hétérogène)
 
 # Résultats - Association Globale IVG / Prématurité (Table III & Q5)
 
+<!-- Olivier -->
+
 ## Risque global ajusté (Table III)
 
 -   Un historique d'IVG est **significativement associé** à un risque accru d'AP après ajustement.
@@ -248,6 +259,8 @@ hétérogène)
 
 # Résultats - Comparaison entre Pays (Table III)
 
+<!-- Olivier -->
+
 ## Le risque varie-t-il selon le contexte national ?
 
 -   Les Odds Ratios ajustés pour ≥1 IVG sont **similaires** dans les trois groupes de pays :
@@ -260,6 +273,8 @@ hétérogène)
 ------------------------------------------------------------------------
 
 # Résultats - Selon l'Âge Gestationnel (Table IV & Q5)
+
+<!-- Olivier -->
 
 ## L'association dépend-elle de la sévérité de la prématurité ?
 
@@ -276,6 +291,8 @@ hétérogène)
 
 # Résultats - Selon le Mode de Déclenchement (Table IV)
 
+<!-- Olivier -->
+
 ## Le lien diffère-t-il entre AP Spontané et Indiqué ?
 
 -   Association **significative et dose-dépendante** avec l'**Accouchement Prématuré Spontané** (RPM ou travail spontané) :
@@ -290,6 +307,8 @@ hétérogène)
 
 # Résultats - Selon la Complication Principale (1/2) (Table V)
 
+<!-- Olivier -->
+
 ## Quelles causes d'AP sont associées à l'IVG ?
 
 -   Risque **significativement augmenté** pour les AP dus à :
@@ -303,6 +322,8 @@ hétérogène)
 ------------------------------------------------------------------------
 
 # Résultats - Selon la Complication Principale (2/2) (Table V & Q5)
+
+<!-- Olivier -->
 
 ## Focus sur les Hémorragies Antepartum
 
@@ -322,271 +343,167 @@ hétérogène)
 ------------------------------------------------------------------------
 
 # Conclusions générales
-- **IVG au 1er trimestre = risque accru** de prématurité dans la
-grossesse suivante
-- Effet dose-réponse : Le risque **augmente avec le nombre d’IVG**
-         - 2 IVG ou + = risque **nettement plus élevé** que pour 1 seule
-- Type de prématurité : Risque plus élevé pour les prématurités **très
-précoces (22–32 SA)**
-- Causes de la prématurité associées à l’IVG : Rupture prématurée des
-membranes, travail prématuré idiopathique, hémorragies ante-partum (ex :
-placenta prævia). / ! / Aucune association avec : Hypertension
-maternelle, décollement placentaire.
-- Comparaison entre pays : **Pas de différences majeures** entre pays
-inclus
-- Distinction entre avortements :**Plus marqué pour IVG provoquées** que
-spontanées et **relation dose-réponse aussi observée** pour prématurité
-spontanée ou indiquée
+
+<!-- Lina -->
+
+-   **IVG au 1er trimestre = risque accru** de prématurité dans la grossesse suivante
+-   Effet dose-réponse : Le risque **augmente avec le nombre d’IVG** - 2 IVG ou + = risque **nettement plus élevé** que pour 1 seule
+-   Type de prématurité : Risque plus élevé pour les prématurités **très précoces (22–32 SA)**
+-   Causes de la prématurité associées à l’IVG : Rupture prématurée des membranes, travail prématuré idiopathique, hémorragies ante-partum (ex : placenta prævia). / ! / Aucune association avec : Hypertension maternelle, décollement placentaire.
+-   Comparaison entre pays : **Pas de différences majeures** entre pays inclus
+-   Distinction entre avortements : **Plus marqué pour IVG provoquées** que spontanées et **relation dose-réponse aussi observée** pour prématurité spontanée ou indiquée
 
 ------------------------------------------------------------------------
 
-# Forces de l'Étude
+# Discussion - Confrontation avec littérature
 
-## Points Forts Méthodologiques
+<!-- Sandra -->
 
--   **Grande taille d'échantillon** (N \> 7700) -\> Puissance statistique.
--   **Design multinational** (10 pays) -\> Diversité des contextes, robustesse.
--   Utilisation d'un **protocole et questionnaire standardisés** -\> Comparabilité.
--   **Analyse détaillée en sous-groupes** (âge gestationnel, causes d'AP) -\> Affine la compréhension.
--   **Ajustement statistique rigoureux** sur les principaux facteurs de confusion connus.
+1.  **Lien entre IVG et accouchement prématuré**
+    -   L’étude confirme un lien significatif
 
-------------------------------------------------------------------------
+<!-- -->
 
-# Limites Principales (1/2) (Q4)
+2.  **Méthodes d’avortement selon les pays**
+    -   Les techniques plus invasives sont associées à plus de complications
+    -   Pas de différence significative trouvée entre les pays ici
 
-## Biais de Déclaration
+<!-- -->
 
--   **Problème majeur**: **Sous-déclaration** probable des IVG par les femmes (oubli, tabou, gêne)
-    -   Variations possibles entre pays et entre cas/témoins (à revoir pour compléter)
--   L'effet réel est *probablement plus important* que ce qui est mesuré.
-    -   Des études avec meilleure déclaration trouvent des OR plus élevés (ex: Zhou et al. 1999, Danemark).
-------------------------------------------------------------------------
-
-# Limites Principales (2/2) (Q4)
-
-## Autres Limites Importantes
-
--   **Biais de Sélection**:
-    -   Maternités **volontaires** : sont-elles représentatives ? (Probablement peu d'impact selon les auteurs).
-    -   Exclusion de certains pays / données manquantes : Limite la généralisabilité ? (Possible).
--   **Manque d'Infos sur les IVG**:
-    -   Pas de détails sur la **technique** (aspiration vs curetage), terme de l'IVG, intervalle avant grossesse actuelle -\> Facteurs pouvant moduler le risque.
-    -   Concerne surtout IVG **chirurgicales** (dominantes à l'époque).
-    -   Nécessité de reproduire l'étude maintenant en prenant en compte les évolutions des techniques des IVG.
--   **Confusion Résiduelle**:
-    -   D'autres facteurs non mesurés liés à la fois à l'IVG et l'AP (infections chroniques, statut socio-éco détaillé comme les revenus, patrimoine, niveau d'éducation, consommation drogues/alcool, alimentation, violence conjugale, stress, etc.) pourraient influencer les résultats.
--   **Causalité**:
-    -   Étude cas-témoins montre une **association**, pas une preuve formelle de **causalité**.
+3.  **Association entre IVG et accouchement prématuré selon la cause de la prématurité**
+    -   L’étude retrouve un lien avec : travail prématuré idiopatique, rupture prématurée des membranes, placenta praevia et hémorragies
 
 ------------------------------------------------------------------------
 
-# Discussion - Mécanismes Potentiels (1/2)
+# Discussion - Mécanismes potentiels (1/2)
+
+<!-- Sandra -->
 
 ## Comment l'IVG pourrait-elle agir ? Hypothèses :
 
-1.  **Infection / Inflammation Chronique**
-    -   Procédure IVG (instrumentation, trauma cervical) -\> porte d'entrée pour **infection ascendante** ?
-    -   Peut conduire à une inflammation chronique du tractus génital supérieur ou altération du microbiote.
-    -   *Cohérent avec risque accru de RPM et Travail Prématuré Idiopathique* (mécanismes connus liés à l'infection intra-amniotique, cf. Romero et al., 2001).
+\small
+
+1.  **Infection**
+    -   Procédure IVG -\> porte d'entrée pour **infection ascendante** ?
+    -   Peut conduire à une inflammation chronique du tractus génital supérieur
+    -   Association avec des complications compatibles avec une origine infectieuse (rupture des membranes, travail prématuré) (mécanismes connus liés à l'infection intra-amniotique, cf. Romero et al., 2001)
+    -   Lien plus fort avec prématurité précoce qu’avec prématurité modérée
 2.  **Traumatisme Cervical**
-    -   Dilatation (surtout si forcée, répétée, ou large) -\> **lésions cervicales** structurelles (micro-déchirures, fibrose) ?
-    -   Peut entraîner une **incompétence cervicale** lors d'une grossesse future -\> Raccourcissement/ouverture précoce du col.
-    -   *Cohérent avec risque accru de Très Grande Prématurité* (cf. Molin, 1993). Peut aussi faciliter l'infection ascendante.
+    -   Dilatation -\> **lésions cervicales** structurelles (micro-déchirures, fibrose) ?
+    -   Peut entraîner une **incompétence cervicale** lors d'une grossesse future -\> lesion de l'endomètre
+    -   *Cohérent avec risque accru de prématurité précoce* (cf. Molin, 1993).
 
 ------------------------------------------------------------------------
 
-# Discussion - Mécanismes Potentiels (2/2)
+# Discussion - Mécanismes potentiels (2/2)
 
-## Suite des Hypothèses Mécanistiques :
+<!-- Sandra -->
 
-3.  **Altération Endométriale / Troubles de la Placentation**
+## Suite des hypothèses mécaniques :
+
+-   **Altération Endométriale / Troubles de la Placentation**
     -   Curetage lors de l'IVG -\> **lésions/cicatrices** sur l'endomètre ? Zones d'atrophie ?
-    -   Peut gêner l'implantation normale du blastocyste -\> Implantation **plus basse** dans l'utérus (près du col).
-    -   *Expliquerait le lien très fort et spécifique avec le Placenta Praevia* (cf. Ananth et al., 1997).
-    -   Pourrait aussi contribuer à d'autres anomalies de placentation ou hémorragies.
+    -   Peut gêner l'implantation normale du blastocyste -\> Implantation anormale dans l'utérus
+    -   *Expliquerait le lien très fort et spécifique avec le placenta praevia* (cf. Ananth et al., 1997)
+    -   Pourrait aussi contribuer à d'autres anomalies de placentation ou hémorragies
 
 ------------------------------------------------------------------------
 
-# Implications Cliniques & Santé Publique
+# Limites principales (1/2) (Q4)
 
-## Pour la Pratique Médicale
+<!-- Sandra -->
+
+## Biais de rappel/déclaration
+
+-   **Sous-déclaration** probable des IVG par les femmes (oubli, tabou, gêne)
+    -   Variations possibles entre pays
+    -   L'effet réel est *probablement plus important* que ce qui est mesuré pour le grp 3
+    -   Variations possibles entre cas et témoins
+    -   Difficile de déterminer si sous/sur estimation
+    -   Des études avec meilleure déclaration trouvent des OR plus élevés (ex: Zhou et al. 1999, Danemark).
+
+------------------------------------------------------------------------
+
+# Limites principales (2/2) - Autres limites importantes (Q4)
+
+<!-- Sandra -->
+
+\footnotesize
+
+::::: columns
+::: {.column width="50%"}
+### Biais de sélection
+
+-   **Maternités volontaires** : sont-elles représentatives ? (Probablement peu d'impact selon les auteurs).
+-   Exclusion de certains pays / données manquantes : Limite la généralisabilité ?
+
+### Biais de confusion
+
+-   D'autres facteurs non mesurés liés à l’IVG et l’AP (infections chroniques, statut socio-éco détaillé : revenus, patrimoine, niveau d’éducation, consommation drogues/alcool, alimentation, violence conjugale, stress, etc.) pourraient influencer les résultats.
+:::
+
+::: {.column width="50%"}
+### Manque d'infos sur les IVG
+
+-   Pas de détails sur la **technique** (aspiration vs curetage), terme de l'IVG, intervalle avant grossesse actuelle → Facteurs pouvant moduler le risque.
+-   Concerne surtout IVG **chirurgicales** (dominantes à l'époque).
+-   Nécessité de reproduire l’étude avec les techniques actuelles.
+
+### Causalité
+
+-   Étude cas-témoins montre une **association**, pas une preuve formelle de **causalité**.
+:::
+:::::
+
+------------------------------------------------------------------------
+
+# Implications cliniques & santé publique
+
+<!-- Sandra -->
+
+## Pour la pratique médicale
+
+\small
 
 -   **Suivi obstétrical plus attentif** justifié chez les femmes avec ATCD d'IVG, surtout si **multiples**.
 -   **Vigilance accrue** pour dépister :
-    -   Signes précoces de travail prématuré.
-    -   Rupture prématurée des membranes.
-    -   Anomalies de localisation placentaire (échographie précoce).
+    -   Signes précoces de travail prématuré
+    -   Rupture prématurée des membranes (amniocentèse)
+    -   Anomalies de localisation placentaire (échographie précoce)
 
-## Pour les Politiques de Santé
+## Pour les politiques de santé
 
 -   Souligne l'importance de **pratiques d'IVG sûres, standardisées et les moins traumatiques possibles**.
--   Même un risque individuel modéré peut avoir un **impact important en population** si l'IVG est fréquente (cf. risque attribuable de 12% en Groupe 1).
+-   Impact à long terme de l'IVG
+
+Bien que le risque soit modéré, il est significatif à l’échelle de la population
 
 ------------------------------------------------------------------------
 
 # Perspectives de Recherche
 
-## Axes Futurs Importants
+<!-- Sandra -->
 
-\small
+## Axes futurs importants
 
--   **Études de Cohorte Prospectives**:
-    -   Mieux établir la causalité.
-    -   Réduire les biais de mémoire/déclaration.
-    -   Recueillir des données détaillées sur les IVG.
--   **Comparer les Risques à Long Terme**:
-    -   Selon les **différentes techniques d'IVG** (chirurgicales vs médicamenteuses ; types de dilatation).
--   **Recherche sur les Mécanismes Biologiques**:
-    -   Étude des marqueurs d'inflammation/infection post-IVG.
-    -   Évaluation objective de l'intégrité cervicale (longueur, échographie) et endométriale (hystéroscopie ?) après IVG.
--   **Évaluation de Stratégies Préventives**:
-    -   Intérêt potentiel d'antibiotiques post-IVG ? Suivi cervical échographique systématique ?
+-   **Études de cohorte prospectives**:
+    -   Mieux établir la causalité
+    -   Réduire les biais de mémoire/déclaration
+    -   Recueillir des données détaillées sur les méthodes d'IVG
+-   **Comparer les risques à long terme**:
+    -   Selon les **différentes techniques d'IVG** (chirurgicales vs médicamenteuses ; types de dilatation)
+-   **Recherche sur les mécanismes biologiques**:
+    -   Étude des marqueurs d'inflammation/infection post-IVG
+    -   Évaluation objective de l'intégrité cervicale et endométriale après IVG
 
 ------------------------------------------------------------------------
 
 # Conclusion Générale
 
--   L'étude EUROPOP apporte des preuves solides, issues d'un large échantillon européen, qu'un historique d'IVG (surtout ≥2) est associé à un risque accru d'accouchement prématuré subsequent.
--   Cette association semble indépendante du contexte national (parmi les pays étudiés) et concerne préférentiellement la très grande prématurité et les issues liées à l'infection, au traumatisme cervical ou à des anomalies de placentation.
--   Malgré les limites (notamment sous-déclaration), ces résultats ont des implications pour le suivi clinique et soulignent l'importance de pratiques d'IVG sûres et de recherches futures sur les mécanismes et la prévention.
+<!-- Sandra -->
 
-------------------------------------------------------------------------
-
-# Backup
-
-# Contexte (1/2)
-
-## Le débat scientifique et de santé publique
-
--   **Question ancienne**: Quelles sont les conséquences des avortements provoqués (IVG) sur les issues des grossesses ultérieures ? (à revoir)
--   **Préoccupation majeure**: La relation entre les IVG subis précédemment et le risque subséquent d'avoir des grosses prématurées. (à revoir)
-
-# Contexte (2/2)
-
-## Lacunes dans la Littérature Antérieure
-
--   **Résultats divergents**:
-    -   Certaines études anciennes ne montraient pas de risque accru (Hogue et al., 1982; Berkowitz & Papiernik, 1993).
-    -   Des études plus récentes suggéraient un risque accru, parfois lié au nombre d'IVG (Lumley, 1998; Zhou et al., 1999; Henriet & Kaminski, 2001).
--   **Zones d'ombre persistantes**:
-    -   Mécanismes reliant IVG et prématurité peu clairs (infection ? traumatisme cervical ?).
-    -   Peu de comparaisons entre pays aux pratiques/politiques d'IVG différentes (ex: Est vs Ouest Europe).
-    -   Relation peu étudiée selon le degré de prématurité (très prématuré vs modéré).
-
-------------------------------------------------------------------------
-
-# Objectifs de l'étude EUROPOP
-
-## But Principal
-
--   Investiguer la relation entre un historique d'IVG (au premier trimestre) et le risque d'accouchement prématuré dans divers pays européens. (à revoir)
-
-## Objectifs Spécifiques
-
--   Analyser cette relation en fonction :
-    -   Du **groupe de pays** (selon le taux national d'IVG : haut, moyen, bas).
-    -   De la **cause principale** de la prématurité (RPM, travail spontané, HTA, hémorragie...).
-    -   **Type d'accouchement** : soit spontané ou indiqué (indiqué = provoqué car nécessaire pour éviter un risque médical)
-    -   Du **terme** de l'accouchement prématuré (très prématuré vs modéré).
-
-------------------------------------------------------------------------
-
-# Hypothèses des Auteurs
-
-## Hypothèses Testées dans l'étude
-
-1.  Le risque d'AP lié à l'IVG est **plus élevé** dans les pays d'Europe de l'Est (taux IVG hauts) qu'ailleurs.
-2.  L'IVG est davantage associée aux AP d'origine **spontanée** (travail prématuré idiopathique, RPM) et aux complications **non hypertensives**, via des mécanismes mécaniques ou infectieux.
-3.  L'association est **plus forte** pour les naissances **très prématurées** (\<33 SA) que pour les prématurités modérées (33-36 SA).
-
-------------------------------------------------------------------------
-
-# Méthodologie - Design & Population
-
-## Type d'étude
-
--   **Cas-témoins** non appariée (*case-control*) et européene.
--   Menée dans le cadre de l'enquête **EUROPOP** (1994-1997).
--   *Design adapté* pour étudier une issue relativement rare (AP) et explorer multiples facteurs de risque. (à revoir)
-
-## Population d'analyse (Q1)
-
--   **Cas (N=2938)**: Femmes ayant eu une naissance prématurée unique (vivante ou mort-née) entre 22 et 36 SA complètes.
--   **Témoins (N=4781)**: Femmes ayant eu une naissance à terme (≥ 37 SA), sélectionnées consécutivement (1/10) dans les mêmes maternités.
--   Recrutement : 60 maternités volontaires, 10 pays européens.
-
-------------------------------------------------------------------------
-
-# Méthodologie - Type d'étude : Avantages, Inconvénients & Pertinence (Q2 & Q3)
-
-## Type : Étude Cas-Témoins
-
-\small
-
--   **Avantages** :
-    -   **Efficace** pour étudier des issues rares (ex: très grande prématurité).
-    -   Relativement **rapide et moins coûteux** qu'une cohorte.
-    -   Permet d'examiner **plusieurs facteurs de risque** simultanément.
--   **Inconvénients** :
-    -   Sensible aux **biais de sélection** (choix des cas/témoins) car étude non appariée.
-    -   Sensible aux **biais mémoriel/déclaration**
-    -   Ne mesure pas directement l'**incidence** mais les chances relatives (odds). (à revoir)
--   **Type d'étude observationnelle analytique**
--   **Autre design d'étude envisageable ?** : Une **cohorte prospective** (suivre des femmes avec/sans IVG dans le temps). Plus robuste pour la causalité et moins de biais de mémoire, mais plus lourd logistiquement et coûteux. (**à revoir**)
-
-------------------------------------------------------------------------
-
-# Méthodologie - Pays & Exclusions
-
-## Pays Inclus (N=10) & Groupes
-
--   Basé sur taux IVG 1995 (OMS).
-    -   **Groupe 1 (Haut)**: Roumanie, Russie.
-    -   **Groupe 2 (Moyen)**: Hongrie, Slovénie, République Tchèque.
-    -   **Groupe 3 (Bas)**: Suède, Italie, Écosse, Finlande, Allemagne.
-
-## Critères d'Exclusion (Pays/Données)
-
--   Turquie (pb témoin), Irlande (IVG illégale).
--   Espagne, Pologne (très faible déclaration IVG).
--   France, Pays-Bas (impossible de distinguer IVG/Avort. Spontané).
--   Données manquantes sur historique IVG (faible % : 2.5% témoins, 4.1% cas).
-
-------------------------------------------------------------------------
-
-# Méthodologie - Collecte & Variables (1/2)
-
-## Recueil des Données
-
--   **Questionnaire standardisé** : Entretien à la maternité avec les femmes (post-spartum) (à revoir)
--   **Données médicales** : Historique obstétrique des femmes. (à revoir)
-
-## Exposition Principale
-
--   **Historique auto-déclaré d'IVG** au premier trimestre.
--   Catégorisé en 3 groupes :
-    -   $0$ (aucune IVG antérieure) - *Groupe de référence*.
-    -   $1$ IVG antérieure.
-    -   $≥ 2$ IVG antérieures.
-
-## Définition d'AP (à revoir)
-
--   **Accouchement prématuré** (\< 37 SA).
-
-------------------------------------------------------------------------
-
-# Méthodologie - Variables (2/2)
-
-## Sous-groupes
-
--   **Selon l'âge gestationnel**:
-    -   Très prématuré (22-32 SA) vs Prématuré modéré (33-36 SA).
--   **Selon le mode de déclenchement**:
-    -   Accouchement spontané (travail spontané ou RPM avant travail).
-    -   Accouchement indiqué (déclenchement ou césarienne programmée, hors RPM).
--   **Selon la complication principale** (mutuellement exclusif) :
-    -   RPM idiopathique.
-    -   Travail prématuré idiopathique.
-    -   Hypertension maternelle (HTA).
-    -   Hémorragie antepartum (Placenta Praevia, Abruptio, Autre).
-    -   Autres causes.
+-   L'étude EUROPOP apporte des preuves solides, issues d'un large échantillon européen, qu'un historique d'IVG (surtout ≥2) est associé à un risque accru d'accouchement prématuré subséquent.
+-   Cette association semble indépendante du contexte national et concerne préférentiellement la prématurité précoce et les issues liées aux causes d'accouchement prématuré
+-   Nécessité d'étudier plus en profondeur les mécanismes biologiques sous-jacents
+-   Nécessité d'évaluer à long terme l'évolution technique de l'IVG
+-   Malgré les limites, ces résultats ont des implications pour le suivi clinique et soulignent l'importance de pratiques d'IVG sûres et de recherches futures sur les mécanismes et la prévention.
