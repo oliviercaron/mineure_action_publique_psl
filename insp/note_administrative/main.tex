@@ -1,0 +1,235 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{newunicodechar}
+\newunicodechar{₂}{$_2$}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\setstretch{1.1}
+\usepackage[autostyle, french=quotes]{csquotes}
+\usepackage[style=authoryear,backend=biber,language=french]{biblatex}
+
+
+
+\usepackage{ebgaramond}
+
+\addbibresource{references.bib}
+\DeclareFieldFormat{urldate}{}
+
+
+% Espacement
+\setlength{\parindent}{15pt}  % indentation activée
+\setlength{\parskip}{10pt}    % espacement entre paragraphes
+
+% Configuration de la page
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    includeheadfoot
+}
+
+% Configuration des en-têtes et pieds de page
+
+% Style par défaut (pages après la première) : pas d'en-tête, pied de page avec numéro
+\pagestyle{plain}
+
+% Style personnalisé uniquement pour la première page
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \fancyhead[L]{\small\textbf{DREAL Région X}}
+  \fancyhead[R]{\small Qualité de l'air - Métropole Y}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% Configuration des titres
+\titleformat{\section}
+{\large\bfseries}
+{\Roman{section}.}
+{0.5em}
+{}
+
+\titleformat{\subsection}
+{\normalsize\bfseries}
+{\Alph{subsection}.}
+{0.5em}
+{}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+
+% En-tête officiel
+\begin{center}
+\textbf{\Large Note à l'attention de Monsieur le Préfet}\\
+\end{center}
+
+\vspace{0.5cm}
+
+% Informations administratives
+\begin{tabular}{@{}p{3cm}p{12cm}@{}}
+%\textbf{POUR :} & Monsieur le Préfet de la Région X \\
+\textbf{De :} & La Direction Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL) \\
+\textbf{Date :} & \today \\
+\textbf{Objet :} & Préparation de la réunion avec la Métropole Y : analyse stratégique de la mise en œuvre de la Zone à Faibles Émissions (ZFE) et proposition de plan d'action partenarial pour le Plan de Protection de l'Atmosphère (PPA). \\
+\end{tabular}
+
+\vspace{1cm}
+
+\indent La politique de reconquête de la qualité de l'air est entrée dans une phase décisive, sous la pression d'un cadre juridique national et européen de plus en plus contraignant. La loi « Climat et Résilience » du 22 août 2021 a fixé une échéance ferme au 31 décembre 2024 pour l'instauration d'une Zone à Faibles Émissions mobilité (ZFE-m), c’est-à-dire une zone réglementée interdisant progressivement les véhicules les plus polluants dans toutes les agglomérations de plus de 150 000 habitants plaçant la Métropole Y face à une obligation de résultat. Cette mesure est la réponse opérationnelle à un enjeu de santé publique majeur, la pollution atmosphérique étant responsable de près de 40 000 décès prématurés par an en France d'après Santé Publique France, et à un contentieux persistant qui a déjà conduit à la condamnation de l'État. Localement, cet enjeu se traduit par 152 décès prématurés annuels attribuables au seul dioxyde d'azote, et la ZFE-m constitue la mesure principale du PPA, censée contribuer à 41\% de la baisse des émissions de ce polluant. L'urgence est donc à la fois sanitaire et opérationnelle. Or, malgré un premier arrêté métropolitain, le déploiement de la ZFE-m sur le territoire accuse des retards opérationnels significatifs qui en limitent l'impact réel et compromettent le respect du calendrier légal.
+Cette note prépare cette réunion en dressant une analyse de la situation (I) avant de proposer un plan d'action partenarial concret, doté d'une gouvernance et d'une feuille de route opérationnelle (II).
+
+\textit{Des éléments de contexte juridique et institutionnel complémentaires sont disponibles en annexe.}
+
+
+\section{Analyse d'une situation critique imposant une action rapide}
+
+\subsection{Un cadre juridique et des enjeux qui ne souffrent aucun délai}
+
+La contrainte juridique pesant sur la Métropole Y est forte : le pouvoir de substitution du préfet en cas de défaillance (art. L222-6 du Code de l'environnement) souligne le caractère impératif de l'obligation. Cette dernière, dont l'efficacité pour réduire la pollution et ses impacts sanitaires a été confirmée par une revue systématique de la littérature scientifique \parencite{brosterSystematicReviewPollution2025}, est l'aboutissement d'un long processus normatif, de la directive européenne 2008/50/CE à la loi \og Climat et Résilience\fg{}, qui s'inscrit dans la continuité des lois d'orientation des mobilités (LOM) de 2019 et de transition énergétique pour la croissance verte (TECV) de 2015. Cette pression ne fera que s'intensifier car une directive européenne en cours alignera bientôt les normes sur celles de l’OMS et ouvrira un droit à indemnisation.
+
+Ce cadre légal strict se justifie par des enjeux sanitaires et économiques majeurs et documentés. La pollution de l’air est le premier risque environnemental en Europe, sans seuil identifié d’innocuité. Il est néanmoins difficile de caractériser l’ensemble des effets, compte tenu de la diversité des polluants et des limites des connaissances toxicologiques. Comme le souligne Rémy Slama, on est confronté à un \og mal du dehors\fg{} aux contours encore partiellement inconnus, ce qui renforce la légitimité d’une approche préventive fondée sur la réduction globale des émissions \parencite{slama2017mal}.
+Chaque réduction produit un bénéfice direct. Le coût de l’inaction, estimé à près de 100 milliards d’euros par an par le Sénat, excède très largement celui des investissements préventifs. Une étude européenne montre par ailleurs qu’un alignement sur les recommandations de l’OMS pour le seul NO₂ permettrait d’éviter plusieurs milliers de décès prématurés chaque année dans les grandes métropoles \parencite{khomenkoPrematureMortalityDue2021}. À l’échelle locale, le PPA de l’agglomération Y identifie le transport comme principal contributeur de NO$_x$ (>60\%), justifiant que la ZFE-m en soit la mesure centrale.
+
+\subsection{Des lacunes opérationnelles qui compromettent l'échéance de 2024}
+
+Malgré ce contexte, la mise en œuvre de la ZFE-m par la Métropole Y reste partielle et insuffisante. Si un périmètre a bien été défini et si les véhicules les plus anciens sont théoriquement interdits, plusieurs faiblesses structurelles entravent l'atteinte des objectifs. Le calendrier d'extension aux vignettes Crit'Air 4 puis 3 accuse déjà un retard qui semble difficile à rattraper. Plus critique encore est l'absence d'un dispositif de contrôle automatisé par lecture de plaques, pourtant autorisé par la loi. Sans cet outil, l'efficacité de la zone est très limitée et repose sur une autodiscipline illusoire des usagers. À cela s'ajoute un déficit de communication manifeste, une part non négligeable des habitants et des professionnels demeurant insuffisamment informée des restrictions à venir, ce qui empêche toute anticipation. Ce constat prolonge un défaut de communication déjà identifié dans le PPA précédent (2014-2019), confirmant un enjeu récurrent mal maîtrisé.. Enfin, des négociations locales sur le périmètre avec certaines communes périphériques contribuent à retarder une application homogène de la mesure. Ces retards prolongés font courir le risque de définir un périmètre sous-optimal qui manquerait les principaux axes émetteurs, une erreur d'implémentation dont les limites ont été clairement démontrées par le retour d'expérience de la ZFE de Madrid \parencite{morillasImpactImplementationMadrids2024}.
+
+\subsection{Des risques juridiques, financiers et politiques élevés}
+
+La persistance de ces lacunes expose l'État et la collectivité à une triple peine. Le risque juridique est le plus immédiat : il concerne d'une part l'éventualité d'une substitution de la Métropole par l'État, qui constituerait un échec politique, et d'autre part la poursuite de l'astreinte financière de 10 millions d'euros par semestre imposée par le Conseil d'État. Le risque financier s'accroît également avec la perspective de recours indemnitaires de citoyens ou d'associations, que la nouvelle directive européenne facilitera. Enfin, le risque politique et de crédibilité ne doit pas être sous-estimé.Le non-respect de l'échéance de 2024 éroderait la confiance dans la capacité des pouvoirs publics à protéger la santé et l'environnement, un risque d'autant plus grand que la qualité de l'air est un sujet désormais bien identifié à l'agenda politico-médiatique. L'incapacité à mettre en œuvre efficacement des solutions à ces \textit{wicked problems} \parencite{headWickedProblemsPublic2022} après les avoir reconnus publiquement peut alimenter une crise de confiance et un sentiment d'impuissance publique.
+
+\section{Plan d'action partenarial pour l'efficacité et l'acceptabilité}
+
+Conformément aux retours d'expérience européens analysés par l'ADEME, qui montrent qu'une ZFE doit s'inscrire dans un "plans d'actions plus larges" pour être efficace \parencite{pouponneau2016zones}, le plan d'action partenarial proposé à la Métropole s'articule autour de trois axes opérationnels : garantir l'acceptabilité sociale (A), accélérer le déploiement des alternatives (B) et instaurer une gouvernance de projet rigoureuse (C).
+
+
+\subsection{Faire de l'acceptabilité sociale une priorité absolue}
+
+Pour garantir la réussite de la ZFE-m, son appropriation par les acteurs du territoire est un préalable. Cela impose une communication prioritaire, en application du droit à l'information environnementale \parencite{boutaric2014}. Il est crucial de présenter la mesure sous l'angle de la santé publique, en s'appuyant sur des bénéfices mesurables (ex : la baisse des hospitalisations cardiovasculaires constatée dans les ZFE allemandes \parencite{margaryanLowEmissionZones2021}) et non comme une restriction punitive. Parallèlement, une concertation approfondie, via un comité de suivi ouvert, doit permettre d'ajuster les modalités en tenant compte des impacts négatifs, même transitoires, sur le bien-être des habitants \parencite{sarmientoAirQualityWellbeing2023}.
+
+Cet effort de pédagogie doit s'accompagner de mesures fortes garantissant la justice sociale et économique. Les dispositifs d'aide financière à la transition, qu'ils soient nationaux (prime à la conversion, bonus) ou locaux, doivent être renforcés et leur accès simplifié, notamment pour les ménages les plus modestes qui possèdent souvent les véhicules les plus anciens. Un accompagnement spécifique et sur-mesure doit être déployé pour les professionnels, en tenant compte des contraintes des artisans du bâtiment soulevées par la CAPEB (calendrier, disponibilité des véhicules, points de recharge). Il est donc proposé de concrétiser la mise en place d'un guichet unique État-Métropole pour les aides, en partenariat avec l'Agence de Services et de Paiement (ASP). L'analyse des dispositifs de métropoles comme Toulouse Métropole fournit des repères financiers précis : le fonctionnement d'une "mission d'animation" dédiée y est assuré par un ETP pour un coût de 48 000 € par an, co-financé par l'ADEME. Surtout, ce guichet doit distribuer des aides locales dotées d'un budget conséquent. À titre de référence, l'enveloppe toulousaine pour la conversion des véhicules s'élevait à 618 000 € sur quatre ans.
+
+
+\subsection{Déployer massivement les alternatives à la voiture individuelle (Actions PPA)}
+
+Pour répondre à la demande d'assistance de la Métropole sur les actions PPA MU 1.1.1 et MU 1.1.2, il est proposé de co-piloter le développement des alternatives à la voiture individuelle. L'élaboration d'un plan d'action commun sera un axe de travail prioritaire du partenariat. Concernant les mobilités actives, il s'agit d'accélérer l'élaboration d'une feuille de route cyclable ambitieuse pour un réseau continu et sécurisé, en s'appuyant sur les financements du \og Fonds mobilités actives\fg{} de l'État, et de multiplier les stationnements vélos sécurisés, notamment aux pôles d'échange pour garantir l'intermodalité. Les retours d'expérience nationaux sur les projets de Réseaux Express Vélo (REV) permettent d'objectiver l'investissement nécessaire : un objectif de 40 km représenterait un budget d'environ 8 M€, sur la base d'un coût moyen de 200 000 € par kilomètre pour un aménagement de qualité.
+
+Concernant les transports partagés, le plan d'action commun visera à améliorer l'offre de transports en commun (fréquence, amplitude, desserte des zones d'activités), à développer le covoiturage, notamment via des voies réservées requérant un arrêté préfectoral, et à intégrer l'ensemble des offres dans une plateforme numérique unifiée (MaaS) pour en simplifier l'accès.
+
+\subsection{Instaurer une gouvernance et un calendrier rigoureux}
+
+Pour garantir la réussite du plan, l'institution d'un Comité de Pilotage (COPIL) État-Métropole co-présidé est indispensable. Se réunissant semestriellement, ce COPIL répondrait au manque de synergies entre PPA et PCAET souvent pointé par la Cour des comptes (2020). Son pilotage politique direct est crucial pour contrer le risque de dépolitisation administrative \parencite{boutaric2022art} et garantir que le PPA ne demeure pas un simple catalogue de déclarations d'intention sans efficacité réelle \parencite{boutaric2014}. Un comité consultatif maintiendrait le dialogue, et le suivi des progrès serait assuré par des indicateurs de résultats, notamment les concentrations de polluants mesurées par ATMO.
+
+\noindent Le COPIL aura pour première mission de valider et de suivre la feuille de route opérationnelle suivante~:
+
+\begin{enumerate}
+    \item \textbf{Jalon 1 – Mise en place de la gouvernance et décisions clés (D'ici 3 mois)}
+    \begin{itemize}[label=\textbullet, leftmargin=*]
+        \item Installation formelle du Comité de Pilotage (COPIL) État-Métropole co-présidé.
+        \item Validation par le COPIL du calendrier et du plan de financement pour le déploiement du contrôle-sanction automatisé. À titre de référence, le Grand Annecy a mobilisé un million d'euros pour le lancement global de sa ZFE. L'investissement pour le réseau de caméras, éligible au Fonds Vert, s'inscrira dans un partenariat clair où l'État assurera la chaîne de verbalisation, tandis que le dimensionnement du dispositif devra respecter le plafond légal limitant le contrôle à 15\% du trafic journalier.
+        \item Lancement d'une campagne d'information ciblée sur le calendrier de la ZFE et l'ensemble des aides disponibles.
+    \end{itemize}
+
+    \item \textbf{Jalon 2 – Déploiement des outils et premiers livrables visibles (D'ici 6 mois)}
+    \begin{itemize}[label=\textbullet, leftmargin=*]
+        \item Adoption par le COPIL de la feuille de route finalisée assurant la coordination et le développement des alternatives à la voiture individuelle (répondant ainsi aux actions PPA MU 1.1.1 et MU 1.1.2).
+        \item Mise en service effective de premières réalisations à forte visibilité (ex: nouvelle ligne de bus express, axe cyclable tactique majeur).
+        \item Mise en place du guichet unique d'information et d'aides pour les usagers, en lien avec l'Agence de Services et de Paiement (ASP).
+    \end{itemize}
+
+    \item \textbf{Jalon 3 – Évaluation et réajustement stratégique (Horizon 1 an)}
+    \begin{itemize}[label=\textbullet, leftmargin=*]
+        \item Évaluation par le COPIL de l'atteinte des premiers objectifs (indicateurs de moyens et de réalisation).
+        \item Sur la base des données de concentrations de $NO_2$ fournies par ATMO, si la trajectoire de baisse est jugée insuffisante pour garantir la conformité en 2027 (objectif du PPA), le COPIL statuera sur un plan de renforcement contraignant, pouvant inclure~:
+        \begin{itemize}[label=\textendash, leftmargin=*]
+            \item L'accélération du calendrier d'interdiction des vignettes Crit'Air.
+            \item L'élargissement du périmètre de la ZFE.
+            \item L'intégration d'axes structurants jusqu'alors exclus.
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+En conclusion, il appartient au Préfet de signifier à la Métropole Y que le temps de l'observation est révolu. En alliant le respect des obligations de résultat et des échéances à une offre de partenariat structurée et exigeante, il sera possible de créer les conditions d'une nouvelle dynamique. Cette exigence d'ambition est fondamentale, car les retours d'expérience internationaux, comme celui de Londres, montrent que seules des réductions d'émissions très significatives permettent d'obtenir des bénéfices mesurables sur la santé des populations les plus vulnérables  \parencite{mudwayImpactLondonsLow2019}. Le droit des citoyens à respirer un air sain est une priorité non négociable de l'action de l'État ; il en va de la protection de leur santé et de la crédibilité de la parole publique. En veillant à l'équité de cette transition, l'État et la Métropole affirmeront leur volonté de ne pas céder à la facilité d'une action publique se défaussant sur la seule responsabilité individuelle \parencite{boutaric2014} pour éluder les choix collectifs courageux.
+
+\newpage
+
+\begin{center}
+\textbf{ANNEXES}
+\end{center}
+
+\vspace{1.5cm}
+
+% --- Annexe 1 ---
+\noindent\textbf{Annexe 1 : Cadre international et européen}
+\vspace{0.3cm}
+\begin{itemize}
+    \item \textit{\href{https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52021DC0400}{Communication de la Commission, « La voie vers une planète saine pour tous - Plan d'action de l'UE : « Vers une pollution zéro » », COM(2021) 400 final.}}
+    \item \textit{\href{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0064}{Communication de la Commission, « The Fourth Clean Air Outlook », COM(2025) 64 final.}}
+    \item \textit{\href{https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000018984836/}{Directive 2008/50/CE du 21 mai 2008 concernant la qualité de l’air ambiant et un air pur pour l’Europe (texte fondateur).}}
+    \item \textit{\href{https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024L2881}{Directive (UE) 2024/2881 du 23 octobre 2024 concernant la qualité de l'air ambiant (refonte fixant les nouveaux seuils).}}
+\end{itemize}
+
+\vspace{0.8cm}
+
+% --- Annexe 2 ---
+\noindent\textbf{Annexe 2 : Actes législatifs et réglementaires nationaux}
+\vspace{0.3cm}
+\begin{itemize}
+    \item \textit{\href{https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000381337/}{Loi n° 96-1236 du 30 décembre 1996 sur l'air et l'utilisation rationnelle de l'énergie (LAURE).}}
+    \item \textit{\href{https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031044385/}{Loi n° 2015-992 du 17 août 2015 relative à la transition énergétique pour la croissance verte (TECV).}}
+    \item \textit{\href{https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000037646678/}{Loi n° 2019-1428 du 24 décembre 2019 d'orientation des mobilités (LOM).}}
+    \item \textit{\href{https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924}{Loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique (Loi Climat et Résilience).}}
+    \item \textit{\href{https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006176484/}{Code de l'environnement, Articles L222-4 et suivants relatifs aux Plans de Protection de l'Atmosphère (PPA).}}
+\end{itemize}
+
+\vspace{0.8cm}
+
+% --- Annexe 3 ---
+\noindent\textbf{Annexe 3 : Jurisprudence administrative}
+\vspace{0.3cm}
+\begin{itemize}
+    \item \textit{\href{https://www.conseil-etat.fr/actualites/pollution-de-l-air-le-conseil-d-etat-condamne-l-etat-a-payer-deux-astreintes-de-5-millions-d-euros}{Conseil d'État, Décision du 24 novembre 2023, Pollution de l’air : condamnation de l’État à une astreinte de 10 millions d’euros.}}
+\end{itemize}
+
+\vspace{0.8cm}
+
+% --- Annexe 4 ---
+\noindent\textbf{Annexe 4 : Rapports et travaux institutionnels et scientifiques}
+\vspace{0.3cm}
+\begin{itemize}
+    \item \textit{\href{https://www.who.int/fr/news/item/22-09-2021-new-who-global-air-quality-guidelines-aim-to-save-millions-of-lives-from-air-pollution}{Organisation Mondiale de la Santé (OMS), « Lignes directrices mondiales sur la qualité de l’air », Référentiel, 2021.}}
+    \item \textit{\href{https://www.anses.fr/fr/system/files/AIR2021SA0039RA.pdf}{ANSES, « Pollution de l’air par le trafic routier », Rapport d'expertise, 2024.}}
+    \item \textit{\href{https://www.ccomptes.fr/fr/publications/les-politiques-de-lutte-contre-la-pollution-de-lair}{Cour des comptes, « Les politiques publiques de lutte contre la pollution de l'air », Rapport public, 2020.}}
+    \item \textit{\href{https://www.lcsqa.org/fr/rapport/guide-methodologique-devaluation-des-politiques-publiques-relatives-la-qualite-de-lair-2024}{INERIS, « Guide méthodologique d'évaluation des politiques publiques », 2024.}}
+    \item \textit{\href{https://librairie.ademe.fr/air/5786-guide-d-aide-a-l-elaboration-et-la-mise-en-oeuvre-des-zfe-m.html}{ADEME, « Guide d'aide à l'élaboration et la mise en œuvre des ZFE-m », 2022.}}
+    \item \textit{\href{https://www.senat.fr/rap/r19-719/r19-7191.html}{Sénat, « Pollution de l'air : le coût de l'inaction », Rapport d'information, 2020.}}
+    \item \textit{\href{https://www.lecese.fr/travaux-publies/la-justice-climatique-enjeux-et-perspectives-pour-la-france}{CESE, « La justice climatique : enjeux et perspectives pour la France », Avis, 2019.}}
+    \item \textit{\href{https://propositions.conventioncitoyennepourleclimat.fr/pdf/ccc-rapport-final.pdf}{Convention Citoyenne pour le Climat, « Les Propositions », Rapport final, 2020.}}
+    \item 
+    \textit{\href{https://www.vie-publique.fr/files/rapport/pdf/290236.pdf}{France Urbaine et FNH, « Les Zones à Faibles Émissions : 25 propositions... », Rapport, 2023.}}
+    \item \textit{\href{https://www.statistiques.developpement-durable.gouv.fr/bilan-de-la-qualite-de-lair-exterieur-en-france-en-2021}{Service des données et études statistiques (SDES), « Bilan de la qualité de l’air extérieur en France en 2021 », Ministère de la Transition écologique, 2023.}}
+    \item \textit{\href{https://metropole.toulouse.fr/sites/toulouse-fr/files/2022-08/dp_planderelance_investirpourunemetropoledurable.pdf}{Toulouse Métropole, « Plan de relance : investir pour une métropole durable », Dossier de presse, 2020.}}
+    \item \textit{\href{https://www.grandannecy.fr/fileadmin/mediatheque/kiosque/Espace_presse/CP_ZFE.pdf}{Grand Annecy, « Zone à Faibles Émissions mobilité (ZFE-m) du Grand Annecy », Dossier de presse, 2024.}}
+    \item \textit{\href{https://www.ecologie.gouv.fr/politiques-publiques/fonds-mobilites-actives}{Ministère de la Transition écologique, « Le fonds mobilités actives », Page d'information, 2025.}}
+    \item \textit{\href{https://www.val-doise.gouv.fr/index.php/contenu/telechargement/26988/204184/file/PPT\%20fonds\%20verts_ZFE_covoiturage_v1.pdf}{Gouvernement, « Le Fonds Vert : Accélérer la transition écologique dans les territoires », Présentation officielle, 2023.}}
+\end{itemize}
+
+
+\newpage
+\printbibliography
+
+\end{document}
