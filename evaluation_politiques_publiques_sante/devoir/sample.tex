@@ -1,0 +1,514 @@
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimplePlus}
+\usepackage[french]{babel} % À ajouter dans le préambule si ce n'est pas déjà fait
+\usepackage{datetime} % Pour personnaliser la date
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[utf8]{inputenc} % For French accents
+\usepackage[T1]{fontenc}    % For French accents
+\usepackage{textcomp}     % For euro symbol
+
+%----------------------------------------------------------------------------------------
+%    TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Analyse d'article sur les incitations financières pour l'arrêt du tabac]{Analyse d'article : une étude randomisée et contrôlée sur les incitations financières pour l'arrêt du tabac}
+\subtitle{A Randomized, Controlled Trial of Financial Incentives for Smoking Cessation \\ Volpp K.G. et al., N Engl J Med 2009;360:699-709.}
+
+\author{
+\textbf{Olivier Caron} \inst{1} \and
+\textbf{Sandra Sinnassamy} \inst{2}
+}
+
+\institute[1,2]{
+\inst{1} Université Paris Dauphine – PSL \\
+\inst{2} ENS – PSL
+}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+%    PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Plan de la présentation}
+    \tableofcontents
+\end{frame}
+
+%------------------------------------------------
+\section{Introduction et contexte de l'étude}
+%------------------------------------------------
+
+\begin{frame}{Problématique et justification}
+    \begin{itemize}
+        \item Le tabagisme est la principale cause évitable de décès prématurés aux États-Unis, responsable d'environ 438 000 décès par an au moment de l'étude.
+        \item 70\% des fumeurs souhaitent arrêter, mais seulement 2 à 3\% y parviennent annuellement sans aide.
+        \item Les programmes d'arrêt et les thérapies pharmacologiques augmentent les taux de succès, mais leur taux d'utilisation est faible.
+        \item Les lieux de travail sont un cadre prometteur pour encourager l'arrêt du tabac, car les employeurs supportent des coûts de santé et des pertes de productivité liés au tabagisme.
+    \end{itemize}
+    \begin{alertblock}{Lacunes des études antérieures}
+        \begin{itemize}
+            \item Les études précédentes sur les incitations financières en milieu de travail n'ont pas démontré d'effets significatifs sur les taux d'arrêt à long terme.
+            \item Ces études étaient souvent limitées par une faible puissance statistique (petits échantillons) et des incitations financières jugées insuffisantes.
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Objectif de l'étude}
+    \begin{block}{Objectif principal}
+        Tester l'efficacité d'un programme d'incitations financières, allant jusqu'à \$750, pour améliorer les taux d'arrêt du tabac à long terme chez les employés d'une grande entreprise multinationale basée aux États-Unis.
+    \end{block}
+    \bigskip
+    \begin{itemize}
+        \item Cette étude s'inscrit dans la phase d'évaluation d'impact d'une politique de santé publique potentielle.
+        \item Elle cherche à mesurer l'effet causal des incitations financières, c'est-à-dire si les incitations sont la \textit{cause} d'une augmentation de l'arrêt du tabac.
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\section{Méthodologie de l'évaluation (l'approche expérimentale)}
+%------------------------------------------------
+\subsection{Devis de l'étude et population}
+
+\begin{frame}{Devis de l'étude : essai randomisé contrôlé (ERC)}
+    \begin{itemize}
+        \item L'étude utilise un \textbf{essai randomisé contrôlé (ERC)}, considéré comme le paradigme des méthodes d'évaluation pour éviter les biais, notamment le biais de sélection.
+        \item \textbf{Définition d'un ERC :} méthode scientifique où les participants sont assignés de manière aléatoire soit à un groupe recevant l'intervention (groupe d'intervention/traité), soit à un groupe ne la recevant pas (groupe contrôle).
+        \item L'objectif est de créer des groupes comparables en tout point, sauf pour l'intervention reçue, afin d'isoler l'effet de cette dernière. Le groupe contrôle sert de \textbf{contrefactuel} : il montre ce qui se serait passé en l'absence d'incitations financières.
+    \end{itemize}
+    \begin{block}{Cadre temporel et recrutement}
+        \begin{itemize}
+            \item Recrutement des participants : février 2005 à novembre 2006.
+            \item Identification via une enquête sur les habitudes tabagiques et la volonté de participer à une étude sur l'arrêt du tabac.
+            \item Diffusion par intranet de l'entreprise et recrutement sur site pour les employés sans accès intranet.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Population de l'étude et critères d'éligibilité}
+    \begin{columns}[c]
+        \column{.6\textwidth}
+        \begin{itemize}
+            \item Employés d'une entreprise multinationale basée aux États-Unis.
+            \item \textbf{Critères d'inclusion}:
+            \begin{itemize}
+                \item Âge $\ge$ 18 ans.
+                \item Fumer actuellement $\ge$ 5 cigarettes par jour.
+            \end{itemize}
+            \item \textbf{Critères d'exclusion}:
+            \begin{itemize}
+                \item Utilisation actuelle de produits du tabac autres que les cigarettes.
+                \item Intention de quitter l'entreprise dans les 18 mois.
+            \end{itemize}
+            \item Au total, 878 employés ont été randomisés :
+            \begin{itemize}
+                \item 442 dans le groupe contrôle (information seule).
+                \item 436 dans le groupe intervention (information + incitations).
+            \end{itemize}
+        \end{itemize}
+
+        \column{.4\textwidth}
+        \begin{figure}
+            \includegraphics[width=\linewidth]{diagramme_flux.png} % Placeholder - replace with actual image path
+            \caption{Diagramme de flux des participants (adapté de la figure 1 de l'article). Ce diagramme montre le nombre de patients évalués pour l'éligibilité, randomisés, et suivis.}
+        \end{figure}
+    \end{columns}
+    \footnotesize{\textit{Note: il est crucial de présenter le diagramme de flux (figure 1 de l'article) pour montrer la sélection et le suivi des participants, y compris les perdus de vue.}}
+\end{frame}
+
+\subsection{Randomisation et groupes d'intervention}
+
+\begin{frame}{Processus de randomisation}
+    \begin{itemize}
+        \item La randomisation est la pierre angulaire des ERC, visant à s'assurer que les groupes traité et contrôle sont similaires en moyenne pour toutes les caractéristiques (observées et inobservées) avant l'intervention. Cela permet d'attribuer les différences d'outcomes à l'intervention elle-même.
+        \item \textbf{Méthode :} randomisation effectuée après consentement éclairé, en blocs permutés de quatre.
+        \item \textbf{Stratification}:
+            \begin{itemize}
+                \item Site de travail.
+                \item Statut de "gros fumeur" ($\ge 2$ paquets/jour) ou "non gros fumeur".
+                \item Revenu (trois catégories par rapport au seuil de pauvreté fédéral).
+            \end{itemize}
+            \textit{La stratification assure une distribution équilibrée de ces facteurs importants entre les groupes.}
+        \item \textbf{Assignation secrète (concealment) :} l'assignation randomisée était cachée jusqu'à ce que tous les critères d'éligibilité soient entrés dans un système électronique.
+        \item \textbf{Aveugle (blinding) :} non maintenu après ce point en raison de la nature de l'intervention (les participants savaient s'ils recevaient des incitations). Cela est courant dans les interventions comportementales.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Groupes d'intervention}
+    \begin{block}{Groupe contrôle (N=442)}
+        \begin{itemize}
+            \item A reçu des informations sur les programmes d'arrêt du tabac disponibles dans la communauté (rayon de 20 miles du lieu de travail).
+            \item A bénéficié des avantages santé standards de l'entreprise (couverture des visites médicales, bupropion, etc.).
+        \end{itemize}
+    \end{block}
+    \pause
+    \begin{alertblock}{Groupe intervention (incitations financières) (N=436)}
+        \begin{itemize}
+            \item A reçu les mêmes informations et avantages que le groupe contrôle.
+            \item \textbf{Plus, des incitations financières}:
+                \begin{itemize}
+                    \item \textbf{\$100} pour l'achèvement d'un programme d'arrêt du tabac.
+                    \item \textbf{\$250} pour l'arrêt du tabac dans les 6 mois suivant l'inscription, confirmé par un test biochimique.
+                    \item \textbf{\$400} pour le maintien de l'abstinence pendant 6 mois supplémentaires après l'arrêt initial (donc 12 mois au total), confirmé par un test biochimique.
+                \end{itemize}
+                \textit{Soit un total potentiel de \$750.}
+        \end{itemize}
+    \end{alertblock}
+    \begin{itemize}
+        \item Tous les participants (des deux groupes) recevaient \$20 par entretien téléphonique de suivi et \$25 pour la soumission d'un échantillon pour vérification biochimique. Ceci vise à encourager la participation au suivi, indépendamment du groupe.
+    \end{itemize}
+\end{frame}
+
+\subsection{Collecte des données et mesures des résultats}
+
+\begin{frame}{Collecte des données et suivi}
+    \begin{itemize}
+        \item \textbf{Contacts et évaluations :}
+            \begin{itemize}
+                \item Tous les participants contactés à 3 mois post-inscription pour évaluer s'ils avaient arrêté de fumer.
+                \item Ceux ne rapportant pas d'abstinence complète étaient réévalués à 6 mois.
+                \item Nouvel entretien 6 mois après la première évaluation complète (donc à 9 mois ou 12 mois post-inscription).
+                \item Un suivi additionnel à 15 ou 18 mois pour ceux ayant confirmé l'arrêt à 9 ou 12 mois.
+            \end{itemize}
+        \item \textbf{Vérification biochimique de l'abstinence :}
+            \begin{itemize}
+                \item Les participants rapportant un arrêt du tabac devaient fournir un échantillon de salive ou d'urine pour un test de cotinine.
+                \item \textbf{Cotinine :} métabolite de la nicotine, utilisé comme biomarqueur objectif de l'exposition récente au tabac.
+                \item Salive : seuil <15 ng/mL ; urine : seuil <2 ng/mL (utilisé pour ceux sous thérapie de remplacement nicotinique, avec test d'anabasine/anatabine).
+                \item Participants avec des niveaux de cotinine supérieurs aux seuils classés comme fumeurs, même s'ils rapportaient l'abstinence.
+                \item \textit{Cette vérification est cruciale pour la validité des résultats, réduisant le biais de déclaration.}
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Mesures des résultats (endpoints)}
+    \begin{block}{Critère d'évaluation principal}
+        \begin{itemize}
+            \item Autodéclaration d'abstinence à la fois à 3 et 9 mois \textbf{OU} à 6 et 12 mois après l'inscription.
+            \item \textbf{Confirmée biochimiquement} par un test de cotinine négatif à chaque point temporel.
+            \item Abstinence continue : définie comme une abstinence d'au moins 7 jours avant l'entretien de 3 ou 6 mois (prévalence ponctuelle), et une abstinence durant toute la période entre l'entretien de 3/6 mois et celui de 9/12 mois (prévalence prolongée).
+        \end{itemize}
+    \end{block}
+    \pause
+    \begin{alertblock}{Critères d'évaluation secondaires}
+        \begin{itemize}
+            \item Inscription à un programme d'arrêt du tabac.
+            \item Achèvement d'un programme d'arrêt du tabac (certificat requis).
+            \item Taux d'arrêt du tabac dans les 6 premiers mois post-inscription (confirmé).
+            \item Taux d'arrêt du tabac à 3, 9, et 15 mois \textbf{OU} 6, 12, et 18 mois post-inscription (confirmé).
+        \end{itemize}
+    \end{alertblock}
+    \begin{itemize}
+        \item Les participants perdus de vue étaient classés comme fumeurs ayant rechuté (analyse en intention de traiter).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Analyse statistique}
+    \begin{itemize}
+        \item \textbf{Analyse principale :} analyse en \textbf{intention de traiter (ITT)} non ajustée de la différence des taux d'arrêt confirmés biochimiquement entre les groupes.
+            \begin{itemize}
+                \item \textit{L'ITT signifie que les participants sont analysés dans le groupe auquel ils ont été initialement assignés, qu'ils aient ou non adhéré à l'intervention. Cela préserve les bénéfices de la randomisation et reflète mieux l'efficacité en conditions réelles.}
+            \end{itemize}
+        \item \textbf{Tests statistiques :} test du chi carré de Pearson ou test exact de Fisher si effectifs faibles ($<5$ par cellule).
+        \item \textbf{Odds ratios (OR) :}
+            \begin{itemize}
+                \item OR non ajustés estimés pour l'arrêt.
+                \item Comparés aux OR ajustés pour les variables de stratification (site, dépendance nicotinique, revenu) et les covariables de base (tableau 1) via régression logistique.
+                \item \textit{Un OR > 1 indique que le groupe intervention a une probabilité plus élevée d'arrêter de fumer par rapport au groupe contrôle. L'intervalle de confiance à 95\% (IC) indique la précision de cette estimation.}
+            \end{itemize}
+        \item \textbf{Analyses de sous-groupes :} exploratoires, pour examiner la consistance de l'effet de l'intervention à travers différents sous-groupes (ex: sexe, revenu, etc.). Test de Cochran-Mantel-Haenszel pour l'homogénéité de l'association.
+        \item \textbf{Puissance de l'étude :} calculée pour détecter une différence attendue avec 80\% de puissance et une erreur de type I de 1\% (bilatéral). L'échantillon a été augmenté de 15\% pour tenir compte des pertes de suivi.
+        \item Toutes les valeurs de $P$ rapportées sont bilatérales et non ajustées pour comparaisons multiples. Une valeur de $P < 0.05$ est généralement considérée comme statistiquement significative.
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\section{Résultats principaux}
+%------------------------------------------------
+\subsection{Caractéristiques des participants et suivi}
+
+\begin{frame}{Caractéristiques de base des participants (tableau 1)}
+    \begin{itemize}
+        \item Les caractéristiques démographiques, les habitudes tabagiques, le degré de dépendance à la nicotine, la motivation à arrêter et l'état de santé étaient \textbf{similaires} dans les groupes intervention et contrôle à l'inclusion.
+        \item \textbf{Exemples de caractéristiques moyennes :}
+            \begin{itemize}
+                \item Âge moyen : environ 44-45 ans.
+                \item Sexe : environ 65\% d'hommes.
+                \item Race : majoritairement blancs (environ 90\%).
+                \item Cigarettes/jour : environ 20 (1 paquet).
+                \item Gros fumeurs (>2 paquets/jour) : 5-6\%.
+                \item Revenu : majorité >500\% du seuil de pauvreté.
+            \end{itemize}
+        \item \textit{Cette similarité à la base (tableau 1 de l'article) est un indicateur clé du succès de la randomisation. Elle renforce la confiance que les différences observées dans les résultats sont dues à l'intervention et non à des différences préexistantes entre les groupes.}
+    \end{itemize}
+    \begin{block}{Perdus de vue et retraits}
+        \begin{itemize}
+            \item Nombre similaire de participants perdus de vue ou retirés dans les deux groupes à 6 mois (66 vs 59, $P=0.45$) et à 12 mois (56 vs 47, $P=0.25$).
+            \item Voir figure 1 de l'article pour le détail du flux des participants.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\subsection{Efficacité des incitations financières (tableau 2)}
+
+\begin{frame}{Taux d'arrêt du tabac (critère principal et secondaire clé)}
+    \begin{block}{Arrêt du tabac à 9 ou 12 mois (confirmé) - critère principal}
+        \begin{itemize}
+            \item \textbf{Groupe incitation : 14.7\%}
+            \item \textbf{Groupe contrôle : 5.0\%}
+            \item Différence statistiquement très significative ($P<0.001$).
+        \end{itemize}
+    \end{block}
+    \pause
+    \begin{alertblock}{Arrêt du tabac à 15 ou 18 mois (confirmé)}
+        \begin{itemize}
+            \item \textbf{Groupe incitation : 9.4\%}
+            \item \textbf{Groupe contrôle : 3.6\%}
+            \item Différence statistiquement très significative ($P<0.001$).
+            \item \textit{L'effet persiste, bien qu'atténué, à plus long terme.}
+        \end{itemize}
+    \end{alertblock}
+    \pause
+    \begin{block}{Arrêt du tabac dans les 6 premiers mois (confirmé)}
+        \begin{itemize}
+            \item \textbf{Groupe incitation : 20.9\%}
+            \item \textbf{Groupe contrôle : 11.8\%}
+            \item Différence statistiquement très significative ($P<0.001$).
+        \end{itemize}
+    \end{block}
+    \begin{itemize}
+        \item Très peu de participants ayant déclaré avoir arrêté n'ont pas soumis d'échantillons (0.5\% groupe incitation vs 1.1\% groupe contrôle), et aucun de ceux qui ont soumis n'a eu de test positif au critère principal. Cela indique une bonne adhésion à la vérification et une faible dissimulation.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Participation et achèvement des programmes d'arrêt (tableau 2)}
+    \begin{block}{Inscription à un programme d'arrêt du tabac}
+        \begin{itemize}
+            \item \textbf{Groupe incitation : 15.4\%}
+            \item \textbf{Groupe contrôle : 5.4\%}
+            \item Différence statistiquement très significative ($P<0.001$).
+        \end{itemize}
+    \end{block}
+    \pause
+    \begin{alertblock}{Achèvement d'un programme d'arrêt du tabac}
+        \begin{itemize}
+            \item \textbf{Groupe incitation : 10.8\%}
+            \item \textbf{Groupe contrôle : 2.5\%}
+            \item Différence statistiquement très significative ($P<0.001$).
+            \item \textit{L'incitation de \$100 pour l'achèvement du programme semble avoir été efficace.}
+        \end{itemize}
+    \end{alertblock}
+    \pause
+    \begin{itemize}
+        \item Fait intéressant : parmi ceux qui ont participé à un programme d'arrêt, les membres du groupe incitation avaient des taux d'arrêt significativement plus élevés que ceux du groupe contrôle (46.3\% vs. 20.8\%, $P=0.03$). Cela suggère que les incitations pourraient avoir un effet synergique ou motiver davantage même pendant le programme.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Odds ratios pour l'arrêt à long terme (tableau 3)}
+    L'odds ratio (OR) mesure l'association entre une exposition (ici, être dans le groupe incitation) et un résultat (arrêter de fumer). Un OR de 3.28 signifie que le groupe incitation a 3.28 fois plus de chances d'arrêter de fumer à 9/12 mois que le groupe contrôle.
+    \begin{itemize}
+        \item \textbf{Modèle non ajusté}:
+            \begin{itemize}
+                \item OR = \textbf{3.28} (IC 95\%: 1.98 - 5.44), $P<0.001$.
+            \end{itemize}
+        \item \textbf{Modèle ajusté pour les variables de stratification uniquement} (site, statut tabagique, niveau de pauvreté):
+            \begin{itemize}
+                \item OR = \textbf{3.19} (IC 95\%: 1.91 - 5.30), $P<0.001$.
+            \end{itemize}
+        \item \textbf{Modèle ajusté pour toutes les variables du tableau 1}:
+            \begin{itemize}
+                \item OR = \textbf{3.16} (IC 95\%: 1.88 - 5.32), $P<0.001$.
+            \end{itemize}
+    \end{itemize}
+    \begin{block}{Interprétation}
+        \begin{itemize}
+            \item Les OR sont significativement plus élevés dans le groupe incitation, et ce, de manière robuste même après ajustement pour de multiples covariables.
+            \item L'intervalle de confiance (IC) à 95\% n'inclut pas 1 (la valeur nulle pour un OR), ce qui confirme la significativité statistique.
+            \item La similarité des OR entre les modèles non ajustés et ajustés suggère que la randomisation a bien fonctionné pour équilibrer les covariables.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\subsection{Analyses de sous-groupes et robustesse}
+
+\begin{frame}{Analyses de sous-groupes (figure 2)}
+    \begin{itemize}
+        \item Les taux d'arrêt à 9 ou 12 mois ont été examinés dans divers sous-groupes définis par des caractéristiques de base (ex: sexe, niveau de pauvreté, statut tabagique, tentatives d'arrêt antérieures, stade de changement, auto-évaluation de la santé, score de Fagerström).
+        \item \textbf{Constat principal :} pour \textit{tous} les sous-groupes, les membres du groupe incitation avaient des taux d'arrêt plus élevés que les membres du groupe contrôle. (Voir figure 2 de l'article pour les détails graphiques).
+        \item Les tests d'interaction (pour voir si l'effet de l'intervention différait significativement entre les sous-groupes) n'ont montré \textbf{aucune différence significative}.
+    \end{itemize}
+    \begin{block}{Implication}
+        L'effet bénéfique des incitations financières semble \textbf{cohérent et généralisé} à travers de nombreuses caractéristiques des participants au sein de cette population d'étude.
+    \end{block}
+    \begin{alertblock}{Exemple de lecture de la figure 2 (données adaptées de l'article pour illustration)}
+        \begin{itemize}
+            \item \textbf{Sexe masculin :} groupe contrôle 15/287 arrêtent, groupe incitation 40/286 arrêtent. OR = 2.95 (IC 95\%: 1.59-5.47).
+            \item \textbf{Fumeurs "non-heavy"} : groupe contrôle 22/415 arrêtent, groupe incitation 62/414 arrêtent. OR = 3.15 (IC 95\%: 1.89-5.23).
+            \item \textit{L'OR est toujours supérieur à 1 et l'IC n'inclut généralement pas 1, indiquant un effet positif des incitations.}
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+%------------------------------------------------
+\section{Discussion et critique évaluative}
+%------------------------------------------------
+\subsection{Interprétation des résultats}
+
+\begin{frame}{Synthèse des principaux résultats}
+    \begin{itemize}
+        \item L'étude démontre clairement que l'ajout d'incitations financières à des informations sur les programmes d'arrêt du tabac \textbf{augmente significativement les taux d'arrêt du tabac} chez les employés d'une grande entreprise.
+        \item Les taux d'abstinence prolongée étaient presque \textbf{triplés} dans le groupe incitation par rapport au groupe contrôle à 9/12 mois (14.7\% vs 5.0\%).
+        \item Cet effet positif persistait à 15/18 mois, bien qu'avec une magnitude légèrement réduite (9.4\% vs 3.6\%).
+        \item Les incitations ont également augmenté significativement la participation et l'achèvement des programmes d'arrêt du tabac.
+    \end{itemize}
+    \begin{block}{Comparaison avec la littérature}
+        \begin{itemize}
+            \item Ces résultats contrastent avec des revues antérieures (ex: Cochrane 2005) qui concluaient à une insuffisance de preuves concernant l'efficacité des incitations financières en milieu de travail.
+            \item Les auteurs suggèrent que cela pourrait être dû à la \textbf{taille plus importante de leur échantillon} et à des \textbf{incitations financières plus substantielles} (\$750) que dans beaucoup d'études précédentes.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\subsection{Points forts de l'étude}
+
+\begin{frame}{Qualité méthodologique et pertinence}
+    \begin{itemize}
+        \item \textbf{Devis d'essai randomisé contrôlé (ERC) :}
+            \begin{itemize}
+                \item Minimise le biais de sélection et d'autres biais de confusion, permettant une attribution plus forte de la causalité. C'est la méthode de référence pour l'évaluation d'impact.
+            \end{itemize}
+        \item \textbf{Taille de l'échantillon adéquate :} 878 participants, offrant une bonne puissance statistique pour détecter des différences significatives.
+        \item \textbf{Vérification biochimique de l'abstinence :} utilisation de tests de cotinine pour confirmer l'arrêt déclaré, augmentant la validité et la fiabilité des mesures de résultats.
+        \item \textbf{Suivi à long terme :} évaluation des taux d'arrêt jusqu'à 15 ou 18 mois, fournissant des informations sur la durabilité de l'effet.
+        \item \textbf{Analyse en intention de traiter (ITT) :} approche conservatrice qui reflète mieux l'efficacité en conditions réelles.
+        \item \textbf{Pertinence pour les politiques de santé au travail :} les employeurs sont directement concernés par les coûts du tabagisme et peuvent mettre en œuvre de tels programmes.
+        \item \textbf{Variables de résultat claires et multiples :} incluant l'arrêt à différents moments et la participation aux programmes.
+    \end{itemize}
+\end{frame}
+
+\subsection{Limites et biais potentiels}
+
+\begin{frame}{Limites de l'étude}
+    \begin{itemize}
+        \item \textbf{Généralisabilité limitée (validité externe) :}
+            \begin{itemize}
+                \item Étude menée dans \textbf{une seule grande entreprise multinationale}. Les résultats pourraient ne pas s'appliquer à des PME, d'autres secteurs d'activité ou d'autres contextes culturels.
+                \item La population étudiée était majoritairement \textbf{blanche (environ 90\%) et avait des niveaux d'éducation et de revenus relativement élevés}. L'efficacité pourrait différer dans des populations plus diversifiées ou socio-économiquement défavorisées.
+            \end{itemize}
+        \item \textbf{Biais de sélection à l'inscription (volontariat) :}
+            \begin{itemize}
+                \item Sur 1903 personnes intéressées, 878 (46\%) ont été incluses. Les volontaires pour une étude sur l'arrêt du tabac pourraient être \textbf{plus motivés à arrêter} que la population générale de fumeurs, que ce soit dans le groupe incitation ou contrôle.
+                \item Il est difficile de projeter l'efficacité si le programme était offert à tous les employés sans auto-sélection.
+            \end{itemize}
+        \item \textbf{Taux de rechute et durabilité à très long terme :}
+            \begin{itemize}
+                \item Bien que le suivi aille jusqu'à 18 mois, les taux de rechute entre 9/12 mois et 15/18 mois étaient notables (27.3\% contrôle, 35.9\% incitation parmi ceux qui avaient arrêté). Les auteurs notent que ces taux semblent plus élevés que ceux rapportés dans la littérature, mais les petits nombres limitent les conclusions fermes.
+                \item La question de la durabilité de l'abstinence au-delà de 18 mois, ou une fois les incitations terminées, reste ouverte.
+            \end{itemize}
+        \item \textbf{Absence d'analyse coût-efficacité détaillée :} l'article mentionne le bénéfice financier pour les employeurs (\$3400/an/employé qui arrête), mais n'évalue pas formellement le rapport coût-efficacité du programme d'incitation lui-même. C'est identifié comme une question pour de futures recherches.
+        \item \textbf{Conséquences non intentionnelles :} bien que jugé peu probable par les auteurs, le risque que des gens commencent à fumer pour bénéficier d'incitations n'a pas été observé mais reste une considération théorique pour de tels programmes.
+    \end{itemize}
+\end{frame}
+
+\subsection{Alignement avec les concepts d'évaluation des politiques publiques}
+
+\begin{frame}{L'étude au regard des concepts du cours}
+    \begin{itemize}
+        \item \textbf{Approche expérimentale et causalité:}
+            \begin{itemize}
+                \item L'ERC est la méthode la plus robuste pour établir un lien de causalité entre l'intervention (incitations) et l'outcome (arrêt du tabac) en minimisant les biais.
+                \item Elle permet de construire un \textbf{contrefactuel} crédible (le groupe contrôle) pour estimer ce qui se serait passé en l'absence d'incitations.
+            \end{itemize}
+        \item \textbf{Biais de sélection:}
+            \begin{itemize}
+                \item La randomisation vise à éliminer le biais de sélection \textit{entre les groupes d'étude}.
+                \item Cependant, un biais de sélection peut exister pour \textit{l'entrée dans l'étude elle-même} (volontaires).
+            \end{itemize}
+        \item \textbf{Phases de la mise en œuvre d'une évaluation:}
+            \begin{itemize}
+                \item \textit{1/ Identification des besoins :} le fardeau du tabagisme est clairement établi.
+                \item \textit{2/ Effets théoriques de la politique :} les incitations financières sont supposées motiver le changement de comportement en augmentant les bénéfices perçus de l'arrêt.
+                \item \textit{3/ Vérification du processus :} l'étude a suivi l'inscription, la participation aux programmes, et l'adhésion au protocole.
+                \item \textit{4/ Évaluation d'impact :} le cœur de l'étude, mesurant les effets sur les taux d'arrêt.
+            \end{itemize}
+        \item \textbf{Cadre de Rubin (résultats potentiels):}
+            \begin{itemize}
+                \item Chaque individu a deux résultats potentiels : $Y_{i1}$ (s'il reçoit l'incitation) et $Y_{i0}$ (s'il ne la reçoit pas). On n'observe qu'un seul de ces états. L'ERC, par la randomisation, permet d'estimer l'effet moyen du traitement $E[Y_{i1} - Y_{i0}]$.
+            \end{itemize}
+        \item \textbf{Absence d'externalités (hypothèse SUTVA):}
+            \begin{itemize}
+                \item L'étude suppose que l'incitation d'un individu n'affecte pas la probabilité d'arrêt d'un autre (pas d'effets de contagion significatifs entre participants des différents groupes). Cette hypothèse est généralement raisonnable dans ce type de devis individuel.
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\section{Conclusion et implications politiques}
+%------------------------------------------------
+
+\begin{frame}{Principales conclusions}
+    \begin{itemize}
+        \item \textbf{Les incitations financières, lorsqu'elles sont suffisamment importantes et bien structurées, augmentent de manière significative les taux d'arrêt du tabac à court et moyen terme (jusqu'à 18 mois) en milieu de travail}.
+        \item Elles améliorent également la participation et l'achèvement des programmes de sevrage tabagique.
+        \item L'effet semble robuste à travers différents sous-groupes de la population étudiée.
+    \end{itemize}
+    \begin{alertblock}{Un outil prometteur}
+        Les résultats suggèrent que les incitations financières peuvent être un outil efficace pour les employeurs et les décideurs en santé publique cherchant à réduire la prévalence du tabagisme.
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Implications pour les politiques publiques et les employeurs}
+    \begin{itemize}
+        \item \textbf{Pour les employeurs :}
+            \begin{itemize}
+                \item Offrir des incitations financières pour l'arrêt du tabac peut être un investissement rentable, considérant les économies potentielles en termes de coûts de santé et d'augmentation de la productivité (estimée à \$3400 par an par employé qui arrête).
+                \item Cela peut aussi améliorer l'attractivité des programmes de bien-être offerts par l'entreprise.
+            \end{itemize}
+        \item \textbf{Pour les décideurs en santé publique :}
+            \begin{itemize}
+                \item Les incitations financières ciblées sur les patients/individus peuvent être plus efficaces pour changer les comportements de santé que les incitations dirigées uniquement vers les prestataires.
+                \item Elles peuvent être plus saillantes et avoir un impact plus direct sur le comportement que des ajustements de primes d'assurance maladie basés sur le statut tabagique.
+            \end{itemize}
+        \item \textbf{Considérations pour la conception des programmes:}
+            \begin{itemize}
+                \item \textbf{Taille des incitations :} des montants substantiels semblent nécessaires.
+                \item \textbf{Structure des paiements :} des paiements échelonnés, conditionnés à l'atteinte d'objectifs (achèvement de programme, abstinence confirmée à court et long terme) peuvent être plus efficaces.
+                \item \textbf{Durée des incitations :} l'extension au-delà de 12 mois pourrait potentiellement améliorer les taux d'abstinence à plus long terme, mais cela nécessite des recherches supplémentaires.
+            \end{itemize}
+        \item \textbf{Recherches futures nécessaires :}
+            \begin{itemize}
+                \item Études de coût-efficacité plus formelles.
+                \item Évaluation dans des populations plus diversifiées et des contextes différents.
+                \item Impact à très long terme (>18 mois) et stratégies pour prévenir la rechute.
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+%\begin{frame}{Références}
+    %\footnotesize
+    %\begin{thebibliography}{99} % Beamer does not use a .bib file in this setup, so list them directly.
+        %\bibitem{p1} Volpp, K. G., Troxel, A. B., Pauly, M. V., Glick, H. A., Puig, A., Asch, D. A., ... & Audrain-McGovern, J. (2009). A randomized, controlled trial of financial incentives for smoking cessation. \textit{New England Journal of Medicine}, \textit{360}(7), 699-709. (Article principal analysé)
+
+        %\bibitem{p2} Pierre, A. (2025). Méthodes d'évaluation des politiques publiques. Cours IRDES. (Diapositives de cours fournies)
+    %\end{thebibliography}
+    %\textit{Les références complètes aux sources mentionnées dans l'article original ou les diapositives du cours doivent être consultées directement dans ces documents.}
+%\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+    \Huge{\centerline{\textbf{Questions ?}}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,181 @@
+% Basic setup
+\documentclass[10pt,a4paper]{article}
+
+% Importing packages
+\usepackage[french]{babel}
+\usepackage[lmargin=2.5cm,rmargin=2.5cm,tmargin=2cm,bmargin=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{minted}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{longtable,booktabs,array}
+\usepackage[
+  backend=biber,
+  style=apa,  
+]{biblatex}
+
+\definecolor{LightGray}{gray}{0.9}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={maroon},
+  citecolor={blue},
+  urlcolor={blue}}
+
+\providecommand{\tightlist}{
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\addbibresource{assets/bib-template.bib}
+
+\title{Santé et démocratie}
+\makeatletter
+\providecommand{\subtitle}[1]{%
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Les dilemmes du stockage des données médicales à l’ère numérique}
+\author{Olivier CARON}
+\date{Le 3 juin 2025}
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+\renewcommand{\abstractname}{Résumé}
+\begin{abstract}
+
+La transformation numérique du secteur de la santé bouleverse les modalités de production, de circulation et d'utilisation des données médicales. L'essor des technologies de cloud computing et de l'intelligence artificielle ouvre des perspectives inédites pour améliorer la santé publique, développer une médecine personnalisée, et renforcer les politiques de prévention.\\
+
+Mais à cette promesse technologique s'adosse une série de controverses majeures : souveraineté numérique, dépendance technologique à l'égard des géants du numérique étrangers, protection des données personnelles, respect des droits fondamentaux. Le choix d'héberger ces données sensibles sur des clouds extra-européens, en particulier américains, suscite des interrogations juridiques, politiques et éthiques profondes, comme l'illustre le cas emblématique du Health Data Hub français.\\
+
+Dans ce contexte, nous nous proposons d'explorer les frictions entre innovation technologique et exigences démocratiques en matière de santé, et d'identifier les conditions d'une démocratie sanitaire à l'ère du numérique.
+\end{abstract}
+
+\begin{center}
+    \vfill
+    \begin{figure}
+        \centering
+        \begin{subfigure}{.3\textwidth}
+          \centering
+          \includegraphics[width=0.45\linewidth]{./assets/LOGO-PSL-nov-2017.png}
+        \end{subfigure}%
+        \begin{subfigure}{.3\textwidth}
+          \centering
+          \includegraphics[width=.70\linewidth]{./assets/logo_ens_psl_en_png.png}
+        \end{subfigure}%
+        \begin{subfigure}{.3\textwidth}
+          \centering
+          \includegraphics[width=.5\linewidth]{./assets/Logo_INSP.svg.png}
+        \end{subfigure}%
+        \end{figure}
+        \setcounter{figure}{0}
+        
+    Mineure Action Publique - Thématique santé\\
+\end{center}
+\newpage
+\renewcommand*\contentsname{Sommaire}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{5}
+\tableofcontents
+}
+\newpage
+\pagenumbering{arabic}\setstretch{1.5}
+
+\section{Introduction}
+
+La numérisation massive des systèmes de santé, combinée à l'essor de l'intelligence artificielle (IA), bouleverse les paradigmes traditionnels de la santé (\cite{OCDE2021HealthDigitalAgeParis}). Les données de santé sont aujourd’hui au cœur des transformations médicales et institutionnelles, leur exploitation promettant des avancées médicales majeures grâce à des algorithmes d'IA capables de détecter des tendances ou d'assister au diagnostic (\cite{Villani2018DonnerUnSensIA}). Cependant, confier l'hébergement et le traitement de ces données sensibles à des clouds étrangers soulève de vives inquiétudes en matière de souveraineté numérique et de protection des droits des patients.
+
+Ces tensions se sont formées en France autour du Health Data Hub (HDH), plateforme nationale créée en 2019 pour rassembler les principales bases de données médico-administratives (\cite{zins2021donnees}). Le choix controversé de Microsoft Azure comme hébergeur a révélé les contradictions entre l'impératif d'innovation technologique et la préservation de la souveraineté démocratique.
+
+Dès lors, une question centrale émerge : comment garantir la confiance citoyenne dans les systèmes de santé numériques, alors même que leurs infrastructures reposent parfois sur des technologies étrangères susceptibles d’échapper au contrôle démocratique  ? 
+
+C’est ce dilemme entre promesse d’innovation et exigence de souveraineté que nous explorerons à travers trois axes d’analyse : d'abord les enjeux géopolitiques liés aux données de santé, ensuite les conflits entre innovation technologique et gouvernance démocratique, enfin les pistes envisageables pour construire une démocratie sanitaire à l’ère du numérique.
+
+\section{Données de santé et souveraineté : un enjeu géopolitique}
+
+\subsection{La course mondiale aux données de santé}
+
+Sur la scène mondiale, l’accès aux données de santé est devenu un levier stratégique d’influence scientifique, économique et géopolitique, propulsant une course à l'innovation entre nations et entreprises technologiques. L'IA appliquée à la santé requiert d'immenses volumes de données pour entraîner ses algorithmes, donnant un avantage compétitif aux États-Unis et à la Chine grâce à leurs géants du numérique (\cite{Floridi2018AI4PeopleComplete}).
+
+Pour le CCNE et le CNPEN~(\citeyear{CCNECNPEN2023}), les données de santé ne sont pas des biens marchands mais des attributs des personnes et elles ne peuvent faire l’objet d’un commerce à moins d’être anonymisées, sachant qu’actuellement, aucun procédé d’anonymisation n’est certifié. Cette affirmation rappelle l’importance de considérer les données de santé comme relevant des droits fondamentaux, et non comme des ressources exploitables selon une logique marchande. Pourtant, une économie des données de santé émerge : de nombreuses entreprises développent des modèles commerciaux fondés sur la valorisation de données pseudonymisées. Ces usages brouillent la frontière entre service public et intérêt privé, et posent la question du partage de la valeur générée à partir de ressources publiques.
+
+Le marché des infrastructures cloud est largement dominé par des fournisseurs américains (GAFAM), créant une dépendance technologique problématique. Le recours à des clouds extraterritoriaux expose les données sensibles à des lois étrangères comme le Cloud Act américain, compromettant la souveraineté numérique \parencite{douzet2020cyberespace}.
+
+\subsection{Le cas français : entre innovation et souveraineté}
+
+En France, cette tension s'est incarnée dans la controverse du HDH (\cite{Piquard2019}). Malgré ses intentions louables de faciliter l'accès des chercheurs aux données massives, le HDH a été rapidement au cœur d'une polémique liée à son hébergement par Microsoft Azure, choisi sans appel d'offres classique en 2019-2020. Ce choix a suscité l'opposition d'associations, syndicats et collectifs citoyens qui y ont vu une contradiction avec l'objectif de souveraineté numérique \parencite{LDH2025NonTransfertMicrosoft}.
+
+La CNIL a souligné que les États-Unis n'offraient pas de protection adéquate au sens du RGPD et que le simple fait qu'un prestataire soit soumis au droit US constituait un risque. Cette affaire a mis en lumière le fossé entre les ambitions affichées de souveraineté numérique et les choix techniques réellement opérés. Dans une ordonnance du 13 octobre 2020, le Conseil d’État a reconnu les risques juridiques liés à l’hébergement extraterritorial des données du HDH. Sans suspendre la plateforme, il a demandé que des garanties contractuelles supplémentaires soient apportées pour réduire ce risque. La CNIL a été chargée de vérifier la nécessité du recours à la plateforme pour chaque projet de recherche. Le gouvernement a exprimé son intention de migrer, à terme, vers une infrastructure européenne ou française, mais aucune obligation juridique de migration ni échéance précise n’a été imposée par le Conseil d’État \parencite{CNIL2020HDH}.
+
+\section{Innovation et souveraineté : un défi pour la gouvernance démocratique}
+
+\subsection{L'impératif d'innovation face aux exigences citoyennes}
+
+Les potentialités de l'IA et du Big Data créent une forte pression à l'innovation. Pour les gouvernements, ne pas exploiter ces outils représenterait un risque de retard médical ou économique. L'innovation technologique est perçue comme un moyen d'améliorer l'efficacité des soins, d'accélérer la recherche biomédicale et de personnaliser la prise en charge des patients. Face au vieillissement de la population et à l'augmentation des maladies chroniques, exploiter les données massives apparaît comme une voie prometteuse pour soutenir la soutenabilité des systèmes de santé. Cependant, la souveraineté numérique s'impose comme une condition non négociable pour l'acceptation sociale de l'innovation. La santé est un domaine intimement lié aux droits fondamentaux : droits des malades, consentement, confidentialité. Si les citoyens ont le sentiment que leurs données échappent à tout contrôle national et peuvent être exploitées par des entités étrangères, la confiance dans le système de santé numérique risque d'être compromise. Comme le rappellent Branellec et Hadoussa (\citeyear{branellec2020intelligence}), le déploiement de l’IA en santé impose de repenser des notions essentielles comme la responsabilité médicale et le consentement, et nécessite un encadrement garantissant transparence et supervision humaine. Face à ces tensions, comment repenser la gouvernance pour concilier ces impératifs apparemment contradictoires ?
+
+
+\subsection{Vers une gouvernance démocratique des données}
+
+La gouvernance démocratique des données de santé renvoie à une gestion inclusive, transparente et responsable, orientée par l'intérêt général. Elle nécessite d'intégrer dans les processus décisionnels des représentants de la société : patients, associations d'usagers, professionnels de santé, citoyens.
+
+En pratique, cette gouvernance démocratique signifie que les structures chargées de gérer et d'exploiter les données de santé devraient intégrer des représentants de la société civile apportant une vigilance sur les finalités poursuivies (éviter des usages purement commerciaux ou discriminatoires) et sur les conditions de mise en œuvre (sécurité, anonymisation, consentement éclairé). Enfin, une gouvernance démocratique doit inclure les professionnels de santé eux-mêmes. Ces acteurs, en contact direct avec les patients, sont à la fois producteurs et utilisateurs des données. Leur participation permettrait d’évaluer les impacts concrets des politiques numériques sur les pratiques médicales, de prévenir les risques de déshumanisation et d’anticiper les besoins techniques ou organisationnels. Leur voix est essentielle pour garantir la pertinence clinique et éthique des usages.
+
+\subsection{Les leçons de la crise HDH}
+
+L’affaire du HDH a constitué un révélateur des failles structurelles de la gouvernance numérique en santé : oppositions entre dépendance technologique et ambition démocratique, entre sécurité juridique et impératifs techniques, entre efficacité et légitimité démocratique. Une situation similaire a été observée à l’échelle mondiale lors du déploiement des applications de traçage numérique pendant la pandémie de Covid-19. Comme l’a montré Tamar Sharon (\citeyear{sharon2021blind}), les géants du numérique ont défini unilatéralement les standards techniques \parencite{bar2014consumer} en matière de santé publique, marginalisant les processus délibératifs nationaux et européens.
+
+La réaction des institutions a d’abord semblé aller dans le sens de la vigilance : la CNIL a exprimé de fortes réserves, et le Conseil d’État a exigé une migration vers une solution souveraine. Pourtant, en novembre 2024, ce même Conseil d’État a définitivement validé l’hébergement sur Microsoft Azure pour trois ans, en considérant que les données transférables aux États-Unis ne seraient que techniques et que la pseudonymisation\footnote{Définie à l’article 4, point 5 du RGPD comme un traitement de données ne permettant plus l’attribution à une personne sans informations supplémentaires conservées séparément. Source : \url{https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre1}} atténuait le risque d’atteinte à la vie privée (\cite{Devillers2024}). La CNIL, quant à elle, a autorisé la création d’un nouvel entrepôt de données de santé sur le cloud de Microsoft, tout en reconnaissant que ce choix "[expose] à un risque de communication à des puissances étrangères" (\cite{cnil2023-146}) et en regrettant l’absence de prestataires européens à la hauteur. Ce paradoxe illustre une forme d’impasse : les régulateurs reconnaissent la vulnérabilité systémique, mais avalisent tout de même les solutions dominantes, faute d’alternatives crédibles.
+
+
+Ainsi, la crise du HDH ne se limite pas à un mauvais choix technique. Elle révèle une défaillance plus profonde : celle d’un État encore largement structuré par une culture jacobine centralisatrice, agissant sous contrainte, entre urgence, dépendance technologique et fragilité démocratique \parencite{naiditch2024democratie}. Cette conception verticale du pouvoir limite les marges de manœuvre pour une gouvernance partagée avec les acteurs de la société civile, pourtant essentiels dans le champ de la santé. À cela s’ajoute un manque persistant de culture numérique dans l'appareil d'État, qui peut nuire à la qualité des décisions. Le CESE en a d'ailleurs formulé une préconisation (9ème) explicite de formation dans son avis \parencite{duboc2021economie}.
+
+En mai 2025, la migration du HDH vers une solution souveraine n’est toujours pas engagée \parencite{Flechaux2025MigrationHDH}. Auditionnée au Sénat, sa directrice a reconnu que l’infrastructure reste hébergée sur Azure. Ce retard, malgré les engagements répétés, alimente les critiques sur l’inertie de l’appareil d’État et l’inadéquation entre la complexité technique des projets numériques et les compétences des décideurs publics.
+
+
+\section{Pistes pour une démocratie sanitaire numérique}
+
+\subsection{Participation citoyenne et transparence}
+
+La première piste consiste à placer les citoyens au cœur de la gouvernance des données de santé. Cette participation active s’inscrit dans la continuité de la loi de 2002 sur les droits des malades\footnote{Loi n° 2002-303 du 4 mars 2002 relative aux droits des malades et à la qualité du système de santé, dite "loi Kouchner", disponible sur \href{https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000227015/}{Légifrance}.}, tout en répondant aux enjeux nouveaux liés au numérique. Concrètement, cela implique d'associer systématiquement des représentants des patients et de la société civile aux instances de décision et de suivi des plateformes de données. Les comités éthiques et scientifiques chargés de superviser l’accès et l’usage des bases de données de santé devraient inclure des usagers du système de santé disposant d’une voix délibérative. Des mécanismes de concertation préalable pourraient être institués pour les choix structurants : débats publics, consultations en ligne, conférences de citoyens pour les décisions comme le choix d'un hébergeur ou l'ouverture d'une nouvelle base de données.
+
+Cette participation garantit que les finalités poursuivies par l'innovation restent centrées sur l'intérêt général et les besoins réels des patients \parencite{RenaissanceNumerique2021HealthData}. La transparence doit également être accrue : publication des contrats de cloud, des évaluations d'impact sur la vie privée, explication claire aux citoyens des projets utilisant leurs données. Une transparence renforcée, combinée à des canaux de participation, permettra de "redonner vie à la démocratie sanitaire dans le contexte des données de santé".
+
+\subsection{Infrastructures souveraines et coopérations européennes}
+
+Le développement d'infrastructures de cloud souverain apparaît crucial pour réduire la dépendance technologique. La France dispose désormais de plusieurs hébergeurs certifiés (OVHcloud, Scaleway) soumis uniquement au droit français/européen. L'initiative \textit{Cloud de confiance}, lancée en 2021, vise à proposer des services cloud alliant performance et conformité aux exigences de l'ANSSI (SecNumCloud)\footnote{Le référentiel SecNumCloud de l'ANSSI garantit un haut niveau de sécurité technique, opérationnelle et juridique, en particulier contre l’ingérence du droit extra-européen. Source : \url{https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud}.} pour accueillir des données sensibles \parencite{ANSSI2022}.
+
+
+À l'échelon européen, le projet \textit{Gaia-X} fédère des acteurs publics et privés pour bâtir un écosystème cloud interopérable, sécurisé et respectueux des normes de l'UE. La proposition de Règlement sur l'Espace Européen des Données de Santé prévoit que les États membres mettent en place des plateformes nationales interconnectées, hébergées localement, permettant un partage transfrontalier encadré.
+
+Le HDH s'inscrit désormais dans cette démarche, ayant annoncé la constitution d'un consortium français pour développer une alternative cloud européenne. En mutualisant les efforts, l'Europe peut créer une alternative crédible aux clouds extra-européens, offrant aux chercheurs et innovateurs les infrastructures nécessaires sans compromis sur la souveraineté.
+
+Cette orientation rejoint celle définie par la Commission européenne qui appelle à renforcer la maîtrise des technologies critiques, en particulier dans des secteurs sensibles comme la santé. L’objectif affiché est de garantir à la fois l’excellence technologique et la confiance des citoyens dans les usages de l’IA \parencite{european2020white}.
+
+\subsection{Cadre juridique et régulation adaptés}
+
+L'expérience du HDH souligne l'importance d'un cadre juridique robuste et évolutif. Le RGPD européen fournit une base solide, mais son application aux données de santé nécessite des garanties supplémentaires, en particulier pour les transferts internationaux. L'arrêt dit "Schrems II"\footnote{CJUE, 16 juillet 2020, Affaire C-311/18. La Cour de justice de l’Union européenne a invalidé le Privacy Shield qui permettait le transfert de données personnelles entre l’UE et les États-Unis, en raison d’un niveau de protection jugé insuffisant. Voir la présentation officielle par la CNIL : \url{https://www.cnil.fr/fr/presentation-de-larret-schrems-ii-de-la-cjue}.}, en invalidant le cadre juridique transatlantique antérieur, a révélé la fragilité de ces mécanismes et la nécessité de solutions plus strictement alignées sur les exigences européennes.
+
+
+La France doit développer une approche réglementaire qui concilie innovation et protection, en s'appuyant sur des autorités indépendantes renforcées. La CNIL joue un rôle crucial de vigilance, mais ses moyens et ses prérogatives pourraient être étendus pour accompagner proactivement les projets d'innovation tout en garantissant le respect des droits. Par ailleurs, la certification des hébergeurs (label HDS) et les audits réguliers constituent des outils essentiels pour maintenir la confiance. L'émergence de labels européens de cloud de confiance pourrait offrir une alternative crédible aux solutions extra-européennes, à condition que ces labels garantissent une réelle indépendance vis-à-vis des intérêts étrangers.
+
+Comme le souligne Floridi (\citeyear{floridi2018soft}), la gouvernance du numérique ne peut se limiter à la seule conformité juridique. Elle doit aussi intégrer une éthique proactive dite "\textit{soft ethics}" qui oriente les choix technologiques en amont, même en l’absence d’obligations légales explicites. Dans une société numérique mature, c’est cette capacité à anticiper les impacts et à guider l’innovation selon des valeurs partagées qui permet d’assurer une véritable souveraineté démocratique.
+
+\section*{Conclusion}
+
+Le stockage des données de santé sur des clouds étrangers illustre un dilemme : comment profiter de l’innovation sans sacrifier la souveraineté ni les valeurs démocratiques ? Cette question est d’autant plus complexe que la France est liée aux décisions européennes. L'analyse du cas français montre qu'aucune innovation pérenne ne peut se construire sans la confiance des citoyens et sans un ancrage juridique robuste. Face aux dilemmes posés par le progrès médical et protection des données, la démocratie sanitaire \parencite{lefeuvre2018democratie} offre un cadre pour réconcilier innovation technologique et respect des droits fondamentaux.
+De nouvelles voies s'ouvrent : participation citoyenne accrue, développement d'alternatives souveraines, évaluation continue de la gouvernance. Pour éviter que l'essor de l'IA en santé ne se fasse au prix d'un déficit démocratique, la France a l'opportunité de montrer qu'il est possible d'allier excellence technologique et souveraineté démocratique, à condition d'investir dans le dialogue et les infrastructures nationales.
+
+\newpage{}
+
+%\nocite{*}
+\printbibliography[
+heading=bibintoc,
+title={Références}
+]
+
+\end{document}
