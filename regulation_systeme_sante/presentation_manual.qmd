@@ -366,7 +366,7 @@ Cette forme d’influence indirecte, mais systémique, montre que le conflit d�
 
 -   Les différences de régulation s’expliquent aussi par des **facteurs institutionnels profonds** et des **trajectoires historiques singulières** :
 
-    -   **En France**, héritière d’un **État centralisé et juridico-administratif**, la régulation s’inscrit dans une tradition de gouvernement par la haute fonction publique. La **noblesse d’État** (selon l’expression de Pierre Bourdieu ou la notion de "société de cour" d’Edward N. Eisenstadt) structure un pouvoir **technocratique** qui confère à la régulation une **dimension légitime, experte et étatique**. Cela favorise l’émergence d’agences publiques puissantes comme l’ANSM ou la HAS.
+    -   **En France**, héritière d’un **État centralisé et juridico-administratif**, la régulation s’inscrit dans une tradition de gouvernement par la haute fonction publique. La **noblesse d’État** (selon l’expression de Pierre Bourdieu ou la notion de "société de cour" de Norbert Elias) structure un pouvoir **technocratique** qui confère à la régulation une **dimension légitime, experte et étatique**. Cela favorise l’émergence d’agences publiques puissantes comme l’ANSM ou la HAS.
 
     -   **Aux États-Unis**, la logique dominante est celle du **marché et de la responsabilité individuelle**. Le pouvoir de l’État fédéral est limité, mais la tradition de **transparence institutionnelle** est forte (Freedom of Information Act, déclassification des archives, transparence des salaires publics…). Cette culture du "Sunshine Government" facilite l’acceptabilité sociale de dispositifs comme **Open Payments**, même si l'interdiction formelle reste politiquement difficile.[@fung2007; @schudson2015]
 
