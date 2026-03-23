@@ -1,0 +1,115 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[french]{babel}
+\usepackage[lmargin=2.5cm,rmargin=2.5cm,tmargin=2cm,bmargin=2cm]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{newtxtext,newtxmath}
+\else
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+\fi
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{longtable,booktabs,array}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage[
+  backend=biber,
+  style=apa,
+]{biblatex}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={maroon},
+  citecolor={blue},
+  urlcolor={blue}
+}
+
+\titlespacing*{\section}{0pt}{0.6\baselineskip}{0.35\baselineskip}
+
+\addbibresource{bibliographie.bib}
+
+\title{Sociologie de l'action publique}
+\makeatletter
+\providecommand{\subtitle}[1]{%
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Note de lecture individuelle}
+\author{Olivier CARON}
+\date{10 mars 2026}
+
+\begin{document}
+\setstretch{1}
+
+\begin{center}
+\begin{minipage}{.3\textwidth}
+\centering
+\includegraphics[width=0.40\linewidth]{./assets/LOGO-PSL-nov-2017.png}
+\end{minipage}%
+\begin{minipage}{.3\textwidth}
+\centering
+\includegraphics[width=.62\linewidth]{./assets/logo_ens_psl_en_png.png}
+\end{minipage}%
+\begin{minipage}{.3\textwidth}
+\centering
+\includegraphics[width=.44\linewidth]{./assets/Logo_INSP.svg.png}
+\end{minipage}
+\end{center}
+
+\vspace{0.45cm}
+
+\begin{center}
+{\Large Sociologie de l'action publique\par}
+\vspace{0.1cm}
+{\large Note de lecture individuelle\par}
+\vspace{0.08cm}
+{\normalsize Mineure Action Publique\par}
+\vspace{0.55cm}
+{\large Olivier CARON\par}
+\vspace{0.35cm}
+{11 mars 2026\par}
+\vspace{0.55cm}
+\end{center}
+
+\section*{Article de recherche choisi}
+\noindent Violette Larrieu, \emph{``La mise en \oe uvre des pr\'eceptes du New Public Management dans les soutiens des arm\'ees fran\c caises : \'echec ou r\'eussite ?''}, \emph{Les Champs de Mars}, 2018/1, no 30 + Suppl\'ement, p. 67-75.
+
+\vspace{0.15cm}
+\noindent{\color{black!45}\rule{0.28\textwidth}{0.35pt}}
+\vspace{0.15cm}
+
+En s'emparant d'un objet a priori technique, la r\'eforme des services de soutien des arm\'ees fran\c caises, l'article de Violette Larrieu propose une analyse particuli\`erement stimulante des transformations contemporaines de l'action publique. L'autrice y \'etudie l'abandon des projets d'externalisation de la restauration et de l'habillement, puis leur remplacement par la ``r\'egie rationalis\'ee optimis\'ee'' (RRO). L'int\'er\^et du texte ne tient pas seulement au r\'ecit d'une r\'eforme militaire, mais au fait qu'il montre comment un instrument en remplace un autre. Vu sous cet angle, il ne s'agit pas d'abandonner la rationalisation, mais de la r\'eadapter : les objectifs du New Public Management restent les m\^emes, mais les moyens changent pour \^etre plus acceptables politiquement et socialement \parencite{Larrieu2018NPMSoutiensArmees}.
+
+\textcite{Larrieu2018NPMSoutiensArmees} pr\'esente d'abord l'externalisation comme un instrument de rupture, directement associ\'e aux logiques du New Public Management et \`a la R\'evision g\'en\'erale des politiques publiques (RGPP). Il s'agit d'introduire dans un secteur r\'egalien une rationalit\'e manag\'eriale inspir\'ee du priv\'e, au nom de la performance, de la r\'eduction des co\^uts et du recentrage sur le ``c\oe ur de m\'etier''. L'article montre cependant que cet instrument est tout sauf neutre. Son abandon partiel s'explique par des blocages de trois ordres. Les premiers sont sociaux : les syndicats de personnels civils voient dans l'externalisation une menace pour l'emploi et d\'enoncent un dialogue social largement formel. Les seconds sont techniques et gestionnaires : le minist\`ere ne dispose pas d'outils stables pour calculer ses propres co\^uts, ce qui fragilise la comparaison avec les prestataires externes et rend l'\'evaluation de la r\'eforme incertaine. Les derniers sont op\'erationnels et r\'egaliens : une partie des acteurs militaires craint une perte irr\'eversible de savoir-faire jug\'es strat\'egiques et, \`a terme, une d\'ependance accrue \`a l'\'egard du priv\'e. L'externalisation appara\^it ainsi comme un choix politique conflictuel, et non comme une simple technique de gestion.
+
+Le rapport s\'enatorial de 2012 sur les bases de d\'efense \parencite{RogerDulait2012BasesDefense} permet de mieux saisir la duret\'e du contexte dans lequel se d\'eploient ces arbitrages. Ce rapport d\'ecrit un v\'eritable ``bouleversement culturel'', particuli\`erement sensible dans l'arm\'ee de terre, o\`u la mutualisation des soutiens remet en cause un mod\`ele r\'egimentaire fond\'e sur la pl\'enitude du commandement. La r\'eforme impose en effet une organisation matricielle \`a un univers historiquement hi\'erarchique, ce qui transforme la figure du chef local : le commandant de base devient un int\'egrateur de soutiens qui doit obtenir par la coordination et la persuasion ce qu'il ne d\'etient plus directement par l'autorit\'e. Le m\^eme rapport insiste aussi sur une ``impasse budg\'etaire'' structurelle, qui oblige les acteurs \`a g\'erer la p\'enurie tout en absorbant une r\'eforme pr\'esent\'ee comme modernisatrice. Pour reprendre la distinction de \textcite{Jakubowski2011InstitutionMilitaire}, la r\'eforme d\'estabilise l'institution, car elle lui impose une logique de gestion qui finit par modifier concr\`etement le sens et les objectifs de l'activit\'e militaire.
+
+La force de l'article est alors de montrer que l'abandon de l'externalisation n'inaugure pas un retour en arri\`ere, mais une reconfiguration de la r\'eforme \`a travers la RRO. D\'efinie comme une ``optimisation approfondie des processus internes de r\'ealisation en r\'egie'', la RRO ne correspond donc pas \`a un simple maintien du statu quo, mais \`a une r\'eorganisation serr\'ee du soutien en interne, d'abord exp\'eriment\'ee sur cinq sites et 298 agents avant d'\^etre \'etendue \parencite[p.~8]{Larrieu2018NPMSoutiensArmees}. Ce nouvel instrument fonctionne comme un compromis : il maintient l'activit\'e en r\'egie pour d\'esamorcer une partie des oppositions, tout en internalisant des m\'ethodes d'optimisation issues du \emph{lean management}. La RRO rel\`eve ainsi d'un ``mim\'etisme marchand'' dans sa dimension interne, au sens o\`u \textcite{Larrieu2024DefenseNPM} d\'esigne l'importation en r\'egie de m\'ethodes manag\'eriales priv\'ees pour internaliser la rationalisation. C'est l\`a tout l'int\'er\^et d'une lecture par les instruments. En s'appuyant sur \textcite{LascoumesLeGales2004GouvernerParLesInstruments} et \textcite{Bezes2009ReinventerEtat}, Larrieu montre que les outils changent plus vite que les objectifs. La RRO appara\^it alors comme une solution hybride : moins co\^uteuse politiquement que l'externalisation, mais orient\'ee vers les m\^emes objectifs de ma\^\i trise des co\^uts et des effectifs.
+
+Cette d\'emonstration est soutenue par une enqu\^ete qualitative solide. Issue d'un terrain doctoral men\'e en 2016, elle repose sur plus de 90 entretiens semi-directifs conduits \`a Paris et en province avec la plupart des acteurs impliqu\'es dans ces d\'ecisions, auxquels s'ajoutent la litt\'erature existante et la litt\'erature grise \parencite{Larrieu2018NPMSoutiensArmees}. Cette m\'ethode convient bien au sujet, car elle permet de voir de pr\`es les conflits entre acteurs, les arbitrages administratifs et les compromis qui accompagnent la r\'eforme dans un secteur peu accessible. Elle montre aussi ce qu'une simple lecture des documents ferait moins bien ressortir : le d\'eplacement de la conflictualit\'e entre instruments, les reformulations successives de la r\'eforme et la mani\`ere dont un compromis gestionnaire finit par prendre corps dans les pratiques. L'un des apports du texte est d'ailleurs de d\'eplacer le regard vers les soutiens militaires, souvent laiss\'es \`a l'arri\`ere-plan des recherches sur la d\'efense, pour en faire un laboratoire des rationalisations contemporaines de l'\'Etat. En ce sens, l'article s'inscrit pleinement dans la sociologie de l'action publique telle qu'elle est pr\'esent\'ee dans le cours : il ne s'arr\^ete ni aux intentions officielles ni aux seuls r\'esultats, mais suit les instruments, les acteurs et les tensions qui donnent une forme concr\`ete \`a l'action de l'\'Etat.
+
+L'analyse de la RRO comme forme de rationalisation pragmatique est convaincante, mais elle ouvre aussi d'autres questions. En se concentrant surtout sur les arbitrages politico-administratifs, l'article dit moins ce que cette rationalisation plus discr\`ete produit \`a long terme. Que devient ce compromis une fois pass\'ees les premi\`eres controverses ? Que produit-il sur les conditions de travail, sur les cultures professionnelles et sur la relation entre centre et terrain ? Le rapport de la Cour des comptes de 2023 \parencite{CourDesComptes2023SCA} prolonge ce point. Ce rapport montre d'abord que les tensions rep\'er\'ees par Larrieu ne se sont pas \'eteintes, mais reconfigur\'ees. Le SCA y appara\^it comme un service charg\'e d'assurer la performance du soutien sans disposer pleinement des leviers d\'ecisifs en mati\`ere de ressources humaines, d'infrastructures ou de syst\`emes d'information. Autrement dit, la rationalisation n'a pas seulement d\'eplac\'e la conflictualit\'e ; elle a aussi install\'e une d\'ependance structurelle qui limite les marges d'action locales.
+
+L\`a o\`u l'article s'arr\^ete au d\'eplacement d'un instrument vers un autre, le S\'enat, le HCECM et la Cour des comptes montrent que cette rationalisation se mat\'erialise durablement dans les bases de d\'efense, au prix d'un ``choc culturel'', d'une perte de proximit\'e et d'un \'ecart persistant entre qualit\'e mesur\'ee et ressenti des soutenus \parencites[pp.~61,~69]{RogerDulait2012BasesDefense}[pp.~63--64]{HCECM2014AdministrationMilitaires}[p.~19]{CourDesComptes2023SCA}. La Cour des comptes montre aussi que l'externalisation reste pens\'ee comme un levier de modernisation, mais qu'elle ne peut \^etre pouss\'ee sans risque si elle affaiblit les comp\'etences internes indispensables au contrat op\'erationnel. D\`es lors, la RRO n'appara\^\i t plus seulement comme une solution de sortie de crise ; elle peut aussi \^etre lue comme une \'etape provisoire dans une trajectoire plus longue, faite d'ajustements, de retours en arri\`ere partiels et de corrections successives. C'est peut-\^etre le principal apport de l'article : \`a partir d'un cas militaire tr\`es sp\'ecifique, il montre qu'une politique publique change moins par de grandes ruptures annonc\'ees que par des ajustements successifs des instruments, au fil des r\'esistances rencontr\'ees.
+
+On touche ici \`a un point que Larrieu aborde de fa\c con indirecte : la r\'eforme des soutiens change non seulement la r\'epartition du travail, mais aussi ce qui fait un ``bon'' soutien aux yeux de l'institution. Avant, il fallait surtout garantir que les moyens soient disponibles tout de suite. Aujourd'hui, il faut aussi savoir justifier ses co\^uts, uniformiser ses m\'ethodes et prouver son efficacit\'e. Pourtant, les rapports du S\'enat et de la Cour \parencite{RogerDulait2012BasesDefense,CourDesComptes2023SCA} montrent que cette logique purement gestionnaire a du mal \`a s'imposer. Sur le terrain, on attend toujours de la proximit\'e. Les unit\'es tiennent \`a leur autonomie et les militaires restent convaincus que certaines comp\'etences ne peuvent pas \^etre externalis\'ees ou trop regroup\'ees sans danger. L'int\'er\^et de l'article est justement de montrer ces tensions entre diff\'erentes visions du soutien, l\`a o\`u un simple rapport administratif n'aurait vu qu'une r\'eorganisation classique.
+
+\section*{R\'ef\'erences}
+\small
+\printbibliography[heading=none]
+
+\section*{Utilisation de l'IA}
+\normalsize
+J'ai utilis\'e l'IA g\'en\'erative pour corriger l'orthographe et ajuster certaines de mes formulations, g\'erer la mise en page \LaTeX{} et la bibliographie, tout en harmonisant la typographie de mon rendu. Elle m'a aussi fait gagner du temps en rep\'erant des passages utiles dans les rapports que j'avais s\'electionn\'es (S\'enat, Cour des comptes, HCECM) et en m'aidant \`a v\'erifier l'emploi de quelques concepts de sociologie.
+
+\end{document}
