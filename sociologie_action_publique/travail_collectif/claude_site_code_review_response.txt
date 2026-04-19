@@ -1,0 +1,134 @@
+The fix is to change line 106-107 in `build_site.py`:
+
+```python
+# Before (wrong):
+"lobjectivation-sans-imputation-...": "imputation",
+"gouverner-par-linformation-et-la-vigilance-...": "instruments",
+
+# After (correct):
+"l-objectivation-sans-imputation-...": "imputation",
+"gouverner-par-l-information-et-la-vigilance-...": "instruments",
+```
+
+Then re-run `build_site.py` to regenerate `data.json`.
+
+---
+
+## 2. Source list highlight is stale after filtering
+
+`app.js:215-223` — `render()` calls `renderSourceList` (which applies `.is-selected`) **before** `syncSelection` (which may change `selectedKey`). When the current selection is filtered out, the source list renders with no highlighted card, then `syncSelection` picks a new key, but the list is never re-rendered.
+
+**Fix** — swap the call order:
+
+```js
+function render() {
+  syncActiveControls();
+  const filtered = getFilteredEntries();
+  renderResultsCount(filtered.length);
+  renderChapterSummary();
+  syncSelection(filtered);      // ← move before renderSourceList
+  renderSourceList(filtered);
+  renderDetail();
+}
+```
+
+---
+
+## 3. `classify_category` has an unreachable branch
+
+`build_site.py:326-329`:
+
+```python
+if key.startswith(INSTITUTIONAL_PREFIXES) or entry_type in {"report", "online", "misc"}:
+    return "source-institutionnelle"
+if not used_chapters and entry_type in {"report", "online"}:  # ← dead code
+    return "source-institutionnelle"
+```
+
+The second condition can never trigger because any `"report"` or `"online"` type already matched the first condition. This means **all** reports are classified as institutional, even research reports about air intérieur (e.g. Brisepierre 2022, Crespin et al. 2013).
+
+**Fix** — if the intent is "only classify *uncited* reports as institutional", restructure the conditions:
+
+```python
+def classify_category(key: str, entry_type: str, used_chapters: list[str]) -> str:
+    if key in THEORY_KEYS:
+        return "theorie"
+    if key.startswith(INSTITUTIONAL_PREFIXES):
+        return "source-institutionnelle"
+    if entry_type in {"report", "online", "misc"} and not used_chapters:
+        return "source-institutionnelle"
+    return "air-interieur"
+```
+
+If all reports should genuinely be institutional regardless, just remove the dead branch.
+
+---
+
+## 4. `marked.parse()` renders unsanitized HTML into the page
+
+`app.js:360`:
+
+```js
+els.detailSynthesis.innerHTML = window.marked.parse(entry.synthesis_md || "");
+```
+
+By default, `marked` passes through raw HTML in Markdown. The synthesis markdown is extracted from a shared file that could contain `<script>` or other HTML. While the data is self-authored today, this is the one `innerHTML` assignment that bypasses your `escapeHtml` discipline.
+
+**Fix** — configure marked to escape HTML at init time:
+
+```js
+async function init() {
+  const response = await fetch("data.json");
+  state.data = await response.json();
+  marked.setOptions({ breaks: true });     // optional: treat newlines as <br>
+  marked.use({ renderer: new marked.Renderer() });
+  // no extra config needed — just don't set `sanitize: false` explicitly
+  // But to be safe, override the html token:
+  ...
+}
+```
+
+Simplest robust fix — add one line after the `marked` script loads or at the top of `init()`:
+
+```js
+marked.setOptions({ breaks: false });
+marked.use({
+  extensions: [{
+    name: 'html',
+    level: 'block',
+    tokenizer(src) { return undefined; }  // ignore raw HTML blocks
+  }]
+});
+```
+
+Or just strip HTML tags from `synthesis_md` before parsing. For a student project, this is low-severity but worth the one-liner.
+
+---
+
+## 5. `base_de_lecture` leaks local filesystem paths in the public site
+
+In `data.json`, many entries have values like:
+
+```
+"base_de_lecture": "guide intégral lu à partir du PDF Zotero (`/mnt/c/Users/Olivier/Zotero/storage/XAMM34UZ/...`)"
+```
+
+This is displayed verbatim in the detail pane. It exposes the local username, directory structure, and Zotero storage IDs on the public site.
+
+**Fix** — strip local paths in `build_entry` before writing to JSON:
+
+```python
+import re
+
+def clean_base_de_lecture(value: str) -> str:
+    return re.sub(r"`?/mnt/c/Users/[^`)\s]+`?", "[fichier local]", value)
+```
+
+Then in `build_entry`:
+```python
+"base_de_lecture": clean_base_de_lecture(synth_entry.get("base_de_lecture", "")) if synth_entry else "",
+```
+
+---
+
+**Summary**: Issue 1 is the most impactful — two theme filters are silently broken. Issue 2 is a visible UI glitch. Issues 3-5 are correctness/hygiene. The rest of the implementation (bib parsing, filter logic, escaping, CSS layout, responsive breakpoints) is well done for a student project.

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Air intérieur — Corpus et argument</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── Header ─── -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__top">
+        <div>
+          <p class="header__eyebrow">Sociologie de l'action publique — corpus de travail</p>
+          <h1 class="header__title" id="site-title">Corpus air intérieur</h1>
+        </div>
+        <div class="header__stats">
+          <div class="stat">
+            <span class="stat__value" id="meta-entry-count">0</span>
+            <span class="stat__label">références</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="meta-fulltext-count">0</span>
+            <span class="stat__label">texte intégral</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="meta-pdf-count">0</span>
+            <span class="stat__label">documents</span>
+          </div>
+        </div>
+      </div>
+      <p class="header__abstract" id="site-abstract"></p>
+      <div class="header__actions">
+        <a class="btn btn--primary" id="note-download" href="#" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Télécharger la note collective
+        </a>
+        <a class="btn btn--ghost" href="#workspace">Explorer les sources</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── Workspace ─── -->
+  <main id="workspace" class="workspace">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__inner">
+
+        <section class="panel">
+          <div class="panel__header">
+            <h2 class="panel__title">Argument</h2>
+          </div>
+          <nav id="chapter-nav" class="chapter-nav"></nav>
+        </section>
+
+        <section class="panel">
+          <div class="panel__header">
+            <h2 class="panel__title">Filtres</h2>
+            <button id="reset-filters" class="btn-text" type="button">Réinitialiser</button>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="search-input">Recherche</label>
+            <div class="field__input-wrap">
+              <svg class="field__icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input id="search-input" type="search" placeholder="Auteur, titre, clé, mot-clé…">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="author-select">Auteur</label>
+            <select id="author-select">
+              <option value="">Tous les auteurs</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <span class="field__label">Catégorie</span>
+            <div id="category-filters" class="chips"></div>
+          </div>
+
+          <div class="field">
+            <span class="field__label">Thèmes</span>
+            <div id="theme-filters" class="chips"></div>
+          </div>
+
+          <div class="field">
+            <span class="field__label">Type</span>
+            <div id="type-filters" class="chips"></div>
+          </div>
+
+          <!-- Filtre Accès retiré : toutes les entrées sont FULLTEXT ou FULLTEXT-CIBLE -->
+          <div id="status-filters" class="chips" style="display:none"></div>
+        </section>
+      </div>
+    </aside>
+
+    <!-- Source list -->
+    <section class="list-pane">
+      <div class="list-header">
+        <h2 class="list-header__title">Sources</h2>
+        <span class="list-header__count" id="results-count">0 sources</span>
+      </div>
+      <div id="chapter-summary" class="chapter-summary is-hidden"></div>
+      <div id="source-list" class="source-list"></div>
+    </section>
+
+    <!-- Detail pane -->
+    <section class="detail-pane" id="detail-pane">
+      <div id="detail-empty" class="detail-empty">
+        <div class="detail-empty__inner">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <p>Sélectionne une source pour afficher sa fiche, ses pages utiles et le PDF.</p>
+        </div>
+      </div>
+
+      <article id="detail-card" class="detail-card is-hidden">
+        <header class="detail-card__header">
+          <div class="detail-card__header-text">
+            <p id="detail-citation" class="detail-citation"></p>
+            <h2 id="detail-title" class="detail-title"></h2>
+          </div>
+          <div id="detail-badges" class="badges"></div>
+        </header>
+
+        <div class="detail-meta">
+          <div class="detail-meta__row">
+            <span class="detail-meta__label">Clé BibTeX</span>
+            <code id="detail-key"></code>
+          </div>
+          <p id="detail-base" class="detail-base"></p>
+        </div>
+
+        <div id="detail-actions" class="detail-actions"></div>
+
+        <div id="detail-chapters" class="detail-links"></div>
+        <div id="detail-pages" class="detail-links"></div>
+
+        <section class="detail-section">
+          <h3 class="detail-section__title">Synthèse</h3>
+          <div id="detail-synthesis" class="prose"></div>
+        </section>
+
+        <section id="detail-reperes-section" class="detail-section is-hidden">
+          <h3 class="detail-section__title">Repères utiles</h3>
+          <ul id="detail-reperes" class="detail-bullets"></ul>
+        </section>
+
+        <section id="detail-quotes-section" class="detail-section is-hidden">
+          <h3 class="detail-section__title">Passages à retrouver</h3>
+          <ul id="detail-quotes" class="detail-bullets"></ul>
+        </section>
+
+        <section id="viewer-section" class="viewer-section is-hidden">
+          <div class="viewer-header">
+            <h3 class="detail-section__title">Document</h3>
+            <div class="viewer-actions" id="viewer-actions"></div>
+          </div>
+          <iframe id="pdf-frame" title="Aperçu du document"></iframe>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

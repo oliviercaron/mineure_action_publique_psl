@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.11)  1 SEP 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.11)  15 APR 2026 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -947,7 +947,7 @@ LaTeX Warning: Citation 'lefeuvre2018democratie' on page 5 undefined on input li
 
 LaTeX Warning: Empty bibliography on input line 176.
 
-runsystem(latexminted cleantemp  --timestamp 20250901165230 F08E4E0C3436047E621CF30D624EEEA2)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260415160318 F08E4E0C3436047E621CF30D624EEEA2)...disabled (restricted).
 
 (plus_petit_main.aux)
  ***********

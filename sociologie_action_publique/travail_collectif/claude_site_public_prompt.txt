@@ -1,0 +1,40 @@
+You are advising on a very practical static website for a student research group.
+
+Read these files in full first:
+1. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/syntheses_bibliographie_air_interieur.md
+2. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/note_recherche_collective_air_interieur.tex
+3. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/bibliographie_air_interieur.bib
+
+Current user decision:
+- The user does NOT care that GitHub Pages is public.
+- They are fine serving the PDFs directly from the site.
+- The repository will stay private, but they understand the GitHub Pages URL itself will be publicly reachable. That is acceptable for them.
+
+Desired outcome:
+- A very simple static site, ideally hostable on GitHub Pages.
+- Their classmates should be able to browse:
+  - the argument of the collective note,
+  - the bibliography syntheses,
+  - the sources by author/key/theme,
+  - and directly open/download the PDFs from the site.
+- If possible, when clicking useful passages/pages, the PDF should open directly on the relevant page.
+- The site should be easy for non-web-specialists to maintain.
+
+You should now ignore the earlier privacy/legal objections as constraints for the architecture, since the user explicitly accepts them.
+
+Your task:
+Give the best practical architecture recommendation for THIS use case.
+
+I want:
+1. The single best architecture for this exact project.
+2. Whether it should be one-page or multi-page.
+3. How to structure the data, especially given the big markdown syntheses file and the bib file.
+4. How to support author/source/theme navigation.
+5. How to support opening PDFs at the right page.
+6. How to support download links.
+7. A recommended folder structure inside the repository.
+8. A realistic phased implementation plan.
+9. Any hidden pitfalls that matter technically.
+10. If you think there is one especially good UX pattern here, say it clearly.
+
+Be concrete. No generic web-development filler.

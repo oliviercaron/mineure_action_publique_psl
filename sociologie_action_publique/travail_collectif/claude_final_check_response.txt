@@ -1,0 +1,57 @@
+## Assessment
+
+**The note is strong.** The argument is tight, the transitions work, the theoretical integration is genuine rather than decorative, and the prose reads as authorial French academic writing, not AI output. For a student research note in sociologie de l'action publique, the level of analytical control — the consistent movement from empirical material to interpretive claim to theoretical anchoring — is well above standard.
+
+Specifically:
+- **Argument**: The four-step logic (publicisation experte → imputation impossible → instruments de faible conflictualité → effets sociaux inégaux) holds throughout. Each chapter earns the next.
+- **Transitions**: Each chapter ending signals why the next question arises (e.g., line 199 closes on "comment un problème aussi objectivé peut-il rester aussi difficile à imputer ?" — this is real argumentative handoff, not meta-narration).
+- **Theoretical integration**: Gusfield (*causal* vs. *political responsibility*), Gilbert & Henry (*déconfinement*), Borraz (chapter 5 on *risque politique*), Lascoumes/Le Galès (instrumentation) — each is mobilized for analytical work, not name-dropped.
+- **AI-sounding prose**: I find none. The writing is direct, varied in rhythm, and makes authorial judgments rather than hedging everything into nothingness.
+
+---
+
+## Remaining corrections (2 real issues, 1 minor)
+
+### 1. Empirical overclaim: "le lien est mécanique" (line 259)
+
+This is the clearest remaining overclaim. The relationship between précarité énergétique, reduced ventilation, and indoor air exposure is well-established and plausible, but "mécanique" implies deterministic, automatic causation — which goes beyond what the cited ONPE data can support on their own.
+
+**Current** (line 259):
+```
+mais le lien est mécanique : un ménage qui réduit le chauffage ou qui n'ouvre pas les fenêtres pour ne pas perdre de chaleur dégrade aussi sa ventilation et son exposition aux polluants intérieurs.
+```
+
+**Replace with:**
+```
+mais le lien est direct : un ménage qui réduit le chauffage ou qui n'ouvre pas les fenêtres pour ne pas perdre de chaleur dégrade aussi, en pratique, sa ventilation et son exposition aux polluants intérieurs.
+```
+
+"Direct" keeps the strength of the claim without implying a physical law. "En pratique" signals an empirically grounded inference rather than a deductive certainty.
+
+---
+
+### 2. Theoretical flattening: "va dans le même sens" (line 265)
+
+The note cites Palier (sédimentation instrumentale) then Lascoumes & Le Galès (glissements, reconversions, recyclages) as if they said the same thing. They don't: Palier shows that instruments *reveal* change by accumulating in layers; Lascoumes & Le Galès name the *modes* of that change. The connector "va dans le même sens" flattens two complementary contributions into apparent redundancy.
+
+**Current** (line 265):
+```
+La conclusion de \textcite{lascoumesConclusionLinnovationInstrumentale2005} va dans le même sens lorsqu'elle insiste sur les \og glissements \fg, les \og reconversions-adaptations \fg et les \og recyclages \fg plutôt que sur l'innovation radicale.
+```
+
+**Replace with:**
+```
+La conclusion de \textcite{lascoumesConclusionLinnovationInstrumentale2005} précise les formes de ce processus : \og glissements \fg, \og reconversions-adaptations \fg et \og recyclages \fg plutôt qu'innovation radicale.
+```
+
+"Précise les formes" shows that the second reference *adds* something (a typology of change modes) to what Palier established (the layering mechanism), rather than merely repeating it.
+
+---
+
+### 3. Minor: `.bib` key inconsistency
+
+`Gusfield1981CulturePublicProblems` has `year = {1984}` in the bib file. The key suggests 1981 (first edition), the year field says 1984 (Chicago reprint). Not a rendering issue — Biber uses the `year` field — but worth harmonizing the key to `Gusfield1984CulturePublicProblems` if you want clean metadata, or changing `year` to `1981` if you're citing the original edition.
+
+---
+
+**That's it.** I looked hard for residual meta-text, AI phrasing, unsupported inference, and weak integration. The note doesn't have those problems. The two substantive corrections above are worth making; beyond that, the note is ready.

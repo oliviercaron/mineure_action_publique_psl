@@ -1,0 +1,20 @@
+Review this static site implementation for a bibliography navigator.
+
+Read these files in full:
+1. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/build_site.py
+2. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/site/index.html
+3. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/site/style.css
+4. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/site/app.js
+5. /mnt/c/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sociologie_action_publique/travail_collectif/site/data.json
+
+Context:
+- It is a one-page static site for a student group.
+- It should browse bibliography entries, syntheses, themes, chapter usage, and local PDFs.
+- We want practical correctness, not generic code review.
+
+Task:
+- Identify at most 5 real issues worth fixing now.
+- Focus on bugs, broken UX logic, wrong assumptions, maintenance problems, or data-model mistakes.
+- Do not nitpick style.
+- If the implementation is already good enough, say so clearly.
+- For each real issue, provide a concrete fix.

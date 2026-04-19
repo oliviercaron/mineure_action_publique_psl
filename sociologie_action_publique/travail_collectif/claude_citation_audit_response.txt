@@ -1,0 +1,137 @@
+I have now read all five files in full. Let me compile the audit.
+
+---
+
+## 1. Overall verdict
+
+**This note is robust.** The argumentative progression is tight, the transitions are demonstrated (not merely asserted), and the great majority of citations are correctly mobilized for the claims they support. The theoretical framework (Gusfield, Borraz, Gilbert & Henry, Lascoumes & Le Gales) does genuine analytical work at each point where it appears. The empirical data have been verified against the synthesis and are accurately reported. The hypothesis stated in the introduction is answered in the conclusion.
+
+The note is at a level where a professor looking for fabricated claims, overstated data, or decorative theory will not find serious problems. There are, however, a few real weaknesses worth fixing.
+
+---
+
+## 2. Real weaknesses
+
+### W1. HalpernLascoumesLeGales2014 (PARTIAL) used for a substantive concept
+
+**Location**: Chapter 3, section 3.3, last paragraph (line 249 of the .tex):
+
+> `\textcite{HalpernLascoumesLeGales2014Instrumentation} permettent de lire cette configuration comme une sédimentation d'instruments qui s'ajoutent, se recomposent et se spécialisent sans rupture d'ensemble.`
+
+**Why it is a problem**: This is the only reference with PARTIAL status, meaning only the introduction of the 2014 volume was read. The concept attributed here -- "sédimentation d'instruments" -- is not a term distinctively traceable to that introduction. The synthesis for Halpern et al. 2014 discusses "inertie, conflits et recompositions" and "instruments comme traceurs de changement," but the word "sédimentation" does not appear. Worse, two paragraphs later in section 4.2, the note correctly attributes the *same general idea* to Palier (FULLTEXT, who uses "empilement" and "traceurs du changement") and to the Lascoumes & Le Gales conclusion (FULLTEXT-CIBLE, who use "glissements," "reconversions-adaptations," "recyclages"). The PARTIAL reference is doing work that fully-read references already do better, and the concept it is credited with cannot be verified.
+
+**Sources involved**: `HalpernLascoumesLeGales2014Instrumentation` (PARTIAL), versus `palierChapitre7Instruments2005` (FULLTEXT) and `lascoumesConclusionLinnovationInstrumentale2005` (FULLTEXT-CIBLE).
+
+**Fix**: Replace the reference or reword to use verifiable concepts. Proposed replacement (in French):
+
+```
+Ancienne version:
+\textcite{HalpernLascoumesLeGales2014Instrumentation} permettent de lire
+cette configuration comme une sédimentation d'instruments qui s'ajoutent,
+se recomposent et se spécialisent sans rupture d'ensemble.
+
+Nouvelle version:
+Avec \textcite{palierChapitre7Instruments2005} et la conclusion de
+\textcite{lascoumesConclusionLinnovationInstrumentale2005}, on peut lire
+cette configuration comme un empilement d'instruments qui s'ajoutent, se
+recomposent et se spécialisent sans rupture d'ensemble.
+```
+
+This removes the only substantive reliance on the PARTIAL reference. Halpern et al. 2014 remains legitimately cited in the corpus section (line 177), where it appears in a general listing of theoretical works -- a use that requires no specific concept verification.
+
+---
+
+### W2. Kingdon cited twice but never substantively mobilized
+
+**Location**: Introduction (line 171) and corpus section (line 177).
+
+**Why it is a problem**: Kingdon appears only in two parenthetical lists alongside other theoretical references. He is never given a `\textcite` treatment, never credited with a specific concept, and never made to do analytical work anywhere in the body. Every other theoretical reference in those lists (Gusfield, Borraz, Ogien, Chailleux & Zittoun, Gilbert & Henry, Lascoumes & Le Gales) is subsequently mobilized with its own concepts. Kingdon is the exception. This makes his presence look decorative. The synthesis shows he has directly useful concepts (governmental agenda vs. decision agenda; three process streams; policy window) that could have been productive, but none appear.
+
+**Sources involved**: `Kingdon1984Agendas` (FULLTEXT-CIBLE).
+
+**Fix**: Two options, both acceptable:
+
+*Option A -- Remove from the signpost lists.* The argument about agenda-setting is already carried by Chailleux & Zittoun (who are specifically mobilized). Remove `Kingdon1984Agendas` from the two `\parencite` lists. He remains in the bibliography via `\nocite`.
+
+*Option B -- Give Kingdon one sentence of real work.* For example, in section 1.2 (line 193), after the sentence about the PNSE, ministerial pages, parliamentary interventions, etc.:
+
+> Avec \textcite{Kingdon1984Agendas}, on peut dire que l'air intérieur accède à l'\emph{agenda gouvernemental} --- il circule dans les rapports, les plans et les arènes administratives --- sans nécessairement entrer dans l'\emph{agenda de décision} où des arbitrages coûteux seraient tranchés.
+
+This would transform a decorative citation into a substantive one, using the governmental/decision agenda distinction verified in the synthesis (pp. 3-4 of Kingdon).
+
+**I recommend Option B** -- it strengthens the argument rather than amputating it.
+
+---
+
+### W3. ONPE 2024 figure slightly under-qualified
+
+**Location**: Chapter 4, section 4.1 (line 259):
+
+> `79 % des Français déclarent avoir réduit le chauffage`
+
+**Why it is a problem**: The ONPE source (confirmed in synthesis) says "79 % des Français déclarent avoir réduit le chauffage **pour limiter leurs factures**." The note drops the qualifier "pour limiter leurs factures." This is a small but material omission: 79% reducing heating for *any reason* (comfort, travel, climate) would mean something different from 79% reducing heating *because of cost pressure*. The figure's analytical force in this note -- connecting energy precarity to ventilation behavior -- depends on the cost-driven nature of the reduction.
+
+**Sources involved**: `ONPE2024TableauBord` (FULLTEXT).
+
+**Fix**:
+
+```
+Ancienne version:
+79~\% des Français déclarent avoir réduit le chauffage
+
+Nouvelle version:
+79~\% des Français déclarent avoir réduit le chauffage pour limiter
+leurs factures
+```
+
+---
+
+## 3. Probably acceptable as is
+
+### A1. Analogical use of Montouroy, Biabiany & Massardier (2022)
+
+The note uses this article about banana production and climate policy in Guadeloupe to make a general point about how implementation can depoliticize a problem. The synthesis warns: "il s'agit d'un cas climatique et agricole très spécifique ; l'analogie doit être construite." The note does construct the analogy properly in section 4.2 by extracting the mechanism ("la mise en oeuvre des instruments peut dépolitiser un problème en le rabattant sur des usages") and applying it explicitly. This is standard analogical reasoning in political sociology. **Defensible.**
+
+### A2. Ogien (2010) transposed from LOLF to indoor air
+
+Ogien's text is about performance management and the LOLF. The synthesis warns the analogy "doit être explicitée, pas supposée." The note handles this well: it writes "L'apport d'Ogien est ici direct" and then makes the connection to OQAI campaigns explicit. **Defensible.**
+
+### A3. Borraz Chapter 5 and the Senate report on political risk
+
+The note cites Borraz ch. 5 for the idea that expertise helps manage *political risk*, and then illustrates with Senate hearing testimony from industry representatives. The note names specific companies (BASF France, Bayer, Union des industries chimiques) that are not named in the synthesis. Since the Senate report is FULLTEXT and publicly available, these names are verifiable. The argumentative chain (Borraz theory -> Senate empirical illustration) is sound. **Defensible, but the company names should be double-checked against the actual Senate report pages if not already verified.**
+
+### A4. "Cadrage refroidi" attributed to Ferron, Hourcade & Le Bourhis (2022)
+
+The note writes: "Ferron, Hourcade et Le Bourhis parlent à ce propos d'un cadrage refroidi." The synthesis describes their conclusion as producing "une définition dominante refroidie, technicisée et dépolitisée." The phrase "cadrage refroidi" is a reasonable paraphrase of "définition refroidie," not a fabricated attribution. **Defensible**, though formally the article may use "refroidie" as an adjective rather than the noun phrase "cadrage refroidi." A small imprecision, not a material error.
+
+### A5. The ONPE / indoor air link
+
+The note correctly flags that the ONPE data "portent sur la précarité énergétique, non directement sur la qualité de l'air intérieur" and then demonstrates the link: "un ménage qui réduit le chauffage ou qui n'ouvre pas les fenêtres pour ne pas perdre de chaleur dégrade aussi, en pratique, sa ventilation et son exposition aux polluants intérieurs." This is honest and analytically correct. **Defensible and well-handled.**
+
+### A6. Gusfield's causal/political responsibility distinction applied to indoor air
+
+The note uses this distinction at two points (sections 2.2 and 2.3). Both uses are precise, well-contextualized, and draw directly on the verified concept. The transposition from drunk driving to indoor air is explicitly constructed. **Strong mobilization.**
+
+### A7. Both OQAI campaigns cited together for the 571-dwelling figure
+
+Line 187 cites both `OQAI2025CNL1` and `OQAI2025CNL2` in a paragraph that first discusses both campaigns generally, then gives the 571-dwelling figure from CNL2 specifically. Strictly, only CNL2 is needed for the figure. But the paragraph's structure discusses both campaigns before narrowing to the second, so the joint citation covers the whole paragraph. **Acceptable.**
+
+---
+
+## 4. Citation integrity check
+
+**No major citation-integrity issue found.**
+
+Every citation I could verify against the synthesis materials is used within the bounds of what the source actually supports. Empirical numbers are accurately reported. No source is attributed a claim it does not make. No theoretical reference is used in a way that contradicts its actual argument.
+
+Three precisions:
+
+1. The single PARTIAL reference (`HalpernLascoumesLeGales2014Instrumentation`) is used once substantively (section 3.3) for a concept ("sédimentation") not clearly traceable to the portion read. **This is the only citation that remains too weakly supported for its current use**, and I have provided a fix above (W1).
+
+2. Kingdon is cited but never mobilized substantively. This is not a citation-integrity problem (nothing false is attributed to him), but it is a citation-economy problem (he adds nothing the note does not already get from Chailleux & Zittoun). See W2.
+
+3. All other references -- including the FULLTEXT-CIBLE sources (Kingdon, Gusfield, Borraz 2008, Lascoumes & Le Gales 2004, Borraz ch. 3, Lascoumes conclusion) -- are used within the scope of what was read and verified. No FULLTEXT-CIBLE reference is pushed beyond its verified content.
+
+---
+
+**Bottom line**: Fix W1 (swap the PARTIAL reference for the FULLTEXT ones that say the same thing), fix W2 (give Kingdon one real sentence or remove him from the signpost lists), and fix W3 (restore "pour limiter leurs factures"). After those three changes, the citation apparatus is clean.

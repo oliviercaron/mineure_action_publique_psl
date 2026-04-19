@@ -1,0 +1,206 @@
+---
+
+## Overall verdict
+
+This is a strong note. The argumentative architecture is genuinely there: a real thesis (not just a topic), a causal chain that connects publicization to instrumentation to social inequality, and theoretical references that do analytical work rather than decorating the margins. The empirical material is used with discipline and the figures are verified. The abstract is excellent. For a collective student note, this is well above average.
+
+That said, the text is not yet finished. There are places where the prose is too self-conscious about its own structure (meta-commentary on transitions), one reference that feels forced, one empirical claim that needs a caveat, and a few sentences that still carry the trace of polished AI academic filler. Below are the 8 most important corrections, ordered by importance.
+
+---
+
+## 1. The "Annonce du raisonnement" section should be dissolved into the introduction
+
+**Where:** Lines 179-181, `\section{Annonce du raisonnement}`
+
+**Why it matters:** The professor asked for a *problematized plan* with an *argument visible in the structure*. A stand-alone section that mechanically announces "first we show X, then Y, then Z, finally W" is exactly the format of a student plan-announcement, not an integrated argument. The introduction already states the hypothesis clearly (lines 170-171). The four-step roadmap should be folded into the last paragraph of the introduction as a brief concluding orientation, not flagged as a separate section.
+
+**Correction:** Delete `\section{Annonce du raisonnement}` as a section heading. Append the content as a short transitional paragraph at the end of the introduction, before `\chapter{Publiciser...}`. Tighten the wording:
+
+Replace lines 179-181 with:
+
+```latex
+Le raisonnement procède en quatre temps : la publicisation experte et dispersée du risque~; les obstacles à une imputation politique stable~; les instruments de faible conflictualité qui déplacent la gestion vers les occupants~; enfin, les effets sociaux inégaux de cette configuration.
+```
+
+This is a single paragraph closing the introduction. No section heading.
+
+**Category:** Genuinely weak --- this is a structural flaw, not a stylistic preference.
+
+---
+
+## 2. Matyjasik (2014) is a forced reference that weakens the paragraph it appears in
+
+**Where:** Lines 198-199, the paragraph beginning "La montée en visibilité est enfin portée par des milieux experts..."
+
+**Why it matters:** Matyjasik's article is about the Societe Francaise de l'Evaluation --- a professional association for policy evaluation. It says nothing about indoor air quality, environmental health, or expert communities in sanitary risk. The note tries to bridge the gap with "Sur un autre terrain," but the analogy is thin: "a professional milieu builds legitimacy through a register of scientificity" is too generic to do real work here. The same paragraph already has Ferron, Hourcade & Le Bourhis (2022), which directly analyzes how expert bureaucracies frame the indoor air problem. Matyjasik adds noise.
+
+**Correction:** Remove the Matyjasik sentence and let Ferron/Hourcade/Le Bourhis (2022) carry the point alone. Replace:
+
+```latex
+Sur un autre terrain, \textcite{Matyjasik2014SourcesEvaluation} montre comment un milieu professionnel spécialisé construit sa légitimité par un registre de scientificité, des espaces de rencontre et des normes partagées. Cette analyse éclaire ce qui se joue autour de l'air intérieur : l'OQAI, l'Anses, les services ministériels, les experts sanitaires et les producteurs de guides techniques ne fournissent pas seulement des connaissances ; ils contribuent à fixer la manière recevable de formuler le problème. C'est ce qui permet à \textcite{FerronHourcadeLeBourhis2022ApproprierProblemeAirInterieur} de parler d'un cadrage refroidi, appuyé sur le rapport structurellement inégal entre bureaucraties techniques et champ journalistique.
+```
+
+With:
+
+```latex
+L'OQAI, l'Anses, les services ministériels, les experts sanitaires et les producteurs de guides techniques ne fournissent pas seulement des connaissances~; ils contribuent à fixer la manière recevable de formuler le problème. \textcite{FerronHourcadeLeBourhis2022ApproprierProblemeAirInterieur} parlent à ce propos d'un cadrage refroidi~: la construction du problème s'appuie sur un rapport structurellement inégal entre bureaucraties techniques, capables de stabiliser indicateurs, méthodes et vocabulaires, et un champ journalistique qui ne parvient pas à transformer le sujet en controverse durable.
+```
+
+**Category:** Genuinely weak --- a forced reference undermines the credibility of the note's theoretical apparatus.
+
+---
+
+## 3. The transition at the end of Part II is too meta-textual
+
+**Where:** Lines 224-225, the paragraph beginning "Le point central de cette partie tient en une phrase..."
+
+**Why it matters:** Writing "Le point central de cette partie tient en une phrase" is commentary *about* the note, not *the note itself*. The sentence "Le passage à la partie suivante ne relève pas d'un enchaînement descriptif" is even more meta --- it tells the reader what kind of transition they're reading. A professor who asks for clear transitions wants the argument to flow, not a narrator explaining how the gears work. This reads like a scaffold that should have been removed.
+
+**Correction:** Replace the entire paragraph (from "Le point central..." to "...redistribuent la faute.") with:
+
+```latex
+La difficulté d'imputation ne bloque pas l'action publique~; elle l'oriente. Lorsqu'un problème sanitaire est objectivé mais reste coûteux à politiser, l'État a de fortes chances de privilégier des instruments qui organisent les conduites plutôt que de redistribuer frontalement les responsabilités. C'est exactement ce que montrent les instruments effectivement déployés sur l'air intérieur.
+```
+
+**Category:** Genuinely weak --- this is a structural tic, not a stylistic choice.
+
+---
+
+## 4. The ONPE data need an explicit caveat
+
+**Where:** Line 259, the sentence citing ONPE 2024 ("79 % des Français déclarent avoir réduit le chauffage et 26 % disent avoir souffert du froid chez eux pendant l'hiver 2022-2023").
+
+**Why it matters:** Your own syntheses note that these data "ne parlent pas directement d'air intérieur." They are about energy poverty, not about indoor air quality. The note currently presents them as if they directly demonstrate the argument about air quality policy. The causal link (reducing heating --> worse ventilation --> worse indoor air) is plausible and real, but it is *your* inference, not what the ONPE data say. In a note that prides itself on empirical caution, this chain needs to be stated, not assumed.
+
+**Correction:** After the ONPE citation, add one sentence making the inferential step explicit. Replace:
+
+```latex
+Le tableau de bord 2024 de l'ONPE confirme cette tension à l'échelle macro : 79 \% des Français déclarent avoir réduit le chauffage et 26 \% disent avoir souffert du froid chez eux pendant l'hiver 2022-2023 \parencite{ONPE2024TableauBord}. Ces chiffres ne servent pas de décor.
+```
+
+With:
+
+```latex
+Le tableau de bord 2024 de l'ONPE cadre cette tension à l'échelle macro~: 79~\% des Français déclarent avoir réduit le chauffage et 26~\% disent avoir souffert du froid chez eux pendant l'hiver 2022-2023 \parencite{ONPE2024TableauBord}. Ces données portent sur la précarité énergétique, non directement sur la qualité de l'air intérieur~; mais le lien est mécanique~: un ménage qui réduit le chauffage ou qui n'ouvre pas les fenêtres pour ne pas perdre de chaleur dégrade aussi sa ventilation et son exposition aux polluants intérieurs. Ces chiffres ne servent pas de décor.
+```
+
+Also change "confirme" to "cadre" --- the ONPE data don't *confirm* something about air quality; they *frame* a material context.
+
+**Category:** Genuinely weak --- this is an empirical caution issue, exactly the kind of thing a professor will flag.
+
+---
+
+## 5. The note lacks concrete actors --- it stays too abstract about who resists regulation
+
+**Where:** Primarily Part II (chapter 3), especially lines 222-223 on the Senate report, and Part III (chapter 4) on instruments.
+
+**Why it matters:** The argument says that stronger regulation is politically costly because it would "redistribute costs." But who bears those costs? Who resists? The note mentions "les producteurs, les bailleurs, les professionnels du bâtiment" as a generic list. The Senat 2015 report apparently contains evidence of industry resistance ("réticences fortes à l'égard d'une régulation trop spécifiquement française"), but the note never says *who* expressed these reticences --- industry representatives at auditions? construction federations? Which actors made which arguments? Similarly, Scutaru (2020) says only three European countries had binding emission requirements. Which three? This kind of precision is what separates a research note from an essay.
+
+**Correction:** This doesn't require a new source. It requires going back into the Senat 2015 report and the syntheses to extract one or two specific actor positions. At minimum, in the paragraph at line 223, replace:
+
+```latex
+Les auditions et développements du rapport sénatorial de 2015 vont dans ce sens : ils laissent apparaître des réticences fortes à l'égard d'une régulation trop spécifiquement française, au nom du coût économique, de la lisibilité réglementaire et du risque de distorsion sectorielle \parencite{Senat2015CoutInaction}.
+```
+
+With something like (to be adjusted once you verify the actors in the Senat report):
+
+```latex
+Le rapport sénatorial de 2015 donne à voir ces arbitrages~: lors des auditions, les arguments avancés contre une régulation trop spécifiquement française portent sur le coût économique pour les filières de construction, la lisibilité réglementaire et le risque de distorsion sectorielle vis-à-vis des partenaires européens \parencite{Senat2015CoutInaction}.
+```
+
+This is only slightly better. Ideally you'd name the type of actor (e.g. "des représentants des filières de la construction" or whoever was auditioned). Check the Senat report for this.
+
+**Category:** Genuinely weak --- the argument about political cost needs at least one concrete illustration of who bears the cost.
+
+---
+
+## 6. "Déconfinés" (Gilbert & Henry) is used without explanation
+
+**Where:** Line 201, "les compromis qui structurent son traitement ne sont pas véritablement déconfinés."
+
+**Why it matters:** "Déconfinement" is a technical term from Gilbert & Henry's 2012 article that refers to the process by which a problem moves from confined expert treatment to open public controversy. A reader who hasn't read that specific article will not understand the sentence. In a note that is supposed to demonstrate mastery of concepts, using jargon without explaining it is counterproductive.
+
+**Correction:** Replace:
+
+```latex
+Il reste en revanche faiblement \emph{politisé}, au sens où les compromis qui structurent son traitement ne sont pas véritablement déconfinés.
+```
+
+With:
+
+```latex
+Il reste en revanche faiblement \emph{politisé}, au sens où les compromis qui structurent son traitement ne sont pas véritablement sortis des arènes spécialisées pour être rediscutés dans l'espace public général~--- ce que \textcite{GilbertHenry2012ProblemesPublics} appellent le \emph{déconfinement} d'un problème.
+```
+
+**Category:** Genuinely weak --- unexplained jargon is a clarity problem.
+
+---
+
+## 7. The ERP section (III.3) is analytically thinner than the other two instrument sections
+
+**Where:** Lines 246-249, section "Surveiller les ERP plutôt que sanctionner en amont."
+
+**Why it matters:** The etiquetage section has Scutaru, Gallon, Hourcade/Le Bourhis, and Borraz (normes). The responsabilisation section has Minoustchin/Vera-Navas, Lascoumes/Le Galès, and Hourcade/Le Bourhis. The ERP section has the decree, the HCSP opinion, and Halpern/Lascoumes/Le Galès on "sédimentation." The analytical payload is lower: the section essentially says "it's procedural, not punitive." But it doesn't ask the interesting question: *why* does this procedural apparatus emerge more easily for schools (where children are the public) than for private housing? The presence of a vulnerable, sympathetic public (children) should be analytically interesting for a sociology of public problems. It also doesn't say what happens when ERP fail the autodiagnostic --- are there actual consequences?
+
+**Correction:** Add 2-3 sentences after the decree description, before the Halpern/Lascoumes/Le Galès paragraph. Something like:
+
+```latex
+La présence d'enfants dans ces établissements rend la contrainte publique plus légitime~: le risque est incarné par un public dont la vulnérabilité fait consensus, ce qui réduit le coût politique de l'intervention. Pour autant, les conséquences d'un autodiagnostic défavorable restent largement internes~: elles déclenchent un plan d'action, non une fermeture ou une sanction directe. Même dans le cas le plus favorable à la régulation, le dispositif préfère l'ajustement progressif à la mise en cause.
+```
+
+**Category:** Genuinely weak --- this is the one section where the argument goes on autopilot.
+
+---
+
+## 8. A few residual sentences sound like polished AI academic filler
+
+**Where:** Scattered. The worst cases:
+
+- Line 171: "Cette configuration appelle une question de sociologie de l'action publique plutôt qu'une simple question de santé environnementale." --- This is functional but reads like a template: "X calls for Y rather than Z." It could be more direct.
+- Line 273: "Ce résultat éclaire un cas précis, mais il dit aussi quelque chose de plus général sur l'action publique contemporaine" --- Classic AI closing move: "our case study speaks to a broader phenomenon." It sounds generic.
+- Line 185: "Ce constat est décisif" --- This is the kind of self-evaluating adjective ("décisif," "crucial," "fondamental") that AI prose loves and that human writers use more sparingly.
+
+**Why it matters:** The professor explicitly asked for non-AI prose. These are small signals, but a reader looking for them will find them.
+
+**Corrections:**
+
+Line 171, replace:
+```
+Cette configuration appelle une question de sociologie de l'action publique plutôt qu'une simple question de santé environnementale.
+```
+With:
+```
+La question n'est donc pas sanitaire mais sociologique.
+```
+
+Line 273, replace:
+```
+Ce résultat éclaire un cas précis, mais il dit aussi quelque chose de plus général sur l'action publique contemporaine :
+```
+With:
+```
+Le cas de l'air intérieur rend visible une logique plus large~:
+```
+
+Line 185, replace:
+```
+Ce constat est décisif :
+```
+With:
+```
+Et c'est là que le problème se noue~:
+```
+
+**Category:** Optional stylistic preference --- these are small, but they add up. Fix the ones in the conclusion first (most visible).
+
+---
+
+## Summary of what does NOT need fixing
+
+- The abstract: excellent, leave it as is.
+- The Gusfield causal/political responsibility distinction: well deployed in both occurrences (lines 217 and 221); the second usage on bailleurs is a different application (case-by-case vs. general), not a repetition.
+- The Fondation Abbe Pierre figures (64.0%, 45.8%, 26.2%): verified against the syntheses, correctly cited, properly contextualized.
+- The OQAI campaign data (571 logements, 321 communes, 84 departments): verified.
+- The Borraz chapter 5 mobilization on political risk: well done, analytically strong.
+- The conclusion: tight, proportionate, doesn't overreach. Just fix the one AI-filler sentence noted above.
+- The "Note sur les usages de l'IA": honest, well-calibrated, not defensive.

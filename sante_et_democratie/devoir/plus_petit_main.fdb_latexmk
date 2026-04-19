@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber plus_petit_main"] 0 "plus_petit_main.bcf" "plus_petit_main.bbl" "plus_petit_main" 0 0
+["biber plus_petit_main"] 0 "plus_petit_main.bcf" "plus_petit_main.bbl" "plus_petit_main" 1776261802.05767 0
   "assets/bib-template.bib" 0 -1 0 ""
   "plus_petit_main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "plus_petit_main.bbl"
   "plus_petit_main.blg"
   (rewritten before read)
-["pdflatex"] 1756738350.53144 "c:/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sante_et_democratie/devoir/plus_petit_main.tex" "plus_petit_main.pdf" "plus_petit_main" 1756738354.26781 0
-  "C:/Users/Olivier/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756738327 82705 9cc9f144eacd499bc23a611703921467 ""
+["pdflatex"] 1776261798.1003 "c:/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sante_et_democratie/devoir/plus_petit_main.tex" "plus_petit_main.pdf" "plus_petit_main" 1776261802.05863 0
+  "C:/Users/Olivier/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776260842 165056 40af8759215ff60efd7edbc4e79b7436 ""
   "C:/Users/Olivier/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1756738343 22504 0af3e1bb574e97e64835d1ef50cbcdb1 ""
   "C:/Users/Olivier/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1756738337 25420 da571ccb2a400210542ef98f3a13e9fc ""
   "C:/Users/Olivier/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1756738336 31952 18a9ec9d41ae4feb397222bbee63b1b6 ""
@@ -141,12 +141,12 @@
   "assets/Logo_INSP.svg.png" 1751371223 30271 fd6ef5566f21c655b3cbbc027c4d6425 ""
   "assets/logo_ens_psl_en_png.png" 1751371221 474121 241daf8143cb5c4cbfb0f34e03585100 ""
   "c:/Users/Olivier/Documents/GitHub/mineure_action_publique_psl/sante_et_democratie/devoir/plus_petit_main.tex" 1756738332 21892 7249b848181ac579110de4407345f444 ""
-  "plus_petit_main.aux" 1756738353 5377 473e09b60501831f65d2029101097fb6 "pdflatex"
+  "plus_petit_main.aux" 1776261801 5377 473e09b60501831f65d2029101097fb6 "pdflatex"
   "plus_petit_main.bbl" 0 -1 0 "biber plus_petit_main"
-  "plus_petit_main.out" 1756738353 3517 8c810f67df112102b8eca426f38ad7e2 "pdflatex"
-  "plus_petit_main.run.xml" 1756738353 2443 04062acf7bd46445e1f8a0726c027385 "pdflatex"
+  "plus_petit_main.out" 1776261801 3517 8c810f67df112102b8eca426f38ad7e2 "pdflatex"
+  "plus_petit_main.run.xml" 1776261801 2443 04062acf7bd46445e1f8a0726c027385 "pdflatex"
   "plus_petit_main.tex" 1756738332 21892 7249b848181ac579110de4407345f444 ""
-  "plus_petit_main.toc" 1756738353 1330 1ad7bc55726848b6c637ccee8e249484 "pdflatex"
+  "plus_petit_main.toc" 1776261801 1330 1ad7bc55726848b6c637ccee8e249484 "pdflatex"
   (generated)
   "plus_petit_main.aux"
   "plus_petit_main.bcf"
