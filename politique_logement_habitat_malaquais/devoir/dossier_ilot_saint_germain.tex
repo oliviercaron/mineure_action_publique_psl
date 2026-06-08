@@ -1,0 +1,170 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english,french]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[nottoc]{tocbibind}
+\usepackage[
+  backend=biber,
+  style=apa,
+  natbib=true,
+  date=year,
+  sorting=nyt,
+  autolang=other,
+]{biblatex}
+\DeclareLanguageMapping{french}{french-apa}
+\DeclareLanguageMapping{english}{english-apa}
+
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm,
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={maroon},
+  citecolor={blue},
+  urlcolor={blue}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.5em}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.8em}{0.3em}
+
+\setstretch{1.15}
+
+\addbibresource{bibliographie_ilot_saint_germain.bib}
+
+\AtEveryCite{%
+  \normalfont\normalcolor%
+  \renewcommand*{\mkbibnamefamily}[1]{#1}%
+  \renewcommand*{\mkbibnamegiven}[1]{#1}%
+}
+
+\begin{document}
+\pagenumbering{gobble}
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+{\Huge\bfseries Du ministère des Armées\\aux logements sociaux\par}
+\vspace{0.35cm}
+{\Large La décote Duflot appliquée à l'Îlot Saint-Germain (Paris~7\textsuperscript{e})\par}
+\vspace{0.8cm}
+{\large Politiques du logement et de l'habitat\par}
+\vspace{0.15cm}
+{\normalsize Mineure Action Publique, ENSAPM / PSL\par}
+\vspace{0.8cm}
+Olivier CARON\\
+\vspace{0.5cm}
+Mai 2026
+\end{center}
+
+\vspace{0.5cm}
+\noindent\textbf{Résumé}\par
+\smallskip
+\noindent En 2023, l'Îlot Saint-Germain, ancien siège du ministère de la Défense, est devenu 254~logements sociaux au cœur du 7\textsuperscript{e} arrondissement de Paris, l'un des quartiers les plus ségrégés de la capitale. Cette opération, récompensée par l'Équerre d'Argent, illustre la politique de décote du foncier public instaurée par la loi Duflot de 2013. Ce dossier analyse le dispositif de cession avec décote appliqué au patrimoine militaire, ses conditions de mise en œuvre sur un site patrimonial exceptionnel, et ses effets sur la production urbaine, les pratiques architecturales, la composition sociale et l'environnement. L'argument central est que l'Îlot Saint-Germain démontre la puissance de la décote pour contourner la barrière foncière, tout en posant la question de la reproductibilité d'une opération dont les conditions de réussite restent exceptionnelles.
+
+\vfill
+\begin{center}
+    \begin{minipage}{.3\textwidth}
+      \centering
+      \includegraphics[width=0.40\linewidth]{assets/LOGO-PSL-nov-2017.png}
+    \end{minipage}%
+    \begin{minipage}{.3\textwidth}
+      \centering
+      \includegraphics[width=.62\linewidth]{assets/logo_ens_psl_en_png.png}
+    \end{minipage}%
+    \begin{minipage}{.3\textwidth}
+      \centering
+      \includegraphics[width=.44\linewidth]{assets/Logo_INSP.svg.png}
+    \end{minipage}
+
+    \vspace{0.3cm}
+
+    Mineure Action Publique
+\end{center}
+\end{titlepage}
+
+\newpage
+\pagenumbering{arabic}
+
+%% ================================================================
+%% PARTIE 1
+%% ================================================================
+\section{La décote Duflot~: un dispositif né de la tension entre État-vendeur et État-logeur}
+
+En septembre 2023, 254~ménages ont emménagé dans l'ancien siège du ministère de la Défense, au cœur du 7\textsuperscript{e} arrondissement de Paris, l'un des rares quartiers parisiens où le logement social relevait jusqu'ici de l'exception. Récompensée par l'Équerre d'Argent, l'opération matérialise l'une des applications les plus ambitieuses de la décote du foncier public. Que révèle l'Îlot Saint-Germain sur la capacité de la cession foncière publique à produire du logement social dans les quartiers les plus exclusifs, et sur les limites urbaines, sociales, environnementales et foncières d'une telle reproductibilité~?
+
+En zone tendue, le coût du foncier commande la faisabilité du logement social. La logique du « compte à rebours » l'éclaire~: le promoteur fixe le prix du terrain en retranchant du prix de vente attendu les coûts de construction et sa marge. Dans les arrondissements centraux de Paris, où le mètre carré dépasse 12\,000~euros \parencite{BanqueDesTerritoires2018IlotSG}, ce calcul exclut structurellement l'habitat social. La loi SRU de 2000 impose pourtant aux communes de plus de 3\,500 habitants d'atteindre 25\,\% de logements sociaux \parencite{LoiSRU2000}~; en 2024, 1\,276 communes sur 2\,196 concernées restaient déficitaires, soit plus de la moitié \parencite{MinistereLogement2024SRU}.
+
+La loi du 18 janvier 2013 (dite loi Duflot) crée une décote pouvant atteindre 100\,\% de la valeur vénale lors de la cession de terrains publics destinés au logement social \parencite{LoiDuflot2013}. Le dispositif inverse la logique du compte à rebours~: le prix du foncier n'est plus fixé par le marché mais par une décision politique. La restructuration militaire engagée en 2008 (Révision Générale des Politiques Publiques, RGPP) a libéré une partie du patrimoine des Armées, lequel représente 25 millions de mètres carrés, soit 26\,\% du parc immobilier de l'État. Depuis 2014, 23~cessions militaires ont bénéficié d'une décote, pour 118~millions d'euros de moindre recette \parencite{CourDesComptes2024CessionsMilitaires, Senat2017ParcImmobilierArmees}.
+
+Le bilan reste toutefois mitigé \parencite{BanqueDesTerritoires2024Decote}. Le rapport sénatorial de 2017 qualifiait déjà la décote de « mécanisme contestable qui revient à financer deux politiques à partir d'une même recette » \parencite{Senat2017ParcImmobilierArmees}, et la Cour des comptes pointe en 2024 un suivi insuffisant des engagements de construction, de délais et de conventionnement social \parencite{CourDesComptes2024CessionsMilitaires}. Elle recommande de dépasser le « tout cession » pour d'autres modes de valorisation, comme le bail emphytéotique. On retrouve là encore l'esprit du Bail Réel Solidaire (BRS), porté par les foncières de la Ville de Paris~: conserver le foncier public au lieu de l'aliéner, en dissociant la propriété du sol de celle du bâti. L'Îlot Saint-Germain cristallise cette tension entre cession et conservation.
+
+%% ================================================================
+%% PARTIE 2
+%% ================================================================
+\section{L'Îlot Saint-Germain~: un cas-limite révélateur}
+
+L'Îlot Saint-Germain se situe entre la rue Saint-Dominique et le boulevard Saint-Germain, parmi ministères, hôtels particuliers et ambassades. En mai 2018, la RIVP (Régie Immobilière de la Ville de Paris, l'un des principaux bailleurs sociaux parisiens) a acquis trois bâtiments du ministère de la Défense (deux du XVIII\textsuperscript{e} siècle, le troisième des années 1950) pour 29~millions d'euros, soit environ 5\,000~euros/m\textsuperscript{2}, quand le marché du 7\textsuperscript{e} tourne autour de 12\,000~euros \parencite{BanqueDesTerritoires2018IlotSG}. Livré en 2023, le programme comprend 254~logements sociaux (126 PLAI, 100 PLUS, 25 PLS), une crèche de 66~places, un gymnase et un jardin de 550~m\textsuperscript{2} \parencite{FOPH2023IlotSG, VilleDeParis2023IlotSG}.
+
+Le site fait figure de cas-limite à plus d'un titre. C'est d'abord un test en zone de prix maximum, le 7\textsuperscript{e} demeurant, avec 2,1\,\% de logements sociaux au décompte SRU (contre 21,4\,\% à Paris), l'arrondissement le plus déficitaire de la capitale \parencite{Ekopolis2025IlotSG}~; la décote, de l'ordre de 58\,\%, n'y est pas un rabais marginal mais la condition même de l'équilibre. Viennent les contraintes patrimoniales, qui font ressortir les coûts cachés~: bâtiments classés, intervention obligatoire des Architectes des Bâtiments de France (ABF), trame rigide des années 1950 imposant 88~typologies différentes \parencite{FOPH2023IlotSG}. La décote foncière ne fait donc pas tout~; encore faut-il que le bailleur puisse absorber les surcoûts de réhabilitation.
+
+Reste le plus frappant, d'ordre symbolique. Qu'un ancien siège du pouvoir militaire devienne habitat social en plein quartier bourgeois donne corps à l'idée d'un logement « bien commun »~: l'État y consent une perte sèche de 56~millions d'euros pour loger des ménages que le marché tient à l'écart. Le 7\textsuperscript{e} ne tient pas de la gentrification des quartiers populaires qu'analysent \textcite{ClervalFleury2009Gentrification}~; il procède d'un entre-soi bourgeois ancien, et y glisser des HLM, c'est tenter une dé-ségrégation par le haut dont les effets, à ce stade, restent davantage postulés que documentés. Il a fallu pour cela une convention signée en 2016 entre le Premier ministre et la Maire de Paris \parencite{BanqueDesTerritoires2018IlotSG}~; on y mesure le portage politique requis, qui borne la reproductibilité.
+
+%% ================================================================
+%% PARTIE 3
+%% ================================================================
+\section{Des effets à nuancer}
+
+\subsection{Production urbaine et architecturale}
+
+L'Îlot Saint-Germain incarne une « sobriété immobilière »~: transformer l'existant plutôt que démolir-reconstruire, au prix de compromis techniques. Imposées par la structure existante (trames variables, épaisseurs de murs différentes), les 88~typologies rompent avec la standardisation habituelle du parc social. L'opération intègre en outre des équipements publics (crèche, gymnase, jardin) qui en font un véritable morceau de ville et non une enclave résidentielle, rejoignant l'expérience du bailleur 3F \parencite{Ekopolis2025IlotSG, Alterea2023IlotSG}.
+
+\subsection{Effets sur les pratiques architecturales}
+
+L'Équerre d'Argent 2023 consacre la transformation d'usage comme pratique architecturale de premier rang, en distinguant une reconversion plutôt qu'une construction neuve \parencite{OrdreArchitectes2023EquerreArgent}. La transformation bureaux-logements reste un marché émergent en Île-de-France~: environ 1\,900~logements autorisés par an, avec un potentiel de doublement selon l'Institut Paris Région \parencite{InstitutParisRegion2023Reconvertir}, et la loi du 16 juin 2025 en confirme la reconnaissance législative \parencite{ViePublique2025TransformationBureaux}. La pratique exige toutefois des compétences spécifiques (négociation avec les ABF, conception au cas par cas, structures non prévues pour l'habitation) et échappe au « compte à rebours » puisque le foncier est public et décoté.
+
+\subsection{Composition socio-professionnelle~: un effet modeste mais significatif}
+
+L'opération fait passer le taux de parc social du 7\textsuperscript{e} de 2,1\,\% à environ 3\,\% \parencite{Ekopolis2025IlotSG}, un gain modeste. Mais \textcite{Floch2017Segregation} montre que, dans les villes-centres des grandes métropoles, la ségrégation est plus marquée pour les hauts niveaux de vie~: « il y a relativement plus de pauvres dans les quartiers riches que de riches dans les quartiers pauvres ». L'intervention dans le 7\textsuperscript{e} cible donc le levier le plus difficile. \textcite{Launay2012HLMBeauxQuartiers} offre une grille de lecture pour ces immeubles~: elle distingue des profils « embourgeoisés », qui s'approprient le quartier, et des profils « décalés », qui s'y sentent déplacés. Là encore, la mixité, institutionnalisée comme une « norme faible » \parencite{Tissot2005}, ne garantit pas l'intégration~: sous le discours officiel, des catégorisations ethnoraciales officieuses continuent d'opérer dans les attributions \parencite{CollectifApi2021MixiteRace}. Faute de données post-occupation (l'Îlot a été livré en septembre 2023), ces dynamiques d'intégration ou de rejet restent à documenter~: l'attribution des 254~logements a suivi les critères habituels de la RIVP (plafonds de ressources, quotas préfectoraux, contingents réservataires), sans bilan qualitatif publié à ce jour.
+
+\subsection{Sobriété environnementale~: une démonstration plus qu'une certification}
+
+La transformation évite l'empreinte d'une démolition-reconstruction (énergie grise, déchets de chantier, transport). L'étude d'Ekopolis le documente sur l'Îlot~: conservation maximale des matériaux (parement en pierre conservé), réemploi ponctuel d'éléments comme des portes, et jardin en toiture du gymnase \parencite{Ekopolis2025IlotSG}. L'opération relève d'une sobriété foncière (pas de nouveau sol artificialisé) plutôt que d'une certification bas carbone au sens de la RE2020, mais elle anticipe le PLU bioclimatique adopté par Paris en 2024.
+
+%% ================================================================
+%% CONCLUSION
+%% ================================================================
+\vspace{0.2em}
+\noindent\textbf{Conclusion.} L'Îlot Saint-Germain démontre la puissance de la décote Duflot, mais en révèle les limites~: une décote aux engagements mal suivis, des effets sociaux modestes, une sobriété foncière sans certification. Demeure la question du passage à l'échelle~: faut-il céder le foncier public, ou le conserver~? \textcite{LeBrun2025OFS} montre que « le renforcement de la compétition sur les marchés fonciers contribue à écarter les bailleurs sociaux de la production en maîtrise d'ouvrage directe ». Or la cession aliène définitivement le foncier~: les conventions APL réservant ces logements au parc social ne durent que 15 à 40~ans, et l'on ignore ce qu'il en adviendra ensuite. À l'inverse, les foncières de la Ville de Paris et le Bail Réel Solidaire dissocient durablement le sol du bâti. L'Îlot Saint-Germain révèle ainsi le paradoxe de la décote~: un instrument puissant là où le marché exclut le logement social, mais dont la cession contredit son objectif de démarchandisation durable du foncier.
+
+\vspace{1.5em}
+\begin{singlespace}
+\small\printbibliography[title=Bibliographie]
+\end{singlespace}
+
+\end{document}

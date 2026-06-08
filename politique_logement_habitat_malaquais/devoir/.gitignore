@@ -1,0 +1,22 @@
+# Artefacts de compilation LaTeX (régénérés à chaque build)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Scratch / temporaires
+_*.py
+_*.txt
+*.tmp
+*.bak
+dossier_a_jour.*
+
+# Sources de recherche (PDF lourds ~118 Mo) — gardées en local, hors git
+sources/
