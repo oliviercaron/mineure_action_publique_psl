@@ -1,0 +1,309 @@
+CODE_ECOLE;P_ROUTE;I_ROUTE;P_AUTOROUTE;I_AUTOROUTE;P_TUNNEL;I_TUNNEL;P_GARE;I_GARE;P_STATION_SERV;P_AEROPORT;P_FERRO;TRAFIC_AGR
+EE06ANP239;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE06GAE230;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE06GRL225;OUI;Fort;NON;sans objet;NON;sans objet;OUI;Moyen;NON;NON;OUI;Fort
+EE06NIA222;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE07CSC204;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EE07LVU120;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE07ROD119;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE07SEM179;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE07VIQ113;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE12COJ122;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE12ROA193;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE12ROK169;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Moyen;NON;NON;OUI;Modéré ou faible
+EE12ROX205;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE12SCD184;OUI;Fort;NON;sans objet;NON;sans objet;OUI;Faible;NON;NON;OUI;Fort
+EE12SGF125;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Faible;NON;NON;OUI;Modéré ou faible
+EE12SRQ168;OUI;Fort;NON;sans objet;NON;sans objet;OUI;Faible;OUI;NON;OUI;Fort
+EE13AET078;OUI;Fort;OUI;Fort;NON;sans objet;OUI;Fort;OUI;NON;OUI;Fort
+EE13AUT004;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Moyen;NON;NON;OUI;Modéré ou faible
+EE13BOC002;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE13LPW003;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE13MAH102;OUI;Fort;OUI;Fort;NON;sans objet;OUI;Fort;OUI;NON;NON;Fort
+EE13MAM006;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EE13MAS005;OUI;Fort;OUI;Fort;OUI;Fort;OUI;Fort;OUI;NON;OUI;Fort
+EE13ORA001;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE14CAG037;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE14CAU039;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE14CSS036;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE14MOF034;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE14SAB087;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE14SME038;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE14TLV035;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE19BLT141;NON;sans objet;NON;sans objet;NON;sans objet;OUI;Moyen;OUI;NON;OUI;Modéré ou faible
+EE19LIZ144;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE19SJY186;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE24CCE275;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Fort
+EE24LIL323;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE24MMF283;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE24PEA281;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE24PEB277;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE24PEF279;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Fort
+EE24PES285;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE24SOS276;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE29COK236;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE29COW248;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE29ELZ245;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE29LOQ243;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE29LPY255;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE29QUB266;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Faible;NON;NON;OUI;Modéré ou faible
+EE29QUQ214;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE29SPH254;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Modéré ou faible
+EE29SUN217;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE36CHH064;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE36CHU066;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE36MAF060;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE36PSS062;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE37ASI075;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE37BLK061;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE37CHX065;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE37DEU063;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE37LUV093;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44AEG178;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44BGX128;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44DOR170;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE44GUQ127;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44LMR126;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44MAG135;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE44REU131;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44RIU134;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE44TSA136;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE46PLM296;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE61LFU032;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE61PLY033;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62ARL288;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62ARN292;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62BAZ310;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62BSB324;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62FOY313;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE62LOU298;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE62SET314;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE62SSX260;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE62VEJ278;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67BAX049;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67BOH051;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67EPC045;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67ESU046;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67MAN050;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE67OBU044;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE67SPC047;OUI;Faible;OUI;Faible;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE67STI053;NON;sans objet;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE67STR052;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE67WEY048;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EE69CLC274;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69GLM286;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69LYD262;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69LYO265;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69PLE317;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69SCJ309;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69SDP304;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69SJT287;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69TLC305;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE69VEG272;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE70ECE180;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE70LVF151;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE70MAE153;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE70MAX173;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE70QUC157;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE73DOG016;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE73MEH017;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE73SPE014;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE74ANX015;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE74BRK013;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE74CHN107;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE74CSV108;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE74SAJ018;OUI;Moyen;OUI;Moyen;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE74SEI012;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE75PAK211;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE75PAM210;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE75PAP160;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE81LAQ175;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE83DRA240;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE83GRU234;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE83TOC226;OUI;Moyen;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE87LIU187;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE87LIV172;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE87LIY190;NON;sans objet;OUI;Fort;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE87SBS146;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE87SJL198;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EE87SYG174;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE88BST176;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE88NEX156;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EE88SAL181;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE88SDD197;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EE88SDF196;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE91ALI023;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EE91AMF025;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE91ANQ103;OUI;Fort;NON;sans objet;NON;sans objet;OUI;Fort;NON;NON;OUI;Fort
+EE91GRC109;OUI;Faible;OUI;Faible;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE91LGK024;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EE91LNC069;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EE92ANI208;OUI;Moyen;OUI;Fort;NON;sans objet;OUI;Moyen;OUI;NON;OUI;Fort
+EE92ANZ163;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Fort
+EE92LPZ164;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE92RUB267;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE92RUL232;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE94CRE027;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EE94CRK026;OUI;Fort;OUI;Fort;NON;sans objet;OUI;Moyen;OUI;NON;NON;Fort
+EE94FSE250;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EE94FSW252;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EE94ISF090;OUI;Fort;OUI;Fort;NON;sans objet;OUI;Fort;NON;NON;OUI;Fort
+EE94LPN028;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM06ANE224;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM06GRM258;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM06NIJ221;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM06NIS238;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM06NIW220;NON;sans objet;OUI;Fort;OUI;Fort;NON;sans objet;OUI;NON;OUI;Fort
+EM07ANI166;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM07AUX192;OUI;Fort;NON;sans objet;OUI;Fort;OUI;Moyen;OUI;NON;NON;Fort
+EM07COZ115;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM07GUB185;OUI;Moyen;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM07GUX114;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM07STY117;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM07VAC116;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM12FLD124;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM12ROL194;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM12ROQ182;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM12SAG123;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM13AEI081;NON;sans objet;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EM13AUM079;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM13BEY007;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM13BLR080;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM13BOS110;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM13ISB009;OUI;Fort;NON;sans objet;NON;sans objet;OUI;Moyen;OUI;NON;NON;Fort
+EM13MAD008;NON;sans objet;OUI;Fort;OUI;Fort;OUI;Faible;OUI;NON;OUI;Fort
+EM13MAF010;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EM13MAQ011;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Moyen;NON;NON;NON;Modéré ou faible
+EM14CAJ111;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Modéré ou faible
+EM14CAY104;OUI;Moyen;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM14FAR043;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM14HSI071;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM14HSW086;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Fort
+EM14LIM095;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM14VIW096;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM19SSK147;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM19TRN138;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM19VAP145;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM24NOU270;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM24PEV269;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Moyen;OUI;NON;OUI;Modéré ou faible
+EM24SAQ290;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM24SGK293;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM24SPU268;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM29BRB231;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29BRO215;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Modéré ou faible
+EM29CLG261;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM29COH249;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29CRI212;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29DIF256;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Faible;OUI;NON;OUI;Modéré ou faible
+EM29DOA253;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Fort
+EM29GUX213;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29LPU257;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29PLZ219;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29STX227;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29TAC218;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM29TOF216;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM36ASM077;OUI;Faible;OUI;Moyen;NON;sans objet;OUI;Faible;OUI;NON;OUI;Modéré ou faible
+EM36NIH082;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM37BOD091;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM37CHA101;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM37ELC067;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM37JLH084;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM37LGB068;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM37PEL099;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM37SPR076;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM44CAQ132;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM44FRK206;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM44LCU202;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM44NAD137;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM44NAP200;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM44POB130;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM44RON189;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM44SLS207;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM44STP133;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM44VAK129;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM46CAB299;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM48CHM209;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM52CHR149;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM52FOD167;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM52MEJ191;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EM52RSN152;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM61LCE040;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM61LFX041;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM61RAN042;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM62BAE302;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM62DEK319;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM62FEG282;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM62GUE311;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM62HAR306;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM62LAK308;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM62LOB259;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM62NHD316;OUI;Moyen;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM62SEO315;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM62VEA291;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM62WAQ312;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67BEN059;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM67GOW056;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67HAF058;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM67MEB083;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67ROJ054;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67STA097;OUI;Moyen;OUI;Faible;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67STB089;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67STG085;OUI;Moyen;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM67SUN057;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM67WEH055;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM69LSI321;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM69LYP263;OUI;Moyen;NON;sans objet;OUI;Fort;OUI;Moyen;OUI;NON;NON;Fort
+EM69LYR307;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM69LYU264;OUI;Fort;NON;sans objet;OUI;Moyen;NON;sans objet;NON;NON;NON;Fort
+EM69NSM271;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM69PLW318;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM69SVT320;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM69TAD289;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM69VEN273;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM70BRB201;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;OUI;NON;Modéré ou faible
+EM70CIM199;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM70MAH154;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM73CSA098;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM73FRK074;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM73LMB094;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM73LMU021;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM73MON022;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EM73ROH073;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM73SPL019;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM74BLM088;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM74LBJ106;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM74VON072;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM75PAA229;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM75PAB161;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM75PAF244;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;OUI;Modéré ou faible
+EM75PAH159;OUI;Fort;OUI;Fort;NA;NA;NON;sans objet;OUI;NON;NON;Fort
+EM75PAI297;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM75PAN294;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM75PAS228;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM75PAY303;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EM75PAZ322;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM81CAA203;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM81LAJ121;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EM81MAG195;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM81SAI177;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM83DRQ251;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM83GRC235;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Modéré ou faible
+EM83GRK237;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EM83TOS223;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM87LIG140;NON;sans objet;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM87LIQ188;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;OUI;OUI;NON;Modéré ou faible
+EM87LIR142;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM87LPY143;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM87SJM183;OUI;Moyen;NON;sans objet;NON;sans objet;OUI;Moyen;NON;NON;OUI;Modéré ou faible
+EM87SMH139;OUI;Faible;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM88GSB150;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM88NEZ155;OUI;Moyen;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Modéré ou faible
+EM91BSK100;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM91CEU105;OUI;Fort;OUI;Fort;NON;sans objet;OUI;Fort;OUI;NON;OUI;Fort
+EM91MOT070;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM91VID112;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Modéré ou faible
+EM92VLD300;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;OUI;NON;NON;Fort
+EM92VLQ301;NON;sans objet;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Modéré ou faible
+EM94CRC030;OUI;Fort;OUI;Fort;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort
+EM94CRP092;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;NON;Fort
+EM94LPA031;OUI;Fort;NON;sans objet;NON;sans objet;NON;sans objet;NON;NON;OUI;Fort

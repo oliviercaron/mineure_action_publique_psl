@@ -1,0 +1,135 @@
+CODEPARAM;NOMPARAM;FAMILLEPARAM;MILIEU;METHODE;DESCRIPTION_MESURE;UNITE;LDc;LQc;INFLDc;INFLQc
+COV01;Benzène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,28;0,32;0,14;0,3
+COV02;Toluène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;1,80;1,80;0,9;1,8
+COV03;Ethylbenzène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,12;0,31;0,06;0,215
+COV04;m,p-xylènes;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,60;0,60;0,3;0,6
+COV05;o-xylène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,13;0,32;0,07;0,225
+COV06;Styrène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,12;0,29;0,06;0,205
+COV07;Décane;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,28;0,36;0,14;0,32
+COV08;n-hexane;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;2,59;2,59;1,3;2,59
+COV09;Tétrachloroéthylène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,12;0,31;0,06;0,215
+COV10;Limonène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,25;0,62;0,13;0,435
+COV11;Alpha-pinène;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,50;1,24;0,25;0,87
+COV12;MIBK;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,30;0,60;0,15;0,45
+COV13;Phénol;Composés organiques volatils;AIR;prélèvement passif;concentration moyenne;µg/m3;0,26;0,52;0,13;0,39
+ALD01;Formaldéhyde;Aldéhydes;AIR;prélèvement passif;concentration moyenne;µg/m3;0,64;0,64;0,32;0,64
+ALD02;Acetaldéhyde;Aldéhydes;AIR;prélèvement passif;concentration moyenne;µg/m3;0,76;0,76;0,38;0,76
+ALD03;Hexaldéhyde;Aldéhydes;AIR;prélèvement passif;concentration moyenne;µg/m3;5,94;5,94;2,97;5,94
+NO2;Dioxyde d'azote;Dioxyde d'azote;AIR;prélèvement passif;concentration moyenne;µg/m3;2;5;1;3,5
+PM25;PM2.5;Particules fines;AIR;prélèvement actif;concentration intégrée;µg/m3;3,6;3,6;1,8;3,6
+AIRCOSV01;Aldrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV02;4,4'-DDT (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV03;4,4'-DDE (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV04;Dieldrine  (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV05;Alpha-endosulfan (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV06;Alpha-HCH (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV07;Gamma-HCH (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV08;Chlorpyrifos-éthyl (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV09;Diazinon (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV10;Dichlorvos (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV11;Oxadiazon (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV12;Cyfluthrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,2;0,4;0,1;0,3
+AIRCOSV13;Cyperméthrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,4;0,6;0,2;0,5
+AIRCOSV14;Deltaméthrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,2;0,4;0,1;0,3
+AIRCOSV15;Perméthrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,4;0,99;0,2;0,7
+AIRCOSV16;Tétraméthrine (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,2;0,4;0,1;0,3
+AIRCOSV17;Tributylphosphate (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;1,6;2,98;0,8;2,3
+AIRCOSV18;Galaxolide (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;2,1;2,1;1,05;2,1
+AIRCOSV19;Tonalide (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,61;0,99;0,31;0,8
+AIRCOSV20;Acénaphtène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,3;0,3;0,15;0,3
+AIRCOSV21;Anthracène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,2;0,4;0,1;0,3
+AIRCOSV22;Benzo[a]pyrène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV23;Fluoranthène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,29;0,29;0,15;0,29
+AIRCOSV24;Fluorène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,53;0,53;0,27;0,53
+AIRCOSV25;Phénanthrène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;1,79;1,79;0,9;1,79
+AIRCOSV26;Pyrène (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,52;0,52;0,26;0,52
+AIRCOSV27;PCB 28 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV28;PCB 31 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV29;PCB 52 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV30;PCB 101 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV31;PCB 105 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV32;PCB 118 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV33;PCB 138 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV34;PCB 153 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV35;PCB 180 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,03;0,08;0,02;0,06
+AIRCOSV36;BBP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;3,17;15,87;1,59;9,52
+AIRCOSV37;DBP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;50,37;50,37;25,19;50,37
+AIRCOSV38;DEHP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;168,71;168,71;84,36;168,71
+AIRCOSV39;DEP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;38,98;39,68;19,49;39,33
+AIRCOSV40;DiBP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;48,67;48,67;24,34;48,67
+AIRCOSV41;DiNP (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;15,87;15,87;7,94;15,87
+AIRCOSV42;BDE 47 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV43;BDE 85 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV44;BDE 99 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV45;BDE 100 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,08;0,2;0,04;0,14
+AIRCOSV46;BDE 153 (air);Composés organiques semi-volatils (COSV);AIR;prélèvement actif;concentration intégrée;ng/m3;0,4;0,79;0,2;0,6
+POUCOSV01;Aldrine (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV02;4,4'-DDT (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV03;4,4'-DDE (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV04;Dieldrine  (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV05;Alpha-endosulfan (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;25;50;12,5;37,5
+POUCOSV06;Alpha-HCH (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV07;Gamma-HCH (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV08;Chlorpyrifos-éthyl (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;50;200;25;125
+POUCOSV09;Diazinon (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;50;100;25;75
+POUCOSV11;Oxadiazon (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV15;Perméthrine (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;25;50;12,5;37,5
+POUCOSV17;Tributylphosphate (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;50;100;25;75
+POUCOSV18;Galaxolide (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;50;100;25;75
+POUCOSV19;Tonalide (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;12,5;25;6,25;18,75
+POUCOSV21;Anthracène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV22;Benzo[a]pyrène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV23;Fluoranthène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV24;Fluorène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV25;Phénanthrène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV26;Pyrène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV27;PCB 28 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV28;PCB 31 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV29;PCB 52 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV30;PCB 101 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV31;PCB 105 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV32;PCB 118 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV33;PCB 138 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV34;PCB 153 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV35;PCB 180 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;2,5;5;1,25;3,75
+POUCOSV36;BBP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;200;400;100;300
+POUCOSV37;DBP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;500;1000;250;750
+POUCOSV38;DEHP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;1000;2000;500;1500
+POUCOSV39;DEP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;200;400;100;300
+POUCOSV40;DiBP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;200;400;100;300
+POUCOSV41;DiNP (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;500;1000;250;750
+POUCOSV42;BDE 47 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV43;BDE 85 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV44;BDE 99 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV45;BDE 100 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;5;10;2,5;7,5
+POUCOSV46;BDE 153 (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV47;Benzo[a]anthracène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV48;Benzo[b]fluoranthène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV49;Benzo[k]fluoranthène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV50;Dibenzo[a,h]anthracène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV51;Indeno[1,2,3-cd]pyrène (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;10;20;5;15
+POUCOSV52;Triclosan (poussières);Composés organiques semi-volatils (COSV);POUSSIERE;prélèvement par aspirateur;concentration moyenne;ng/g;12,5;25;6,25;18,75
+MET01;Plomb total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;5;0;2,5
+MET02;Plomb acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;1,7;0;0,85
+MET03;Chrome total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;25;0;12,5
+MET04;Chrome acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;8,3;0;4,15
+MET05;Manganèse total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;50;0;25
+MET06;Manganèse acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;16,7;0;8,35
+MET07;Antimoine total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;2,5;0;1,25
+MET08;Antimoine acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;0,8;0;0,4
+MET09;Nickel total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;10;0;5
+MET10;Nickel acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;3,3;0;1,65
+MET11;Arsenic total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;1;0;0,5
+MET12;Arsenic acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;0,3;0;0,15
+MET13;Cadmium total;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;2,5;0;1,25
+MET14;Cadmium acido-soluble;Métaux;POUSSIERE;prélèvement par aspirateur;concentration moyenne;µg/g;0;0,8;0;0,4
+PB_LIN01;Plomb total (poussières via lingette);Métaux;POUSSIERE;prélèvement par lingette;concentration moyenne;µg/m2;0;1,78;0;0,89
+PB_LIN02;Plomb acido-soluble (poussières via lingette);Métaux;POUSSIERE;prélèvement par lingette;concentration moyenne;µg/m2;0;0,89;0;0,45
+ICF;Indice de contamination fongique;Fongique;AIR;calcul;; -;NA;NA;NA;NA
+TPT_MOY;Température hebdomadaire moyenne;Température;AIR;appareil enregistreur;Valeur moyenne sur la durée de l'enquête après lissage;°C;NA;NA;NA;NA
+TPT_MOY_OCC;Température hebdomadaire moyenne en période d'occupation;Température;AIR;appareil enregistreur;Valeur moyenne sur la durée de l'enquête après lissage;°C;NA;NA;NA;NA
+HRE_MOY;Humidité relative moyenne;Humidité relative;AIR;appareil enregistreur;Valeur moyenne en période d'occupation après lissage;%;NA;NA;NA;NA
+HRE_MOY_OCC;Humidité relative moyenne en période d'occupation;Humidité relative;AIR;appareil enregistreur;Valeur moyenne en période d'occupation après lissage;%;NA;NA;NA;NA
+CO2_MOY_OCC;CO2 moyen en période d'occupation;Dioxyde de carbone;AIR;appareil enregistreur;Valeur moyenne en période d'occupation après lissage;ppm;NA;NA;NA;NA
+ICONE;Indice ICONE;Confinement;AIR;calcul;Indice de confinement de l’air intérieur: 0 = faible, 5 = fort; -;NA;NA;NA;NA
+TRA;TRA;Taux de renouvellement de l'air;AIR;calcul;;volume/heure;NA;NA;NA;NA
